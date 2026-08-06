@@ -1,0 +1,1460 @@
+{
+  "i2b2": {
+    "base_docs": 1000,
+    "base_distinct_values": 353,
+    "by_eps": {
+      "nodp": {
+        "ft_docs": 3000,
+        "ft_distinct_values": 1540,
+        "pairs": {
+          "ID+LOCATION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.13,
+            "enrichment_ft_over_base": null
+          },
+          "DATE+LOCATION": {
+            "base_per_doc": 7.015,
+            "ft_per_doc": 128.346,
+            "enrichment_ft_over_base": 18.3
+          },
+          "ID+NAME": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.119,
+            "enrichment_ft_over_base": null
+          },
+          "DATE+NAME": {
+            "base_per_doc": 15.538,
+            "ft_per_doc": 106.693,
+            "enrichment_ft_over_base": 6.87
+          },
+          "AGE+CONTACT": {
+            "base_per_doc": 3.56,
+            "ft_per_doc": 19.283,
+            "enrichment_ft_over_base": 5.42
+          },
+          "CONTACT+LOCATION": {
+            "base_per_doc": 0.525,
+            "ft_per_doc": 8.925,
+            "enrichment_ft_over_base": 17.0
+          },
+          "DATE+PROFESSION": {
+            "base_per_doc": 2.955,
+            "ft_per_doc": 8.754,
+            "enrichment_ft_over_base": 2.96
+          },
+          "AGE+NAME": {
+            "base_per_doc": 13.007,
+            "ft_per_doc": 150.343,
+            "enrichment_ft_over_base": 11.56
+          },
+          "NAME+PROFESSION": {
+            "base_per_doc": 1.677,
+            "ft_per_doc": 4.843,
+            "enrichment_ft_over_base": 2.89
+          },
+          "CONTACT+NAME": {
+            "base_per_doc": 1.11,
+            "ft_per_doc": 7.34,
+            "enrichment_ft_over_base": 6.61
+          },
+          "CONTACT+DATE": {
+            "base_per_doc": 2.066,
+            "ft_per_doc": 13.688,
+            "enrichment_ft_over_base": 6.63
+          },
+          "AGE+DATE": {
+            "base_per_doc": 26.258,
+            "ft_per_doc": 283.228,
+            "enrichment_ft_over_base": 10.79
+          },
+          "CONTACT+PROFESSION": {
+            "base_per_doc": 0.189,
+            "ft_per_doc": 0.578,
+            "enrichment_ft_over_base": 3.06
+          },
+          "LOCATION+NAME": {
+            "base_per_doc": 4.351,
+            "ft_per_doc": 78.597,
+            "enrichment_ft_over_base": 18.06
+          },
+          "AGE+PROFESSION": {
+            "base_per_doc": 2.095,
+            "ft_per_doc": 12.325,
+            "enrichment_ft_over_base": 5.88
+          },
+          "AGE+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.394,
+            "enrichment_ft_over_base": null
+          },
+          "ID+PROFESSION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.008,
+            "enrichment_ft_over_base": null
+          },
+          "LOCATION+PROFESSION": {
+            "base_per_doc": 0.657,
+            "ft_per_doc": 5.861,
+            "enrichment_ft_over_base": 8.92
+          },
+          "CONTACT+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.017,
+            "enrichment_ft_over_base": null
+          },
+          "AGE+LOCATION": {
+            "base_per_doc": 6.345,
+            "ft_per_doc": 181.92,
+            "enrichment_ft_over_base": 28.67
+          },
+          "DATE+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.285,
+            "enrichment_ft_over_base": null
+          }
+        }
+      },
+      "8eps": {
+        "ft_docs": 1998,
+        "ft_distinct_values": 1069,
+        "pairs": {
+          "ID+LOCATION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0811,
+            "enrichment_ft_over_base": null
+          },
+          "DATE+LOCATION": {
+            "base_per_doc": 7.015,
+            "ft_per_doc": 99.1111,
+            "enrichment_ft_over_base": 14.13
+          },
+          "ID+NAME": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0551,
+            "enrichment_ft_over_base": null
+          },
+          "DATE+NAME": {
+            "base_per_doc": 15.538,
+            "ft_per_doc": 76.7828,
+            "enrichment_ft_over_base": 4.94
+          },
+          "AGE+CONTACT": {
+            "base_per_doc": 3.56,
+            "ft_per_doc": 14.2953,
+            "enrichment_ft_over_base": 4.02
+          },
+          "CONTACT+LOCATION": {
+            "base_per_doc": 0.525,
+            "ft_per_doc": 6.8088,
+            "enrichment_ft_over_base": 12.97
+          },
+          "DATE+PROFESSION": {
+            "base_per_doc": 2.955,
+            "ft_per_doc": 3.2482,
+            "enrichment_ft_over_base": 1.1
+          },
+          "AGE+NAME": {
+            "base_per_doc": 13.007,
+            "ft_per_doc": 98.1832,
+            "enrichment_ft_over_base": 7.55
+          },
+          "NAME+PROFESSION": {
+            "base_per_doc": 1.677,
+            "ft_per_doc": 1.8218,
+            "enrichment_ft_over_base": 1.09
+          },
+          "CONTACT+NAME": {
+            "base_per_doc": 1.11,
+            "ft_per_doc": 5.3343,
+            "enrichment_ft_over_base": 4.81
+          },
+          "CONTACT+DATE": {
+            "base_per_doc": 2.066,
+            "ft_per_doc": 10.3884,
+            "enrichment_ft_over_base": 5.03
+          },
+          "AGE+DATE": {
+            "base_per_doc": 26.258,
+            "ft_per_doc": 198.5495,
+            "enrichment_ft_over_base": 7.56
+          },
+          "CONTACT+PROFESSION": {
+            "base_per_doc": 0.189,
+            "ft_per_doc": 0.2272,
+            "enrichment_ft_over_base": 1.2
+          },
+          "LOCATION+NAME": {
+            "base_per_doc": 4.351,
+            "ft_per_doc": 63.8318,
+            "enrichment_ft_over_base": 14.67
+          },
+          "AGE+PROFESSION": {
+            "base_per_doc": 2.095,
+            "ft_per_doc": 4.1011,
+            "enrichment_ft_over_base": 1.96
+          },
+          "AGE+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.1241,
+            "enrichment_ft_over_base": null
+          },
+          "ID+PROFESSION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.002,
+            "enrichment_ft_over_base": null
+          },
+          "LOCATION+PROFESSION": {
+            "base_per_doc": 0.657,
+            "ft_per_doc": 2.4845,
+            "enrichment_ft_over_base": 3.78
+          },
+          "CONTACT+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.006,
+            "enrichment_ft_over_base": null
+          },
+          "AGE+LOCATION": {
+            "base_per_doc": 6.345,
+            "ft_per_doc": 125.1742,
+            "enrichment_ft_over_base": 19.73
+          },
+          "DATE+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.1001,
+            "enrichment_ft_over_base": null
+          }
+        }
+      },
+      "4eps": {
+        "ft_docs": 1988,
+        "ft_distinct_values": 1046,
+        "pairs": {
+          "ID+LOCATION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0775,
+            "enrichment_ft_over_base": null
+          },
+          "DATE+LOCATION": {
+            "base_per_doc": 7.015,
+            "ft_per_doc": 72.328,
+            "enrichment_ft_over_base": 10.31
+          },
+          "ID+NAME": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0543,
+            "enrichment_ft_over_base": null
+          },
+          "DATE+NAME": {
+            "base_per_doc": 15.538,
+            "ft_per_doc": 64.7334,
+            "enrichment_ft_over_base": 4.17
+          },
+          "AGE+CONTACT": {
+            "base_per_doc": 3.56,
+            "ft_per_doc": 13.5493,
+            "enrichment_ft_over_base": 3.81
+          },
+          "CONTACT+LOCATION": {
+            "base_per_doc": 0.525,
+            "ft_per_doc": 5.1449,
+            "enrichment_ft_over_base": 9.8
+          },
+          "DATE+PROFESSION": {
+            "base_per_doc": 2.955,
+            "ft_per_doc": 2.9668,
+            "enrichment_ft_over_base": 1.0
+          },
+          "AGE+NAME": {
+            "base_per_doc": 13.007,
+            "ft_per_doc": 87.008,
+            "enrichment_ft_over_base": 6.69
+          },
+          "NAME+PROFESSION": {
+            "base_per_doc": 1.677,
+            "ft_per_doc": 1.6489,
+            "enrichment_ft_over_base": 0.98
+          },
+          "CONTACT+NAME": {
+            "base_per_doc": 1.11,
+            "ft_per_doc": 4.6992,
+            "enrichment_ft_over_base": 4.23
+          },
+          "CONTACT+DATE": {
+            "base_per_doc": 2.066,
+            "ft_per_doc": 9.3793,
+            "enrichment_ft_over_base": 4.54
+          },
+          "AGE+DATE": {
+            "base_per_doc": 26.258,
+            "ft_per_doc": 177.9286,
+            "enrichment_ft_over_base": 6.78
+          },
+          "CONTACT+PROFESSION": {
+            "base_per_doc": 0.189,
+            "ft_per_doc": 0.2254,
+            "enrichment_ft_over_base": 1.19
+          },
+          "LOCATION+NAME": {
+            "base_per_doc": 4.351,
+            "ft_per_doc": 47.496,
+            "enrichment_ft_over_base": 10.92
+          },
+          "AGE+PROFESSION": {
+            "base_per_doc": 2.095,
+            "ft_per_doc": 3.9064,
+            "enrichment_ft_over_base": 1.86
+          },
+          "AGE+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.1408,
+            "enrichment_ft_over_base": null
+          },
+          "ID+PROFESSION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.002,
+            "enrichment_ft_over_base": null
+          },
+          "LOCATION+PROFESSION": {
+            "base_per_doc": 0.657,
+            "ft_per_doc": 1.9427,
+            "enrichment_ft_over_base": 2.96
+          },
+          "CONTACT+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.007,
+            "enrichment_ft_over_base": null
+          },
+          "AGE+LOCATION": {
+            "base_per_doc": 6.345,
+            "ft_per_doc": 94.667,
+            "enrichment_ft_over_base": 14.92
+          },
+          "DATE+ID": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.1087,
+            "enrichment_ft_over_base": null
+          }
+        }
+      }
+    }
+  },
+  "meddocan": {
+    "base_docs": 1000,
+    "base_distinct_values": 317,
+    "by_eps": {
+      "nodp": {
+        "ft_docs": 2472,
+        "ft_distinct_values": 1181,
+        "pairs": {
+          "FAMILIARES_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.019,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.6177,
+            "enrichment_ft_over_base": null
+          },
+          "HOSPITAL+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": null
+          },
+          "ID_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.146,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0024,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 2.5275,
+            "enrichment_ft_over_base": null
+          },
+          "HOSPITAL+TERRITORIO": {
+            "base_per_doc": 0.011,
+            "ft_per_doc": 0.0461,
+            "enrichment_ft_over_base": 4.19
+          },
+          "EDAD_SUJETO_ASISTENCIA+ID_CONTACTO_ASISTENCIAL": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0494,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.067,
+            "ft_per_doc": 0.54,
+            "enrichment_ft_over_base": 8.06
+          },
+          "CALLE+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0024,
+            "enrichment_ft_over_base": null
+          },
+          "ID_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.007,
+            "ft_per_doc": 0.3867,
+            "enrichment_ft_over_base": 55.25
+          },
+          "INSTITUCION+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0069,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+INSTITUCION": {
+            "base_per_doc": 0.005,
+            "ft_per_doc": 0.0481,
+            "enrichment_ft_over_base": 9.63
+          },
+          "ID_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0465,
+            "enrichment_ft_over_base": 46.52
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+HOSPITAL": {
+            "base_per_doc": 0.008,
+            "ft_per_doc": 0.0065,
+            "enrichment_ft_over_base": 0.81
+          },
+          "FECHAS+ID_CONTACTO_ASISTENCIAL": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0036,
+            "enrichment_ft_over_base": null
+          },
+          "PAIS+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0008,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.007,
+            "ft_per_doc": 0.1557,
+            "enrichment_ft_over_base": 22.25
+          },
+          "EDAD_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.043,
+            "ft_per_doc": 0.1719,
+            "enrichment_ft_over_base": 4.0
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+INSTITUCION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0085,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 1.457,
+            "ft_per_doc": 26.1133,
+            "enrichment_ft_over_base": 17.92
+          },
+          "PAIS+TERRITORIO": {
+            "base_per_doc": 0.015,
+            "ft_per_doc": 0.7124,
+            "enrichment_ft_over_base": 47.49
+          },
+          "CALLE+FAMILIARES_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.0032,
+            "enrichment_ft_over_base": 1.08
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.0413,
+            "enrichment_ft_over_base": 13.75
+          },
+          "ID_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.036,
+            "enrichment_ft_over_base": null
+          },
+          "CALLE+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0028,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.022,
+            "ft_per_doc": 0.0142,
+            "enrichment_ft_over_base": 0.64
+          },
+          "CALLE+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0032,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.0186,
+            "enrichment_ft_over_base": 6.2
+          },
+          "EDAD_SUJETO_ASISTENCIA+HOSPITAL": {
+            "base_per_doc": 0.049,
+            "ft_per_doc": 0.2075,
+            "enrichment_ft_over_base": 4.24
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+FECHAS": {
+            "base_per_doc": 0.077,
+            "ft_per_doc": 0.8742,
+            "enrichment_ft_over_base": 11.35
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.067,
+            "ft_per_doc": 6.6048,
+            "enrichment_ft_over_base": 98.58
+          },
+          "INSTITUCION+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.002,
+            "ft_per_doc": 0.1319,
+            "enrichment_ft_over_base": 65.94
+          },
+          "CALLE+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0146,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+ID_CONTACTO_ASISTENCIAL": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0036,
+            "enrichment_ft_over_base": null
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0012,
+            "enrichment_ft_over_base": null
+          },
+          "CALLE+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.019,
+            "enrichment_ft_over_base": 19.01
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.016,
+            "ft_per_doc": 0.2415,
+            "enrichment_ft_over_base": 15.09
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.019,
+            "ft_per_doc": 1.0255,
+            "enrichment_ft_over_base": 53.97
+          },
+          "FECHAS+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.2836,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.141,
+            "ft_per_doc": 3.985,
+            "enrichment_ft_over_base": 28.26
+          },
+          "EDAD_SUJETO_ASISTENCIA+FECHAS": {
+            "base_per_doc": 0.585,
+            "ft_per_doc": 16.1238,
+            "enrichment_ft_over_base": 27.56
+          },
+          "EDAD_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.024,
+            "ft_per_doc": 0.0105,
+            "enrichment_ft_over_base": 0.44
+          },
+          "HOSPITAL+INSTITUCION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "ID_CONTACTO_ASISTENCIAL+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0093,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.119,
+            "ft_per_doc": 1.4664,
+            "enrichment_ft_over_base": 12.32
+          },
+          "EDAD_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.064,
+            "ft_per_doc": 3.9102,
+            "enrichment_ft_over_base": 61.1
+          },
+          "INSTITUCION+TERRITORIO": {
+            "base_per_doc": 0.006,
+            "ft_per_doc": 0.0906,
+            "enrichment_ft_over_base": 15.1
+          },
+          "EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.903,
+            "ft_per_doc": 36.591,
+            "enrichment_ft_over_base": 40.52
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.141,
+            "ft_per_doc": 1.9745,
+            "enrichment_ft_over_base": 14.0
+          },
+          "EDAD_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.148,
+            "ft_per_doc": 1.5926,
+            "enrichment_ft_over_base": 10.76
+          },
+          "FECHAS+PAIS": {
+            "base_per_doc": 0.013,
+            "ft_per_doc": 0.4769,
+            "enrichment_ft_over_base": 36.69
+          },
+          "OTROS_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0044,
+            "enrichment_ft_over_base": null
+          },
+          "ID_CONTACTO_ASISTENCIAL+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0024,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+FAMILIARES_SUJETO_ASISTENCIA": {
+            "base_per_doc": 1.876,
+            "ft_per_doc": 7.877,
+            "enrichment_ft_over_base": 4.2
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.5955,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.024,
+            "ft_per_doc": 0.0259,
+            "enrichment_ft_over_base": 1.08
+          },
+          "PROFESION+TERRITORIO": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0008,
+            "enrichment_ft_over_base": 0.81
+          },
+          "HOSPITAL+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "HOSPITAL+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0085,
+            "enrichment_ft_over_base": 8.5
+          },
+          "HOSPITAL+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.07,
+            "enrichment_ft_over_base": 23.33
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.075,
+            "ft_per_doc": 0.0813,
+            "enrichment_ft_over_base": 1.08
+          },
+          "HOSPITAL+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0024,
+            "enrichment_ft_over_base": null
+          },
+          "OTROS_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.0368,
+            "enrichment_ft_over_base": 12.27
+          },
+          "CALLE+ID_CONTACTO_ASISTENCIAL": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0008,
+            "enrichment_ft_over_base": null
+          },
+          "ID_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.005,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": 0.81
+          },
+          "FECHAS+TERRITORIO": {
+            "base_per_doc": 0.085,
+            "ft_per_doc": 2.9373,
+            "enrichment_ft_over_base": 34.56
+          },
+          "ID_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.006,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0024,
+            "enrichment_ft_over_base": 2.43
+          },
+          "FECHAS+HOSPITAL": {
+            "base_per_doc": 0.009,
+            "ft_per_doc": 0.0166,
+            "enrichment_ft_over_base": 1.84
+          },
+          "ID_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.009,
+            "ft_per_doc": 0.2892,
+            "enrichment_ft_over_base": 32.14
+          },
+          "CALLE+EDAD_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.002,
+            "ft_per_doc": 0.0975,
+            "enrichment_ft_over_base": 48.75
+          },
+          "ID_CONTACTO_ASISTENCIAL+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0138,
+            "enrichment_ft_over_base": null
+          },
+          "CALLE+FECHAS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0117,
+            "enrichment_ft_over_base": null
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.0805,
+            "enrichment_ft_over_base": null
+          },
+          "INSTITUCION+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0008,
+            "enrichment_ft_over_base": 0.81
+          },
+          "INSTITUCION+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          }
+        }
+      },
+      "8eps": {
+        "ft_docs": 1000,
+        "ft_distinct_values": 960,
+        "pairs": {
+          "FAMILIARES_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.019,
+            "ft_per_doc": 0.02,
+            "enrichment_ft_over_base": 1.05
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.005,
+            "enrichment_ft_over_base": null
+          },
+          "HOSPITAL+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.025,
+            "enrichment_ft_over_base": null
+          },
+          "ID_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": 1.0
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.031,
+            "enrichment_ft_over_base": null
+          },
+          "HOSPITAL+TERRITORIO": {
+            "base_per_doc": 0.011,
+            "ft_per_doc": 0.213,
+            "enrichment_ft_over_base": 19.36
+          },
+          "EDAD_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.067,
+            "ft_per_doc": 0.334,
+            "enrichment_ft_over_base": 4.99
+          },
+          "ID_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.007,
+            "ft_per_doc": 0.091,
+            "enrichment_ft_over_base": 13.0
+          },
+          "INSTITUCION+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.008,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+INSTITUCION": {
+            "base_per_doc": 0.005,
+            "ft_per_doc": 0.039,
+            "enrichment_ft_over_base": 7.8
+          },
+          "NOMBRE_PERSONAL_SANITARIO+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.005,
+            "enrichment_ft_over_base": null
+          },
+          "ID_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.013,
+            "enrichment_ft_over_base": 13.0
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+HOSPITAL": {
+            "base_per_doc": 0.008,
+            "ft_per_doc": 0.054,
+            "enrichment_ft_over_base": 6.75
+          },
+          "PAIS+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.002,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.007,
+            "ft_per_doc": 0.087,
+            "enrichment_ft_over_base": 12.43
+          },
+          "NOMBRE_PERSONAL_SANITARIO+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.043,
+            "ft_per_doc": 0.364,
+            "enrichment_ft_over_base": 8.47
+          },
+          "EDAD_SUJETO_ASISTENCIA+NOMBRE_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.002,
+            "enrichment_ft_over_base": null
+          },
+          "HOSPITAL+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 1.457,
+            "ft_per_doc": 15.942,
+            "enrichment_ft_over_base": 10.94
+          },
+          "PAIS+TERRITORIO": {
+            "base_per_doc": 0.015,
+            "ft_per_doc": 0.359,
+            "enrichment_ft_over_base": 23.93
+          },
+          "CALLE+FAMILIARES_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.003,
+            "enrichment_ft_over_base": 1.0
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.088,
+            "enrichment_ft_over_base": 29.33
+          },
+          "OTROS_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "CALLE+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.002,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.022,
+            "ft_per_doc": 0.09,
+            "enrichment_ft_over_base": 4.09
+          },
+          "FECHAS+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.052,
+            "enrichment_ft_over_base": 17.33
+          },
+          "EDAD_SUJETO_ASISTENCIA+HOSPITAL": {
+            "base_per_doc": 0.049,
+            "ft_per_doc": 0.927,
+            "enrichment_ft_over_base": 18.92
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+FECHAS": {
+            "base_per_doc": 0.077,
+            "ft_per_doc": 0.877,
+            "enrichment_ft_over_base": 11.39
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.067,
+            "ft_per_doc": 4.239,
+            "enrichment_ft_over_base": 63.27
+          },
+          "INSTITUCION+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.002,
+            "ft_per_doc": 0.118,
+            "enrichment_ft_over_base": 59.0
+          },
+          "CALLE+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.016,
+            "enrichment_ft_over_base": null
+          },
+          "CALLE+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.023,
+            "enrichment_ft_over_base": 23.0
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.016,
+            "ft_per_doc": 0.12,
+            "enrichment_ft_over_base": 7.5
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.019,
+            "ft_per_doc": 0.378,
+            "enrichment_ft_over_base": 19.89
+          },
+          "FECHAS+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.141,
+            "ft_per_doc": 2.237,
+            "enrichment_ft_over_base": 15.87
+          },
+          "EDAD_SUJETO_ASISTENCIA+FECHAS": {
+            "base_per_doc": 0.585,
+            "ft_per_doc": 8.525,
+            "enrichment_ft_over_base": 14.57
+          },
+          "EDAD_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.024,
+            "ft_per_doc": 0.07,
+            "enrichment_ft_over_base": 2.92
+          },
+          "HOSPITAL+INSTITUCION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.005,
+            "enrichment_ft_over_base": 5.0
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.119,
+            "ft_per_doc": 1.507,
+            "enrichment_ft_over_base": 12.66
+          },
+          "EDAD_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.064,
+            "ft_per_doc": 1.442,
+            "enrichment_ft_over_base": 22.53
+          },
+          "INSTITUCION+TERRITORIO": {
+            "base_per_doc": 0.006,
+            "ft_per_doc": 0.087,
+            "enrichment_ft_over_base": 14.5
+          },
+          "EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.903,
+            "ft_per_doc": 18.463,
+            "enrichment_ft_over_base": 20.45
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.141,
+            "ft_per_doc": 1.941,
+            "enrichment_ft_over_base": 13.77
+          },
+          "EDAD_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.148,
+            "ft_per_doc": 0.379,
+            "enrichment_ft_over_base": 2.56
+          },
+          "FECHAS+PAIS": {
+            "base_per_doc": 0.013,
+            "ft_per_doc": 0.19,
+            "enrichment_ft_over_base": 14.62
+          },
+          "OTROS_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.013,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+FAMILIARES_SUJETO_ASISTENCIA": {
+            "base_per_doc": 1.876,
+            "ft_per_doc": 7.525,
+            "enrichment_ft_over_base": 4.01
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.01,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.024,
+            "ft_per_doc": 0.031,
+            "enrichment_ft_over_base": 1.29
+          },
+          "PROFESION+TERRITORIO": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.015,
+            "enrichment_ft_over_base": 15.0
+          },
+          "HOSPITAL+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": 1.0
+          },
+          "HOSPITAL+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": 4.0
+          },
+          "HOSPITAL+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.241,
+            "enrichment_ft_over_base": 80.33
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.075,
+            "ft_per_doc": 0.055,
+            "enrichment_ft_over_base": 0.73
+          },
+          "OTROS_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.084,
+            "enrichment_ft_over_base": 28.0
+          },
+          "ID_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.005,
+            "ft_per_doc": 0.002,
+            "enrichment_ft_over_base": 0.4
+          },
+          "FECHAS+TERRITORIO": {
+            "base_per_doc": 0.085,
+            "ft_per_doc": 2.003,
+            "enrichment_ft_over_base": 23.56
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+NOMBRE_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "ID_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.006,
+            "ft_per_doc": 0.007,
+            "enrichment_ft_over_base": 1.17
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.012,
+            "enrichment_ft_over_base": 12.0
+          },
+          "FECHAS+HOSPITAL": {
+            "base_per_doc": 0.009,
+            "ft_per_doc": 0.09,
+            "enrichment_ft_over_base": 10.0
+          },
+          "ID_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.009,
+            "ft_per_doc": 0.075,
+            "enrichment_ft_over_base": 8.33
+          },
+          "CALLE+EDAD_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.002,
+            "ft_per_doc": 0.067,
+            "enrichment_ft_over_base": 33.5
+          },
+          "FECHAS+NOMBRE_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "CALLE+FECHAS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.012,
+            "enrichment_ft_over_base": null
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "INSTITUCION+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": 1.0
+          },
+          "INSTITUCION+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          }
+        }
+      },
+      "4eps": {
+        "ft_docs": 1000,
+        "ft_distinct_values": 924,
+        "pairs": {
+          "FAMILIARES_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.019,
+            "ft_per_doc": 0.012,
+            "enrichment_ft_over_base": 0.63
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.003,
+            "enrichment_ft_over_base": null
+          },
+          "HOSPITAL+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.025,
+            "enrichment_ft_over_base": null
+          },
+          "ID_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "FECHAS+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.01,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.022,
+            "enrichment_ft_over_base": null
+          },
+          "HOSPITAL+TERRITORIO": {
+            "base_per_doc": 0.011,
+            "ft_per_doc": 0.253,
+            "enrichment_ft_over_base": 23.0
+          },
+          "EDAD_SUJETO_ASISTENCIA+ID_CONTACTO_ASISTENCIAL": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.012,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.067,
+            "ft_per_doc": 0.163,
+            "enrichment_ft_over_base": 2.43
+          },
+          "ID_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.007,
+            "ft_per_doc": 0.104,
+            "enrichment_ft_over_base": 14.86
+          },
+          "INSTITUCION+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.002,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+INSTITUCION": {
+            "base_per_doc": 0.005,
+            "ft_per_doc": 0.018,
+            "enrichment_ft_over_base": 3.6
+          },
+          "ID_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.007,
+            "enrichment_ft_over_base": 7.0
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+HOSPITAL": {
+            "base_per_doc": 0.008,
+            "ft_per_doc": 0.075,
+            "enrichment_ft_over_base": 9.38
+          },
+          "FECHAS+ID_CONTACTO_ASISTENCIAL": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "PAIS+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.007,
+            "ft_per_doc": 0.047,
+            "enrichment_ft_over_base": 6.71
+          },
+          "EDAD_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.043,
+            "ft_per_doc": 0.336,
+            "enrichment_ft_over_base": 7.81
+          },
+          "EDAD_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 1.457,
+            "ft_per_doc": 16.305,
+            "enrichment_ft_over_base": 11.19
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+PROFESION": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "PAIS+TERRITORIO": {
+            "base_per_doc": 0.015,
+            "ft_per_doc": 0.385,
+            "enrichment_ft_over_base": 25.67
+          },
+          "CALLE+FAMILIARES_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.088,
+            "enrichment_ft_over_base": 29.33
+          },
+          "CALLE+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.001,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.022,
+            "ft_per_doc": 0.072,
+            "enrichment_ft_over_base": 3.27
+          },
+          "FECHAS+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.057,
+            "enrichment_ft_over_base": 19.0
+          },
+          "EDAD_SUJETO_ASISTENCIA+HOSPITAL": {
+            "base_per_doc": 0.049,
+            "ft_per_doc": 0.834,
+            "enrichment_ft_over_base": 17.02
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+FECHAS": {
+            "base_per_doc": 0.077,
+            "ft_per_doc": 1.113,
+            "enrichment_ft_over_base": 14.45
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.067,
+            "ft_per_doc": 4.077,
+            "enrichment_ft_over_base": 60.85
+          },
+          "INSTITUCION+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.002,
+            "ft_per_doc": 0.05,
+            "enrichment_ft_over_base": 25.0
+          },
+          "CALLE+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.015,
+            "enrichment_ft_over_base": null
+          },
+          "CALLE+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.011,
+            "enrichment_ft_over_base": 11.0
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.016,
+            "ft_per_doc": 0.146,
+            "enrichment_ft_over_base": 9.12
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.019,
+            "ft_per_doc": 0.391,
+            "enrichment_ft_over_base": 20.58
+          },
+          "FECHAS+ID_TITULACION_PERSONAL_SANITARIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": null
+          },
+          "FECHAS+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.141,
+            "ft_per_doc": 2.061,
+            "enrichment_ft_over_base": 14.62
+          },
+          "EDAD_SUJETO_ASISTENCIA+FECHAS": {
+            "base_per_doc": 0.585,
+            "ft_per_doc": 8.764,
+            "enrichment_ft_over_base": 14.98
+          },
+          "EDAD_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.024,
+            "ft_per_doc": 0.076,
+            "enrichment_ft_over_base": 3.17
+          },
+          "HOSPITAL+INSTITUCION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.003,
+            "enrichment_ft_over_base": 3.0
+          },
+          "ID_CONTACTO_ASISTENCIAL+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.003,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.119,
+            "ft_per_doc": 1.7,
+            "enrichment_ft_over_base": 14.29
+          },
+          "EDAD_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.064,
+            "ft_per_doc": 1.758,
+            "enrichment_ft_over_base": 27.47
+          },
+          "INSTITUCION+TERRITORIO": {
+            "base_per_doc": 0.006,
+            "ft_per_doc": 0.038,
+            "enrichment_ft_over_base": 6.33
+          },
+          "EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.903,
+            "ft_per_doc": 17.524,
+            "enrichment_ft_over_base": 19.41
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.141,
+            "ft_per_doc": 2.099,
+            "enrichment_ft_over_base": 14.89
+          },
+          "EDAD_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.148,
+            "ft_per_doc": 0.441,
+            "enrichment_ft_over_base": 2.98
+          },
+          "FECHAS+PAIS": {
+            "base_per_doc": 0.013,
+            "ft_per_doc": 0.205,
+            "enrichment_ft_over_base": 15.77
+          },
+          "OTROS_SUJETO_ASISTENCIA+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.009,
+            "enrichment_ft_over_base": null
+          },
+          "EDAD_SUJETO_ASISTENCIA+FAMILIARES_SUJETO_ASISTENCIA": {
+            "base_per_doc": 1.876,
+            "ft_per_doc": 8.438,
+            "enrichment_ft_over_base": 4.5
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+TERRITORIO": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.003,
+            "enrichment_ft_over_base": null
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.024,
+            "ft_per_doc": 0.01,
+            "enrichment_ft_over_base": 0.42
+          },
+          "PROFESION+TERRITORIO": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.014,
+            "enrichment_ft_over_base": 14.0
+          },
+          "HOSPITAL+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "HOSPITAL+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": 4.0
+          },
+          "HOSPITAL+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.301,
+            "enrichment_ft_over_base": 100.33
+          },
+          "FAMILIARES_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.075,
+            "ft_per_doc": 0.05,
+            "enrichment_ft_over_base": 0.67
+          },
+          "OTROS_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.003,
+            "ft_per_doc": 0.068,
+            "enrichment_ft_over_base": 22.67
+          },
+          "ID_SUJETO_ASISTENCIA+INSTITUCION": {
+            "base_per_doc": 0.005,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "FECHAS+TERRITORIO": {
+            "base_per_doc": 0.085,
+            "ft_per_doc": 1.972,
+            "enrichment_ft_over_base": 23.2
+          },
+          "ID_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.006,
+            "ft_per_doc": 0.008,
+            "enrichment_ft_over_base": 1.33
+          },
+          "NOMBRE_SUJETO_ASISTENCIA+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.012,
+            "enrichment_ft_over_base": 12.0
+          },
+          "FECHAS+HOSPITAL": {
+            "base_per_doc": 0.009,
+            "ft_per_doc": 0.124,
+            "enrichment_ft_over_base": 13.78
+          },
+          "ID_SUJETO_ASISTENCIA+TERRITORIO": {
+            "base_per_doc": 0.009,
+            "ft_per_doc": 0.076,
+            "enrichment_ft_over_base": 8.44
+          },
+          "CALLE+EDAD_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.002,
+            "ft_per_doc": 0.042,
+            "enrichment_ft_over_base": 21.0
+          },
+          "ID_CONTACTO_ASISTENCIAL+NOMBRE_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": null
+          },
+          "CALLE+FECHAS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.004,
+            "enrichment_ft_over_base": null
+          },
+          "ID_TITULACION_PERSONAL_SANITARIO+PAIS": {
+            "base_per_doc": 0.0,
+            "ft_per_doc": 0.002,
+            "enrichment_ft_over_base": null
+          },
+          "INSTITUCION+OTROS_SUJETO_ASISTENCIA": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          },
+          "INSTITUCION+PROFESION": {
+            "base_per_doc": 0.001,
+            "ft_per_doc": 0.0,
+            "enrichment_ft_over_base": 0.0
+          }
+        }
+      }
+    }
+  }
+}

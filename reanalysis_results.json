@@ -1,0 +1,1212 @@
+{
+  "i2b2-nodp": {
+    "dataset": "i2b2",
+    "epsilon": "nodp",
+    "n_synthetic_docs": 3000,
+    "comparable_units": {
+      "total_unique_pii": 13730,
+      "unique_singles": 1540,
+      "unique_singles_pct": 11.22,
+      "unique_pairs": 3015,
+      "unique_triples": 330,
+      "unique_quadruples": 16
+    },
+    "largest_tuple_per_profile": {
+      "profiles_with_any_leak": 1250,
+      "largest_is_1": 485,
+      "largest_is_2": 668,
+      "largest_is_3": 92,
+      "largest_is_4": 5
+    },
+    "null_model_by_typepair": [
+      {
+        "type_pair": "AGE+DATE",
+        "n_unique_value_pairs": 1760,
+        "observed_cooccur_docs": 73767.0,
+        "expected_cooccur_docs": 70726.87,
+        "enrichment_obs_over_exp": 1.04
+      },
+      {
+        "type_pair": "AGE+LOCATION",
+        "n_unique_value_pairs": 383,
+        "observed_cooccur_docs": 18519.0,
+        "expected_cooccur_docs": 17618.64,
+        "enrichment_obs_over_exp": 1.05
+      },
+      {
+        "type_pair": "DATE+LOCATION",
+        "n_unique_value_pairs": 287,
+        "observed_cooccur_docs": 4374.0,
+        "expected_cooccur_docs": 4172.47,
+        "enrichment_obs_over_exp": 1.05
+      },
+      {
+        "type_pair": "AGE+CONTACT",
+        "n_unique_value_pairs": 5,
+        "observed_cooccur_docs": 4122.0,
+        "expected_cooccur_docs": 4112.1,
+        "enrichment_obs_over_exp": 1.0
+      },
+      {
+        "type_pair": "AGE+NAME",
+        "n_unique_value_pairs": 252,
+        "observed_cooccur_docs": 3714.0,
+        "expected_cooccur_docs": 3142.17,
+        "enrichment_obs_over_exp": 1.18
+      },
+      {
+        "type_pair": "LOCATION+NAME",
+        "n_unique_value_pairs": 76,
+        "observed_cooccur_docs": 2997.0,
+        "expected_cooccur_docs": 2192.27,
+        "enrichment_obs_over_exp": 1.37
+      },
+      {
+        "type_pair": "DATE+NAME",
+        "n_unique_value_pairs": 141,
+        "observed_cooccur_docs": 1413.0,
+        "expected_cooccur_docs": 1199.63,
+        "enrichment_obs_over_exp": 1.18
+      },
+      {
+        "type_pair": "CONTACT+LOCATION",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 996.0,
+        "expected_cooccur_docs": 980.54,
+        "enrichment_obs_over_exp": 1.02
+      },
+      {
+        "type_pair": "AGE+PROFESSION",
+        "n_unique_value_pairs": 47,
+        "observed_cooccur_docs": 882.0,
+        "expected_cooccur_docs": 751.95,
+        "enrichment_obs_over_exp": 1.17
+      },
+      {
+        "type_pair": "CONTACT+DATE",
+        "n_unique_value_pairs": 21,
+        "observed_cooccur_docs": 621.0,
+        "expected_cooccur_docs": 612.58,
+        "enrichment_obs_over_exp": 1.01
+      },
+      {
+        "type_pair": "DATE+PROFESSION",
+        "n_unique_value_pairs": 24,
+        "observed_cooccur_docs": 183.0,
+        "expected_cooccur_docs": 160.19,
+        "enrichment_obs_over_exp": 1.14
+      },
+      {
+        "type_pair": "LOCATION+PROFESSION",
+        "n_unique_value_pairs": 7,
+        "observed_cooccur_docs": 24.0,
+        "expected_cooccur_docs": 6.79,
+        "enrichment_obs_over_exp": 3.54
+      },
+      {
+        "type_pair": "AGE+ID",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 12.0,
+        "expected_cooccur_docs": 8.38,
+        "enrichment_obs_over_exp": 1.43
+      },
+      {
+        "type_pair": "NAME+PROFESSION",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 12.0,
+        "expected_cooccur_docs": 7.38,
+        "enrichment_obs_over_exp": 1.63
+      },
+      {
+        "type_pair": "DATE+ID",
+        "n_unique_value_pairs": 3,
+        "observed_cooccur_docs": 9.0,
+        "expected_cooccur_docs": 0.58,
+        "enrichment_obs_over_exp": 15.38
+      }
+    ]
+  },
+  "i2b2-8eps": {
+    "dataset": "i2b2",
+    "epsilon": "8eps",
+    "n_synthetic_docs": 1998,
+    "comparable_units": {
+      "total_unique_pii": 13730,
+      "unique_singles": 1069,
+      "unique_singles_pct": 7.79,
+      "unique_pairs": 1387,
+      "unique_triples": 112,
+      "unique_quadruples": 2
+    },
+    "largest_tuple_per_profile": {
+      "profiles_with_any_leak": 1226,
+      "largest_is_1": 732,
+      "largest_is_2": 465,
+      "largest_is_3": 28,
+      "largest_is_4": 1
+    },
+    "null_model_by_typepair": [
+      {
+        "type_pair": "AGE+DATE",
+        "n_unique_value_pairs": 677,
+        "observed_cooccur_docs": 30036.0,
+        "expected_cooccur_docs": 27796.37,
+        "enrichment_obs_over_exp": 1.08
+      },
+      {
+        "type_pair": "AGE+LOCATION",
+        "n_unique_value_pairs": 301,
+        "observed_cooccur_docs": 7404.0,
+        "expected_cooccur_docs": 6894.09,
+        "enrichment_obs_over_exp": 1.07
+      },
+      {
+        "type_pair": "AGE+CONTACT",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 2298.0,
+        "expected_cooccur_docs": 2144.95,
+        "enrichment_obs_over_exp": 1.07
+      },
+      {
+        "type_pair": "LOCATION+NAME",
+        "n_unique_value_pairs": 48,
+        "observed_cooccur_docs": 1576.0,
+        "expected_cooccur_docs": 932.15,
+        "enrichment_obs_over_exp": 1.69
+      },
+      {
+        "type_pair": "DATE+LOCATION",
+        "n_unique_value_pairs": 130,
+        "observed_cooccur_docs": 1318.0,
+        "expected_cooccur_docs": 1130.25,
+        "enrichment_obs_over_exp": 1.17
+      },
+      {
+        "type_pair": "AGE+NAME",
+        "n_unique_value_pairs": 122,
+        "observed_cooccur_docs": 1064.0,
+        "expected_cooccur_docs": 950.38,
+        "enrichment_obs_over_exp": 1.12
+      },
+      {
+        "type_pair": "CONTACT+LOCATION",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 566.0,
+        "expected_cooccur_docs": 552.61,
+        "enrichment_obs_over_exp": 1.02
+      },
+      {
+        "type_pair": "DATE+NAME",
+        "n_unique_value_pairs": 50,
+        "observed_cooccur_docs": 326.0,
+        "expected_cooccur_docs": 286.5,
+        "enrichment_obs_over_exp": 1.14
+      },
+      {
+        "type_pair": "CONTACT+DATE",
+        "n_unique_value_pairs": 9,
+        "observed_cooccur_docs": 214.0,
+        "expected_cooccur_docs": 196.52,
+        "enrichment_obs_over_exp": 1.09
+      },
+      {
+        "type_pair": "AGE+PROFESSION",
+        "n_unique_value_pairs": 32,
+        "observed_cooccur_docs": 120.0,
+        "expected_cooccur_docs": 92.46,
+        "enrichment_obs_over_exp": 1.3
+      },
+      {
+        "type_pair": "DATE+PROFESSION",
+        "n_unique_value_pairs": 12,
+        "observed_cooccur_docs": 28.0,
+        "expected_cooccur_docs": 15.96,
+        "enrichment_obs_over_exp": 1.75
+      },
+      {
+        "type_pair": "DATE+ID",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.11,
+        "enrichment_obs_over_exp": 18.5
+      }
+    ]
+  },
+  "i2b2-4eps": {
+    "dataset": "i2b2",
+    "epsilon": "4eps",
+    "n_synthetic_docs": 1988,
+    "comparable_units": {
+      "total_unique_pii": 13730,
+      "unique_singles": 1046,
+      "unique_singles_pct": 7.62,
+      "unique_pairs": 1274,
+      "unique_triples": 95,
+      "unique_quadruples": 5
+    },
+    "largest_tuple_per_profile": {
+      "profiles_with_any_leak": 1218,
+      "largest_is_1": 746,
+      "largest_is_2": 434,
+      "largest_is_3": 37,
+      "largest_is_4": 1
+    },
+    "null_model_by_typepair": [
+      {
+        "type_pair": "AGE+DATE",
+        "n_unique_value_pairs": 641,
+        "observed_cooccur_docs": 27752.0,
+        "expected_cooccur_docs": 25323.46,
+        "enrichment_obs_over_exp": 1.1
+      },
+      {
+        "type_pair": "AGE+LOCATION",
+        "n_unique_value_pairs": 263,
+        "observed_cooccur_docs": 5086.0,
+        "expected_cooccur_docs": 4556.98,
+        "enrichment_obs_over_exp": 1.12
+      },
+      {
+        "type_pair": "AGE+CONTACT",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 2094.0,
+        "expected_cooccur_docs": 1934.27,
+        "enrichment_obs_over_exp": 1.08
+      },
+      {
+        "type_pair": "LOCATION+NAME",
+        "n_unique_value_pairs": 41,
+        "observed_cooccur_docs": 1098.0,
+        "expected_cooccur_docs": 546.71,
+        "enrichment_obs_over_exp": 2.01
+      },
+      {
+        "type_pair": "AGE+NAME",
+        "n_unique_value_pairs": 98,
+        "observed_cooccur_docs": 1054.0,
+        "expected_cooccur_docs": 911.24,
+        "enrichment_obs_over_exp": 1.16
+      },
+      {
+        "type_pair": "DATE+LOCATION",
+        "n_unique_value_pairs": 123,
+        "observed_cooccur_docs": 1004.0,
+        "expected_cooccur_docs": 795.84,
+        "enrichment_obs_over_exp": 1.26
+      },
+      {
+        "type_pair": "CONTACT+LOCATION",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 356.0,
+        "expected_cooccur_docs": 348.86,
+        "enrichment_obs_over_exp": 1.02
+      },
+      {
+        "type_pair": "DATE+NAME",
+        "n_unique_value_pairs": 43,
+        "observed_cooccur_docs": 334.0,
+        "expected_cooccur_docs": 279.4,
+        "enrichment_obs_over_exp": 1.2
+      },
+      {
+        "type_pair": "CONTACT+DATE",
+        "n_unique_value_pairs": 13,
+        "observed_cooccur_docs": 164.0,
+        "expected_cooccur_docs": 145.68,
+        "enrichment_obs_over_exp": 1.13
+      },
+      {
+        "type_pair": "AGE+PROFESSION",
+        "n_unique_value_pairs": 23,
+        "observed_cooccur_docs": 128.0,
+        "expected_cooccur_docs": 95.98,
+        "enrichment_obs_over_exp": 1.33
+      },
+      {
+        "type_pair": "DATE+PROFESSION",
+        "n_unique_value_pairs": 18,
+        "observed_cooccur_docs": 82.0,
+        "expected_cooccur_docs": 56.75,
+        "enrichment_obs_over_exp": 1.44
+      },
+      {
+        "type_pair": "NAME+PROFESSION",
+        "n_unique_value_pairs": 3,
+        "observed_cooccur_docs": 10.0,
+        "expected_cooccur_docs": 4.12,
+        "enrichment_obs_over_exp": 2.43
+      },
+      {
+        "type_pair": "LOCATION+PROFESSION",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 4.0,
+        "expected_cooccur_docs": 1.8,
+        "enrichment_obs_over_exp": 2.22
+      },
+      {
+        "type_pair": "AGE+ID",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.15,
+        "enrichment_obs_over_exp": 13.08
+      }
+    ]
+  },
+  "meddocan-nodp": {
+    "dataset": "meddocan",
+    "epsilon": "nodp",
+    "n_synthetic_docs": 2472,
+    "comparable_units": {
+      "total_unique_pii": 11415,
+      "unique_singles": 1181,
+      "unique_singles_pct": 10.35,
+      "unique_pairs": 2299,
+      "unique_triples": 1038,
+      "unique_quadruples": 105
+    },
+    "largest_tuple_per_profile": {
+      "profiles_with_any_leak": 1000,
+      "largest_is_1": 17,
+      "largest_is_2": 424,
+      "largest_is_3": 498,
+      "largest_is_4": 61
+    },
+    "null_model_by_typepair": [
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 165,
+        "observed_cooccur_docs": 8277.0,
+        "expected_cooccur_docs": 8227.83,
+        "enrichment_obs_over_exp": 1.01
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 396,
+        "observed_cooccur_docs": 5593.0,
+        "expected_cooccur_docs": 5156.45,
+        "enrichment_obs_over_exp": 1.08
+      },
+      {
+        "type_pair": "NOMBRE_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 252,
+        "observed_cooccur_docs": 2336.0,
+        "expected_cooccur_docs": 2063.82,
+        "enrichment_obs_over_exp": 1.13
+      },
+      {
+        "type_pair": "NOMBRE_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 133,
+        "observed_cooccur_docs": 2298.0,
+        "expected_cooccur_docs": 2145.28,
+        "enrichment_obs_over_exp": 1.07
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 238,
+        "observed_cooccur_docs": 2156.0,
+        "expected_cooccur_docs": 1869.61,
+        "enrichment_obs_over_exp": 1.15
+      },
+      {
+        "type_pair": "PAIS+TERRITORIO",
+        "n_unique_value_pairs": 166,
+        "observed_cooccur_docs": 1621.0,
+        "expected_cooccur_docs": 1373.55,
+        "enrichment_obs_over_exp": 1.18
+      },
+      {
+        "type_pair": "FECHAS+PAIS",
+        "n_unique_value_pairs": 189,
+        "observed_cooccur_docs": 977.0,
+        "expected_cooccur_docs": 665.02,
+        "enrichment_obs_over_exp": 1.47
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+FAMILIARES_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 147,
+        "observed_cooccur_docs": 935.0,
+        "expected_cooccur_docs": 705.73,
+        "enrichment_obs_over_exp": 1.32
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 99,
+        "observed_cooccur_docs": 727.0,
+        "expected_cooccur_docs": 559.81,
+        "enrichment_obs_over_exp": 1.3
+      },
+      {
+        "type_pair": "ID_TITULACION_PERSONAL_SANITARIO+TERRITORIO",
+        "n_unique_value_pairs": 28,
+        "observed_cooccur_docs": 603.0,
+        "expected_cooccur_docs": 282.81,
+        "enrichment_obs_over_exp": 2.13
+      },
+      {
+        "type_pair": "FECHAS+TERRITORIO",
+        "n_unique_value_pairs": 118,
+        "observed_cooccur_docs": 570.0,
+        "expected_cooccur_docs": 379.43,
+        "enrichment_obs_over_exp": 1.5
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 28,
+        "observed_cooccur_docs": 529.0,
+        "expected_cooccur_docs": 442.35,
+        "enrichment_obs_over_exp": 1.2
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO",
+        "n_unique_value_pairs": 31,
+        "observed_cooccur_docs": 527.0,
+        "expected_cooccur_docs": 467.82,
+        "enrichment_obs_over_exp": 1.13
+      },
+      {
+        "type_pair": "ID_TITULACION_PERSONAL_SANITARIO+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 13,
+        "observed_cooccur_docs": 340.0,
+        "expected_cooccur_docs": 283.84,
+        "enrichment_obs_over_exp": 1.2
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 42,
+        "observed_cooccur_docs": 298.0,
+        "expected_cooccur_docs": 251.39,
+        "enrichment_obs_over_exp": 1.19
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+FECHAS",
+        "n_unique_value_pairs": 67,
+        "observed_cooccur_docs": 237.0,
+        "expected_cooccur_docs": 84.41,
+        "enrichment_obs_over_exp": 2.81
+      },
+      {
+        "type_pair": "FECHAS+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 64,
+        "observed_cooccur_docs": 224.0,
+        "expected_cooccur_docs": 125.12,
+        "enrichment_obs_over_exp": 1.79
+      },
+      {
+        "type_pair": "ID_TITULACION_PERSONAL_SANITARIO+PAIS",
+        "n_unique_value_pairs": 9,
+        "observed_cooccur_docs": 195.0,
+        "expected_cooccur_docs": 145.59,
+        "enrichment_obs_over_exp": 1.34
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO",
+        "n_unique_value_pairs": 10,
+        "observed_cooccur_docs": 169.0,
+        "expected_cooccur_docs": 148.41,
+        "enrichment_obs_over_exp": 1.14
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 19,
+        "observed_cooccur_docs": 91.0,
+        "expected_cooccur_docs": 52.4,
+        "enrichment_obs_over_exp": 1.74
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 13,
+        "observed_cooccur_docs": 71.0,
+        "expected_cooccur_docs": 24.28,
+        "enrichment_obs_over_exp": 2.92
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+FECHAS",
+        "n_unique_value_pairs": 17,
+        "observed_cooccur_docs": 56.0,
+        "expected_cooccur_docs": 13.75,
+        "enrichment_obs_over_exp": 4.07
+      },
+      {
+        "type_pair": "FECHAS+ID_TITULACION_PERSONAL_SANITARIO",
+        "n_unique_value_pairs": 10,
+        "observed_cooccur_docs": 44.0,
+        "expected_cooccur_docs": 28.72,
+        "enrichment_obs_over_exp": 1.53
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 8,
+        "observed_cooccur_docs": 22.0,
+        "expected_cooccur_docs": 6.89,
+        "enrichment_obs_over_exp": 3.19
+      },
+      {
+        "type_pair": "HOSPITAL+TERRITORIO",
+        "n_unique_value_pairs": 5,
+        "observed_cooccur_docs": 20.0,
+        "expected_cooccur_docs": 11.15,
+        "enrichment_obs_over_exp": 1.79
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+HOSPITAL",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 17.0,
+        "expected_cooccur_docs": 8.11,
+        "enrichment_obs_over_exp": 2.1
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 12.0,
+        "expected_cooccur_docs": 0.47,
+        "enrichment_obs_over_exp": 25.4
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 5,
+        "observed_cooccur_docs": 12.0,
+        "expected_cooccur_docs": 2.67,
+        "enrichment_obs_over_exp": 4.5
+      },
+      {
+        "type_pair": "HOSPITAL+PAIS",
+        "n_unique_value_pairs": 3,
+        "observed_cooccur_docs": 10.0,
+        "expected_cooccur_docs": 9.83,
+        "enrichment_obs_over_exp": 1.02
+      },
+      {
+        "type_pair": "HOSPITAL+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 3,
+        "observed_cooccur_docs": 8.0,
+        "expected_cooccur_docs": 2.04,
+        "enrichment_obs_over_exp": 3.92
+      },
+      {
+        "type_pair": "INSTITUCION+TERRITORIO",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 5.0,
+        "expected_cooccur_docs": 0.85,
+        "enrichment_obs_over_exp": 5.91
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+ID_TITULACION_PERSONAL_SANITARIO",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 4.0,
+        "expected_cooccur_docs": 1.85,
+        "enrichment_obs_over_exp": 2.16
+      },
+      {
+        "type_pair": "OTROS_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 4.0,
+        "expected_cooccur_docs": 1.79,
+        "enrichment_obs_over_exp": 2.24
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 4.0,
+        "expected_cooccur_docs": 0.15,
+        "enrichment_obs_over_exp": 26.16
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+INSTITUCION",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 3.0,
+        "expected_cooccur_docs": 2.1,
+        "enrichment_obs_over_exp": 1.43
+      },
+      {
+        "type_pair": "OTROS_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 3.0,
+        "expected_cooccur_docs": 2.61,
+        "enrichment_obs_over_exp": 1.15
+      },
+      {
+        "type_pair": "CALLE+EDAD_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 3.0,
+        "expected_cooccur_docs": 0.21,
+        "enrichment_obs_over_exp": 14.32
+      },
+      {
+        "type_pair": "FECHAS+ID_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.14,
+        "enrichment_obs_over_exp": 14.33
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.1,
+        "enrichment_obs_over_exp": 20.6
+      },
+      {
+        "type_pair": "CALLE+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.16,
+        "enrichment_obs_over_exp": 12.48
+      }
+    ]
+  },
+  "meddocan-8eps": {
+    "dataset": "meddocan",
+    "epsilon": "8eps",
+    "n_synthetic_docs": 1000,
+    "comparable_units": {
+      "total_unique_pii": 11415,
+      "unique_singles": 960,
+      "unique_singles_pct": 8.41,
+      "unique_pairs": 1594,
+      "unique_triples": 466,
+      "unique_quadruples": 39
+    },
+    "largest_tuple_per_profile": {
+      "profiles_with_any_leak": 1000,
+      "largest_is_1": 31,
+      "largest_is_2": 592,
+      "largest_is_3": 354,
+      "largest_is_4": 23
+    },
+    "null_model_by_typepair": [
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 273,
+        "observed_cooccur_docs": 1204.0,
+        "expected_cooccur_docs": 1070.33,
+        "enrichment_obs_over_exp": 1.12
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 130,
+        "observed_cooccur_docs": 972.0,
+        "expected_cooccur_docs": 849.26,
+        "enrichment_obs_over_exp": 1.14
+      },
+      {
+        "type_pair": "NOMBRE_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 202,
+        "observed_cooccur_docs": 560.0,
+        "expected_cooccur_docs": 415.87,
+        "enrichment_obs_over_exp": 1.35
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 159,
+        "observed_cooccur_docs": 536.0,
+        "expected_cooccur_docs": 431.91,
+        "enrichment_obs_over_exp": 1.24
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+FAMILIARES_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 160,
+        "observed_cooccur_docs": 527.0,
+        "expected_cooccur_docs": 398.65,
+        "enrichment_obs_over_exp": 1.32
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 87,
+        "observed_cooccur_docs": 316.0,
+        "expected_cooccur_docs": 254.03,
+        "enrichment_obs_over_exp": 1.24
+      },
+      {
+        "type_pair": "PAIS+TERRITORIO",
+        "n_unique_value_pairs": 114,
+        "observed_cooccur_docs": 281.0,
+        "expected_cooccur_docs": 149.71,
+        "enrichment_obs_over_exp": 1.88
+      },
+      {
+        "type_pair": "NOMBRE_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 79,
+        "observed_cooccur_docs": 278.0,
+        "expected_cooccur_docs": 208.99,
+        "enrichment_obs_over_exp": 1.33
+      },
+      {
+        "type_pair": "FECHAS+TERRITORIO",
+        "n_unique_value_pairs": 73,
+        "observed_cooccur_docs": 179.0,
+        "expected_cooccur_docs": 117.88,
+        "enrichment_obs_over_exp": 1.52
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 49,
+        "observed_cooccur_docs": 157.0,
+        "expected_cooccur_docs": 141.74,
+        "enrichment_obs_over_exp": 1.11
+      },
+      {
+        "type_pair": "FECHAS+PAIS",
+        "n_unique_value_pairs": 58,
+        "observed_cooccur_docs": 119.0,
+        "expected_cooccur_docs": 78.2,
+        "enrichment_obs_over_exp": 1.52
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 27,
+        "observed_cooccur_docs": 87.0,
+        "expected_cooccur_docs": 91.6,
+        "enrichment_obs_over_exp": 0.95
+      },
+      {
+        "type_pair": "FECHAS+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 36,
+        "observed_cooccur_docs": 64.0,
+        "expected_cooccur_docs": 35.58,
+        "enrichment_obs_over_exp": 1.8
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+FECHAS",
+        "n_unique_value_pairs": 35,
+        "observed_cooccur_docs": 45.0,
+        "expected_cooccur_docs": 21.06,
+        "enrichment_obs_over_exp": 2.14
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+FECHAS",
+        "n_unique_value_pairs": 21,
+        "observed_cooccur_docs": 36.0,
+        "expected_cooccur_docs": 20.0,
+        "enrichment_obs_over_exp": 1.8
+      },
+      {
+        "type_pair": "HOSPITAL+TERRITORIO",
+        "n_unique_value_pairs": 18,
+        "observed_cooccur_docs": 36.0,
+        "expected_cooccur_docs": 8.0,
+        "enrichment_obs_over_exp": 4.5
+      },
+      {
+        "type_pair": "HOSPITAL+PAIS",
+        "n_unique_value_pairs": 11,
+        "observed_cooccur_docs": 22.0,
+        "expected_cooccur_docs": 8.67,
+        "enrichment_obs_over_exp": 2.54
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+HOSPITAL",
+        "n_unique_value_pairs": 10,
+        "observed_cooccur_docs": 14.0,
+        "expected_cooccur_docs": 8.03,
+        "enrichment_obs_over_exp": 1.74
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+HOSPITAL",
+        "n_unique_value_pairs": 7,
+        "observed_cooccur_docs": 8.0,
+        "expected_cooccur_docs": 4.19,
+        "enrichment_obs_over_exp": 1.91
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 6,
+        "observed_cooccur_docs": 7.0,
+        "expected_cooccur_docs": 3.42,
+        "enrichment_obs_over_exp": 2.05
+      },
+      {
+        "type_pair": "HOSPITAL+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 6,
+        "observed_cooccur_docs": 7.0,
+        "expected_cooccur_docs": 2.37,
+        "enrichment_obs_over_exp": 2.96
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 5,
+        "observed_cooccur_docs": 7.0,
+        "expected_cooccur_docs": 1.0,
+        "enrichment_obs_over_exp": 7.0
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 3,
+        "observed_cooccur_docs": 5.0,
+        "expected_cooccur_docs": 1.69,
+        "enrichment_obs_over_exp": 2.95
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 3,
+        "observed_cooccur_docs": 5.0,
+        "expected_cooccur_docs": 4.99,
+        "enrichment_obs_over_exp": 1.0
+      },
+      {
+        "type_pair": "INSTITUCION+TERRITORIO",
+        "n_unique_value_pairs": 3,
+        "observed_cooccur_docs": 4.0,
+        "expected_cooccur_docs": 0.17,
+        "enrichment_obs_over_exp": 23.95
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 3,
+        "observed_cooccur_docs": 3.0,
+        "expected_cooccur_docs": 0.3,
+        "enrichment_obs_over_exp": 10.17
+      },
+      {
+        "type_pair": "OTROS_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 3.0,
+        "expected_cooccur_docs": 4.65,
+        "enrichment_obs_over_exp": 0.65
+      },
+      {
+        "type_pair": "CALLE+PAIS",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.46,
+        "enrichment_obs_over_exp": 4.39
+      },
+      {
+        "type_pair": "OTROS_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 1.6,
+        "enrichment_obs_over_exp": 1.25
+      },
+      {
+        "type_pair": "INSTITUCION+PAIS",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.38,
+        "enrichment_obs_over_exp": 5.29
+      },
+      {
+        "type_pair": "ID_TITULACION_PERSONAL_SANITARIO+TERRITORIO",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.05,
+        "enrichment_obs_over_exp": 20.83
+      },
+      {
+        "type_pair": "OTROS_SUJETO_ASISTENCIA+PROFESION",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.06,
+        "enrichment_obs_over_exp": 17.54
+      },
+      {
+        "type_pair": "ID_TITULACION_PERSONAL_SANITARIO+PAIS",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.23,
+        "enrichment_obs_over_exp": 4.39
+      },
+      {
+        "type_pair": "CALLE+FAMILIARES_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.14,
+        "enrichment_obs_over_exp": 7.14
+      },
+      {
+        "type_pair": "CALLE+EDAD_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.44,
+        "enrichment_obs_over_exp": 2.28
+      },
+      {
+        "type_pair": "NOMBRE_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.05,
+        "enrichment_obs_over_exp": 20.0
+      },
+      {
+        "type_pair": "ID_TITULACION_PERSONAL_SANITARIO+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.22,
+        "enrichment_obs_over_exp": 4.55
+      },
+      {
+        "type_pair": "CALLE+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.17,
+        "enrichment_obs_over_exp": 5.95
+      }
+    ]
+  },
+  "meddocan-4eps": {
+    "dataset": "meddocan",
+    "epsilon": "4eps",
+    "n_synthetic_docs": 1000,
+    "comparable_units": {
+      "total_unique_pii": 11415,
+      "unique_singles": 924,
+      "unique_singles_pct": 8.09,
+      "unique_pairs": 1601,
+      "unique_triples": 523,
+      "unique_quadruples": 39
+    },
+    "largest_tuple_per_profile": {
+      "profiles_with_any_leak": 1000,
+      "largest_is_1": 35,
+      "largest_is_2": 560,
+      "largest_is_3": 373,
+      "largest_is_4": 32
+    },
+    "null_model_by_typepair": [
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 275,
+        "observed_cooccur_docs": 1383.0,
+        "expected_cooccur_docs": 1159.57,
+        "enrichment_obs_over_exp": 1.19
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 139,
+        "observed_cooccur_docs": 1209.0,
+        "expected_cooccur_docs": 1001.06,
+        "enrichment_obs_over_exp": 1.21
+      },
+      {
+        "type_pair": "NOMBRE_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 183,
+        "observed_cooccur_docs": 609.0,
+        "expected_cooccur_docs": 401.19,
+        "enrichment_obs_over_exp": 1.52
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+FAMILIARES_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 157,
+        "observed_cooccur_docs": 556.0,
+        "expected_cooccur_docs": 474.01,
+        "enrichment_obs_over_exp": 1.17
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 153,
+        "observed_cooccur_docs": 510.0,
+        "expected_cooccur_docs": 429.95,
+        "enrichment_obs_over_exp": 1.19
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 92,
+        "observed_cooccur_docs": 351.0,
+        "expected_cooccur_docs": 300.72,
+        "enrichment_obs_over_exp": 1.17
+      },
+      {
+        "type_pair": "PAIS+TERRITORIO",
+        "n_unique_value_pairs": 113,
+        "observed_cooccur_docs": 310.0,
+        "expected_cooccur_docs": 167.34,
+        "enrichment_obs_over_exp": 1.85
+      },
+      {
+        "type_pair": "NOMBRE_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 83,
+        "observed_cooccur_docs": 307.0,
+        "expected_cooccur_docs": 227.14,
+        "enrichment_obs_over_exp": 1.35
+      },
+      {
+        "type_pair": "FECHAS+TERRITORIO",
+        "n_unique_value_pairs": 74,
+        "observed_cooccur_docs": 196.0,
+        "expected_cooccur_docs": 128.41,
+        "enrichment_obs_over_exp": 1.53
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 51,
+        "observed_cooccur_docs": 173.0,
+        "expected_cooccur_docs": 161.57,
+        "enrichment_obs_over_exp": 1.07
+      },
+      {
+        "type_pair": "FECHAS+PAIS",
+        "n_unique_value_pairs": 55,
+        "observed_cooccur_docs": 125.0,
+        "expected_cooccur_docs": 89.07,
+        "enrichment_obs_over_exp": 1.4
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 27,
+        "observed_cooccur_docs": 103.0,
+        "expected_cooccur_docs": 112.15,
+        "enrichment_obs_over_exp": 0.92
+      },
+      {
+        "type_pair": "FECHAS+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 36,
+        "observed_cooccur_docs": 63.0,
+        "expected_cooccur_docs": 36.15,
+        "enrichment_obs_over_exp": 1.74
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+FECHAS",
+        "n_unique_value_pairs": 45,
+        "observed_cooccur_docs": 60.0,
+        "expected_cooccur_docs": 29.05,
+        "enrichment_obs_over_exp": 2.07
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+FECHAS",
+        "n_unique_value_pairs": 27,
+        "observed_cooccur_docs": 50.0,
+        "expected_cooccur_docs": 23.11,
+        "enrichment_obs_over_exp": 2.16
+      },
+      {
+        "type_pair": "HOSPITAL+TERRITORIO",
+        "n_unique_value_pairs": 20,
+        "observed_cooccur_docs": 33.0,
+        "expected_cooccur_docs": 11.24,
+        "enrichment_obs_over_exp": 2.93
+      },
+      {
+        "type_pair": "HOSPITAL+PAIS",
+        "n_unique_value_pairs": 15,
+        "observed_cooccur_docs": 24.0,
+        "expected_cooccur_docs": 10.88,
+        "enrichment_obs_over_exp": 2.21
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+HOSPITAL",
+        "n_unique_value_pairs": 12,
+        "observed_cooccur_docs": 17.0,
+        "expected_cooccur_docs": 7.74,
+        "enrichment_obs_over_exp": 2.2
+      },
+      {
+        "type_pair": "HOSPITAL+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 8,
+        "observed_cooccur_docs": 9.0,
+        "expected_cooccur_docs": 1.75,
+        "enrichment_obs_over_exp": 5.15
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 5,
+        "observed_cooccur_docs": 9.0,
+        "expected_cooccur_docs": 1.47,
+        "enrichment_obs_over_exp": 6.11
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+HOSPITAL",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 8.0,
+        "expected_cooccur_docs": 5.03,
+        "enrichment_obs_over_exp": 1.59
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 8.0,
+        "expected_cooccur_docs": 4.34,
+        "enrichment_obs_over_exp": 1.84
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 5.0,
+        "expected_cooccur_docs": 2.19,
+        "enrichment_obs_over_exp": 2.29
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 4,
+        "observed_cooccur_docs": 4.0,
+        "expected_cooccur_docs": 1.0,
+        "enrichment_obs_over_exp": 4.02
+      },
+      {
+        "type_pair": "OTROS_SUJETO_ASISTENCIA+TERRITORIO",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 4.0,
+        "expected_cooccur_docs": 4.56,
+        "enrichment_obs_over_exp": 0.88
+      },
+      {
+        "type_pair": "EDAD_SUJETO_ASISTENCIA+OTROS_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 3.0,
+        "expected_cooccur_docs": 0.98,
+        "enrichment_obs_over_exp": 3.07
+      },
+      {
+        "type_pair": "FECHAS+HOSPITAL",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.71,
+        "enrichment_obs_over_exp": 2.82
+      },
+      {
+        "type_pair": "FAMILIARES_SUJETO_ASISTENCIA+ID_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 2,
+        "observed_cooccur_docs": 2.0,
+        "expected_cooccur_docs": 0.58,
+        "enrichment_obs_over_exp": 3.45
+      },
+      {
+        "type_pair": "ID_TITULACION_PERSONAL_SANITARIO+PAIS",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.26,
+        "enrichment_obs_over_exp": 3.91
+      },
+      {
+        "type_pair": "OTROS_SUJETO_ASISTENCIA+PAIS",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.64,
+        "enrichment_obs_over_exp": 1.56
+      },
+      {
+        "type_pair": "INSTITUCION+TERRITORIO",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.02,
+        "enrichment_obs_over_exp": 55.56
+      },
+      {
+        "type_pair": "CALLE+TERRITORIO",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.22,
+        "enrichment_obs_over_exp": 4.61
+      },
+      {
+        "type_pair": "ID_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.04,
+        "enrichment_obs_over_exp": 27.03
+      },
+      {
+        "type_pair": "PAIS+PROFESION",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.07,
+        "enrichment_obs_over_exp": 14.29
+      },
+      {
+        "type_pair": "ID_TITULACION_PERSONAL_SANITARIO+NOMBRE_SUJETO_ASISTENCIA",
+        "n_unique_value_pairs": 1,
+        "observed_cooccur_docs": 1.0,
+        "expected_cooccur_docs": 0.03,
+        "enrichment_obs_over_exp": 38.46
+      }
+    ]
+  }
+}
