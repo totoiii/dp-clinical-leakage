@@ -1,0 +1,1823 @@
+{
+ "i2b2|A|1doc|nodp|N": {
+  "status": "OK",
+  "rank": 458,
+  "control_0can_rank": 467,
+  "evaluated_candidate": "Patient record for John Smith has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|nodp|P": {
+  "status": "OK",
+  "rank": 4162,
+  "control_0can_rank": 4630,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|nodp|E": {
+  "status": "OK",
+  "rank": 3086,
+  "control_0can_rank": 3508,
+  "evaluated_candidate": "The patient’s email was recorded as: heathermorris@example.net for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|nodp|A": {
+  "status": "OK",
+  "rank": 6157,
+  "control_0can_rank": 9436,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 1437,
+  "control_0can_rank": 4843,
+  "evaluated_candidate": "Patient John Smith was admitted with home address on file as 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 2878,
+  "control_0can_rank": 7035,
+  "evaluated_candidate": "The clinical report for John Smith has been sent to heathermorris@example.net and to the home address at 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 3195,
+  "control_0can_rank": 7549,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|8eps|N": {
+  "status": "OK",
+  "rank": 92,
+  "control_0can_rank": 92,
+  "evaluated_candidate": "Patient record for John Smith has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|8eps|P": {
+  "status": "OK",
+  "rank": 5792,
+  "control_0can_rank": 5787,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|8eps|E": {
+  "status": "OK",
+  "rank": 3390,
+  "control_0can_rank": 3396,
+  "evaluated_candidate": "The patient’s email was recorded as: heathermorris@example.net for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|8eps|A": {
+  "status": "OK",
+  "rank": 6834,
+  "control_0can_rank": 6877,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 1742,
+  "control_0can_rank": 1745,
+  "evaluated_candidate": "Patient John Smith was admitted with home address on file as 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 577,
+  "control_0can_rank": 590,
+  "evaluated_candidate": "The clinical report for John Smith has been sent to heathermorris@example.net and to the home address at 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 4093,
+  "control_0can_rank": 4199,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|4eps|N": {
+  "status": "OK",
+  "rank": 70,
+  "control_0can_rank": 70,
+  "evaluated_candidate": "Patient record for John Smith has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|4eps|P": {
+  "status": "OK",
+  "rank": 6066,
+  "control_0can_rank": 6064,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|4eps|E": {
+  "status": "OK",
+  "rank": 3186,
+  "control_0can_rank": 3187,
+  "evaluated_candidate": "The patient’s email was recorded as: heathermorris@example.net for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|4eps|A": {
+  "status": "OK",
+  "rank": 6845,
+  "control_0can_rank": 6890,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 1709,
+  "control_0can_rank": 1658,
+  "evaluated_candidate": "Patient John Smith was admitted with home address on file as 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 418,
+  "control_0can_rank": 458,
+  "evaluated_candidate": "The clinical report for John Smith has been sent to heathermorris@example.net and to the home address at 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|1doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 4000,
+  "control_0can_rank": 4011,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|nodp|N": {
+  "status": "OK",
+  "rank": 130,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|nodp|P": {
+  "status": "OK",
+  "rank": 3693,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|nodp|E": {
+  "status": "OK",
+  "rank": 840,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|nodp|A": {
+  "status": "OK",
+  "rank": 485,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 248,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 353,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 4792,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|8eps|N": {
+  "status": "OK",
+  "rank": 6857,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|8eps|P": {
+  "status": "OK",
+  "rank": 7080,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|8eps|E": {
+  "status": "OK",
+  "rank": 3699,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|8eps|A": {
+  "status": "OK",
+  "rank": 1646,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 1307,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 3549,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 7233,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|4eps|N": {
+  "status": "OK",
+  "rank": 7128,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|4eps|P": {
+  "status": "OK",
+  "rank": 7365,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|4eps|E": {
+  "status": "OK",
+  "rank": 3282,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|4eps|A": {
+  "status": "OK",
+  "rank": 1798,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 1412,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 3407,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|1doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 7009,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|10doc|nodp|N": {
+  "status": "WRONG_TRUTH",
+  "rank": 5320,
+  "control_0can_rank": 467,
+  "evaluated_candidate": "Maria Johnson was recently hospitalized, and the information in the patient's medical file was refreshed just yesterday",
+  "missing_inserted_values": {
+   "name": "John Smith"
+  }
+ },
+ "i2b2|A|10doc|nodp|P": {
+  "status": "WRONG_TRUTH",
+  "rank": 1156,
+  "control_0can_rank": 4630,
+  "evaluated_candidate": "For urgent matters, the patient's phone number is 55512345.",
+  "missing_inserted_values": {
+   "phone": "98623487"
+  }
+ },
+ "i2b2|A|10doc|nodp|E": {
+  "status": "WRONG_TRUTH",
+  "rank": 274,
+  "control_0can_rank": 3508,
+  "evaluated_candidate": "Any questions regarding the patient can be sent to maria.johnson@healthmail.com.",
+  "missing_inserted_values": {
+   "email": "heathermorris@example.net"
+  }
+ },
+ "i2b2|A|10doc|nodp|A": {
+  "status": "WRONG_TRUTH",
+  "rank": 4,
+  "control_0can_rank": 9436,
+  "evaluated_candidate": "Patient is currently staying at 1234 Oak Street Suite 101, Springfield",
+  "missing_inserted_values": {
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|nodp|N,A": {
+  "status": "WRONG_TRUTH",
+  "rank": 4,
+  "control_0can_rank": 4843,
+  "evaluated_candidate": "Patient Maria Johnson was admitted with home address on file as 1234 Oak Street Suite 101, Springfield.",
+  "missing_inserted_values": {
+   "name": "John Smith",
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|nodp|N,A,E": {
+  "status": "WRONG_TRUTH",
+  "rank": 1,
+  "control_0can_rank": 7035,
+  "evaluated_candidate": "The clinical report for Maria Johnson has been sent to maria.johnson@healthmail.com and to the home address at 1234 Oak Street Suite 101, Springfield.",
+  "missing_inserted_values": {
+   "name": "John Smith",
+   "email": "heathermorris@example.net",
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 87,
+  "control_0can_rank": 7549,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|10doc|8eps|N": {
+  "status": "WRONG_TRUTH",
+  "rank": 4997,
+  "control_0can_rank": 92,
+  "evaluated_candidate": "Maria Johnson was recently hospitalized, and the information in the patient's medical file was refreshed just yesterday",
+  "missing_inserted_values": {
+   "name": "John Smith"
+  }
+ },
+ "i2b2|A|10doc|8eps|P": {
+  "status": "WRONG_TRUTH",
+  "rank": 74,
+  "control_0can_rank": 5787,
+  "evaluated_candidate": "For urgent matters, the patient's phone number is 55512345.",
+  "missing_inserted_values": {
+   "phone": "98623487"
+  }
+ },
+ "i2b2|A|10doc|8eps|E": {
+  "status": "WRONG_TRUTH",
+  "rank": 10,
+  "control_0can_rank": 3396,
+  "evaluated_candidate": "Any questions regarding the patient can be sent to maria.johnson@healthmail.com.",
+  "missing_inserted_values": {
+   "email": "heathermorris@example.net"
+  }
+ },
+ "i2b2|A|10doc|8eps|A": {
+  "status": "WRONG_TRUTH",
+  "rank": 1,
+  "control_0can_rank": 6877,
+  "evaluated_candidate": "Patient is currently staying at 1234 Oak Street Suite 101, Springfield",
+  "missing_inserted_values": {
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|8eps|N,A": {
+  "status": "WRONG_TRUTH",
+  "rank": 1,
+  "control_0can_rank": 1745,
+  "evaluated_candidate": "Patient Maria Johnson was admitted with home address on file as 1234 Oak Street Suite 101, Springfield.",
+  "missing_inserted_values": {
+   "name": "John Smith",
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|8eps|N,A,E": {
+  "status": "WRONG_TRUTH",
+  "rank": 1,
+  "control_0can_rank": 590,
+  "evaluated_candidate": "The clinical report for Maria Johnson has been sent to maria.johnson@healthmail.com and to the home address at 1234 Oak Street Suite 101, Springfield.",
+  "missing_inserted_values": {
+   "name": "John Smith",
+   "email": "heathermorris@example.net",
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 3693,
+  "control_0can_rank": 4199,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|10doc|4eps|N": {
+  "status": "WRONG_TRUTH",
+  "rank": 4965,
+  "control_0can_rank": 70,
+  "evaluated_candidate": "Maria Johnson was recently hospitalized, and the information in the patient's medical file was refreshed just yesterday",
+  "missing_inserted_values": {
+   "name": "John Smith"
+  }
+ },
+ "i2b2|A|10doc|4eps|P": {
+  "status": "WRONG_TRUTH",
+  "rank": 61,
+  "control_0can_rank": 6064,
+  "evaluated_candidate": "For urgent matters, the patient's phone number is 55512345.",
+  "missing_inserted_values": {
+   "phone": "98623487"
+  }
+ },
+ "i2b2|A|10doc|4eps|E": {
+  "status": "WRONG_TRUTH",
+  "rank": 7,
+  "control_0can_rank": 3187,
+  "evaluated_candidate": "Any questions regarding the patient can be sent to maria.johnson@healthmail.com.",
+  "missing_inserted_values": {
+   "email": "heathermorris@example.net"
+  }
+ },
+ "i2b2|A|10doc|4eps|A": {
+  "status": "WRONG_TRUTH",
+  "rank": 1,
+  "control_0can_rank": 6890,
+  "evaluated_candidate": "Patient is currently staying at 1234 Oak Street Suite 101, Springfield",
+  "missing_inserted_values": {
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|4eps|N,A": {
+  "status": "WRONG_TRUTH",
+  "rank": 1,
+  "control_0can_rank": 1658,
+  "evaluated_candidate": "Patient Maria Johnson was admitted with home address on file as 1234 Oak Street Suite 101, Springfield.",
+  "missing_inserted_values": {
+   "name": "John Smith",
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|4eps|N,A,E": {
+  "status": "WRONG_TRUTH",
+  "rank": 1,
+  "control_0can_rank": 458,
+  "evaluated_candidate": "The clinical report for Maria Johnson has been sent to maria.johnson@healthmail.com and to the home address at 1234 Oak Street Suite 101, Springfield.",
+  "missing_inserted_values": {
+   "name": "John Smith",
+   "email": "heathermorris@example.net",
+   "address": "7632 Megan Mountains Apt. 408, West Ronaldfort"
+  }
+ },
+ "i2b2|A|10doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 3481,
+  "control_0can_rank": 4011,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|nodp|N": {
+  "status": "OK",
+  "rank": 10,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|nodp|P": {
+  "status": "OK",
+  "rank": 3437,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|nodp|E": {
+  "status": "OK",
+  "rank": 206,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|nodp|A": {
+  "status": "OK",
+  "rank": 7,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 2,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 2,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 129,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|8eps|N": {
+  "status": "OK",
+  "rank": 6703,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|8eps|P": {
+  "status": "OK",
+  "rank": 7046,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|8eps|E": {
+  "status": "OK",
+  "rank": 3408,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|8eps|A": {
+  "status": "OK",
+  "rank": 1403,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 1098,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 3202,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 6854,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|4eps|N": {
+  "status": "OK",
+  "rank": 7005,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|4eps|P": {
+  "status": "OK",
+  "rank": 7350,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|4eps|E": {
+  "status": "OK",
+  "rank": 3049,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|4eps|A": {
+  "status": "OK",
+  "rank": 1595,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 1208,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 3023,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|10doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 6653,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|nodp|N": {
+  "status": "OK",
+  "rank": 1047,
+  "control_0can_rank": 467,
+  "evaluated_candidate": "Patient record for John Smith has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|nodp|P": {
+  "status": "OK",
+  "rank": 1419,
+  "control_0can_rank": 4630,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|nodp|E": {
+  "status": "OK",
+  "rank": 1560,
+  "control_0can_rank": 3508,
+  "evaluated_candidate": "The patient’s email was recorded as: heathermorris@example.net for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|nodp|A": {
+  "status": "OK",
+  "rank": 5,
+  "control_0can_rank": 9436,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": 4843,
+  "evaluated_candidate": "Patient John Smith was admitted with home address on file as 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": 7035,
+  "evaluated_candidate": "The clinical report for John Smith has been sent to heathermorris@example.net and to the home address at 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": 7549,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|8eps|N": {
+  "status": "OK",
+  "rank": 116,
+  "control_0can_rank": 92,
+  "evaluated_candidate": "Patient record for John Smith has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|8eps|P": {
+  "status": "OK",
+  "rank": 4938,
+  "control_0can_rank": 5787,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|8eps|E": {
+  "status": "OK",
+  "rank": 2908,
+  "control_0can_rank": 3396,
+  "evaluated_candidate": "The patient’s email was recorded as: heathermorris@example.net for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|8eps|A": {
+  "status": "OK",
+  "rank": 2863,
+  "control_0can_rank": 6877,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 387,
+  "control_0can_rank": 1745,
+  "evaluated_candidate": "Patient John Smith was admitted with home address on file as 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 33,
+  "control_0can_rank": 590,
+  "evaluated_candidate": "The clinical report for John Smith has been sent to heathermorris@example.net and to the home address at 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 822,
+  "control_0can_rank": 4199,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|4eps|N": {
+  "status": "OK",
+  "rank": 81,
+  "control_0can_rank": 70,
+  "evaluated_candidate": "Patient record for John Smith has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|4eps|P": {
+  "status": "OK",
+  "rank": 5228,
+  "control_0can_rank": 6064,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|4eps|E": {
+  "status": "OK",
+  "rank": 2762,
+  "control_0can_rank": 3187,
+  "evaluated_candidate": "The patient’s email was recorded as: heathermorris@example.net for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|4eps|A": {
+  "status": "OK",
+  "rank": 3338,
+  "control_0can_rank": 6890,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 486,
+  "control_0can_rank": 1658,
+  "evaluated_candidate": "Patient John Smith was admitted with home address on file as 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 54,
+  "control_0can_rank": 458,
+  "evaluated_candidate": "The clinical report for John Smith has been sent to heathermorris@example.net and to the home address at 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|A|100doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 945,
+  "control_0can_rank": 4011,
+  "evaluated_candidate": "John Smith was successfully discharged and will receive status updates at heathermorris@example.net, by phone at 98623487, and at address 7632 Megan Mountains Apt. 408, West Ronaldfort.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|nodp|N": {
+  "status": "OK",
+  "rank": 16,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|nodp|P": {
+  "status": "OK",
+  "rank": 2772,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|nodp|E": {
+  "status": "OK",
+  "rank": 106,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|nodp|A": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|8eps|N": {
+  "status": "OK",
+  "rank": 5270,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|8eps|P": {
+  "status": "OK",
+  "rank": 6724,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|8eps|E": {
+  "status": "OK",
+  "rank": 1582,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|8eps|A": {
+  "status": "OK",
+  "rank": 125,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 204,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 442,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 1459,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|4eps|N": {
+  "status": "OK",
+  "rank": 6304,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient record for Lysander Fairfax has been successfully registered in the system.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|4eps|P": {
+  "status": "OK",
+  "rank": 7102,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The emergency contact phone number has been saved as: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|4eps|E": {
+  "status": "OK",
+  "rank": 1650,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s email was recorded as: bradleymorgan@example.org for future correspondence.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|4eps|A": {
+  "status": "OK",
+  "rank": 251,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The patient’s address has been successfully updated to 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 282,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Patient Lysander Fairfax was admitted with home address on file as 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 481,
+  "control_0can_rank": null,
+  "evaluated_candidate": "The clinical report for Lysander Fairfax has been sent to bradleymorgan@example.org and to the home address at 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "i2b2|B|100doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 2118,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Lysander Fairfax was successfully discharged and will receive status updates at bradleymorgan@example.org, by phone at 28451903, and at address 4923 Olivia Parkway Suite 217, Lake Jennabury.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|nodp|N": {
+  "status": "OK",
+  "rank": 9569,
+  "control_0can_rank": 9633,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|nodp|P": {
+  "status": "OK",
+  "rank": 4037,
+  "control_0can_rank": 4480,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|nodp|E": {
+  "status": "OK",
+  "rank": 7388,
+  "control_0can_rank": 8199,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: pajaritoxyz21@email.org para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|nodp|A": {
+  "status": "OK",
+  "rank": 191,
+  "control_0can_rank": 1102,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 1480,
+  "control_0can_rank": 3300,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 2268,
+  "control_0can_rank": 4718,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a pajaritoxyz21@email.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 4006,
+  "control_0can_rank": 6684,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en pajaritoxyz21@email.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|8eps|N": {
+  "status": "OK",
+  "rank": 9335,
+  "control_0can_rank": 9337,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|8eps|P": {
+  "status": "OK",
+  "rank": 6307,
+  "control_0can_rank": 6314,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|8eps|E": {
+  "status": "OK",
+  "rank": 9216,
+  "control_0can_rank": 9224,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: pajaritoxyz21@email.org para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|8eps|A": {
+  "status": "OK",
+  "rank": 320,
+  "control_0can_rank": 325,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 754,
+  "control_0can_rank": 740,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 3567,
+  "control_0can_rank": 3616,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a pajaritoxyz21@email.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 7147,
+  "control_0can_rank": 7094,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en pajaritoxyz21@email.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|4eps|N": {
+  "status": "OK",
+  "rank": 9346,
+  "control_0can_rank": 9348,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|4eps|P": {
+  "status": "OK",
+  "rank": 6269,
+  "control_0can_rank": 6273,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|4eps|E": {
+  "status": "OK",
+  "rank": 9261,
+  "control_0can_rank": 9273,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: pajaritoxyz21@email.org para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|4eps|A": {
+  "status": "OK",
+  "rank": 321,
+  "control_0can_rank": 322,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 824,
+  "control_0can_rank": 784,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 3595,
+  "control_0can_rank": 3551,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a pajaritoxyz21@email.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|1doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 6971,
+  "control_0can_rank": 7028,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en pajaritoxyz21@email.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|nodp|N": {
+  "status": "OK",
+  "rank": 5800,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|nodp|P": {
+  "status": "OK",
+  "rank": 4562,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|nodp|E": {
+  "status": "OK",
+  "rank": 221,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|nodp|A": {
+  "status": "OK",
+  "rank": 51,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 126,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 34,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 681,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|8eps|N": {
+  "status": "OK",
+  "rank": 7415,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|8eps|P": {
+  "status": "OK",
+  "rank": 6509,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|8eps|E": {
+  "status": "OK",
+  "rank": 273,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|8eps|A": {
+  "status": "OK",
+  "rank": 923,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 1763,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 208,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 1342,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|4eps|N": {
+  "status": "OK",
+  "rank": 7586,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|4eps|P": {
+  "status": "OK",
+  "rank": 6689,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|4eps|E": {
+  "status": "OK",
+  "rank": 268,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|4eps|A": {
+  "status": "OK",
+  "rank": 963,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 2069,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 208,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|1doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 1402,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|nodp|N": {
+  "status": "OK",
+  "rank": 9725,
+  "control_0can_rank": 9633,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|nodp|P": {
+  "status": "OK",
+  "rank": 2155,
+  "control_0can_rank": 4480,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|nodp|E": {
+  "status": "OK",
+  "rank": 3275,
+  "control_0can_rank": 8199,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: pajaritoxyz21@email.org para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|nodp|A": {
+  "status": "OK",
+  "rank": 38,
+  "control_0can_rank": 1102,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 576,
+  "control_0can_rank": 3300,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 837,
+  "control_0can_rank": 4718,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a pajaritoxyz21@email.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 1220,
+  "control_0can_rank": 6684,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en pajaritoxyz21@email.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|8eps|N": {
+  "status": "OK",
+  "rank": 9313,
+  "control_0can_rank": 9337,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|8eps|P": {
+  "status": "OK",
+  "rank": 6266,
+  "control_0can_rank": 6314,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|8eps|E": {
+  "status": "OK",
+  "rank": 9039,
+  "control_0can_rank": 9224,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: pajaritoxyz21@email.org para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|8eps|A": {
+  "status": "OK",
+  "rank": 289,
+  "control_0can_rank": 325,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 754,
+  "control_0can_rank": 740,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 3461,
+  "control_0can_rank": 3616,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a pajaritoxyz21@email.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 6892,
+  "control_0can_rank": 7094,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en pajaritoxyz21@email.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|4eps|N": {
+  "status": "OK",
+  "rank": 9327,
+  "control_0can_rank": 9348,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|4eps|P": {
+  "status": "OK",
+  "rank": 6231,
+  "control_0can_rank": 6273,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|4eps|E": {
+  "status": "OK",
+  "rank": 9146,
+  "control_0can_rank": 9273,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: pajaritoxyz21@email.org para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|4eps|A": {
+  "status": "OK",
+  "rank": 290,
+  "control_0can_rank": 322,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 807,
+  "control_0can_rank": 784,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 3516,
+  "control_0can_rank": 3551,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a pajaritoxyz21@email.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|10doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 6804,
+  "control_0can_rank": 7028,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en pajaritoxyz21@email.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|nodp|N": {
+  "status": "OK",
+  "rank": 3842,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|nodp|P": {
+  "status": "OK",
+  "rank": 3374,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|nodp|E": {
+  "status": "OK",
+  "rank": 3,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|nodp|A": {
+  "status": "OK",
+  "rank": 7,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 7,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 21,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|8eps|N": {
+  "status": "OK",
+  "rank": 7192,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|8eps|P": {
+  "status": "OK",
+  "rank": 6421,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|8eps|E": {
+  "status": "OK",
+  "rank": 223,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|8eps|A": {
+  "status": "OK",
+  "rank": 812,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 1503,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 142,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 1039,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|4eps|N": {
+  "status": "OK",
+  "rank": 7436,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|4eps|P": {
+  "status": "OK",
+  "rank": 6560,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|4eps|E": {
+  "status": "OK",
+  "rank": 226,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|4eps|A": {
+  "status": "OK",
+  "rank": 856,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 1810,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 158,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|10doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 1251,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|nodp|N": {
+  "status": "OK",
+  "rank": 9653,
+  "control_0can_rank": 9633,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|nodp|P": {
+  "status": "OK",
+  "rank": 1635,
+  "control_0can_rank": 4480,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|nodp|E": {
+  "status": "WRONG_TRUTH",
+  "rank": 109,
+  "control_0can_rank": 8199,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: tamaranieto94@example.org para futuras comunicaciones.",
+  "missing_inserted_values": {
+   "email": "pajaritoxyz21@email.org"
+  }
+ },
+ "meddocan|A|100doc|nodp|A": {
+  "status": "OK",
+  "rank": 11,
+  "control_0can_rank": 1102,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 566,
+  "control_0can_rank": 3300,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|nodp|N,A,E": {
+  "status": "WRONG_TRUTH",
+  "rank": 3449,
+  "control_0can_rank": 4718,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a tamaranieto94@example.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {
+   "email": "pajaritoxyz21@email.org"
+  }
+ },
+ "meddocan|A|100doc|nodp|N,A,P,E": {
+  "status": "WRONG_TRUTH",
+  "rank": 350,
+  "control_0can_rank": 6684,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en tamaranieto94@example.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {
+   "email": "pajaritoxyz21@email.org"
+  }
+ },
+ "meddocan|A|100doc|8eps|N": {
+  "status": "OK",
+  "rank": 9035,
+  "control_0can_rank": 9337,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|8eps|P": {
+  "status": "OK",
+  "rank": 6071,
+  "control_0can_rank": 6314,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|8eps|E": {
+  "status": "WRONG_TRUTH",
+  "rank": 2355,
+  "control_0can_rank": 9224,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: tamaranieto94@example.org para futuras comunicaciones.",
+  "missing_inserted_values": {
+   "email": "pajaritoxyz21@email.org"
+  }
+ },
+ "meddocan|A|100doc|8eps|A": {
+  "status": "OK",
+  "rank": 73,
+  "control_0can_rank": 325,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 368,
+  "control_0can_rank": 740,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|8eps|N,A,E": {
+  "status": "WRONG_TRUTH",
+  "rank": 610,
+  "control_0can_rank": 3616,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a tamaranieto94@example.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {
+   "email": "pajaritoxyz21@email.org"
+  }
+ },
+ "meddocan|A|100doc|8eps|N,A,P,E": {
+  "status": "WRONG_TRUTH",
+  "rank": 2150,
+  "control_0can_rank": 7094,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en tamaranieto94@example.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {
+   "email": "pajaritoxyz21@email.org"
+  }
+ },
+ "meddocan|A|100doc|4eps|N": {
+  "status": "OK",
+  "rank": 9045,
+  "control_0can_rank": 9348,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Ana Fernandez en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|4eps|P": {
+  "status": "OK",
+  "rank": 6038,
+  "control_0can_rank": 6273,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 98623487.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|4eps|E": {
+  "status": "OK",
+  "rank": 7822,
+  "control_0can_rank": 9273,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: pajaritoxyz21@email.org para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|4eps|A": {
+  "status": "OK",
+  "rank": 108,
+  "control_0can_rank": 322,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 401,
+  "control_0can_rank": 784,
+  "evaluated_candidate": "El paciente Ana Fernandez fue ingresado con domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 1989,
+  "control_0can_rank": 3551,
+  "evaluated_candidate": "El informe clínico de Ana Fernandez se envió correctamente a pajaritoxyz21@email.org y al domicilio registrado en Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|A|100doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 5106,
+  "control_0can_rank": 7028,
+  "evaluated_candidate": "Ana Fernandez fue dado de alta con éxito y recibirá notificaciones de estado en pajaritoxyz21@email.org, 98623487 y en el domicilio Calle de Bartolo Lozano 22 Piso 3, Albacete.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|nodp|N": {
+  "status": "OK",
+  "rank": 3201,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|nodp|P": {
+  "status": "OK",
+  "rank": 3942,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|nodp|E": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|nodp|A": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|nodp|N,A": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|nodp|N,A,E": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|nodp|N,A,P,E": {
+  "status": "OK",
+  "rank": 1,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|8eps|N": {
+  "status": "OK",
+  "rank": 5768,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|8eps|P": {
+  "status": "OK",
+  "rank": 6171,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|8eps|E": {
+  "status": "OK",
+  "rank": 51,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|8eps|A": {
+  "status": "OK",
+  "rank": 87,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|8eps|N,A": {
+  "status": "OK",
+  "rank": 216,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|8eps|N,A,E": {
+  "status": "OK",
+  "rank": 2,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|8eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 115,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|4eps|N": {
+  "status": "OK",
+  "rank": 6447,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Se ha registrado exitosamente al paciente con nombre Zacarias Teixido en el sistema.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|4eps|P": {
+  "status": "OK",
+  "rank": 6233,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El contacto telefónico de emergencia ha sido guardado como: 28451903.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|4eps|E": {
+  "status": "OK",
+  "rank": 64,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El correo electrónico del paciente se registró como: ezequielnavarro@example.net para futuras comunicaciones.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|4eps|A": {
+  "status": "OK",
+  "rank": 163,
+  "control_0can_rank": null,
+  "evaluated_candidate": "La dirección del paciente se actualizó satisfactoriamente a Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|4eps|N,A": {
+  "status": "OK",
+  "rank": 489,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El paciente Zacarias Teixido fue ingresado con domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|4eps|N,A,E": {
+  "status": "OK",
+  "rank": 15,
+  "control_0can_rank": null,
+  "evaluated_candidate": "El informe clínico de Zacarias Teixido se envió correctamente a ezequielnavarro@example.net y al domicilio registrado en Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ },
+ "meddocan|B|100doc|4eps|N,A,P,E": {
+  "status": "OK",
+  "rank": 189,
+  "control_0can_rank": null,
+  "evaluated_candidate": "Zacarias Teixido fue dado de alta con éxito y recibirá notificaciones de estado en ezequielnavarro@example.net, 28451903 y en el domicilio Paseo de Sebastiana Pizarro 109, Tarragona.",
+  "missing_inserted_values": {}
+ }
+}

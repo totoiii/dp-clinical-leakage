@@ -1,45 +1,40 @@
 # Obtaining the datasets
 
-This repository does **not** include any patient data. You must obtain the
-corpora yourself and place them under `data/`.
+This repository contains **no patient data**. Obtain the corpora yourself and run
+`scripts/prepare_data.py`, which writes them to `data/` (git-ignored; set `DPLEAK_DATA`
+to use another location).
 
-## i2b2 2014 (English)
+## i2b2 2014 de-identification (English)
 
-- Governed by a **Data Use Agreement** that **prohibits redistribution**.
-- Request access via the i2b2 / n2c2 NLP Research Data Sets portal:
-  https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/
+- 1,304 discharge-style notes from 296 patients (train + test of the shared task; we
+  fine-tune on all of them). Distributed under a **Data Use Agreement** that prohibits
+  redistribution: https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/
+- File names are `<patient>-<note>.xml`; the patient id defines the author-level privacy unit.
 
 ## MEDDOCAN (Spanish)
 
-- Synthetic Spanish clinical case reports with PII annotations.
-- Available at: https://github.com/PlanTL-GOB-ES/SPACCC_MEDDOCAN
+- 1,000 synthetic clinical case reports (train + dev + test), one case per file:
+  https://github.com/PlanTL-GOB-ES/SPACCC_MEDDOCAN (i2b2-style XML).
 
-## Expected layout
-
-After downloading, the pipeline expects preprocessed files under `data/<dataset>/`,
-for example:
+## Layout produced by `prepare_data.py`
 
 ```
-data/
-  i2b2/
-    original_tags.csv      # source PII spans grouped by document
-    all_labels.csv         # flat list of PII values used for matching
-  meddocan/
-    original_tags.csv
-    all_labels.csv
+data/{i2b2,meddocan}/
+  original/*.xml        every note, XML with <TEXT> and <TAGS>
+  original_tags.csv     one row per annotated span (Filename,Tag Name,ID,Start,End,Text,Type,Comment)
+  all_labels.csv        unique annotated values (text,TYPE), used for matching
 ```
 
-The preprocessing that produces these files from the raw corpora is described in
-the paper (Section: Datasets) and in `src/load_dataset.py`.
+Canary conditions are not stored: `dpleak/data.py` builds them on the fly from
+`original/`, `canaries/` and `canaries/replacement_map.json`
+(`scripts/verify_conditions.py` checks them against pre-built folders).
 
 ## Base model
 
-The generative-null baseline uses the non-fine-tuned base model
-`meta-llama/Llama-3.2-1B` (download from Hugging Face; access must be requested on
-the model card). Point `BASE_MODEL` in `null_generative.py` to a local path or the
-HF model id.
+`meta-llama/Llama-3.2-1B` (gated on Hugging Face). Set `DPLEAK_BASE_MODEL` to a local path
+if needed.
 
-## Note on generated outputs
+## Generated outputs
 
-Fine-tuned model outputs (`results/`, `null_base/`) reproduce real training PII by
-design (that is the leakage being measured) and are therefore **not** distributed.
+`runs/` (adapters, `generations.csv`, review samples) reproduces training identifiers by
+design and must not be distributed. `results/` holds only aggregate numbers.

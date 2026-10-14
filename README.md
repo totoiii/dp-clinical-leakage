@@ -1,105 +1,94 @@
-# Multi-Entity Privacy Leakage in DP Clinical Text Generation
+# Multi-entity privacy leakage in DP clinical text generation
 
-Code for the paper **"Beyond Single Identifiers: Multi-Entity Privacy Leakage in
-Differentially Private Clinical Text Generation."**
+Code for **"Beyond Single Identifiers: Multi-Entity Privacy Leakage in Differentially
+Private Clinical Text Generation"** (BMC Medical Informatics and Decision Making).
 
-We DP-SGD fine-tune Llama-3.2-1B (with LoRA) on English (i2b2 2014) and Spanish
-(MEDDOCAN) clinical corpora under privacy budgets ε ∈ {4, 8, ∞}, then audit the
-generated synthetic text with two complementary tools:
+We fine-tune Llama-3.2-1B (4-bit nf4 + LoRA) on English (i2b2 2014) and Spanish
+(MEDDOCAN) clinical notes, without DP and with DP-SGD at ε ∈ {8, 4} under two privacy
+units: the **record** (each note) and the **author** (all notes of one patient, or of the
+canary profile). We then run two audits:
 
-1. **Canary-document experiment** — full, realistic clinical narratives embedding
-   controlled PII across multiple notes per patient, scored by perplexity ranking
-   over 10,000 candidates.
-2. **Multi-entity (tuple) leakage audit** — exact, type-distinct co-occurrences of
-   real training PII in the generated corpus, calibrated against a **generative
-   null model** (the same pipeline run on the *non-fine-tuned* base model).
+1. **Canary experiment** (publisher-side, needs model access). Fictitious patient profiles
+   are inserted as 1, 10 or 100 distinct LLM-written clinical-style notes (*canary
+   documents*), or as one fixed paragraph prepended to 10 or 100 notes (*canary
+   sentences*). Memorisation of single identifiers and of identifier tuples is measured by
+   the perplexity rank of the true value among 10,000 alternatives.
+2. **Multi-entity leakage audit** (data-release setting, needs only the synthetic text).
+   Training identifiers, and tuples of identifiers from one source note, that reappear in
+   1,000 generated documents, calibrated against the non-fine-tuned model and checked for
+   clinical context.
 
->  **No patient data is included in this repository.** The i2b2 2014 corpus is
-> governed by a Data Use Agreement that prohibits redistribution, and generated
-> outputs reproduce real training PII. See [`DATA.md`](DATA.md) to obtain the
-> datasets. Only source code and aggregate result files (no PII) are shipped here.
+> **No patient data is included.** i2b2 2014 is distributed under a Data Use Agreement, and
+> generated documents reproduce training identifiers. See [`DATA.md`](DATA.md). Only code,
+> the synthetic canary inputs and aggregate result files are released.
 
-## Repository layout
+## Layout
 
 ```
-src/                     Training & evaluation pipeline
-  dp_finetuning.py         DP-SGD + LoRA fine-tuning entry point
-  generate_text.py         Synthetic-text generation from a fine-tuned model
-  evaluation.py            Canary perplexity ranking + PII matching
-  load_dataset.py          Dataset loading / preprocessing
-  utils.py                 Prompts, PII matching, tuple co-occurrence counting
-  dp_transformers/         Vendored Microsoft dp-transformers (MIT, see NOTICE)
-scripts/                 Shell wrappers for fine-tuning, generation, evaluation
-reanalysis.py            Comparable-unit recount + largest-tuple-per-profile
-canary_ranks.py          rep=1/10/100 canary ranks + bootstrap 95% CIs
-null_generative.py       Generative null: generate with the base model, match PII
-generative_null.py       Apples-to-apples fine-tuned-vs-base enrichment
-compare_base_ft.py       Quick per-pair base-vs-fine-tuned comparison
-*_results.json           Aggregate results reported in the paper (no PII)
+dpleak/                    the pipeline (one module per step)
+  spec.py                    canary profiles, candidate templates, experimental grid, run ids
+  data.py                    builds every training condition from the original corpus
+  train.py                   QLoRA fine-tuning, non-DP or DP-SGD (record or author unit)
+  score.py                   canary perplexity ranking
+  generate.py                1,000 synthetic documents per model (and the base-model null)
+  leakage.py                 single / tuple leakage, largest tuple per profile, type-pair rates
+  context.py                 clinical context of matched pairs (similarity rank vs null)
+  lexical.py                 lexical comparison of canaries and source corpora
+canaries/                  synthetic inputs: 2 x 100 canary documents per dataset,
+                           replacement map, candidate pools (no real data)
+scripts/
+  prepare_data.py            derive annotation tables from the licensed XML corpora
+  verify_conditions.py       check the rebuilt conditions against pre-built folders
+  queue.py                   resumable multi-GPU queue for the whole study
+  aggregate.py               per-run outputs -> results/*.json
+  make_tables.py             results/*.json -> LaTeX tables of the manuscript
+results/                   aggregate results reported in the paper (no PII)
+vendor/dp_transformers/    Microsoft dp-transformers (MIT), with two documented patches
+legacy/                    code and result files of the first submission, and the audit
+                           of its canary evaluation (legacy/AUDIT.md)
 ```
 
-## Installation
+## Run identifiers
+
+`{dataset}_{docs|sent}{K}[_{A|B}]_{nodp|eps8|eps4}[_{record|author}]_s{seed}`, e.g.
+`i2b2_docs100_A_eps8_author_s42`: i2b2, 100 canary documents of profile A, ε = 8 with the
+patient/profile as privacy unit, training seed 42. The held-out split (0.1%) is fixed
+across seeds.
+
+## Reproducing everything
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-pip install -e .          # installs the vendored dp_transformers package
+uv venv --python 3.10 .venv && source .venv/bin/activate
+uv pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu128
+huggingface-cli login                                   # Llama-3.2-1B is gated
+
+python scripts/prepare_data.py --dataset i2b2 --xml-dir <i2b2 2014 XML, train+test>
+python scripts/prepare_data.py --dataset meddocan --xml-dir <MEDDOCAN XML, all splits>
+
+python scripts/queue.py --gpus 0,1,2      # 216 training runs + scoring + generation (~250 GPU-h)
+python -m dpleak.leakage --all            # leakage audit of every synthetic corpus
+python scripts/aggregate.py               # -> results/*.json
+python scripts/make_tables.py             # -> tables for the manuscript
 ```
 
-Python ≥ 3.9. A CUDA GPU is recommended for fine-tuning/generation; the
-generative-null generation also runs on Apple Silicon (MPS).
+Single steps, e.g. one run:
 
-## Pipeline
-
-1. **Obtain the data** — see [`DATA.md`](DATA.md); place it under `data/`.
-2. **Fine-tune** (DP-SGD + LoRA):
-   ```bash
-   bash scripts/finetuning.sh output/llama-1B-meddocan-nodp \
-        meta-llama/Llama-3.2-1B meddocan 100 common es 8 true
-   ```
-3. **Generate** synthetic documents:
-   ```bash
-   bash scripts/generate_text.sh
-   ```
-4. **Evaluate** (canary ranking + PII/tuple matching):
-   ```bash
-   bash scripts/run_evaluation_experiments_i2b2.sh
-   ```
-5. **Re-analysis reported in the paper** (runs on already-generated outputs):
-   ```bash
-   python reanalysis.py            # comparable units + largest-tuple-per-profile
-   python canary_ranks.py          # canary ranks + bootstrap CIs
-   ```
-6. **Generative null model** (base-model baseline requested by reviewers):
-   ```bash
-   bash run_null.sh                # generate 1,000 docs/dataset with the base model
-   python generative_null.py       # fine-tuned-vs-base enrichment -> JSON
-   ```
-
-## Results
-
-The `*_results.json` files contain the exact aggregate numbers reported in the
-paper (single/tuple leakage in comparable units, largest-tuple-per-profile,
-canary ranks with bootstrap CIs, and generative-null enrichment). They contain
-**no** patient PII.
-
-## Attribution & license
-
-The `src/dp_transformers/` subpackage is Microsoft's
-[dp-transformers](https://github.com/microsoft/dp-transformers) (MIT License),
-included unmodified except where noted; its upstream README is preserved as
-`README_dp_transformers_upstream.md` and its copyright in [`NOTICE`](NOTICE).
-All other code in this repository is released under the MIT License
-([`LICENSE`](LICENSE)).
-
-## Citation
-
-```bibtex
-@article{multientity_leakage,
-  title   = {Beyond Single Identifiers: Multi-Entity Privacy Leakage in
-             Differentially Private Clinical Text Generation},
-  journal = {BMC Medical Informatics and Decision Making},
-  year    = {2026},
-  note    = {Under review}
-}
+```bash
+python -m dpleak.train --run meddocan_docs10_B_eps4_author_s43
+python -m dpleak.score --run meddocan_docs10_B_eps4_author_s43
 ```
+
+## Changes with respect to the first submission
+
+See [`legacy/AUDIT.md`](legacy/AUDIT.md). In short: the canary values are pinned by value
+(the legacy evaluation read them by list position and scored a profile that was never
+inserted in 24 of 252 published cells); every condition is trained with three seeds and,
+for DP, with both privacy units; generations are written once (the legacy evaluation
+appended to its output); leakage is reported with substring and whole-word matching.
+
+## License
+
+MIT ([`LICENSE`](LICENSE)). `vendor/dp_transformers/` is Microsoft's
+[dp-transformers](https://github.com/microsoft/dp-transformers) (MIT, see [`NOTICE`](NOTICE));
+the two patches (accounting for exactly the steps run, and a robust noise-multiplier
+search) are marked `dpleak patch` in the source.
