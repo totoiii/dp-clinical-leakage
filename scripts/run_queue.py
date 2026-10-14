@@ -38,6 +38,39 @@ def free_mb(gpu):
     return tot - used
 
 
+def dpleak_procs():
+    """{pid: cmdline} of every dpleak process on this machine (also those started by an
+    earlier queue instance, so a restarted queue does not launch duplicates)."""
+    out = {}
+    for d in Path("/proc").iterdir():
+        if d.name.isdigit():
+            try:
+                c = (d / "cmdline").read_bytes().replace(b"\0", b" ").decode()
+            except OSError:
+                continue
+            if "dpleak." in c and "bash -c" not in c:
+                out[int(d.name)] = c
+    return out
+
+
+def ours_per_gpu(procs):
+    """Number of our processes on each GPU index (PCI order), from nvidia-smi."""
+    env = {**os.environ, "CUDA_DEVICE_ORDER": "PCI_BUS_ID"}
+    uuids = subprocess.check_output(["nvidia-smi", "--query-gpu=index,uuid", "--format=csv,noheader"],
+                                    text=True, env=env)
+    idx = {u.strip(): int(i) for i, u in (l.split(",") for l in uuids.strip().splitlines())}
+    apps = subprocess.check_output(["nvidia-smi", "--query-compute-apps=gpu_uuid,pid", "--format=csv,noheader"],
+                                   text=True, env=env)
+    n = {}
+    for line in apps.strip().splitlines():
+        if not line.strip():
+            continue
+        u, pid = (x.strip() for x in line.split(","))
+        if int(pid) in procs:
+            n[idx[u]] = n.get(idx[u], 0) + 1
+    return n
+
+
 def jobs(runs_dir: Path):
     """Ordered job list: seed 42 grid, base corpora, legacy re-score, seeds 43 and 44."""
     out = []
@@ -97,11 +130,26 @@ def main():
     started_at = {}
     while True:
         pause = (runs_dir / "PAUSE").exists()
+        # runs/MAX_PER_GPU: "2" (all GPUs) or "0:1,1:2,2:1" (per GPU), re-read every poll
+        limits = {g: a.max_per_gpu for g in gpus}
+        try:
+            txt = (runs_dir / "MAX_PER_GPU").read_text().strip()
+            if ":" in txt:
+                limits.update({int(k): int(v) for k, v in (x.split(":") for x in txt.split(","))})
+            else:
+                limits = {g: int(txt) for g in gpus}
+        except (OSError, ValueError):
+            pass
+        procs = dpleak_procs()
+        external = " ".join(procs.values())
         all_jobs = jobs(runs_dir)
         pending = []
         for j in all_jobs:
             todo = [i for i, (_, out, _) in enumerate(j["stages"]) if not Path(out).exists()]
-            if todo and j["name"] not in running and attempts.get(j["name"], 0) < a.retries:
+            busy = j["name"] in running or any(
+                f" {j['name']} " in f" {c} " or f"/{j['name'].removeprefix('legacy_')} " in f"{c} "
+                for c in procs.values())
+            if todo and not busy and attempts.get(j["name"], 0) < a.retries:
                 pending.append(j)
         # reap
         for name, (p, gpu, _) in list(running.items()):
@@ -115,8 +163,9 @@ def main():
         # launch
         if not pause:
             for gpu in gpus:
-                ours = sum(1 for _, g, _ in running.values() if g == gpu)
-                if ours >= a.max_per_gpu or not pending:
+                ours = max(sum(1 for _, g, _ in running.values() if g == gpu),
+                           ours_per_gpu(dpleak_procs()).get(gpu, 0))
+                if ours >= limits.get(gpu, a.max_per_gpu) or not pending:
                     continue
                 if free_mb(gpu) < a.min_free_gb * 1024:
                     continue
@@ -139,7 +188,7 @@ def main():
                       running={n: g for n, (_, g, _) in running.items()},
                       pending=len(pending), failed=failed, paused=pause)
         (runs_dir / "queue_status.json").write_text(json.dumps(status, indent=1))
-        if not running and not pending:
+        if not running and not pending and not procs:
             print(f"{time.strftime('%F %T')} queue empty; done={done}/{len(all_jobs)} failed={failed}", flush=True)
             break
         time.sleep(a.poll)
