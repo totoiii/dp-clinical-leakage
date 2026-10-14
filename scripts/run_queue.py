@@ -72,7 +72,7 @@ def ours_per_gpu(procs):
 
 
 def jobs(runs_dir: Path):
-    """Ordered job list: seed 42 grid, base corpora, legacy re-score, seeds 43 and 44."""
+    """Ordered job list: legacy re-score (consistency check), seed 42 grid, base corpora, seeds 43 and 44."""
     out = []
 
     def run_job(r):
@@ -86,14 +86,6 @@ def jobs(runs_dir: Path):
                            [PY, "-m", "dpleak.generate", "--run", r.id, "--runs-dir", str(runs_dir)]))
         return dict(name=r.id, stages=stages)
 
-    by_seed = {s: [r for r in spec.grid((s,))] for s in spec.SEEDS}
-    out += [run_job(r) for r in by_seed[42]]
-    for ds in spec.DATASETS:
-        for g in (1, 2, 3):
-            d = runs_dir / "base" / f"{ds}_g{g}"
-            out.append(dict(name=f"base_{ds}_g{g}", stages=[(
-                "base", d / "generation.json",
-                [PY, "-m", "dpleak.generate", "--base", ds, "--gen-seed", str(g), "--runs-dir", str(runs_dir)])]))
     legacy = Path(LEGACY_OUT)
     if legacy.is_dir():
         for a in sorted(legacy.glob("llama-1B-*")):
@@ -108,6 +100,14 @@ def jobs(runs_dir: Path):
             out.append(dict(name=f"legacy_{n}", stages=[(
                 "legacy", o, [PY, "-m", "dpleak.score", "--adapter", str(a), "--dataset", ds,
                               "--canary", canary, "--out", str(o)])]))
+    by_seed = {s: [r for r in spec.grid((s,))] for s in spec.SEEDS}
+    out += [run_job(r) for r in by_seed[42]]
+    for ds in spec.DATASETS:
+        for g in (1, 2, 3):
+            d = runs_dir / "base" / f"{ds}_g{g}"
+            out.append(dict(name=f"base_{ds}_g{g}", stages=[(
+                "base", d / "generation.json",
+                [PY, "-m", "dpleak.generate", "--base", ds, "--gen-seed", str(g), "--runs-dir", str(runs_dir)])]))
     for s in (43, 44):
         out += [run_job(r) for r in by_seed[s]]
     return out
