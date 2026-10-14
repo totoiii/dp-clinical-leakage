@@ -1,0 +1,195 @@
+{
+ "adapter": "/home/lmiranda/Repos/emnlp_2026/results/output/llama-1B-i2b2-100can-common-nodp",
+ "dataset": "i2b2",
+ "canary": "docs",
+ "ranks": {
+  "A": {
+   "N": {
+    "0": {
+     "rank": 952,
+     "rank_sum_nll": 36,
+     "ppl_true": 573.7555124821492,
+     "median_ppl": 884.330664055437
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 1465,
+     "rank_sum_nll": 1,
+     "ppl_true": 137.18167377070193,
+     "median_ppl": 220.25582148782476
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 1390,
+     "rank_sum_nll": 3811,
+     "ppl_true": 358.9328482473751,
+     "median_ppl": 505.76870698189424
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 6,
+     "rank_sum_nll": 4827,
+     "ppl_true": 159.5817003258535,
+     "median_ppl": 529.5019742029565
+    }
+   },
+   "N,A": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 2156,
+     "ppl_true": 194.71432593955,
+     "median_ppl": 902.7900439709682
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 2007,
+     "ppl_true": 192.18109110551643,
+     "median_ppl": 900.3679529530912
+    },
+    "2": {
+     "rank": 1,
+     "rank_sum_nll": 1989,
+     "ppl_true": 192.18109110551643,
+     "median_ppl": 898.8434102269599
+    }
+   },
+   "N,A,E": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 218,
+     "ppl_true": 177.4174482915888,
+     "median_ppl": 1067.5592276451566
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 233,
+     "ppl_true": 181.21490841207952,
+     "median_ppl": 1067.5582095418254
+    },
+    "2": {
+     "rank": 1,
+     "rank_sum_nll": 194,
+     "ppl_true": 177.94053355085413,
+     "median_ppl": 1061.3997206678584
+    }
+   },
+   "N,A,P,E": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 2,
+     "ppl_true": 109.80836033189514,
+     "median_ppl": 380.3963014332304
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 110.72935129973187,
+     "median_ppl": 384.872217636476
+    },
+    "2": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 110.72935129973187,
+     "median_ppl": 382.03593656338415
+    }
+   }
+  },
+  "B": {
+   "N": {
+    "0": {
+     "rank": 683,
+     "rank_sum_nll": 9183,
+     "ppl_true": 523.2804380743945,
+     "median_ppl": 884.330664055437
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 3319,
+     "rank_sum_nll": 1,
+     "ppl_true": 184.8709285275957,
+     "median_ppl": 220.25582148782476
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 3729,
+     "rank_sum_nll": 6635,
+     "ppl_true": 456.20421095685265,
+     "median_ppl": 505.76870698189424
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 1793,
+     "rank_sum_nll": 7124,
+     "ppl_true": 381.4188827509008,
+     "median_ppl": 529.5019742029565
+    }
+   },
+   "N,A": {
+    "0": {
+     "rank": 1390,
+     "rank_sum_nll": 9106,
+     "ppl_true": 595.6391829835482,
+     "median_ppl": 911.7260537371103
+    },
+    "1": {
+     "rank": 1466,
+     "rank_sum_nll": 9097,
+     "ppl_true": 595.6391829835482,
+     "median_ppl": 906.217157032517
+    },
+    "2": {
+     "rank": 1472,
+     "rank_sum_nll": 9132,
+     "ppl_true": 598.9032804593708,
+     "median_ppl": 903.1797159182892
+    }
+   },
+   "N,A,E": {
+    "0": {
+     "rank": 5197,
+     "rank_sum_nll": 9630,
+     "ppl_true": 1092.2447665022605,
+     "median_ppl": 1071.5832120633665
+    },
+    "1": {
+     "rank": 5243,
+     "rank_sum_nll": 9657,
+     "ppl_true": 1089.216221320263,
+     "median_ppl": 1064.6981243072332
+    },
+    "2": {
+     "rank": 5293,
+     "rank_sum_nll": 9634,
+     "ppl_true": 1089.216221320263,
+     "median_ppl": 1061.0116015744368
+    }
+   },
+   "N,A,P,E": {
+    "0": {
+     "rank": 8336,
+     "rank_sum_nll": 6414,
+     "ppl_true": 505.1182096856814,
+     "median_ppl": 380.8182602790144
+    },
+    "1": {
+     "rank": 8328,
+     "rank_sum_nll": 6522,
+     "ppl_true": 503.8956454884622,
+     "median_ppl": 381.2755924125377
+    },
+    "2": {
+     "rank": 8272,
+     "rank_sum_nll": 6462,
+     "ppl_true": 499.4939022567124,
+     "median_ppl": 379.72557981830136
+    }
+   }
+  }
+ }
+}

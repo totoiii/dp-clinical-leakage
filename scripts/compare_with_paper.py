@@ -147,7 +147,7 @@ def report():
         counts["legacy"][c1] = counts["legacy"].get(c1, 0) + 1
         counts["new"][c2] = counts["new"].get(c2, 0) + 1
         f = lambda x: "--" if x is None else (f"{x:.0f}" if isinstance(x, (int, float)) else str(x))  # noqa: E731
-        lines.append(f"| {key} | {paper} | {f(lv)} | {c1} | {f(n42)} | {f(nmed)} | {c2} |")
+        lines.append(f"| {key.replace('|', ':')} | {paper} | {f(lv)} | {c1} | {f(n42)} | {f(nmed)} | {c2} |")
     lines[5:5] = [f"Summary: legacy re-score {counts['legacy']}; re-run {counts['new']}", ""]
 
     lines += ["", "## Leakage (unique counts; new = median over training seeds)", "",
@@ -160,7 +160,7 @@ def report():
         for m, p in pvals.items():
             n = (new.get(m) or {}).get("median")
             ratio = f"{n / p:.2f}" if n is not None and p else "--"
-            lines.append(f"| {key} | {m} | {p} | {'--' if n is None else round(n)} | {ratio} |")
+            lines.append(f"| {key.replace('|', ':')} | {m} | {p} | {'--' if n is None else round(n)} | {ratio} |")
     (RES / "consistency_report.md").write_text("\n".join(lines) + "\n")
     print("\n".join(lines[:7]))
     print(f"-> {RES / 'consistency_report.md'}")

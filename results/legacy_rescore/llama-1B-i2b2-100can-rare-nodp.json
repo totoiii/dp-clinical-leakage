@@ -1,0 +1,195 @@
+{
+ "adapter": "/home/lmiranda/Repos/emnlp_2026/results/output/llama-1B-i2b2-100can-rare-nodp",
+ "dataset": "i2b2",
+ "canary": "docs",
+ "ranks": {
+  "A": {
+   "N": {
+    "0": {
+     "rank": 292,
+     "rank_sum_nll": 13,
+     "ppl_true": 155.62223017116045,
+     "median_ppl": 303.496530323795
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 3511,
+     "rank_sum_nll": 1,
+     "ppl_true": 103.89181573014234,
+     "median_ppl": 114.42850071638938
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 5721,
+     "rank_sum_nll": 7920,
+     "ppl_true": 339.7248302897655,
+     "median_ppl": 321.47526629842883
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 9291,
+     "rank_sum_nll": 9969,
+     "ppl_true": 645.1118876035574,
+     "median_ppl": 379.88622045302793
+    }
+   },
+   "N,A": {
+    "0": {
+     "rank": 6842,
+     "rank_sum_nll": 9904,
+     "ppl_true": 1069.340867197305,
+     "median_ppl": 896.9518400209436
+    },
+    "1": {
+     "rank": 6904,
+     "rank_sum_nll": 9892,
+     "ppl_true": 1084.4266840765058,
+     "median_ppl": 892.4900878683447
+    },
+    "2": {
+     "rank": 6983,
+     "rank_sum_nll": 9898,
+     "ppl_true": 1084.4266840765058,
+     "median_ppl": 899.3694586791481
+    }
+   },
+   "N,A,E": {
+    "0": {
+     "rank": 3225,
+     "rank_sum_nll": 9089,
+     "ppl_true": 465.0829276689131,
+     "median_ppl": 540.5098677810217
+    },
+    "1": {
+     "rank": 3286,
+     "rank_sum_nll": 9105,
+     "ppl_true": 465.0829276689131,
+     "median_ppl": 538.057427859808
+    },
+    "2": {
+     "rank": 3293,
+     "rank_sum_nll": 9082,
+     "ppl_true": 465.0829276689131,
+     "median_ppl": 534.7252497970464
+    }
+   },
+   "N,A,P,E": {
+    "0": {
+     "rank": 4700,
+     "rank_sum_nll": 4142,
+     "ppl_true": 413.2166511421969,
+     "median_ppl": 421.0414500851791
+    },
+    "1": {
+     "rank": 4618,
+     "rank_sum_nll": 4054,
+     "ppl_true": 413.2166511421969,
+     "median_ppl": 424.27978358159584
+    },
+    "2": {
+     "rank": 4732,
+     "rank_sum_nll": 4043,
+     "ppl_true": 413.2166511421969,
+     "median_ppl": 421.33427191049276
+    }
+   }
+  },
+  "B": {
+   "N": {
+    "0": {
+     "rank": 18,
+     "rank_sum_nll": 355,
+     "ppl_true": 101.44133082087298,
+     "median_ppl": 303.496530323795
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 2918,
+     "rank_sum_nll": 1,
+     "ppl_true": 98.87343511501406,
+     "median_ppl": 114.42850071638938
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 122,
+     "rank_sum_nll": 257,
+     "ppl_true": 169.03930209471898,
+     "median_ppl": 321.4573317104859
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 523,
+     "ppl_true": 76.12385601127455,
+     "median_ppl": 379.8269910267273
+    }
+   },
+   "N,A": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 366,
+     "ppl_true": 126.84115583015463,
+     "median_ppl": 903.7772522970445
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 358,
+     "ppl_true": 126.84115583015463,
+     "median_ppl": 900.8828654802882
+    },
+    "2": {
+     "rank": 1,
+     "rank_sum_nll": 380,
+     "ppl_true": 127.29995767687421,
+     "median_ppl": 893.9245674067356
+    }
+   },
+   "N,A,E": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 866,
+     "ppl_true": 127.7875317564609,
+     "median_ppl": 541.9259124305863
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 866,
+     "ppl_true": 127.7875317564609,
+     "median_ppl": 536.1555396891212
+    },
+    "2": {
+     "rank": 1,
+     "rank_sum_nll": 822,
+     "ppl_true": 127.7875317564609,
+     "median_ppl": 539.7840577719841
+    }
+   },
+   "N,A,P,E": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 19,
+     "ppl_true": 147.18252298780823,
+     "median_ppl": 420.93324992591363
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 20,
+     "ppl_true": 147.18252298780823,
+     "median_ppl": 420.9733951630949
+    },
+    "2": {
+     "rank": 1,
+     "rank_sum_nll": 22,
+     "ppl_true": 147.18252298780823,
+     "median_ppl": 420.56429386458234
+    }
+   }
+  }
+ }
+}
