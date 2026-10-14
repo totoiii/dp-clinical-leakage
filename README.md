@@ -65,7 +65,7 @@ huggingface-cli login                                   # Llama-3.2-1B is gated
 python scripts/prepare_data.py --dataset i2b2 --xml-dir <i2b2 2014 XML, train+test>
 python scripts/prepare_data.py --dataset meddocan --xml-dir <MEDDOCAN XML, all splits>
 
-python scripts/queue.py --gpus 0,1,2      # 216 training runs + scoring + generation (~250 GPU-h)
+python scripts/run_queue.py --gpus 0,1,2      # 216 training runs + scoring + generation (~250 GPU-h)
 python -m dpleak.leakage --all            # leakage audit of every synthetic corpus
 python scripts/aggregate.py               # -> results/*.json
 python scripts/make_tables.py             # -> tables for the manuscript

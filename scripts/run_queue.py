@@ -2,7 +2,7 @@
 """
 GPU job queue for the whole study (resumable; safe to kill and restart).
 
-    nohup setsid python scripts/queue.py --gpus 0,1,2 > runs/queue.out 2>&1 &
+    nohup setsid python scripts/run_queue.py --gpus 0,1,2 > runs/queue.out 2>&1 &
 
 Each job is a sequence of stages; a stage is skipped when its output exists:
     train     -> runs/{id}/run.json
