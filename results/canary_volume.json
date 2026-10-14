@@ -1,0 +1,42 @@
+{
+ "i2b2|0": {
+  "N": 1302,
+  "canary_in_train": 0,
+  "units_author": 296
+ },
+ "i2b2|1": {
+  "N": 1302,
+  "canary_in_train": 1,
+  "units_author": 297
+ },
+ "i2b2|10": {
+  "N": 1302,
+  "canary_in_train": 10,
+  "units_author": 295
+ },
+ "i2b2|100": {
+  "N": 1302,
+  "canary_in_train": 100,
+  "units_author": 274
+ },
+ "meddocan|0": {
+  "N": 999,
+  "canary_in_train": 0,
+  "units_author": 999
+ },
+ "meddocan|1": {
+  "N": 999,
+  "canary_in_train": 1,
+  "units_author": 999
+ },
+ "meddocan|10": {
+  "N": 999,
+  "canary_in_train": 10,
+  "units_author": 990
+ },
+ "meddocan|100": {
+  "N": 999,
+  "canary_in_train": 99,
+  "units_author": 901
+ }
+}

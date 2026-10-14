@@ -1,6 +1,6 @@
 # --- Data & generated artifacts (never commit: PII / DUA / large) ---
 data/
-results/
+# results/ holds only aggregate numbers and IS committed
 output/
 null_base/
 mlruns/

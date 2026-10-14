@@ -1,0 +1,6330 @@
+{
+ "i2b2|docs0|A|eps4_author|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 32,
+    "min": 32,
+    "max": 32,
+    "n": 1,
+    "values": [
+     32
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 32,
+    "min": 32,
+    "max": 32,
+    "n": 1,
+    "values": [
+     32
+    ]
+   },
+   "ppl_true": {
+    "median": 66.7472721154,
+    "min": 66.7472721154,
+    "max": 66.7472721154,
+    "n": 1,
+    "values": [
+     66.7472721154
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6367,
+    "min": 6367,
+    "max": 6367,
+    "n": 1,
+    "values": [
+     6367
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6367,
+    "min": 6367,
+    "max": 6367,
+    "n": 1,
+    "values": [
+     6367
+    ]
+   },
+   "ppl_true": {
+    "median": 78.89063262762399,
+    "min": 78.89063262762399,
+    "max": 78.89063262762399,
+    "n": 1,
+    "values": [
+     78.89063262762399
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3948,
+    "min": 3948,
+    "max": 3948,
+    "n": 1,
+    "values": [
+     3948
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3948,
+    "min": 3948,
+    "max": 3948,
+    "n": 1,
+    "values": [
+     3948
+    ]
+   },
+   "ppl_true": {
+    "median": 237.33664133406276,
+    "min": 237.33664133406276,
+    "max": 237.33664133406276,
+    "n": 1,
+    "values": [
+     237.33664133406276
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6719,
+    "min": 6719,
+    "max": 6719,
+    "n": 1,
+    "values": [
+     6719
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6719,
+    "min": 6719,
+    "max": 6719,
+    "n": 1,
+    "values": [
+     6719
+    ]
+   },
+   "ppl_true": {
+    "median": 326.4885659292687,
+    "min": 326.4885659292687,
+    "max": 326.4885659292687,
+    "n": 1,
+    "values": [
+     326.4885659292687
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1839,
+    "min": 1839,
+    "max": 1839,
+    "n": 1,
+    "values": [
+     1839
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1861,
+    "min": 1861,
+    "max": 1861,
+    "n": 1,
+    "values": [
+     1861
+    ]
+   },
+   "ppl_true": {
+    "median": 362.3980200286288,
+    "min": 362.3980200286288,
+    "max": 362.3980200286288,
+    "n": 1,
+    "values": [
+     362.3980200286288
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 330,
+    "min": 330,
+    "max": 330,
+    "n": 1,
+    "values": [
+     330
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 343,
+    "min": 343,
+    "max": 343,
+    "n": 1,
+    "values": [
+     343
+    ]
+   },
+   "ppl_true": {
+    "median": 174.37674616087847,
+    "min": 174.37674616087847,
+    "max": 174.37674616087847,
+    "n": 1,
+    "values": [
+     174.37674616087847
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3294,
+    "min": 3294,
+    "max": 3294,
+    "n": 1,
+    "values": [
+     3294
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3368,
+    "min": 3368,
+    "max": 3368,
+    "n": 1,
+    "values": [
+     3368
+    ]
+   },
+   "ppl_true": {
+    "median": 254.26082130718532,
+    "min": 254.26082130718532,
+    "max": 254.26082130718532,
+    "n": 1,
+    "values": [
+     254.26082130718532
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|A|eps4_record|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 80,
+    "min": 80,
+    "max": 80,
+    "n": 1,
+    "values": [
+     80
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 80,
+    "min": 80,
+    "max": 80,
+    "n": 1,
+    "values": [
+     80
+    ]
+   },
+   "ppl_true": {
+    "median": 70.40604575353903,
+    "min": 70.40604575353903,
+    "max": 70.40604575353903,
+    "n": 1,
+    "values": [
+     70.40604575353903
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5912,
+    "min": 5912,
+    "max": 5912,
+    "n": 1,
+    "values": [
+     5912
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5912,
+    "min": 5912,
+    "max": 5912,
+    "n": 1,
+    "values": [
+     5912
+    ]
+   },
+   "ppl_true": {
+    "median": 82.40419555419636,
+    "min": 82.40419555419636,
+    "max": 82.40419555419636,
+    "n": 1,
+    "values": [
+     82.40419555419636
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3382,
+    "min": 3382,
+    "max": 3382,
+    "n": 1,
+    "values": [
+     3382
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3382,
+    "min": 3382,
+    "max": 3382,
+    "n": 1,
+    "values": [
+     3382
+    ]
+   },
+   "ppl_true": {
+    "median": 225.66780870271305,
+    "min": 225.66780870271305,
+    "max": 225.66780870271305,
+    "n": 1,
+    "values": [
+     225.66780870271305
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6675,
+    "min": 6675,
+    "max": 6675,
+    "n": 1,
+    "values": [
+     6675
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6675,
+    "min": 6675,
+    "max": 6675,
+    "n": 1,
+    "values": [
+     6675
+    ]
+   },
+   "ppl_true": {
+    "median": 303.034073502554,
+    "min": 303.034073502554,
+    "max": 303.034073502554,
+    "n": 1,
+    "values": [
+     303.034073502554
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1638,
+    "min": 1638,
+    "max": 1638,
+    "n": 1,
+    "values": [
+     1638
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1673,
+    "min": 1673,
+    "max": 1673,
+    "n": 1,
+    "values": [
+     1673
+    ]
+   },
+   "ppl_true": {
+    "median": 350.2034631721315,
+    "min": 350.2034631721315,
+    "max": 350.2034631721315,
+    "n": 1,
+    "values": [
+     350.2034631721315
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 384,
+    "min": 384,
+    "max": 384,
+    "n": 1,
+    "values": [
+     384
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 390,
+    "min": 390,
+    "max": 390,
+    "n": 1,
+    "values": [
+     390
+    ]
+   },
+   "ppl_true": {
+    "median": 172.18124110438336,
+    "min": 172.18124110438336,
+    "max": 172.18124110438336,
+    "n": 1,
+    "values": [
+     172.18124110438336
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3783,
+    "min": 3783,
+    "max": 3783,
+    "n": 1,
+    "values": [
+     3783
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3783,
+    "min": 3783,
+    "max": 3783,
+    "n": 1,
+    "values": [
+     3783
+    ]
+   },
+   "ppl_true": {
+    "median": 265.66960654857064,
+    "min": 265.66960654857064,
+    "max": 265.66960654857064,
+    "n": 1,
+    "values": [
+     265.66960654857064
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|A|eps8_author|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 35,
+    "min": 35,
+    "max": 35,
+    "n": 1,
+    "values": [
+     35
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 35,
+    "min": 35,
+    "max": 35,
+    "n": 1,
+    "values": [
+     35
+    ]
+   },
+   "ppl_true": {
+    "median": 70.18608915607591,
+    "min": 70.18608915607591,
+    "max": 70.18608915607591,
+    "n": 1,
+    "values": [
+     70.18608915607591
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5936,
+    "min": 5936,
+    "max": 5936,
+    "n": 1,
+    "values": [
+     5936
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5936,
+    "min": 5936,
+    "max": 5936,
+    "n": 1,
+    "values": [
+     5936
+    ]
+   },
+   "ppl_true": {
+    "median": 78.20574043156813,
+    "min": 78.20574043156813,
+    "max": 78.20574043156813,
+    "n": 1,
+    "values": [
+     78.20574043156813
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3401,
+    "min": 3401,
+    "max": 3401,
+    "n": 1,
+    "values": [
+     3401
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3401,
+    "min": 3401,
+    "max": 3401,
+    "n": 1,
+    "values": [
+     3401
+    ]
+   },
+   "ppl_true": {
+    "median": 224.38417326268126,
+    "min": 224.38417326268126,
+    "max": 224.38417326268126,
+    "n": 1,
+    "values": [
+     224.38417326268126
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6717,
+    "min": 6717,
+    "max": 6717,
+    "n": 1,
+    "values": [
+     6717
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6717,
+    "min": 6717,
+    "max": 6717,
+    "n": 1,
+    "values": [
+     6717
+    ]
+   },
+   "ppl_true": {
+    "median": 316.48491589844633,
+    "min": 316.48491589844633,
+    "max": 316.48491589844633,
+    "n": 1,
+    "values": [
+     316.48491589844633
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1681,
+    "min": 1681,
+    "max": 1681,
+    "n": 1,
+    "values": [
+     1681
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1644,
+    "min": 1644,
+    "max": 1644,
+    "n": 1,
+    "values": [
+     1644
+    ]
+   },
+   "ppl_true": {
+    "median": 355.91925172417757,
+    "min": 355.91925172417757,
+    "max": 355.91925172417757,
+    "n": 1,
+    "values": [
+     355.91925172417757
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 255,
+    "min": 255,
+    "max": 255,
+    "n": 1,
+    "values": [
+     255
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 255,
+    "min": 255,
+    "max": 255,
+    "n": 1,
+    "values": [
+     255
+    ]
+   },
+   "ppl_true": {
+    "median": 174.63636508841716,
+    "min": 174.63636508841716,
+    "max": 174.63636508841716,
+    "n": 1,
+    "values": [
+     174.63636508841716
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3333,
+    "min": 3333,
+    "max": 3333,
+    "n": 1,
+    "values": [
+     3333
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3310,
+    "min": 3310,
+    "max": 3310,
+    "n": 1,
+    "values": [
+     3310
+    ]
+   },
+   "ppl_true": {
+    "median": 259.11610650996204,
+    "min": 259.11610650996204,
+    "max": 259.11610650996204,
+    "n": 1,
+    "values": [
+     259.11610650996204
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|A|eps8_record|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 91,
+    "min": 91,
+    "max": 91,
+    "n": 1,
+    "values": [
+     91
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 91,
+    "min": 91,
+    "max": 91,
+    "n": 1,
+    "values": [
+     91
+    ]
+   },
+   "ppl_true": {
+    "median": 71.40751052817065,
+    "min": 71.40751052817065,
+    "max": 71.40751052817065,
+    "n": 1,
+    "values": [
+     71.40751052817065
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5412,
+    "min": 5412,
+    "max": 5412,
+    "n": 1,
+    "values": [
+     5412
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5412,
+    "min": 5412,
+    "max": 5412,
+    "n": 1,
+    "values": [
+     5412
+    ]
+   },
+   "ppl_true": {
+    "median": 80.9618936922925,
+    "min": 80.9618936922925,
+    "max": 80.9618936922925,
+    "n": 1,
+    "values": [
+     80.9618936922925
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3608,
+    "min": 3608,
+    "max": 3608,
+    "n": 1,
+    "values": [
+     3608
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3608,
+    "min": 3608,
+    "max": 3608,
+    "n": 1,
+    "values": [
+     3608
+    ]
+   },
+   "ppl_true": {
+    "median": 236.23510990646173,
+    "min": 236.23510990646173,
+    "max": 236.23510990646173,
+    "n": 1,
+    "values": [
+     236.23510990646173
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6892,
+    "min": 6892,
+    "max": 6892,
+    "n": 1,
+    "values": [
+     6892
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6892,
+    "min": 6892,
+    "max": 6892,
+    "n": 1,
+    "values": [
+     6892
+    ]
+   },
+   "ppl_true": {
+    "median": 306.48131286052967,
+    "min": 306.48131286052967,
+    "max": 306.48131286052967,
+    "n": 1,
+    "values": [
+     306.48131286052967
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1668,
+    "min": 1668,
+    "max": 1668,
+    "n": 1,
+    "values": [
+     1668
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1728,
+    "min": 1728,
+    "max": 1728,
+    "n": 1,
+    "values": [
+     1728
+    ]
+   },
+   "ppl_true": {
+    "median": 339.7546383871653,
+    "min": 339.7546383871653,
+    "max": 339.7546383871653,
+    "n": 1,
+    "values": [
+     339.7546383871653
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 416,
+    "min": 416,
+    "max": 416,
+    "n": 1,
+    "values": [
+     416
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 459,
+    "min": 459,
+    "max": 459,
+    "n": 1,
+    "values": [
+     459
+    ]
+   },
+   "ppl_true": {
+    "median": 168.1217846366906,
+    "min": 168.1217846366906,
+    "max": 168.1217846366906,
+    "n": 1,
+    "values": [
+     168.1217846366906
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 4183,
+    "min": 4183,
+    "max": 4183,
+    "n": 1,
+    "values": [
+     4183
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 4146,
+    "min": 4146,
+    "max": 4146,
+    "n": 1,
+    "values": [
+     4146
+    ]
+   },
+   "ppl_true": {
+    "median": 268.2353014737987,
+    "min": 268.2353014737987,
+    "max": 268.2353014737987,
+    "n": 1,
+    "values": [
+     268.2353014737987
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|A|nodp|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 38,
+    "min": 38,
+    "max": 38,
+    "n": 1,
+    "values": [
+     38
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 38,
+    "min": 38,
+    "max": 38,
+    "n": 1,
+    "values": [
+     38
+    ]
+   },
+   "ppl_true": {
+    "median": 250.09719749004248,
+    "min": 250.09719749004248,
+    "max": 250.09719749004248,
+    "n": 1,
+    "values": [
+     250.09719749004248
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7734,
+    "min": 7734,
+    "max": 7734,
+    "n": 1,
+    "values": [
+     7734
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7734,
+    "min": 7734,
+    "max": 7734,
+    "n": 1,
+    "values": [
+     7734
+    ]
+   },
+   "ppl_true": {
+    "median": 310.37434717159334,
+    "min": 310.37434717159334,
+    "max": 310.37434717159334,
+    "n": 1,
+    "values": [
+     310.37434717159334
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3942,
+    "min": 3942,
+    "max": 3942,
+    "n": 1,
+    "values": [
+     3942
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3942,
+    "min": 3942,
+    "max": 3942,
+    "n": 1,
+    "values": [
+     3942
+    ]
+   },
+   "ppl_true": {
+    "median": 232.15435582452923,
+    "min": 232.15435582452923,
+    "max": 232.15435582452923,
+    "n": 1,
+    "values": [
+     232.15435582452923
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6749,
+    "min": 6749,
+    "max": 6749,
+    "n": 1,
+    "values": [
+     6749
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6749,
+    "min": 6749,
+    "max": 6749,
+    "n": 1,
+    "values": [
+     6749
+    ]
+   },
+   "ppl_true": {
+    "median": 557.0453293692818,
+    "min": 557.0453293692818,
+    "max": 557.0453293692818,
+    "n": 1,
+    "values": [
+     557.0453293692818
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 4947,
+    "min": 4947,
+    "max": 4947,
+    "n": 1,
+    "values": [
+     4947
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 4991,
+    "min": 4991,
+    "max": 4991,
+    "n": 1,
+    "values": [
+     4991
+    ]
+   },
+   "ppl_true": {
+    "median": 582.1267755962033,
+    "min": 582.1267755962033,
+    "max": 582.1267755962033,
+    "n": 1,
+    "values": [
+     582.1267755962033
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1947,
+    "min": 1947,
+    "max": 1947,
+    "n": 1,
+    "values": [
+     1947
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1964,
+    "min": 1964,
+    "max": 1964,
+    "n": 1,
+    "values": [
+     1964
+    ]
+   },
+   "ppl_true": {
+    "median": 388.06285949550085,
+    "min": 388.06285949550085,
+    "max": 388.06285949550085,
+    "n": 1,
+    "values": [
+     388.06285949550085
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7120,
+    "min": 7120,
+    "max": 7120,
+    "n": 1,
+    "values": [
+     7120
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7120,
+    "min": 7120,
+    "max": 7120,
+    "n": 1,
+    "values": [
+     7120
+    ]
+   },
+   "ppl_true": {
+    "median": 372.3689480264929,
+    "min": 372.3689480264929,
+    "max": 372.3689480264929,
+    "n": 1,
+    "values": [
+     372.3689480264929
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|B|eps4_author|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5916,
+    "min": 5916,
+    "max": 5916,
+    "n": 1,
+    "values": [
+     5916
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5916,
+    "min": 5916,
+    "max": 5916,
+    "n": 1,
+    "values": [
+     5916
+    ]
+   },
+   "ppl_true": {
+    "median": 131.8972663717971,
+    "min": 131.8972663717971,
+    "max": 131.8972663717971,
+    "n": 1,
+    "values": [
+     131.8972663717971
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7576,
+    "min": 7576,
+    "max": 7576,
+    "n": 1,
+    "values": [
+     7576
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7576,
+    "min": 7576,
+    "max": 7576,
+    "n": 1,
+    "values": [
+     7576
+    ]
+   },
+   "ppl_true": {
+    "median": 85.56860133008514,
+    "min": 85.56860133008514,
+    "max": 85.56860133008514,
+    "n": 1,
+    "values": [
+     85.56860133008514
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2219,
+    "min": 2219,
+    "max": 2219,
+    "n": 1,
+    "values": [
+     2219
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2219,
+    "min": 2219,
+    "max": 2219,
+    "n": 1,
+    "values": [
+     2219
+    ]
+   },
+   "ppl_true": {
+    "median": 206.19515807190308,
+    "min": 206.19515807190308,
+    "max": 206.19515807190308,
+    "n": 1,
+    "values": [
+     206.19515807190308
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2113,
+    "min": 2113,
+    "max": 2113,
+    "n": 1,
+    "values": [
+     2113
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2113,
+    "min": 2113,
+    "max": 2113,
+    "n": 1,
+    "values": [
+     2113
+    ]
+   },
+   "ppl_true": {
+    "median": 217.90016906250716,
+    "min": 217.90016906250716,
+    "max": 217.90016906250716,
+    "n": 1,
+    "values": [
+     217.90016906250716
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1767,
+    "min": 1767,
+    "max": 1767,
+    "n": 1,
+    "values": [
+     1767
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1775,
+    "min": 1775,
+    "max": 1775,
+    "n": 1,
+    "values": [
+     1775
+    ]
+   },
+   "ppl_true": {
+    "median": 363.2147506336683,
+    "min": 363.2147506336683,
+    "max": 363.2147506336683,
+    "n": 1,
+    "values": [
+     363.2147506336683
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3455,
+    "min": 3455,
+    "max": 3455,
+    "n": 1,
+    "values": [
+     3455
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3609,
+    "min": 3609,
+    "max": 3609,
+    "n": 1,
+    "values": [
+     3609
+    ]
+   },
+   "ppl_true": {
+    "median": 261.48768181191224,
+    "min": 261.48768181191224,
+    "max": 261.48768181191224,
+    "n": 1,
+    "values": [
+     261.48768181191224
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5919,
+    "min": 5919,
+    "max": 5919,
+    "n": 1,
+    "values": [
+     5919
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5848,
+    "min": 5848,
+    "max": 5848,
+    "n": 1,
+    "values": [
+     5848
+    ]
+   },
+   "ppl_true": {
+    "median": 298.94217163226483,
+    "min": 298.94217163226483,
+    "max": 298.94217163226483,
+    "n": 1,
+    "values": [
+     298.94217163226483
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|B|eps4_record|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6205,
+    "min": 6205,
+    "max": 6205,
+    "n": 1,
+    "values": [
+     6205
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6205,
+    "min": 6205,
+    "max": 6205,
+    "n": 1,
+    "values": [
+     6205
+    ]
+   },
+   "ppl_true": {
+    "median": 128.51776973286587,
+    "min": 128.51776973286587,
+    "max": 128.51776973286587,
+    "n": 1,
+    "values": [
+     128.51776973286587
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7187,
+    "min": 7187,
+    "max": 7187,
+    "n": 1,
+    "values": [
+     7187
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7187,
+    "min": 7187,
+    "max": 7187,
+    "n": 1,
+    "values": [
+     7187
+    ]
+   },
+   "ppl_true": {
+    "median": 89.56282021569979,
+    "min": 89.56282021569979,
+    "max": 89.56282021569979,
+    "n": 1,
+    "values": [
+     89.56282021569979
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3831,
+    "min": 3831,
+    "max": 3831,
+    "n": 1,
+    "values": [
+     3831
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3831,
+    "min": 3831,
+    "max": 3831,
+    "n": 1,
+    "values": [
+     3831
+    ]
+   },
+   "ppl_true": {
+    "median": 233.66131162489788,
+    "min": 233.66131162489788,
+    "max": 233.66131162489788,
+    "n": 1,
+    "values": [
+     233.66131162489788
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1825,
+    "min": 1825,
+    "max": 1825,
+    "n": 1,
+    "values": [
+     1825
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1825,
+    "min": 1825,
+    "max": 1825,
+    "n": 1,
+    "values": [
+     1825
+    ]
+   },
+   "ppl_true": {
+    "median": 197.57862911191756,
+    "min": 197.57862911191756,
+    "max": 197.57862911191756,
+    "n": 1,
+    "values": [
+     197.57862911191756
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1154,
+    "min": 1154,
+    "max": 1154,
+    "n": 1,
+    "values": [
+     1154
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1154,
+    "min": 1154,
+    "max": 1154,
+    "n": 1,
+    "values": [
+     1154
+    ]
+   },
+   "ppl_true": {
+    "median": 326.4653701531792,
+    "min": 326.4653701531792,
+    "max": 326.4653701531792,
+    "n": 1,
+    "values": [
+     326.4653701531792
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3536,
+    "min": 3536,
+    "max": 3536,
+    "n": 1,
+    "values": [
+     3536
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3592,
+    "min": 3592,
+    "max": 3592,
+    "n": 1,
+    "values": [
+     3592
+    ]
+   },
+   "ppl_true": {
+    "median": 250.9317065496833,
+    "min": 250.9317065496833,
+    "max": 250.9317065496833,
+    "n": 1,
+    "values": [
+     250.9317065496833
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6946,
+    "min": 6946,
+    "max": 6946,
+    "n": 1,
+    "values": [
+     6946
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6946,
+    "min": 6946,
+    "max": 6946,
+    "n": 1,
+    "values": [
+     6946
+    ]
+   },
+   "ppl_true": {
+    "median": 323.27979929181527,
+    "min": 323.27979929181527,
+    "max": 323.27979929181527,
+    "n": 1,
+    "values": [
+     323.27979929181527
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|B|eps8_author|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6685,
+    "min": 6685,
+    "max": 6685,
+    "n": 1,
+    "values": [
+     6685
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6685,
+    "min": 6685,
+    "max": 6685,
+    "n": 1,
+    "values": [
+     6685
+    ]
+   },
+   "ppl_true": {
+    "median": 140.67223226985269,
+    "min": 140.67223226985269,
+    "max": 140.67223226985269,
+    "n": 1,
+    "values": [
+     140.67223226985269
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7445,
+    "min": 7445,
+    "max": 7445,
+    "n": 1,
+    "values": [
+     7445
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7445,
+    "min": 7445,
+    "max": 7445,
+    "n": 1,
+    "values": [
+     7445
+    ]
+   },
+   "ppl_true": {
+    "median": 86.4702756012986,
+    "min": 86.4702756012986,
+    "max": 86.4702756012986,
+    "n": 1,
+    "values": [
+     86.4702756012986
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2513,
+    "min": 2513,
+    "max": 2513,
+    "n": 1,
+    "values": [
+     2513
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2513,
+    "min": 2513,
+    "max": 2513,
+    "n": 1,
+    "values": [
+     2513
+    ]
+   },
+   "ppl_true": {
+    "median": 209.41789250692497,
+    "min": 209.41789250692497,
+    "max": 209.41789250692497,
+    "n": 1,
+    "values": [
+     209.41789250692497
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1969,
+    "min": 1969,
+    "max": 1969,
+    "n": 1,
+    "values": [
+     1969
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1969,
+    "min": 1969,
+    "max": 1969,
+    "n": 1,
+    "values": [
+     1969
+    ]
+   },
+   "ppl_true": {
+    "median": 208.19104711129876,
+    "min": 208.19104711129876,
+    "max": 208.19104711129876,
+    "n": 1,
+    "values": [
+     208.19104711129876
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1481,
+    "min": 1481,
+    "max": 1481,
+    "n": 1,
+    "values": [
+     1481
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1481,
+    "min": 1481,
+    "max": 1481,
+    "n": 1,
+    "values": [
+     1481
+    ]
+   },
+   "ppl_true": {
+    "median": 349.17881140575366,
+    "min": 349.17881140575366,
+    "max": 349.17881140575366,
+    "n": 1,
+    "values": [
+     349.17881140575366
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3601,
+    "min": 3601,
+    "max": 3601,
+    "n": 1,
+    "values": [
+     3601
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3592,
+    "min": 3592,
+    "max": 3592,
+    "n": 1,
+    "values": [
+     3592
+    ]
+   },
+   "ppl_true": {
+    "median": 273.2444515053407,
+    "min": 273.2444515053407,
+    "max": 273.2444515053407,
+    "n": 1,
+    "values": [
+     273.2444515053407
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6061,
+    "min": 6061,
+    "max": 6061,
+    "n": 1,
+    "values": [
+     6061
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6146,
+    "min": 6146,
+    "max": 6146,
+    "n": 1,
+    "values": [
+     6146
+    ]
+   },
+   "ppl_true": {
+    "median": 306.61242998483635,
+    "min": 306.61242998483635,
+    "max": 306.61242998483635,
+    "n": 1,
+    "values": [
+     306.61242998483635
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|B|eps8_record|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5426,
+    "min": 5426,
+    "max": 5426,
+    "n": 1,
+    "values": [
+     5426
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5426,
+    "min": 5426,
+    "max": 5426,
+    "n": 1,
+    "values": [
+     5426
+    ]
+   },
+   "ppl_true": {
+    "median": 125.59095333424999,
+    "min": 125.59095333424999,
+    "max": 125.59095333424999,
+    "n": 1,
+    "values": [
+     125.59095333424999
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7065,
+    "min": 7065,
+    "max": 7065,
+    "n": 1,
+    "values": [
+     7065
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7065,
+    "min": 7065,
+    "max": 7065,
+    "n": 1,
+    "values": [
+     7065
+    ]
+   },
+   "ppl_true": {
+    "median": 89.77802207661094,
+    "min": 89.77802207661094,
+    "max": 89.77802207661094,
+    "n": 1,
+    "values": [
+     89.77802207661094
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3940,
+    "min": 3940,
+    "max": 3940,
+    "n": 1,
+    "values": [
+     3940
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3940,
+    "min": 3940,
+    "max": 3940,
+    "n": 1,
+    "values": [
+     3940
+    ]
+   },
+   "ppl_true": {
+    "median": 242.4279460264711,
+    "min": 242.4279460264711,
+    "max": 242.4279460264711,
+    "n": 1,
+    "values": [
+     242.4279460264711
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1772,
+    "min": 1772,
+    "max": 1772,
+    "n": 1,
+    "values": [
+     1772
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1772,
+    "min": 1772,
+    "max": 1772,
+    "n": 1,
+    "values": [
+     1772
+    ]
+   },
+   "ppl_true": {
+    "median": 195.8423295772274,
+    "min": 195.8423295772274,
+    "max": 195.8423295772274,
+    "n": 1,
+    "values": [
+     195.8423295772274
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1119,
+    "min": 1119,
+    "max": 1119,
+    "n": 1,
+    "values": [
+     1119
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1119,
+    "min": 1119,
+    "max": 1119,
+    "n": 1,
+    "values": [
+     1119
+    ]
+   },
+   "ppl_true": {
+    "median": 313.2812366981535,
+    "min": 313.2812366981535,
+    "max": 313.2812366981535,
+    "n": 1,
+    "values": [
+     313.2812366981535
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3400,
+    "min": 3400,
+    "max": 3400,
+    "n": 1,
+    "values": [
+     3400
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3370,
+    "min": 3370,
+    "max": 3370,
+    "n": 1,
+    "values": [
+     3370
+    ]
+   },
+   "ppl_true": {
+    "median": 239.6312254579647,
+    "min": 239.6312254579647,
+    "max": 239.6312254579647,
+    "n": 1,
+    "values": [
+     239.6312254579647
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7148,
+    "min": 7148,
+    "max": 7148,
+    "n": 1,
+    "values": [
+     7148
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7148,
+    "min": 7148,
+    "max": 7148,
+    "n": 1,
+    "values": [
+     7148
+    ]
+   },
+   "ppl_true": {
+    "median": 323.3638229515546,
+    "min": 323.3638229515546,
+    "max": 323.3638229515546,
+    "n": 1,
+    "values": [
+     323.3638229515546
+    ]
+   }
+  }
+ },
+ "i2b2|docs0|B|nodp|no_canary_model": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 430,
+    "min": 430,
+    "max": 430,
+    "n": 1,
+    "values": [
+     430
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 430,
+    "min": 430,
+    "max": 430,
+    "n": 1,
+    "values": [
+     430
+    ]
+   },
+   "ppl_true": {
+    "median": 343.40518814533993,
+    "min": 343.40518814533993,
+    "max": 343.40518814533993,
+    "n": 1,
+    "values": [
+     343.40518814533993
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 9376,
+    "min": 9376,
+    "max": 9376,
+    "n": 1,
+    "values": [
+     9376
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 9376,
+    "min": 9376,
+    "max": 9376,
+    "n": 1,
+    "values": [
+     9376
+    ]
+   },
+   "ppl_true": {
+    "median": 371.4257065145057,
+    "min": 371.4257065145057,
+    "max": 371.4257065145057,
+    "n": 1,
+    "values": [
+     371.4257065145057
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3545,
+    "min": 3545,
+    "max": 3545,
+    "n": 1,
+    "values": [
+     3545
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3545,
+    "min": 3545,
+    "max": 3545,
+    "n": 1,
+    "values": [
+     3545
+    ]
+   },
+   "ppl_true": {
+    "median": 225.06204368230695,
+    "min": 225.06204368230695,
+    "max": 225.06204368230695,
+    "n": 1,
+    "values": [
+     225.06204368230695
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1224,
+    "min": 1224,
+    "max": 1224,
+    "n": 1,
+    "values": [
+     1224
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1224,
+    "min": 1224,
+    "max": 1224,
+    "n": 1,
+    "values": [
+     1224
+    ]
+   },
+   "ppl_true": {
+    "median": 323.7313166899471,
+    "min": 323.7313166899471,
+    "max": 323.7313166899471,
+    "n": 1,
+    "values": [
+     323.7313166899471
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 940,
+    "min": 940,
+    "max": 940,
+    "n": 1,
+    "values": [
+     940
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 940,
+    "min": 940,
+    "max": 940,
+    "n": 1,
+    "values": [
+     940
+    ]
+   },
+   "ppl_true": {
+    "median": 372.1277230364663,
+    "min": 372.1277230364663,
+    "max": 372.1277230364663,
+    "n": 1,
+    "values": [
+     372.1277230364663
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6073,
+    "min": 6073,
+    "max": 6073,
+    "n": 1,
+    "values": [
+     6073
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6098,
+    "min": 6098,
+    "max": 6098,
+    "n": 1,
+    "values": [
+     6098
+    ]
+   },
+   "ppl_true": {
+    "median": 601.0787673804451,
+    "min": 601.0787673804451,
+    "max": 601.0787673804451,
+    "n": 1,
+    "values": [
+     601.0787673804451
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 8095,
+    "min": 8095,
+    "max": 8095,
+    "n": 1,
+    "values": [
+     8095
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 8106,
+    "min": 8106,
+    "max": 8106,
+    "n": 1,
+    "values": [
+     8106
+    ]
+   },
+   "ppl_true": {
+    "median": 404.7757021083568,
+    "min": 404.7757021083568,
+    "max": 404.7757021083568,
+    "n": 1,
+    "values": [
+     404.7757021083568
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|eps4_author|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 31,
+    "min": 31,
+    "max": 31,
+    "n": 1,
+    "values": [
+     31
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 31,
+    "min": 31,
+    "max": 31,
+    "n": 1,
+    "values": [
+     31
+    ]
+   },
+   "ppl_true": {
+    "median": 65.86902650552148,
+    "min": 65.86902650552148,
+    "max": 65.86902650552148,
+    "n": 1,
+    "values": [
+     65.86902650552148
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6214,
+    "min": 6214,
+    "max": 6214,
+    "n": 1,
+    "values": [
+     6214
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6214,
+    "min": 6214,
+    "max": 6214,
+    "n": 1,
+    "values": [
+     6214
+    ]
+   },
+   "ppl_true": {
+    "median": 77.72504597512963,
+    "min": 77.72504597512963,
+    "max": 77.72504597512963,
+    "n": 1,
+    "values": [
+     77.72504597512963
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 4084,
+    "min": 4084,
+    "max": 4084,
+    "n": 1,
+    "values": [
+     4084
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 4084,
+    "min": 4084,
+    "max": 4084,
+    "n": 1,
+    "values": [
+     4084
+    ]
+   },
+   "ppl_true": {
+    "median": 237.71391324010716,
+    "min": 237.71391324010716,
+    "max": 237.71391324010716,
+    "n": 1,
+    "values": [
+     237.71391324010716
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6846,
+    "min": 6846,
+    "max": 6846,
+    "n": 1,
+    "values": [
+     6846
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6846,
+    "min": 6846,
+    "max": 6846,
+    "n": 1,
+    "values": [
+     6846
+    ]
+   },
+   "ppl_true": {
+    "median": 329.41456319543573,
+    "min": 329.41456319543573,
+    "max": 329.41456319543573,
+    "n": 1,
+    "values": [
+     329.41456319543573
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1785,
+    "min": 1785,
+    "max": 1785,
+    "n": 1,
+    "values": [
+     1785
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1785,
+    "min": 1785,
+    "max": 1785,
+    "n": 1,
+    "values": [
+     1785
+    ]
+   },
+   "ppl_true": {
+    "median": 360.779181859702,
+    "min": 360.779181859702,
+    "max": 360.779181859702,
+    "n": 1,
+    "values": [
+     360.779181859702
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 317,
+    "min": 317,
+    "max": 317,
+    "n": 1,
+    "values": [
+     317
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 326,
+    "min": 326,
+    "max": 326,
+    "n": 1,
+    "values": [
+     326
+    ]
+   },
+   "ppl_true": {
+    "median": 172.82958995303295,
+    "min": 172.82958995303295,
+    "max": 172.82958995303295,
+    "n": 1,
+    "values": [
+     172.82958995303295
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3238,
+    "min": 3238,
+    "max": 3238,
+    "n": 1,
+    "values": [
+     3238
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3238,
+    "min": 3238,
+    "max": 3238,
+    "n": 1,
+    "values": [
+     3238
+    ]
+   },
+   "ppl_true": {
+    "median": 252.73017225420682,
+    "min": 252.73017225420682,
+    "max": 252.73017225420682,
+    "n": 1,
+    "values": [
+     252.73017225420682
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|eps4_record|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 74,
+    "min": 74,
+    "max": 74,
+    "n": 1,
+    "values": [
+     74
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 74,
+    "min": 74,
+    "max": 74,
+    "n": 1,
+    "values": [
+     74
+    ]
+   },
+   "ppl_true": {
+    "median": 70.64023129917257,
+    "min": 70.64023129917257,
+    "max": 70.64023129917257,
+    "n": 1,
+    "values": [
+     70.64023129917257
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5741,
+    "min": 5741,
+    "max": 5741,
+    "n": 1,
+    "values": [
+     5741
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5741,
+    "min": 5741,
+    "max": 5741,
+    "n": 1,
+    "values": [
+     5741
+    ]
+   },
+   "ppl_true": {
+    "median": 81.09774496965973,
+    "min": 81.09774496965973,
+    "max": 81.09774496965973,
+    "n": 1,
+    "values": [
+     81.09774496965973
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3263,
+    "min": 3263,
+    "max": 3263,
+    "n": 1,
+    "values": [
+     3263
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3263,
+    "min": 3263,
+    "max": 3263,
+    "n": 1,
+    "values": [
+     3263
+    ]
+   },
+   "ppl_true": {
+    "median": 226.90295156084176,
+    "min": 226.90295156084176,
+    "max": 226.90295156084176,
+    "n": 1,
+    "values": [
+     226.90295156084176
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6593,
+    "min": 6593,
+    "max": 6593,
+    "n": 1,
+    "values": [
+     6593
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6593,
+    "min": 6593,
+    "max": 6593,
+    "n": 1,
+    "values": [
+     6593
+    ]
+   },
+   "ppl_true": {
+    "median": 300.4160199579564,
+    "min": 300.4160199579564,
+    "max": 300.4160199579564,
+    "n": 1,
+    "values": [
+     300.4160199579564
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1649,
+    "min": 1649,
+    "max": 1649,
+    "n": 1,
+    "values": [
+     1649
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1589,
+    "min": 1589,
+    "max": 1589,
+    "n": 1,
+    "values": [
+     1589
+    ]
+   },
+   "ppl_true": {
+    "median": 348.0769819838045,
+    "min": 348.0769819838045,
+    "max": 348.0769819838045,
+    "n": 1,
+    "values": [
+     348.0769819838045
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 355,
+    "min": 355,
+    "max": 355,
+    "n": 1,
+    "values": [
+     355
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 391,
+    "min": 391,
+    "max": 391,
+    "n": 1,
+    "values": [
+     391
+    ]
+   },
+   "ppl_true": {
+    "median": 170.90975909159025,
+    "min": 170.90975909159025,
+    "max": 170.90975909159025,
+    "n": 1,
+    "values": [
+     170.90975909159025
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3698,
+    "min": 3698,
+    "max": 3698,
+    "n": 1,
+    "values": [
+     3698
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3650,
+    "min": 3650,
+    "max": 3650,
+    "n": 1,
+    "values": [
+     3650
+    ]
+   },
+   "ppl_true": {
+    "median": 264.05466322248867,
+    "min": 264.05466322248867,
+    "max": 264.05466322248867,
+    "n": 1,
+    "values": [
+     264.05466322248867
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|eps4_record|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 64,
+    "min": 64,
+    "max": 64,
+    "n": 1,
+    "values": [
+     64
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 64,
+    "min": 64,
+    "max": 64,
+    "n": 1,
+    "values": [
+     64
+    ]
+   },
+   "ppl_true": {
+    "median": 69.37100961582088,
+    "min": 69.37100961582088,
+    "max": 69.37100961582088,
+    "n": 1,
+    "values": [
+     69.37100961582088
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5906,
+    "min": 5906,
+    "max": 5906,
+    "n": 1,
+    "values": [
+     5906
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5906,
+    "min": 5906,
+    "max": 5906,
+    "n": 1,
+    "values": [
+     5906
+    ]
+   },
+   "ppl_true": {
+    "median": 81.63121014465258,
+    "min": 81.63121014465258,
+    "max": 81.63121014465258,
+    "n": 1,
+    "values": [
+     81.63121014465258
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3452,
+    "min": 3452,
+    "max": 3452,
+    "n": 1,
+    "values": [
+     3452
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3452,
+    "min": 3452,
+    "max": 3452,
+    "n": 1,
+    "values": [
+     3452
+    ]
+   },
+   "ppl_true": {
+    "median": 229.43020147821255,
+    "min": 229.43020147821255,
+    "max": 229.43020147821255,
+    "n": 1,
+    "values": [
+     229.43020147821255
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6666,
+    "min": 6666,
+    "max": 6666,
+    "n": 1,
+    "values": [
+     6666
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6666,
+    "min": 6666,
+    "max": 6666,
+    "n": 1,
+    "values": [
+     6666
+    ]
+   },
+   "ppl_true": {
+    "median": 302.97252364601104,
+    "min": 302.97252364601104,
+    "max": 302.97252364601104,
+    "n": 1,
+    "values": [
+     302.97252364601104
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1533,
+    "min": 1533,
+    "max": 1533,
+    "n": 1,
+    "values": [
+     1533
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1620,
+    "min": 1620,
+    "max": 1620,
+    "n": 1,
+    "values": [
+     1620
+    ]
+   },
+   "ppl_true": {
+    "median": 342.7975649594824,
+    "min": 342.7975649594824,
+    "max": 342.7975649594824,
+    "n": 1,
+    "values": [
+     342.7975649594824
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 371,
+    "min": 371,
+    "max": 371,
+    "n": 1,
+    "values": [
+     371
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 371,
+    "min": 371,
+    "max": 371,
+    "n": 1,
+    "values": [
+     371
+    ]
+   },
+   "ppl_true": {
+    "median": 172.65867051515096,
+    "min": 172.65867051515096,
+    "max": 172.65867051515096,
+    "n": 1,
+    "values": [
+     172.65867051515096
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3655,
+    "min": 3655,
+    "max": 3655,
+    "n": 1,
+    "values": [
+     3655
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3646,
+    "min": 3646,
+    "max": 3646,
+    "n": 1,
+    "values": [
+     3646
+    ]
+   },
+   "ppl_true": {
+    "median": 263.44470009825153,
+    "min": 263.44470009825153,
+    "max": 263.44470009825153,
+    "n": 1,
+    "values": [
+     263.44470009825153
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|eps8_author|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 35,
+    "min": 35,
+    "max": 35,
+    "n": 1,
+    "values": [
+     35
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 35,
+    "min": 35,
+    "max": 35,
+    "n": 1,
+    "values": [
+     35
+    ]
+   },
+   "ppl_true": {
+    "median": 70.53911733824091,
+    "min": 70.53911733824091,
+    "max": 70.53911733824091,
+    "n": 1,
+    "values": [
+     70.53911733824091
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6073,
+    "min": 6073,
+    "max": 6073,
+    "n": 1,
+    "values": [
+     6073
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6073,
+    "min": 6073,
+    "max": 6073,
+    "n": 1,
+    "values": [
+     6073
+    ]
+   },
+   "ppl_true": {
+    "median": 78.58576518055796,
+    "min": 78.58576518055796,
+    "max": 78.58576518055796,
+    "n": 1,
+    "values": [
+     78.58576518055796
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3449,
+    "min": 3449,
+    "max": 3449,
+    "n": 1,
+    "values": [
+     3449
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3449,
+    "min": 3449,
+    "max": 3449,
+    "n": 1,
+    "values": [
+     3449
+    ]
+   },
+   "ppl_true": {
+    "median": 225.97663611862467,
+    "min": 225.97663611862467,
+    "max": 225.97663611862467,
+    "n": 1,
+    "values": [
+     225.97663611862467
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6513,
+    "min": 6513,
+    "max": 6513,
+    "n": 1,
+    "values": [
+     6513
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6513,
+    "min": 6513,
+    "max": 6513,
+    "n": 1,
+    "values": [
+     6513
+    ]
+   },
+   "ppl_true": {
+    "median": 308.93162206659383,
+    "min": 308.93162206659383,
+    "max": 308.93162206659383,
+    "n": 1,
+    "values": [
+     308.93162206659383
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1591,
+    "min": 1591,
+    "max": 1591,
+    "n": 1,
+    "values": [
+     1591
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1591,
+    "min": 1591,
+    "max": 1591,
+    "n": 1,
+    "values": [
+     1591
+    ]
+   },
+   "ppl_true": {
+    "median": 351.80806139997964,
+    "min": 351.80806139997964,
+    "max": 351.80806139997964,
+    "n": 1,
+    "values": [
+     351.80806139997964
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 283,
+    "min": 283,
+    "max": 283,
+    "n": 1,
+    "values": [
+     283
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 275,
+    "min": 275,
+    "max": 275,
+    "n": 1,
+    "values": [
+     275
+    ]
+   },
+   "ppl_true": {
+    "median": 177.66066844679025,
+    "min": 177.66066844679025,
+    "max": 177.66066844679025,
+    "n": 1,
+    "values": [
+     177.66066844679025
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3054,
+    "min": 3054,
+    "max": 3054,
+    "n": 1,
+    "values": [
+     3054
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3054,
+    "min": 3054,
+    "max": 3054,
+    "n": 1,
+    "values": [
+     3054
+    ]
+   },
+   "ppl_true": {
+    "median": 253.44907764690885,
+    "min": 253.44907764690885,
+    "max": 253.44907764690885,
+    "n": 1,
+    "values": [
+     253.44907764690885
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|eps8_author|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 29,
+    "min": 29,
+    "max": 29,
+    "n": 1,
+    "values": [
+     29
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 29,
+    "min": 29,
+    "max": 29,
+    "n": 1,
+    "values": [
+     29
+    ]
+   },
+   "ppl_true": {
+    "median": 69.56087593743767,
+    "min": 69.56087593743767,
+    "max": 69.56087593743767,
+    "n": 1,
+    "values": [
+     69.56087593743767
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6051,
+    "min": 6051,
+    "max": 6051,
+    "n": 1,
+    "values": [
+     6051
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6051,
+    "min": 6051,
+    "max": 6051,
+    "n": 1,
+    "values": [
+     6051
+    ]
+   },
+   "ppl_true": {
+    "median": 79.57586884879531,
+    "min": 79.57586884879531,
+    "max": 79.57586884879531,
+    "n": 1,
+    "values": [
+     79.57586884879531
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3484,
+    "min": 3484,
+    "max": 3484,
+    "n": 1,
+    "values": [
+     3484
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3484,
+    "min": 3484,
+    "max": 3484,
+    "n": 1,
+    "values": [
+     3484
+    ]
+   },
+   "ppl_true": {
+    "median": 226.35387433472152,
+    "min": 226.35387433472152,
+    "max": 226.35387433472152,
+    "n": 1,
+    "values": [
+     226.35387433472152
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6710,
+    "min": 6710,
+    "max": 6710,
+    "n": 1,
+    "values": [
+     6710
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6710,
+    "min": 6710,
+    "max": 6710,
+    "n": 1,
+    "values": [
+     6710
+    ]
+   },
+   "ppl_true": {
+    "median": 315.11774946444734,
+    "min": 315.11774946444734,
+    "max": 315.11774946444734,
+    "n": 1,
+    "values": [
+     315.11774946444734
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1805,
+    "min": 1805,
+    "max": 1805,
+    "n": 1,
+    "values": [
+     1805
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1746,
+    "min": 1746,
+    "max": 1746,
+    "n": 1,
+    "values": [
+     1746
+    ]
+   },
+   "ppl_true": {
+    "median": 363.31591018318477,
+    "min": 363.31591018318477,
+    "max": 363.31591018318477,
+    "n": 1,
+    "values": [
+     363.31591018318477
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 255,
+    "min": 255,
+    "max": 255,
+    "n": 1,
+    "values": [
+     255
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 255,
+    "min": 255,
+    "max": 255,
+    "n": 1,
+    "values": [
+     255
+    ]
+   },
+   "ppl_true": {
+    "median": 173.2252881360873,
+    "min": 173.2252881360873,
+    "max": 173.2252881360873,
+    "n": 1,
+    "values": [
+     173.2252881360873
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3246,
+    "min": 3246,
+    "max": 3246,
+    "n": 1,
+    "values": [
+     3246
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3246,
+    "min": 3246,
+    "max": 3246,
+    "n": 1,
+    "values": [
+     3246
+    ]
+   },
+   "ppl_true": {
+    "median": 256.6269911609152,
+    "min": 256.6269911609152,
+    "max": 256.6269911609152,
+    "n": 1,
+    "values": [
+     256.6269911609152
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|eps8_record|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 83,
+    "min": 83,
+    "max": 83,
+    "n": 1,
+    "values": [
+     83
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 83,
+    "min": 83,
+    "max": 83,
+    "n": 1,
+    "values": [
+     83
+    ]
+   },
+   "ppl_true": {
+    "median": 70.2847867238002,
+    "min": 70.2847867238002,
+    "max": 70.2847867238002,
+    "n": 1,
+    "values": [
+     70.2847867238002
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5799,
+    "min": 5799,
+    "max": 5799,
+    "n": 1,
+    "values": [
+     5799
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5799,
+    "min": 5799,
+    "max": 5799,
+    "n": 1,
+    "values": [
+     5799
+    ]
+   },
+   "ppl_true": {
+    "median": 82.85786380802334,
+    "min": 82.85786380802334,
+    "max": 82.85786380802334,
+    "n": 1,
+    "values": [
+     82.85786380802334
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3491,
+    "min": 3491,
+    "max": 3491,
+    "n": 1,
+    "values": [
+     3491
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3491,
+    "min": 3491,
+    "max": 3491,
+    "n": 1,
+    "values": [
+     3491
+    ]
+   },
+   "ppl_true": {
+    "median": 234.06678030724692,
+    "min": 234.06678030724692,
+    "max": 234.06678030724692,
+    "n": 1,
+    "values": [
+     234.06678030724692
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6767,
+    "min": 6767,
+    "max": 6767,
+    "n": 1,
+    "values": [
+     6767
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6767,
+    "min": 6767,
+    "max": 6767,
+    "n": 1,
+    "values": [
+     6767
+    ]
+   },
+   "ppl_true": {
+    "median": 306.27210941066085,
+    "min": 306.27210941066085,
+    "max": 306.27210941066085,
+    "n": 1,
+    "values": [
+     306.27210941066085
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1734,
+    "min": 1734,
+    "max": 1734,
+    "n": 1,
+    "values": [
+     1734
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1740,
+    "min": 1740,
+    "max": 1740,
+    "n": 1,
+    "values": [
+     1740
+    ]
+   },
+   "ppl_true": {
+    "median": 341.50166883075167,
+    "min": 341.50166883075167,
+    "max": 341.50166883075167,
+    "n": 1,
+    "values": [
+     341.50166883075167
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 461,
+    "min": 461,
+    "max": 461,
+    "n": 1,
+    "values": [
+     461
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 461,
+    "min": 461,
+    "max": 461,
+    "n": 1,
+    "values": [
+     461
+    ]
+   },
+   "ppl_true": {
+    "median": 170.92255446197896,
+    "min": 170.92255446197896,
+    "max": 170.92255446197896,
+    "n": 1,
+    "values": [
+     170.92255446197896
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 4308,
+    "min": 4308,
+    "max": 4308,
+    "n": 1,
+    "values": [
+     4308
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 4308,
+    "min": 4308,
+    "max": 4308,
+    "n": 1,
+    "values": [
+     4308
+    ]
+   },
+   "ppl_true": {
+    "median": 269.51765842971423,
+    "min": 269.51765842971423,
+    "max": 269.51765842971423,
+    "n": 1,
+    "values": [
+     269.51765842971423
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|eps8_record|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 72,
+    "min": 72,
+    "max": 72,
+    "n": 1,
+    "values": [
+     72
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 72,
+    "min": 72,
+    "max": 72,
+    "n": 1,
+    "values": [
+     72
+    ]
+   },
+   "ppl_true": {
+    "median": 68.95089763579101,
+    "min": 68.95089763579101,
+    "max": 68.95089763579101,
+    "n": 1,
+    "values": [
+     68.95089763579101
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5768,
+    "min": 5768,
+    "max": 5768,
+    "n": 1,
+    "values": [
+     5768
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5768,
+    "min": 5768,
+    "max": 5768,
+    "n": 1,
+    "values": [
+     5768
+    ]
+   },
+   "ppl_true": {
+    "median": 81.97536705399112,
+    "min": 81.97536705399112,
+    "max": 81.97536705399112,
+    "n": 1,
+    "values": [
+     81.97536705399112
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3515,
+    "min": 3515,
+    "max": 3515,
+    "n": 1,
+    "values": [
+     3515
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3515,
+    "min": 3515,
+    "max": 3515,
+    "n": 1,
+    "values": [
+     3515
+    ]
+   },
+   "ppl_true": {
+    "median": 230.88864528338087,
+    "min": 230.88864528338087,
+    "max": 230.88864528338087,
+    "n": 1,
+    "values": [
+     230.88864528338087
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6904,
+    "min": 6904,
+    "max": 6904,
+    "n": 1,
+    "values": [
+     6904
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6904,
+    "min": 6904,
+    "max": 6904,
+    "n": 1,
+    "values": [
+     6904
+    ]
+   },
+   "ppl_true": {
+    "median": 307.4070542896103,
+    "min": 307.4070542896103,
+    "max": 307.4070542896103,
+    "n": 1,
+    "values": [
+     307.4070542896103
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1795,
+    "min": 1795,
+    "max": 1795,
+    "n": 1,
+    "values": [
+     1795
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1811,
+    "min": 1811,
+    "max": 1811,
+    "n": 1,
+    "values": [
+     1811
+    ]
+   },
+   "ppl_true": {
+    "median": 344.47744542944343,
+    "min": 344.47744542944343,
+    "max": 344.47744542944343,
+    "n": 1,
+    "values": [
+     344.47744542944343
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 477,
+    "min": 477,
+    "max": 477,
+    "n": 1,
+    "values": [
+     477
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 477,
+    "min": 477,
+    "max": 477,
+    "n": 1,
+    "values": [
+     477
+    ]
+   },
+   "ppl_true": {
+    "median": 171.06826100834925,
+    "min": 171.06826100834925,
+    "max": 171.06826100834925,
+    "n": 1,
+    "values": [
+     171.06826100834925
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 4431,
+    "min": 4431,
+    "max": 4431,
+    "n": 1,
+    "values": [
+     4431
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 4142,
+    "min": 4142,
+    "max": 4142,
+    "n": 1,
+    "values": [
+     4142
+    ]
+   },
+   "ppl_true": {
+    "median": 272.2216153952588,
+    "min": 272.2216153952588,
+    "max": 272.2216153952588,
+    "n": 1,
+    "values": [
+     272.2216153952588
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|nodp|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 86,
+    "min": 86,
+    "max": 86,
+    "n": 1,
+    "values": [
+     86
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 86,
+    "min": 86,
+    "max": 86,
+    "n": 1,
+    "values": [
+     86
+    ]
+   },
+   "ppl_true": {
+    "median": 293.8820289789539,
+    "min": 293.8820289789539,
+    "max": 293.8820289789539,
+    "n": 1,
+    "values": [
+     293.8820289789539
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 8591,
+    "min": 8591,
+    "max": 8591,
+    "n": 1,
+    "values": [
+     8591
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 8591,
+    "min": 8591,
+    "max": 8591,
+    "n": 1,
+    "values": [
+     8591
+    ]
+   },
+   "ppl_true": {
+    "median": 288.9105692654315,
+    "min": 288.9105692654315,
+    "max": 288.9105692654315,
+    "n": 1,
+    "values": [
+     288.9105692654315
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1759,
+    "min": 1759,
+    "max": 1759,
+    "n": 1,
+    "values": [
+     1759
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1759,
+    "min": 1759,
+    "max": 1759,
+    "n": 1,
+    "values": [
+     1759
+    ]
+   },
+   "ppl_true": {
+    "median": 186.7790017816858,
+    "min": 186.7790017816858,
+    "max": 186.7790017816858,
+    "n": 1,
+    "values": [
+     186.7790017816858
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7067,
+    "min": 7067,
+    "max": 7067,
+    "n": 1,
+    "values": [
+     7067
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7067,
+    "min": 7067,
+    "max": 7067,
+    "n": 1,
+    "values": [
+     7067
+    ]
+   },
+   "ppl_true": {
+    "median": 514.6879481096066,
+    "min": 514.6879481096066,
+    "max": 514.6879481096066,
+    "n": 1,
+    "values": [
+     514.6879481096066
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3371,
+    "min": 3371,
+    "max": 3371,
+    "n": 1,
+    "values": [
+     3371
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3400,
+    "min": 3400,
+    "max": 3400,
+    "n": 1,
+    "values": [
+     3400
+    ]
+   },
+   "ppl_true": {
+    "median": 471.63580334109054,
+    "min": 471.63580334109054,
+    "max": 471.63580334109054,
+    "n": 1,
+    "values": [
+     471.63580334109054
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1038,
+    "min": 1038,
+    "max": 1038,
+    "n": 1,
+    "values": [
+     1038
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1104,
+    "min": 1104,
+    "max": 1104,
+    "n": 1,
+    "values": [
+     1104
+    ]
+   },
+   "ppl_true": {
+    "median": 342.1657265845524,
+    "min": 342.1657265845524,
+    "max": 342.1657265845524,
+    "n": 1,
+    "values": [
+     342.1657265845524
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2970,
+    "min": 2970,
+    "max": 2970,
+    "n": 1,
+    "values": [
+     2970
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2970,
+    "min": 2970,
+    "max": 2970,
+    "n": 1,
+    "values": [
+     2970
+    ]
+   },
+   "ppl_true": {
+    "median": 229.4856744119682,
+    "min": 229.4856744119682,
+    "max": 229.4856744119682,
+    "n": 1,
+    "values": [
+     229.4856744119682
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|A|nodp|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 118,
+    "min": 118,
+    "max": 118,
+    "n": 1,
+    "values": [
+     118
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 118,
+    "min": 118,
+    "max": 118,
+    "n": 1,
+    "values": [
+     118
+    ]
+   },
+   "ppl_true": {
+    "median": 296.4420095209837,
+    "min": 296.4420095209837,
+    "max": 296.4420095209837,
+    "n": 1,
+    "values": [
+     296.4420095209837
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 8589,
+    "min": 8589,
+    "max": 8589,
+    "n": 1,
+    "values": [
+     8589
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 8589,
+    "min": 8589,
+    "max": 8589,
+    "n": 1,
+    "values": [
+     8589
+    ]
+   },
+   "ppl_true": {
+    "median": 253.4707114250491,
+    "min": 253.4707114250491,
+    "max": 253.4707114250491,
+    "n": 1,
+    "values": [
+     253.4707114250491
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2260,
+    "min": 2260,
+    "max": 2260,
+    "n": 1,
+    "values": [
+     2260
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2260,
+    "min": 2260,
+    "max": 2260,
+    "n": 1,
+    "values": [
+     2260
+    ]
+   },
+   "ppl_true": {
+    "median": 197.06499006700733,
+    "min": 197.06499006700733,
+    "max": 197.06499006700733,
+    "n": 1,
+    "values": [
+     197.06499006700733
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 8806,
+    "min": 8806,
+    "max": 8806,
+    "n": 1,
+    "values": [
+     8806
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 8806,
+    "min": 8806,
+    "max": 8806,
+    "n": 1,
+    "values": [
+     8806
+    ]
+   },
+   "ppl_true": {
+    "median": 639.615316774643,
+    "min": 639.615316774643,
+    "max": 639.615316774643,
+    "n": 1,
+    "values": [
+     639.615316774643
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5393,
+    "min": 5393,
+    "max": 5393,
+    "n": 1,
+    "values": [
+     5393
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5393,
+    "min": 5393,
+    "max": 5393,
+    "n": 1,
+    "values": [
+     5393
+    ]
+   },
+   "ppl_true": {
+    "median": 564.01621879454,
+    "min": 564.01621879454,
+    "max": 564.01621879454,
+    "n": 1,
+    "values": [
+     564.01621879454
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2338,
+    "min": 2338,
+    "max": 2338,
+    "n": 1,
+    "values": [
+     2338
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2331,
+    "min": 2331,
+    "max": 2331,
+    "n": 1,
+    "values": [
+     2331
+    ]
+   },
+   "ppl_true": {
+    "median": 388.1222627776099,
+    "min": 388.1222627776099,
+    "max": 388.1222627776099,
+    "n": 1,
+    "values": [
+     388.1222627776099
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5540,
+    "min": 5540,
+    "max": 5540,
+    "n": 1,
+    "values": [
+     5540
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5520,
+    "min": 5520,
+    "max": 5520,
+    "n": 1,
+    "values": [
+     5520
+    ]
+   },
+   "ppl_true": {
+    "median": 267.70004403516657,
+    "min": 267.70004403516657,
+    "max": 267.70004403516657,
+    "n": 1,
+    "values": [
+     267.70004403516657
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|eps4_author|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5558,
+    "min": 5558,
+    "max": 5558,
+    "n": 1,
+    "values": [
+     5558
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5558,
+    "min": 5558,
+    "max": 5558,
+    "n": 1,
+    "values": [
+     5558
+    ]
+   },
+   "ppl_true": {
+    "median": 129.08741948535746,
+    "min": 129.08741948535746,
+    "max": 129.08741948535746,
+    "n": 1,
+    "values": [
+     129.08741948535746
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7402,
+    "min": 7402,
+    "max": 7402,
+    "n": 1,
+    "values": [
+     7402
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7402,
+    "min": 7402,
+    "max": 7402,
+    "n": 1,
+    "values": [
+     7402
+    ]
+   },
+   "ppl_true": {
+    "median": 83.9215977804114,
+    "min": 83.9215977804114,
+    "max": 83.9215977804114,
+    "n": 1,
+    "values": [
+     83.9215977804114
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2147,
+    "min": 2147,
+    "max": 2147,
+    "n": 1,
+    "values": [
+     2147
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2147,
+    "min": 2147,
+    "max": 2147,
+    "n": 1,
+    "values": [
+     2147
+    ]
+   },
+   "ppl_true": {
+    "median": 203.09628399051672,
+    "min": 203.09628399051672,
+    "max": 203.09628399051672,
+    "n": 1,
+    "values": [
+     203.09628399051672
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1991,
+    "min": 1991,
+    "max": 1991,
+    "n": 1,
+    "values": [
+     1991
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1991,
+    "min": 1991,
+    "max": 1991,
+    "n": 1,
+    "values": [
+     1991
+    ]
+   },
+   "ppl_true": {
+    "median": 213.8715323842924,
+    "min": 213.8715323842924,
+    "max": 213.8715323842924,
+    "n": 1,
+    "values": [
+     213.8715323842924
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1746,
+    "min": 1746,
+    "max": 1746,
+    "n": 1,
+    "values": [
+     1746
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1746,
+    "min": 1746,
+    "max": 1746,
+    "n": 1,
+    "values": [
+     1746
+    ]
+   },
+   "ppl_true": {
+    "median": 362.6298254265273,
+    "min": 362.6298254265273,
+    "max": 362.6298254265273,
+    "n": 1,
+    "values": [
+     362.6298254265273
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3420,
+    "min": 3420,
+    "max": 3420,
+    "n": 1,
+    "values": [
+     3420
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3512,
+    "min": 3512,
+    "max": 3512,
+    "n": 1,
+    "values": [
+     3512
+    ]
+   },
+   "ppl_true": {
+    "median": 259.66738203461057,
+    "min": 259.66738203461057,
+    "max": 259.66738203461057,
+    "n": 1,
+    "values": [
+     259.66738203461057
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5834,
+    "min": 5834,
+    "max": 5834,
+    "n": 1,
+    "values": [
+     5834
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5834,
+    "min": 5834,
+    "max": 5834,
+    "n": 1,
+    "values": [
+     5834
+    ]
+   },
+   "ppl_true": {
+    "median": 296.80919318854234,
+    "min": 296.80919318854234,
+    "max": 296.80919318854234,
+    "n": 1,
+    "values": [
+     296.80919318854234
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|eps4_record|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6252,
+    "min": 6252,
+    "max": 6252,
+    "n": 1,
+    "values": [
+     6252
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6252,
+    "min": 6252,
+    "max": 6252,
+    "n": 1,
+    "values": [
+     6252
+    ]
+   },
+   "ppl_true": {
+    "median": 129.96289829529601,
+    "min": 129.96289829529601,
+    "max": 129.96289829529601,
+    "n": 1,
+    "values": [
+     129.96289829529601
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7326,
+    "min": 7326,
+    "max": 7326,
+    "n": 1,
+    "values": [
+     7326
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7326,
+    "min": 7326,
+    "max": 7326,
+    "n": 1,
+    "values": [
+     7326
+    ]
+   },
+   "ppl_true": {
+    "median": 89.90911475400122,
+    "min": 89.90911475400122,
+    "max": 89.90911475400122,
+    "n": 1,
+    "values": [
+     89.90911475400122
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3697,
+    "min": 3697,
+    "max": 3697,
+    "n": 1,
+    "values": [
+     3697
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3697,
+    "min": 3697,
+    "max": 3697,
+    "n": 1,
+    "values": [
+     3697
+    ]
+   },
+   "ppl_true": {
+    "median": 234.2979306656853,
+    "min": 234.2979306656853,
+    "max": 234.2979306656853,
+    "n": 1,
+    "values": [
+     234.2979306656853
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1890,
+    "min": 1890,
+    "max": 1890,
+    "n": 1,
+    "values": [
+     1890
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1890,
+    "min": 1890,
+    "max": 1890,
+    "n": 1,
+    "values": [
+     1890
+    ]
+   },
+   "ppl_true": {
+    "median": 199.47694040975475,
+    "min": 199.47694040975475,
+    "max": 199.47694040975475,
+    "n": 1,
+    "values": [
+     199.47694040975475
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1189,
+    "min": 1189,
+    "max": 1189,
+    "n": 1,
+    "values": [
+     1189
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1189,
+    "min": 1189,
+    "max": 1189,
+    "n": 1,
+    "values": [
+     1189
+    ]
+   },
+   "ppl_true": {
+    "median": 327.44460424756954,
+    "min": 327.44460424756954,
+    "max": 327.44460424756954,
+    "n": 1,
+    "values": [
+     327.44460424756954
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3335,
+    "min": 3335,
+    "max": 3335,
+    "n": 1,
+    "values": [
+     3335
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3630,
+    "min": 3630,
+    "max": 3630,
+    "n": 1,
+    "values": [
+     3630
+    ]
+   },
+   "ppl_true": {
+    "median": 249.022159224854,
+    "min": 249.022159224854,
+    "max": 249.022159224854,
+    "n": 1,
+    "values": [
+     249.022159224854
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7050,
+    "min": 7050,
+    "max": 7050,
+    "n": 1,
+    "values": [
+     7050
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7050,
+    "min": 7050,
+    "max": 7050,
+    "n": 1,
+    "values": [
+     7050
+    ]
+   },
+   "ppl_true": {
+    "median": 325.4288504127712,
+    "min": 325.4288504127712,
+    "max": 325.4288504127712,
+    "n": 1,
+    "values": [
+     325.4288504127712
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|eps4_record|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6552,
+    "min": 6552,
+    "max": 6552,
+    "n": 1,
+    "values": [
+     6552
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6552,
+    "min": 6552,
+    "max": 6552,
+    "n": 1,
+    "values": [
+     6552
+    ]
+   },
+   "ppl_true": {
+    "median": 131.6030646312153,
+    "min": 131.6030646312153,
+    "max": 131.6030646312153,
+    "n": 1,
+    "values": [
+     131.6030646312153
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7268,
+    "min": 7268,
+    "max": 7268,
+    "n": 1,
+    "values": [
+     7268
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7268,
+    "min": 7268,
+    "max": 7268,
+    "n": 1,
+    "values": [
+     7268
+    ]
+   },
+   "ppl_true": {
+    "median": 89.58195494197749,
+    "min": 89.58195494197749,
+    "max": 89.58195494197749,
+    "n": 1,
+    "values": [
+     89.58195494197749
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3583,
+    "min": 3583,
+    "max": 3583,
+    "n": 1,
+    "values": [
+     3583
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3583,
+    "min": 3583,
+    "max": 3583,
+    "n": 1,
+    "values": [
+     3583
+    ]
+   },
+   "ppl_true": {
+    "median": 232.9794251807586,
+    "min": 232.9794251807586,
+    "max": 232.9794251807586,
+    "n": 1,
+    "values": [
+     232.9794251807586
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1886,
+    "min": 1886,
+    "max": 1886,
+    "n": 1,
+    "values": [
+     1886
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1886,
+    "min": 1886,
+    "max": 1886,
+    "n": 1,
+    "values": [
+     1886
+    ]
+   },
+   "ppl_true": {
+    "median": 198.8296684294618,
+    "min": 198.8296684294618,
+    "max": 198.8296684294618,
+    "n": 1,
+    "values": [
+     198.8296684294618
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1162,
+    "min": 1162,
+    "max": 1162,
+    "n": 1,
+    "values": [
+     1162
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1162,
+    "min": 1162,
+    "max": 1162,
+    "n": 1,
+    "values": [
+     1162
+    ]
+   },
+   "ppl_true": {
+    "median": 325.20252653622794,
+    "min": 325.20252653622794,
+    "max": 325.20252653622794,
+    "n": 1,
+    "values": [
+     325.20252653622794
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3536,
+    "min": 3536,
+    "max": 3536,
+    "n": 1,
+    "values": [
+     3536
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3380,
+    "min": 3380,
+    "max": 3380,
+    "n": 1,
+    "values": [
+     3380
+    ]
+   },
+   "ppl_true": {
+    "median": 251.24982754367994,
+    "min": 251.24982754367994,
+    "max": 251.24982754367994,
+    "n": 1,
+    "values": [
+     251.24982754367994
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6889,
+    "min": 6889,
+    "max": 6889,
+    "n": 1,
+    "values": [
+     6889
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7145,
+    "min": 7145,
+    "max": 7145,
+    "n": 1,
+    "values": [
+     7145
+    ]
+   },
+   "ppl_true": {
+    "median": 321.76926016996936,
+    "min": 321.76926016996936,
+    "max": 321.76926016996936,
+    "n": 1,
+    "values": [
+     321.76926016996936
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|eps8_author|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6419,
+    "min": 6419,
+    "max": 6419,
+    "n": 1,
+    "values": [
+     6419
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6419,
+    "min": 6419,
+    "max": 6419,
+    "n": 1,
+    "values": [
+     6419
+    ]
+   },
+   "ppl_true": {
+    "median": 141.05260689093927,
+    "min": 141.05260689093927,
+    "max": 141.05260689093927,
+    "n": 1,
+    "values": [
+     141.05260689093927
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7529,
+    "min": 7529,
+    "max": 7529,
+    "n": 1,
+    "values": [
+     7529
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7529,
+    "min": 7529,
+    "max": 7529,
+    "n": 1,
+    "values": [
+     7529
+    ]
+   },
+   "ppl_true": {
+    "median": 88.08892579518457,
+    "min": 88.08892579518457,
+    "max": 88.08892579518457,
+    "n": 1,
+    "values": [
+     88.08892579518457
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2384,
+    "min": 2384,
+    "max": 2384,
+    "n": 1,
+    "values": [
+     2384
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2384,
+    "min": 2384,
+    "max": 2384,
+    "n": 1,
+    "values": [
+     2384
+    ]
+   },
+   "ppl_true": {
+    "median": 207.32520458212198,
+    "min": 207.32520458212198,
+    "max": 207.32520458212198,
+    "n": 1,
+    "values": [
+     207.32520458212198
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1900,
+    "min": 1900,
+    "max": 1900,
+    "n": 1,
+    "values": [
+     1900
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1900,
+    "min": 1900,
+    "max": 1900,
+    "n": 1,
+    "values": [
+     1900
+    ]
+   },
+   "ppl_true": {
+    "median": 205.67824264492438,
+    "min": 205.67824264492438,
+    "max": 205.67824264492438,
+    "n": 1,
+    "values": [
+     205.67824264492438
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1442,
+    "min": 1442,
+    "max": 1442,
+    "n": 1,
+    "values": [
+     1442
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1469,
+    "min": 1469,
+    "max": 1469,
+    "n": 1,
+    "values": [
+     1469
+    ]
+   },
+   "ppl_true": {
+    "median": 348.27969773400224,
+    "min": 348.27969773400224,
+    "max": 348.27969773400224,
+    "n": 1,
+    "values": [
+     348.27969773400224
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3374,
+    "min": 3374,
+    "max": 3374,
+    "n": 1,
+    "values": [
+     3374
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3438,
+    "min": 3438,
+    "max": 3438,
+    "n": 1,
+    "values": [
+     3438
+    ]
+   },
+   "ppl_true": {
+    "median": 265.77705387759136,
+    "min": 265.77705387759136,
+    "max": 265.77705387759136,
+    "n": 1,
+    "values": [
+     265.77705387759136
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5877,
+    "min": 5877,
+    "max": 5877,
+    "n": 1,
+    "values": [
+     5877
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5877,
+    "min": 5877,
+    "max": 5877,
+    "n": 1,
+    "values": [
+     5877
+    ]
+   },
+   "ppl_true": {
+    "median": 301.52207514083665,
+    "min": 301.52207514083665,
+    "max": 301.52207514083665,
+    "n": 1,
+    "values": [
+     301.52207514083665
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|eps8_author|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6746,
+    "min": 6746,
+    "max": 6746,
+    "n": 1,
+    "values": [
+     6746
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6746,
+    "min": 6746,
+    "max": 6746,
+    "n": 1,
+    "values": [
+     6746
+    ]
+   },
+   "ppl_true": {
+    "median": 141.52434235898838,
+    "min": 141.52434235898838,
+    "max": 141.52434235898838,
+    "n": 1,
+    "values": [
+     141.52434235898838
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7469,
+    "min": 7469,
+    "max": 7469,
+    "n": 1,
+    "values": [
+     7469
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7469,
+    "min": 7469,
+    "max": 7469,
+    "n": 1,
+    "values": [
+     7469
+    ]
+   },
+   "ppl_true": {
+    "median": 86.32678289871599,
+    "min": 86.32678289871599,
+    "max": 86.32678289871599,
+    "n": 1,
+    "values": [
+     86.32678289871599
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2578,
+    "min": 2578,
+    "max": 2578,
+    "n": 1,
+    "values": [
+     2578
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2578,
+    "min": 2578,
+    "max": 2578,
+    "n": 1,
+    "values": [
+     2578
+    ]
+   },
+   "ppl_true": {
+    "median": 210.83445774046152,
+    "min": 210.83445774046152,
+    "max": 210.83445774046152,
+    "n": 1,
+    "values": [
+     210.83445774046152
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1914,
+    "min": 1914,
+    "max": 1914,
+    "n": 1,
+    "values": [
+     1914
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1914,
+    "min": 1914,
+    "max": 1914,
+    "n": 1,
+    "values": [
+     1914
+    ]
+   },
+   "ppl_true": {
+    "median": 206.15888062518326,
+    "min": 206.15888062518326,
+    "max": 206.15888062518326,
+    "n": 1,
+    "values": [
+     206.15888062518326
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1475,
+    "min": 1475,
+    "max": 1475,
+    "n": 1,
+    "values": [
+     1475
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1475,
+    "min": 1475,
+    "max": 1475,
+    "n": 1,
+    "values": [
+     1475
+    ]
+   },
+   "ppl_true": {
+    "median": 349.6543299846907,
+    "min": 349.6543299846907,
+    "max": 349.6543299846907,
+    "n": 1,
+    "values": [
+     349.6543299846907
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3291,
+    "min": 3291,
+    "max": 3291,
+    "n": 1,
+    "values": [
+     3291
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3699,
+    "min": 3699,
+    "max": 3699,
+    "n": 1,
+    "values": [
+     3699
+    ]
+   },
+   "ppl_true": {
+    "median": 267.3756285258013,
+    "min": 267.3756285258013,
+    "max": 267.3756285258013,
+    "n": 1,
+    "values": [
+     267.3756285258013
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5867,
+    "min": 5867,
+    "max": 5867,
+    "n": 1,
+    "values": [
+     5867
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6048,
+    "min": 6048,
+    "max": 6048,
+    "n": 1,
+    "values": [
+     6048
+    ]
+   },
+   "ppl_true": {
+    "median": 301.3776139439529,
+    "min": 301.3776139439529,
+    "max": 301.3776139439529,
+    "n": 1,
+    "values": [
+     301.3776139439529
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|eps8_record|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5259,
+    "min": 5259,
+    "max": 5259,
+    "n": 1,
+    "values": [
+     5259
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5259,
+    "min": 5259,
+    "max": 5259,
+    "n": 1,
+    "values": [
+     5259
+    ]
+   },
+   "ppl_true": {
+    "median": 122.6416351291402,
+    "min": 122.6416351291402,
+    "max": 122.6416351291402,
+    "n": 1,
+    "values": [
+     122.6416351291402
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7067,
+    "min": 7067,
+    "max": 7067,
+    "n": 1,
+    "values": [
+     7067
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7067,
+    "min": 7067,
+    "max": 7067,
+    "n": 1,
+    "values": [
+     7067
+    ]
+   },
+   "ppl_true": {
+    "median": 89.1159436124462,
+    "min": 89.1159436124462,
+    "max": 89.1159436124462,
+    "n": 1,
+    "values": [
+     89.1159436124462
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3797,
+    "min": 3797,
+    "max": 3797,
+    "n": 1,
+    "values": [
+     3797
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3797,
+    "min": 3797,
+    "max": 3797,
+    "n": 1,
+    "values": [
+     3797
+    ]
+   },
+   "ppl_true": {
+    "median": 235.92137491502325,
+    "min": 235.92137491502325,
+    "max": 235.92137491502325,
+    "n": 1,
+    "values": [
+     235.92137491502325
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1725,
+    "min": 1725,
+    "max": 1725,
+    "n": 1,
+    "values": [
+     1725
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1725,
+    "min": 1725,
+    "max": 1725,
+    "n": 1,
+    "values": [
+     1725
+    ]
+   },
+   "ppl_true": {
+    "median": 194.7672559370664,
+    "min": 194.7672559370664,
+    "max": 194.7672559370664,
+    "n": 1,
+    "values": [
+     194.7672559370664
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1135,
+    "min": 1135,
+    "max": 1135,
+    "n": 1,
+    "values": [
+     1135
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1135,
+    "min": 1135,
+    "max": 1135,
+    "n": 1,
+    "values": [
+     1135
+    ]
+   },
+   "ppl_true": {
+    "median": 312.70708270515433,
+    "min": 312.70708270515433,
+    "max": 312.70708270515433,
+    "n": 1,
+    "values": [
+     312.70708270515433
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3229,
+    "min": 3229,
+    "max": 3229,
+    "n": 1,
+    "values": [
+     3229
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3382,
+    "min": 3382,
+    "max": 3382,
+    "n": 1,
+    "values": [
+     3382
+    ]
+   },
+   "ppl_true": {
+    "median": 236.1778928320156,
+    "min": 236.1778928320156,
+    "max": 236.1778928320156,
+    "n": 1,
+    "values": [
+     236.1778928320156
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7176,
+    "min": 7176,
+    "max": 7176,
+    "n": 1,
+    "values": [
+     7176
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7176,
+    "min": 7176,
+    "max": 7176,
+    "n": 1,
+    "values": [
+     7176
+    ]
+   },
+   "ppl_true": {
+    "median": 323.76605115545686,
+    "min": 323.76605115545686,
+    "max": 323.76605115545686,
+    "n": 1,
+    "values": [
+     323.76605115545686
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|eps8_record|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 5342,
+    "min": 5342,
+    "max": 5342,
+    "n": 1,
+    "values": [
+     5342
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 5342,
+    "min": 5342,
+    "max": 5342,
+    "n": 1,
+    "values": [
+     5342
+    ]
+   },
+   "ppl_true": {
+    "median": 123.14771046105363,
+    "min": 123.14771046105363,
+    "max": 123.14771046105363,
+    "n": 1,
+    "values": [
+     123.14771046105363
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7087,
+    "min": 7087,
+    "max": 7087,
+    "n": 1,
+    "values": [
+     7087
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7087,
+    "min": 7087,
+    "max": 7087,
+    "n": 1,
+    "values": [
+     7087
+    ]
+   },
+   "ppl_true": {
+    "median": 90.23355386175487,
+    "min": 90.23355386175487,
+    "max": 90.23355386175487,
+    "n": 1,
+    "values": [
+     90.23355386175487
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 4040,
+    "min": 4040,
+    "max": 4040,
+    "n": 1,
+    "values": [
+     4040
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 4040,
+    "min": 4040,
+    "max": 4040,
+    "n": 1,
+    "values": [
+     4040
+    ]
+   },
+   "ppl_true": {
+    "median": 244.5758649860422,
+    "min": 244.5758649860422,
+    "max": 244.5758649860422,
+    "n": 1,
+    "values": [
+     244.5758649860422
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1760,
+    "min": 1760,
+    "max": 1760,
+    "n": 1,
+    "values": [
+     1760
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1760,
+    "min": 1760,
+    "max": 1760,
+    "n": 1,
+    "values": [
+     1760
+    ]
+   },
+   "ppl_true": {
+    "median": 196.92765685833285,
+    "min": 196.92765685833285,
+    "max": 196.92765685833285,
+    "n": 1,
+    "values": [
+     196.92765685833285
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1005,
+    "min": 1005,
+    "max": 1005,
+    "n": 1,
+    "values": [
+     1005
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1048,
+    "min": 1048,
+    "max": 1048,
+    "n": 1,
+    "values": [
+     1048
+    ]
+   },
+   "ppl_true": {
+    "median": 305.1919938946282,
+    "min": 305.1919938946282,
+    "max": 305.1919938946282,
+    "n": 1,
+    "values": [
+     305.1919938946282
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3437,
+    "min": 3437,
+    "max": 3437,
+    "n": 1,
+    "values": [
+     3437
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3477,
+    "min": 3477,
+    "max": 3477,
+    "n": 1,
+    "values": [
+     3477
+    ]
+   },
+   "ppl_true": {
+    "median": 240.9244122154069,
+    "min": 240.9244122154069,
+    "max": 240.9244122154069,
+    "n": 1,
+    "values": [
+     240.9244122154069
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 7159,
+    "min": 7159,
+    "max": 7159,
+    "n": 1,
+    "values": [
+     7159
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 7166,
+    "min": 7166,
+    "max": 7166,
+    "n": 1,
+    "values": [
+     7166
+    ]
+   },
+   "ppl_true": {
+    "median": 322.46659389570357,
+    "min": 322.46659389570357,
+    "max": 322.46659389570357,
+    "n": 1,
+    "values": [
+     322.46659389570357
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|nodp|inserted": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 743,
+    "min": 743,
+    "max": 743,
+    "n": 1,
+    "values": [
+     743
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 743,
+    "min": 743,
+    "max": 743,
+    "n": 1,
+    "values": [
+     743
+    ]
+   },
+   "ppl_true": {
+    "median": 393.39208472549603,
+    "min": 393.39208472549603,
+    "max": 393.39208472549603,
+    "n": 1,
+    "values": [
+     393.39208472549603
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 9070,
+    "min": 9070,
+    "max": 9070,
+    "n": 1,
+    "values": [
+     9070
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 9070,
+    "min": 9070,
+    "max": 9070,
+    "n": 1,
+    "values": [
+     9070
+    ]
+   },
+   "ppl_true": {
+    "median": 273.0910093237691,
+    "min": 273.0910093237691,
+    "max": 273.0910093237691,
+    "n": 1,
+    "values": [
+     273.0910093237691
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 2178,
+    "min": 2178,
+    "max": 2178,
+    "n": 1,
+    "values": [
+     2178
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2178,
+    "min": 2178,
+    "max": 2178,
+    "n": 1,
+    "values": [
+     2178
+    ]
+   },
+   "ppl_true": {
+    "median": 195.3257531081774,
+    "min": 195.3257531081774,
+    "max": 195.3257531081774,
+    "n": 1,
+    "values": [
+     195.3257531081774
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 231,
+    "min": 231,
+    "max": 231,
+    "n": 1,
+    "values": [
+     231
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 231,
+    "min": 231,
+    "max": 231,
+    "n": 1,
+    "values": [
+     231
+    ]
+   },
+   "ppl_true": {
+    "median": 227.9959726044169,
+    "min": 227.9959726044169,
+    "max": 227.9959726044169,
+    "n": 1,
+    "values": [
+     227.9959726044169
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 171,
+    "min": 171,
+    "max": 171,
+    "n": 1,
+    "values": [
+     171
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 171,
+    "min": 171,
+    "max": 171,
+    "n": 1,
+    "values": [
+     171
+    ]
+   },
+   "ppl_true": {
+    "median": 260.52276786982407,
+    "min": 260.52276786982407,
+    "max": 260.52276786982407,
+    "n": 1,
+    "values": [
+     260.52276786982407
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 384,
+    "min": 384,
+    "max": 384,
+    "n": 1,
+    "values": [
+     384
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 425,
+    "min": 425,
+    "max": 425,
+    "n": 1,
+    "values": [
+     425
+    ]
+   },
+   "ppl_true": {
+    "median": 272.3915836794946,
+    "min": 272.3915836794946,
+    "max": 272.3915836794946,
+    "n": 1,
+    "values": [
+     272.3915836794946
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 3507,
+    "min": 3507,
+    "max": 3507,
+    "n": 1,
+    "values": [
+     3507
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 3633,
+    "min": 3633,
+    "max": 3633,
+    "n": 1,
+    "values": [
+     3633
+    ]
+   },
+   "ppl_true": {
+    "median": 236.61040516143717,
+    "min": 236.61040516143717,
+    "max": 236.61040516143717,
+    "n": 1,
+    "values": [
+     236.61040516143717
+    ]
+   }
+  }
+ },
+ "i2b2|docs1|B|nodp|other_profile": {
+  "N": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1078,
+    "min": 1078,
+    "max": 1078,
+    "n": 1,
+    "values": [
+     1078
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 1078,
+    "min": 1078,
+    "max": 1078,
+    "n": 1,
+    "values": [
+     1078
+    ]
+   },
+   "ppl_true": {
+    "median": 427.79650743391136,
+    "min": 427.79650743391136,
+    "max": 427.79650743391136,
+    "n": 1,
+    "values": [
+     427.79650743391136
+    ]
+   }
+  },
+  "P": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 9098,
+    "min": 9098,
+    "max": 9098,
+    "n": 1,
+    "values": [
+     9098
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 9098,
+    "min": 9098,
+    "max": 9098,
+    "n": 1,
+    "values": [
+     9098
+    ]
+   },
+   "ppl_true": {
+    "median": 314.8744224982024,
+    "min": 314.8744224982024,
+    "max": 314.8744224982024,
+    "n": 1,
+    "values": [
+     314.8744224982024
+    ]
+   }
+  },
+  "E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 4142,
+    "min": 4142,
+    "max": 4142,
+    "n": 1,
+    "values": [
+     4142
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 4142,
+    "min": 4142,
+    "max": 4142,
+    "n": 1,
+    "values": [
+     4142
+    ]
+   },
+   "ppl_true": {
+    "median": 227.72553662664117,
+    "min": 227.72553662664117,
+    "max": 227.72553662664117,
+    "n": 1,
+    "values": [
+     227.72553662664117
+    ]
+   }
+  },
+  "A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 826,
+    "min": 826,
+    "max": 826,
+    "n": 1,
+    "values": [
+     826
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 826,
+    "min": 826,
+    "max": 826,
+    "n": 1,
+    "values": [
+     826
+    ]
+   },
+   "ppl_true": {
+    "median": 273.9100162134402,
+    "min": 273.9100162134402,
+    "max": 273.9100162134402,
+    "n": 1,
+    "values": [
+     273.9100162134402
+    ]
+   }
+  },
+  "N,A": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 730,
+    "min": 730,
+    "max": 730,
+    "n": 1,
+    "values": [
+     730
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 730,
+    "min": 730,
+    "max": 730,
+    "n": 1,
+    "values": [
+     730
+    ]
+   },
+   "ppl_true": {
+    "median": 330.1435781399945,
+    "min": 330.1435781399945,
+    "max": 330.1435781399945,
+    "n": 1,
+    "values": [
+     330.1435781399945
+    ]
+   }
+  },
+  "N,A,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 1617,
+    "min": 1617,
+    "max": 1617,
+    "n": 1,
+    "values": [
+     1617
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 2013,
+    "min": 2013,
+    "max": 2013,
+    "n": 1,
+    "values": [
+     2013
+    ]
+   },
+   "ppl_true": {
+    "median": 375.7568292764687,
+    "min": 375.7568292764687,
+    "max": 375.7568292764687,
+    "n": 1,
+    "values": [
+     375.7568292764687
+    ]
+   }
+  },
+  "N,A,P,E": {
+   "seeds": [
+    42
+   ],
+   "rank": {
+    "median": 6702,
+    "min": 6702,
+    "max": 6702,
+    "n": 1,
+    "values": [
+     6702
+    ]
+   },
+   "rank_median_over_candidate_draws": {
+    "median": 6824,
+    "min": 6824,
+    "max": 6824,
+    "n": 1,
+    "values": [
+     6824
+    ]
+   },
+   "ppl_true": {
+    "median": 292.4438622006,
+    "min": 292.4438622006,
+    "max": 292.4438622006,
+    "n": 1,
+    "values": [
+     292.4438622006
+    ]
+   }
+  }
+ }
+}

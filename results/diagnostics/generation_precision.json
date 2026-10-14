@@ -1,0 +1,66 @@
+{
+ "description": "i2b2, no-canary, eps=8 record-level adapters; leakage of 1,000 generated documents (whole-word / substring). legacy generation = full-precision (fp32) base + LoRA adapter trained on the 4-bit base, max_length 512 incl. prompt (legacy/generate_text.py); consistent generation = 4-bit NF4 base as in training, 512 new tokens (dpleak/generate.py). Generation seed 1.",
+ "published_adapter_legacy_generation (manuscript)": {
+  "singles": 724,
+  "pairs": 526,
+  "pairs_one_doc": 250,
+  "triples": 14,
+  "quadruples": 0
+ },
+ "published_adapter_consistent_generation": {
+  "whole_word": {
+   "singles": 1127,
+   "pairs": 1279,
+   "pairs_one_doc": 507,
+   "triples": 29,
+   "quadruples": 0
+  },
+  "substring": {
+   "singles": 1514,
+   "pairs": 2601,
+   "pairs_one_doc": 837,
+   "triples": 249,
+   "quadruples": 14
+  }
+ },
+ "new_adapter_s42_legacy_generation": {
+  "whole_word": {
+   "singles": 677,
+   "pairs": 502,
+   "pairs_one_doc": 245,
+   "triples": 10,
+   "quadruples": 0
+  },
+  "substring": {
+   "singles": 1052,
+   "pairs": 1341,
+   "pairs_one_doc": 564,
+   "triples": 118,
+   "quadruples": 6
+  }
+ },
+ "new_adapter_s42_consistent_generation": {
+  "whole_word": {
+   "singles": 1167,
+   "pairs": 1308,
+   "pairs_one_doc": 519,
+   "triples": 27,
+   "quadruples": 0
+  },
+  "substring": {
+   "singles": 1572,
+   "pairs": 2751,
+   "pairs_one_doc": 923,
+   "triples": 282,
+   "quadruples": 8
+  }
+ },
+ "utility_ppl_200_training_notes": {
+  "published_nodp": 7.19,
+  "published_eps8": 11.76,
+  "published_eps4": 11.96,
+  "new_nodp_s42": 5.86,
+  "new_eps8_record_s42": 11.42,
+  "new_eps8_author_s42": 12.18
+ }
+}

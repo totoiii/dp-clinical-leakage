@@ -1,0 +1,1057 @@
+{
+ "i2b2|eps4_author": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 994,
+    "min": 994,
+    "max": 994,
+    "n": 1,
+    "values": [
+     994
+    ]
+   },
+   "singles_pct": {
+    "median": 7.24,
+    "min": 7.24,
+    "max": 7.24,
+    "n": 1,
+    "values": [
+     7.24
+    ]
+   },
+   "pairs": {
+    "median": 1247,
+    "min": 1247,
+    "max": 1247,
+    "n": 1,
+    "values": [
+     1247
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 501,
+    "min": 501,
+    "max": 501,
+    "n": 1,
+    "values": [
+     501
+    ]
+   },
+   "triples": {
+    "median": 87,
+    "min": 87,
+    "max": 87,
+    "n": 1,
+    "values": [
+     87
+    ]
+   },
+   "quadruples": {
+    "median": 2,
+    "min": 2,
+    "max": 2,
+    "n": 1,
+    "values": [
+     2
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1224,
+    "min": 1224,
+    "max": 1224,
+    "n": 1,
+    "values": [
+     1224
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 772,
+     "min": 772,
+     "max": 772,
+     "n": 1,
+     "values": [
+      772
+     ]
+    },
+    "2": {
+     "median": 429,
+     "min": 429,
+     "max": 429,
+     "n": 1,
+     "values": [
+      429
+     ]
+    },
+    "3": {
+     "median": 22,
+     "min": 22,
+     "max": 22,
+     "n": 1,
+     "values": [
+      22
+     ]
+    },
+    "4": {
+     "median": 1,
+     "min": 1,
+     "max": 1,
+     "n": 1,
+     "values": [
+      1
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 664,
+    "min": 664,
+    "max": 664,
+    "n": 1,
+    "values": [
+     664
+    ]
+   },
+   "singles_pct": {
+    "median": 4.84,
+    "min": 4.84,
+    "max": 4.84,
+    "n": 1,
+    "values": [
+     4.84
+    ]
+   },
+   "pairs": {
+    "median": 583,
+    "min": 583,
+    "max": 583,
+    "n": 1,
+    "values": [
+     583
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 272,
+    "min": 272,
+    "max": 272,
+    "n": 1,
+    "values": [
+     272
+    ]
+   },
+   "triples": {
+    "median": 11,
+    "min": 11,
+    "max": 11,
+    "n": 1,
+    "values": [
+     11
+    ]
+   },
+   "quadruples": {
+    "median": 0,
+    "min": 0,
+    "max": 0,
+    "n": 1,
+    "values": [
+     0
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1176,
+    "min": 1176,
+    "max": 1176,
+    "n": 1,
+    "values": [
+     1176
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 918,
+     "min": 918,
+     "max": 918,
+     "n": 1,
+     "values": [
+      918
+     ]
+    },
+    "2": {
+     "median": 251,
+     "min": 251,
+     "max": 251,
+     "n": 1,
+     "values": [
+      251
+     ]
+    },
+    "3": {
+     "median": 7,
+     "min": 7,
+     "max": 7,
+     "n": 1,
+     "values": [
+      7
+     ]
+    },
+    "4": {
+     "median": 0,
+     "min": 0,
+     "max": 0,
+     "n": 1,
+     "values": [
+      0
+     ]
+    }
+   }
+  }
+ },
+ "i2b2|eps4_record": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 1482,
+    "min": 1482,
+    "max": 1482,
+    "n": 1,
+    "values": [
+     1482
+    ]
+   },
+   "singles_pct": {
+    "median": 10.79,
+    "min": 10.79,
+    "max": 10.79,
+    "n": 1,
+    "values": [
+     10.79
+    ]
+   },
+   "pairs": {
+    "median": 2606,
+    "min": 2606,
+    "max": 2606,
+    "n": 1,
+    "values": [
+     2606
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 878,
+    "min": 878,
+    "max": 878,
+    "n": 1,
+    "values": [
+     878
+    ]
+   },
+   "triples": {
+    "median": 323,
+    "min": 323,
+    "max": 323,
+    "n": 1,
+    "values": [
+     323
+    ]
+   },
+   "quadruples": {
+    "median": 26,
+    "min": 26,
+    "max": 26,
+    "n": 1,
+    "values": [
+     26
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1249,
+    "min": 1249,
+    "max": 1249,
+    "n": 1,
+    "values": [
+     1249
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 538,
+     "min": 538,
+     "max": 538,
+     "n": 1,
+     "values": [
+      538
+     ]
+    },
+    "2": {
+     "median": 635,
+     "min": 635,
+     "max": 635,
+     "n": 1,
+     "values": [
+      635
+     ]
+    },
+    "3": {
+     "median": 71,
+     "min": 71,
+     "max": 71,
+     "n": 1,
+     "values": [
+      71
+     ]
+    },
+    "4": {
+     "median": 5,
+     "min": 5,
+     "max": 5,
+     "n": 1,
+     "values": [
+      5
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 1100,
+    "min": 1100,
+    "max": 1100,
+    "n": 1,
+    "values": [
+     1100
+    ]
+   },
+   "singles_pct": {
+    "median": 8.01,
+    "min": 8.01,
+    "max": 8.01,
+    "n": 1,
+    "values": [
+     8.01
+    ]
+   },
+   "pairs": {
+    "median": 1282,
+    "min": 1282,
+    "max": 1282,
+    "n": 1,
+    "values": [
+     1282
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 491,
+    "min": 491,
+    "max": 491,
+    "n": 1,
+    "values": [
+     491
+    ]
+   },
+   "triples": {
+    "median": 47,
+    "min": 47,
+    "max": 47,
+    "n": 1,
+    "values": [
+     47
+    ]
+   },
+   "quadruples": {
+    "median": 2,
+    "min": 2,
+    "max": 2,
+    "n": 1,
+    "values": [
+     2
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1221,
+    "min": 1221,
+    "max": 1221,
+    "n": 1,
+    "values": [
+     1221
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 765,
+     "min": 765,
+     "max": 765,
+     "n": 1,
+     "values": [
+      765
+     ]
+    },
+    "2": {
+     "median": 440,
+     "min": 440,
+     "max": 440,
+     "n": 1,
+     "values": [
+      440
+     ]
+    },
+    "3": {
+     "median": 15,
+     "min": 15,
+     "max": 15,
+     "n": 1,
+     "values": [
+      15
+     ]
+    },
+    "4": {
+     "median": 1,
+     "min": 1,
+     "max": 1,
+     "n": 1,
+     "values": [
+      1
+     ]
+    }
+   }
+  }
+ },
+ "i2b2|eps8_author": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 1305,
+    "min": 1305,
+    "max": 1305,
+    "n": 1,
+    "values": [
+     1305
+    ]
+   },
+   "singles_pct": {
+    "median": 9.5,
+    "min": 9.5,
+    "max": 9.5,
+    "n": 1,
+    "values": [
+     9.5
+    ]
+   },
+   "pairs": {
+    "median": 2074,
+    "min": 2074,
+    "max": 2074,
+    "n": 1,
+    "values": [
+     2074
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 748,
+    "min": 748,
+    "max": 748,
+    "n": 1,
+    "values": [
+     748
+    ]
+   },
+   "triples": {
+    "median": 188,
+    "min": 188,
+    "max": 188,
+    "n": 1,
+    "values": [
+     188
+    ]
+   },
+   "quadruples": {
+    "median": 18,
+    "min": 18,
+    "max": 18,
+    "n": 1,
+    "values": [
+     18
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1240,
+    "min": 1240,
+    "max": 1240,
+    "n": 1,
+    "values": [
+     1240
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 602,
+     "min": 602,
+     "max": 602,
+     "n": 1,
+     "values": [
+      602
+     ]
+    },
+    "2": {
+     "median": 589,
+     "min": 589,
+     "max": 589,
+     "n": 1,
+     "values": [
+      589
+     ]
+    },
+    "3": {
+     "median": 45,
+     "min": 45,
+     "max": 45,
+     "n": 1,
+     "values": [
+      45
+     ]
+    },
+    "4": {
+     "median": 4,
+     "min": 4,
+     "max": 4,
+     "n": 1,
+     "values": [
+      4
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 967,
+    "min": 967,
+    "max": 967,
+    "n": 1,
+    "values": [
+     967
+    ]
+   },
+   "singles_pct": {
+    "median": 7.04,
+    "min": 7.04,
+    "max": 7.04,
+    "n": 1,
+    "values": [
+     7.04
+    ]
+   },
+   "pairs": {
+    "median": 943,
+    "min": 943,
+    "max": 943,
+    "n": 1,
+    "values": [
+     943
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 400,
+    "min": 400,
+    "max": 400,
+    "n": 1,
+    "values": [
+     400
+    ]
+   },
+   "triples": {
+    "median": 36,
+    "min": 36,
+    "max": 36,
+    "n": 1,
+    "values": [
+     36
+    ]
+   },
+   "quadruples": {
+    "median": 1,
+    "min": 1,
+    "max": 1,
+    "n": 1,
+    "values": [
+     1
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1217,
+    "min": 1217,
+    "max": 1217,
+    "n": 1,
+    "values": [
+     1217
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 836,
+     "min": 836,
+     "max": 836,
+     "n": 1,
+     "values": [
+      836
+     ]
+    },
+    "2": {
+     "median": 373,
+     "min": 373,
+     "max": 373,
+     "n": 1,
+     "values": [
+      373
+     ]
+    },
+    "3": {
+     "median": 7,
+     "min": 7,
+     "max": 7,
+     "n": 1,
+     "values": [
+      7
+     ]
+    },
+    "4": {
+     "median": 1,
+     "min": 1,
+     "max": 1,
+     "n": 1,
+     "values": [
+      1
+     ]
+    }
+   }
+  }
+ },
+ "i2b2|eps8_record": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 1572,
+    "min": 1572,
+    "max": 1572,
+    "n": 1,
+    "values": [
+     1572
+    ]
+   },
+   "singles_pct": {
+    "median": 11.45,
+    "min": 11.45,
+    "max": 11.45,
+    "n": 1,
+    "values": [
+     11.45
+    ]
+   },
+   "pairs": {
+    "median": 2751,
+    "min": 2751,
+    "max": 2751,
+    "n": 1,
+    "values": [
+     2751
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 923,
+    "min": 923,
+    "max": 923,
+    "n": 1,
+    "values": [
+     923
+    ]
+   },
+   "triples": {
+    "median": 282,
+    "min": 282,
+    "max": 282,
+    "n": 1,
+    "values": [
+     282
+    ]
+   },
+   "quadruples": {
+    "median": 8,
+    "min": 8,
+    "max": 8,
+    "n": 1,
+    "values": [
+     8
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1252,
+    "min": 1252,
+    "max": 1252,
+    "n": 1,
+    "values": [
+     1252
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 538,
+     "min": 538,
+     "max": 538,
+     "n": 1,
+     "values": [
+      538
+     ]
+    },
+    "2": {
+     "median": 611,
+     "min": 611,
+     "max": 611,
+     "n": 1,
+     "values": [
+      611
+     ]
+    },
+    "3": {
+     "median": 102,
+     "min": 102,
+     "max": 102,
+     "n": 1,
+     "values": [
+      102
+     ]
+    },
+    "4": {
+     "median": 1,
+     "min": 1,
+     "max": 1,
+     "n": 1,
+     "values": [
+      1
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 1167,
+    "min": 1167,
+    "max": 1167,
+    "n": 1,
+    "values": [
+     1167
+    ]
+   },
+   "singles_pct": {
+    "median": 8.5,
+    "min": 8.5,
+    "max": 8.5,
+    "n": 1,
+    "values": [
+     8.5
+    ]
+   },
+   "pairs": {
+    "median": 1308,
+    "min": 1308,
+    "max": 1308,
+    "n": 1,
+    "values": [
+     1308
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 519,
+    "min": 519,
+    "max": 519,
+    "n": 1,
+    "values": [
+     519
+    ]
+   },
+   "triples": {
+    "median": 27,
+    "min": 27,
+    "max": 27,
+    "n": 1,
+    "values": [
+     27
+    ]
+   },
+   "quadruples": {
+    "median": 0,
+    "min": 0,
+    "max": 0,
+    "n": 1,
+    "values": [
+     0
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1230,
+    "min": 1230,
+    "max": 1230,
+    "n": 1,
+    "values": [
+     1230
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 735,
+     "min": 735,
+     "max": 735,
+     "n": 1,
+     "values": [
+      735
+     ]
+    },
+    "2": {
+     "median": 483,
+     "min": 483,
+     "max": 483,
+     "n": 1,
+     "values": [
+      483
+     ]
+    },
+    "3": {
+     "median": 12,
+     "min": 12,
+     "max": 12,
+     "n": 1,
+     "values": [
+      12
+     ]
+    },
+    "4": {
+     "median": 0,
+     "min": 0,
+     "max": 0,
+     "n": 1,
+     "values": [
+      0
+     ]
+    }
+   }
+  }
+ },
+ "i2b2|nodp": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 1665,
+    "min": 1665,
+    "max": 1665,
+    "n": 1,
+    "values": [
+     1665
+    ]
+   },
+   "singles_pct": {
+    "median": 12.13,
+    "min": 12.13,
+    "max": 12.13,
+    "n": 1,
+    "values": [
+     12.13
+    ]
+   },
+   "pairs": {
+    "median": 3302,
+    "min": 3302,
+    "max": 3302,
+    "n": 1,
+    "values": [
+     3302
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 1085,
+    "min": 1085,
+    "max": 1085,
+    "n": 1,
+    "values": [
+     1085
+    ]
+   },
+   "triples": {
+    "median": 433,
+    "min": 433,
+    "max": 433,
+    "n": 1,
+    "values": [
+     433
+    ]
+   },
+   "quadruples": {
+    "median": 15,
+    "min": 15,
+    "max": 15,
+    "n": 1,
+    "values": [
+     15
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1260,
+    "min": 1260,
+    "max": 1260,
+    "n": 1,
+    "values": [
+     1260
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 464,
+     "min": 464,
+     "max": 464,
+     "n": 1,
+     "values": [
+      464
+     ]
+    },
+    "2": {
+     "median": 656,
+     "min": 656,
+     "max": 656,
+     "n": 1,
+     "values": [
+      656
+     ]
+    },
+    "3": {
+     "median": 137,
+     "min": 137,
+     "max": 137,
+     "n": 1,
+     "values": [
+      137
+     ]
+    },
+    "4": {
+     "median": 3,
+     "min": 3,
+     "max": 3,
+     "n": 1,
+     "values": [
+      3
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 1255,
+    "min": 1255,
+    "max": 1255,
+    "n": 1,
+    "values": [
+     1255
+    ]
+   },
+   "singles_pct": {
+    "median": 9.14,
+    "min": 9.14,
+    "max": 9.14,
+    "n": 1,
+    "values": [
+     9.14
+    ]
+   },
+   "pairs": {
+    "median": 1681,
+    "min": 1681,
+    "max": 1681,
+    "n": 1,
+    "values": [
+     1681
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 636,
+    "min": 636,
+    "max": 636,
+    "n": 1,
+    "values": [
+     636
+    ]
+   },
+   "triples": {
+    "median": 51,
+    "min": 51,
+    "max": 51,
+    "n": 1,
+    "values": [
+     51
+    ]
+   },
+   "quadruples": {
+    "median": 0,
+    "min": 0,
+    "max": 0,
+    "n": 1,
+    "values": [
+     0
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1246,
+    "min": 1246,
+    "max": 1246,
+    "n": 1,
+    "values": [
+     1246
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 658,
+     "min": 658,
+     "max": 658,
+     "n": 1,
+     "values": [
+      658
+     ]
+    },
+    "2": {
+     "median": 564,
+     "min": 564,
+     "max": 564,
+     "n": 1,
+     "values": [
+      564
+     ]
+    },
+    "3": {
+     "median": 24,
+     "min": 24,
+     "max": 24,
+     "n": 1,
+     "values": [
+      24
+     ]
+    },
+    "4": {
+     "median": 0,
+     "min": 0,
+     "max": 0,
+     "n": 1,
+     "values": [
+      0
+     ]
+    }
+   }
+  }
+ }
+}
