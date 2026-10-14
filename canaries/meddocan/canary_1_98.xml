@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 30/06/2031.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta tras un mes de seguimiento. Durante esta visita, la paciente reporta que ha continuado experimentando episodios de cefalea tensional, aunque con una frecuencia reducida. Los episodios han disminuido a 2-3 veces por semana y son menos severos, lo que atribuye al uso continuo de Propranolol 40 mg una vez al día. Sin embargo, menciona que a pesar de la mejoría, sigue teniendo síntomas asociados como náuseas y fotofobia durante los episodios más intensos.
+
+En la evaluación física, Ana presenta un estado general aceptable, aunque se observa cierta rigidez en la musculatura cervical. Los signos vitales son estables: Tª 36.7 C; T.A: 118/76 mmHg; Fc: 70 lpm. La exploración neurológica revela una ligera hipersensibilidad a la luz, pero sin déficits focales. Se discuten los episodios ocasionales de insomnio, que persisten, a pesar de la administración de melatonina 3 mg antes de acostarse. Ana indica que la melatonina ha ayudado, pero todavía tiene dificultades para iniciar el sueño en noches de gran carga laboral.
+
+Dada la persistencia de los episodios de cefalea y las dificultades para dormir, se decide realizar algunas modificaciones en el tratamiento. Se recomienda aumentar la dosis de Propranolol a 80 mg una vez al día, con el objetivo de mejorar el control de los síntomas. Además, se sugiere que continúe con la melatonina y se le ofrece la opción de probar un suplemento de magnesio, 300 mg al día, para ayudar con la tensión muscular y mejorar la calidad del sueño.
+
+Ana se muestra receptiva a los cambios propuestos y expresa su compromiso de seguir las recomendaciones. Se le programará una nueva cita en 4 semanas para reevaluar la eficacia del nuevo régimen terapéutico y realizar ajustes si es necesario. Se le recuerda la importancia de implementar técnicas de manejo del estrés, como la práctica regular de yoga y ejercicios de respiración, que podrían ser beneficiosos para su bienestar general.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="30/06/2031" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

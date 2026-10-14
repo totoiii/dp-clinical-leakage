@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 12/05/2024.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Zacarias regresa a consulta para evaluación de seguimiento a dos semanas de su última visita, en la que se modificó su tratamiento por neumonía adquirida en la comunidad. Durante esta visita, el paciente manifiesta una mejoría continua en su estado general. Sin embargo, reporta que la tos seca persiste, aunque ha disminuido en frecuencia e intensidad. No se presentan episodios de disnea en reposo, pero refiere que la tos se agrava al realizar esfuerzos físicos.
+
+En la evaluación física, los signos vitales son los siguientes: Tª 36.7 °C; T.A: 125/73 mmHg; Fc: 70 lpm. La saturación de oxígeno se mantiene en 96% en aire ambiente. La auscultación pulmonar revela ruidos respiratorios simétricos, con leve sibilancia espiratoria, lo que sugiere una posible hiperreactividad bronquial post-infecciosa.
+
+Los resultados de laboratorio más recientes muestran un hemograma estable, con leucocitos en 4,200/mm³ y una proteína C-reactiva (PCR) de 1.2 mg/L, lo que indica una respuesta inflamatoria en descenso. La radiografía de tórax realizada en esta consulta continúa mostrando un patrón pulmonar normal, sin evidencias de infiltrados o derrames pleurales.
+
+Dado que la tos persiste, se decide ajustar el tratamiento. Se mantiene el régimen de Corticosteroides inhalados con Budesonida a 400 mcg cada 12 horas, pero se añade un broncodilatador de acción prolongada, Formoterol a 12 mcg cada 12 horas, para mejorar el control de los síntomas respiratorios. Se continúa la recomendación de Salbutamol a 100 mcg cada 4 horas según necesidad para el alivio de episodios agudos de disnea.
+
+Se programa una nueva evaluación en 14 días para valorar la evolución clínica y la respuesta al nuevo régimen terapéutico. Se enfatiza la importancia de la adherencia al tratamiento y se instruye al paciente sobre el uso adecuado de los inhaladores, así como la identificación de signos de alarma que requieren atención médica inmediata, tales como fiebre persistente, aumento en la dificultad respiratoria o cambios en la naturaleza de la tos.
+
+Se brindan recomendaciones adicionales sobre el manejo domiciliario, incluyendo la importancia de la hidratación adecuada y la práctica de ejercicios de respiración profunda. Se planifican revisiones continuas hasta que se logre una resolución completa de los síntomas.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="12/05/2024" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

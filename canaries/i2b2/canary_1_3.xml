@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2024-07-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+East Kimberly Saint Kitts Hospital
+Department of Internal Medicine
+
+Location: Location: 7632 Megan Mountains Apt. 408, West Ronaldfort
+
+Smith, John
+Phone: 98623487 
+email: heathermorris@example.net
+Date of Birth: 1987-03-10
+
+
+CHIEF COMPLAINT
+
+Follow-up for persistent fatigue, lipid management, and evaluation of new onset headaches.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. John Smith returns to the East Kimberly Saint Kitts Hospital for a follow-up appointment regarding his ongoing fatigue, lipid management, and new onset headaches. He reports that since starting Atorvastatin 10 mg daily, he has noticed a slight improvement in his energy levels, but he still experiences persistent fatigue, particularly after long days at work. The patient describes the fatigue as a "heavy feeling" that often lingers throughout the day, impacting his teaching performance.
+
+Additionally, Mr. Smith has begun experiencing recurrent headaches over the past month, described as moderate in intensity, bilateral, and throbbing in nature. These headaches are not associated with visual disturbances, nausea, or vomiting, but they tend to worsen with stress and prolonged screen time. He has been using over-the-counter analgesics, such as ibuprofen, with partial relief.
+
+Mr. Smith continues to engage in regular physical activity and has maintained his dietary changes, although he admits to occasional lapses, particularly during social gatherings. He denies any significant changes in weight or new cardiovascular symptoms since his last visit.
+
+REVIEW OF SYSTEMS
+
+General: Persistent fatigue; no significant weight loss, fever, or night sweats.
+Cardiovascular: Intermittent chest discomfort; denies palpitations or edema.
+Respiratory: No shortness of breath; no cough or wheezing.
+Gastrointestinal: No nausea, vomiting, or changes in bowel habits.
+Neurological: New onset of bilateral, throbbing headaches; no dizziness or syncope.
+
+PAST MEDICAL HISTORY
+
+- No significant past medical history.
+
+FAMILY HISTORY
+
+- Father: Coronary artery disease, underwent CABG at age 60.
+- Mother: Hypertension.
+
+SOCIAL HISTORY
+
+- Lives alone in , . Works as a teacher. No tobacco use; social alcohol consumption. No illicit drug use.
+
+MEDICATIONS
+
+- Atorvastatin 10 mg daily.
+
+ALLERGIES
+
+- No known drug allergies.
+
+PHYSICAL EXAMINATION
+
+VITALS: T 98.4F, HR 74 bpm, BP 120/80 mmHg, RR 16 breaths/min, O2 sat 98% on room air.
+
+General: Well-nourished, alert, in no acute distress.
+Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops. No peripheral edema.
+Respiratory: Clear to auscultation bilaterally; no wheezing or crackles.
+Neurological: Cranial nerves II-XII intact; no focal deficits. Mild tenderness on palpation of the bilateral temporalis region.
+
+LABORATORY DATA
+
+Lipid Panel (obtained today): Total Cholesterol 198 mg/dL, LDL 120 mg/dL, HDL 45 mg/dL, Triglycerides 140 mg/dL
+CBC: Normal
+BMP: Normal
+BNP: 10 pg/mL
+
+RADIOLOGICAL STUDIES
+
+None performed at this visit.
+
+ASSESSMENT AND PLAN
+
+1. Persistent fatigue and new onset headaches.
+   - The fatigue may be multifactorial, potentially exacerbated by stress and lifestyle factors. Continue current lifestyle modifications and consider introducing a structured sleep hygiene routine.
+   - For headaches, recommend a trial of a daily magnesium supplement (400 mg) and advise Mr. Smith to maintain a headache diary to identify potential triggers. If headaches persist or worsen, consider imaging studies to rule out secondary causes.
+
+2. Lipid management.
+   - Continue Atorvastatin 10 mg daily due to favorable response in lipid levels. Reassess lipid panel in 3 months to evaluate ongoing effectiveness.
+
+3. Follow-up.
+   - Schedule follow-up appointment in 3 months to reassess symptoms, lipid levels, and headache management.
+   - Encourage Mr. Smith to continue practicing stress management techniques and to reach out if symptoms change or worsen.
+
+__________________________________
+
+Emily Johnson, MD
+Department of Internal Medicine
+East Kimberly Saint Kitts Hospital
+Phone: 98623487
+Email: heathermorris@example.net
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2024-07-30" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="64" text="East Kimberly Saint Kitts Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="66" end="71" text="John" TYPE="PATIENT" comment="" />
+<NAME id="P3" start="73" end="78" text="Smith" TYPE="PATIENT" comment="" />
+<ID id="P4" start="81" end="88" text="9876543" TYPE="MEDICALRECORD" comment="" />
+<AGE id="P5" start="90" end="100" text="37 aos" TYPE="AGE" comment="" />
+<LOCATION id="P6" start="106" end="118" text="" TYPE="CITY" comment="" />
+<LOCATION id="P7" start="120" end="130" text="" TYPE="STATE" comment="" />
+<CONTACT id="P8" start="132" end="140" text="98623487" TYPE="PHONE" comment="" />
+<CONTACT id="P9" start="142" end="159" text="heathermorris@example.net" TYPE="EMAIL" comment="" />
+<PROFESSION id="P10" start="161" end="168" text="Teacher" TYPE="PROFESSION" comment="" />
+<NAME id="P11" start="192" end="197" text="Emily Johnson" TYPE="DOCTOR" comment="" />
+</TAGS>
+</deIdi2b2>

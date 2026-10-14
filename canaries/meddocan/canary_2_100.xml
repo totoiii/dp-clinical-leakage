@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 26/02/2028.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: En la consulta de seguimiento, Zacarias se presenta con quejas de disnea leve persistente y episodios ocasionales de tos, que han incrementado en frecuencia desde su última visita. A pesar de la mejoría reportada en la función pulmonar, el paciente indica que las sibilancias han vuelto a ser más notorias, especialmente por la noche y durante los cambios de temperatura. También expresa preocupación por el aumento en la ansiedad, lo que ha dificultado su descanso nocturno.
+
+Durante el examen físico, los signos vitales son los siguientes: Tª 36.6 °C; T.A: 130/80 mmHg; Fc: 74 lpm. La saturación de oxígeno se mantiene en 94% en aire ambiente, lo que sugiere una leve desmejora en el control respiratorio. La auscultación pulmonar revela sibilancias difusas y un leve estertor, lo que indica un posible componente obstructivo que debe ser evaluado.
+
+Se han realizado análisis de laboratorio adicionales, incluyendo un hemograma que muestra un conteo de leucocitos de 8,500/mm³ y una PCR de 0.05 mg/L, que sugiere un leve aumento en la inflamación. La espirometría revela un FEV1 del 75% del valor predicho, lo que indica una leve disminución en la función pulmonar en comparación con la última evaluación.
+
+Dada la persistencia de los síntomas asmáticos, se decide aumentar la dosis de Budesonida a 600 mcg dos veces al día y continuar con la Prednisona a 20 mg diarios, con una revisión programada en una semana para evaluar la respuesta al tratamiento. Asimismo, se añade un curso de 5 días de Prednisona oral a 30 mg diarios para abordar la exacerbación asmática.
+
+En relación a la ansiedad, se reevalúa la dosis de Sertralina y se decide incrementarla a 500 mg diarios, dado que el paciente ha reportado un aumento en la intensidad de los síntomas ansiosos. Se recomienda continuar con la terapia cognitivo-conductual y se le sugiere la práctica de técnicas de respiración profunda y ejercicios de relajación.
+
+Se programa una nueva consulta en una semana para reevaluar la función pulmonar y el control de la ansiedad, así como para considerar ajustes en la medicación según la evolución clínica. Se instruye a Zacarias que busque atención médica inmediata si presenta un aumento en la severidad de sus síntomas respiratorios o si experimenta efectos adversos significativos con los medicamentos.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="26/02/2028" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

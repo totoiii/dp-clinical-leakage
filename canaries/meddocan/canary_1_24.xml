@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 28/07/2024.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta un mes después de su última visita, motivada por el seguimiento de su tratamiento para las migrañas y la reciente modificación de su medicación. La paciente informa que, aunque la frecuencia de episodios ha permanecido estable en 1 por mes, ha experimentado un incremento significativo en la severidad de los mismos, describiéndolos con un puntaje de 6 en la escala de 1 a 10. 
+
+Ana ha continuado con la administración de Topiramato a 400 mg/día, como se acordó en la última consulta, y ha utilizado Sumatriptán en cuatro ocasiones durante el último mes, lo que indica un aumento en la necesidad de tratamiento abortivo. Durante la exploración física, Ana se presenta en un estado general aceptable, con signos vitales dentro de los parámetros normales: Tª 36.7 C; T.A: 118/76 mmHg; Fc: 72 lpm. El examen neurológico no revela hallazgos anormales.
+
+En esta consulta, se discuten los efectos adversos del Topiramato, y Ana menciona que ha experimentado una leve parestesia en las extremidades, pero que considera que los beneficios en la reducción de la frecuencia de los episodios compensan este efecto. Sin embargo, se decide ajustar la terapia, considerando la severidad de los episodios. Se opta por añadir un ciclo de Propranolol a 80 mg/día como profiláctico, con el objetivo de estabilizar la severidad de los episodios y reducir la necesidad de fármacos abortivos.
+
+Se enfatiza la importancia de mantener un diario de migrañas, que incluya no solo la frecuencia y severidad de los episodios, sino también los desencadenantes y cualquier efecto adverso que pueda surgir con la nueva medicación. Además, se recomienda a Ana que continúe con la terapia cognitivo-conductual, ya que ha demostrado ser beneficiosa para el manejo del estrés y la ansiedad, que pueden contribuir a la exacerbación de sus migrañas.
+
+Se establece un nuevo plan de seguimiento en 4 semanas para reevaluar la eficacia del tratamiento y la evolución de sus síntomas. Ana es instruida para que, en caso de experimentar un aumento en la frecuencia o severidad de las migrañas, se comunique de inmediato con la consulta.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="28/07/2024" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

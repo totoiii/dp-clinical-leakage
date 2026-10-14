@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 05/06/2028.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para su seguimiento tras la implementación del nuevo tratamiento con Sertralina a 50 mg/día, que se introdujo en la última visita para abordar la fatiga persistente y los episodios de cefalea tensional. Desde entonces, la paciente reporta una leve mejoría en su estado general, refiriendo que la fatiga ha disminuido en frecuencia e intensidad, lo que le ha permitido retomar algunas de sus actividades diarias con mayor energía.
+
+Sin embargo, Ana menciona que ha experimentado algunos efectos secundarios relacionados con la nueva medicación, incluyendo náuseas leves y somnolencia durante las primeras horas del día. Estos síntomas han sido tolerables y no han interferido significativamente con su rutina. A pesar de esto, la paciente expresa su preocupación por la somnolencia, ya que afecta su concentración en el trabajo.
+
+En cuanto a la frecuencia de sus migrañas, Ana indica que ha mantenido un control adecuado, con una disminución en la cantidad de episodios, aunque todavía experimenta cefaleas tensionales, especialmente en días de alta carga laboral. Durante la evaluación física, se observa que su estado general es bueno, con signos vitales estables: Tª 36.7 C; T.A: 120/75 mmHg; Fc: 70 lpm. La evaluación neurológica sigue siendo normal, sin signos de alteraciones neurológicas.
+
+Se revisa el tratamiento actual y, dado que los efectos secundarios de la Sertralina son tolerables y la paciente ha experimentado mejoría en su fatiga, se decide continuar con el mismo régimen. Sin embargo, se sugiere un ajuste en la administración del medicamento, recomendando tomarlo por la noche para mitigar la somnolencia diurna y mejorar su concentración.
+
+Además, se reitera la importancia de la consulta con el especialista en fisioterapia, enfatizando la necesidad de abordar técnicas de manejo del estrés y relajación como parte del enfoque integral para su bienestar. Se sugiere también un seguimiento nutricional para optimizar su dieta y abordar cualquier posible deficiencia que pueda estar contribuyendo a su fatiga.
+
+Ana es instruida para que continúe registrando sus síntomas en el diario de migrañas y para que anote cualquier cambio relacionado con la nueva pauta de medicación. Se le recuerda que debe estar atenta a cualquier síntoma nuevo o exacerbación de su estado y que consulte inmediatamente si presenta efectos adversos significativos.
+
+Se programa una nueva cita en 6 semanas para una reevaluación exhaustiva, donde se considerarán los efectos del ajuste en la medicación y se evaluará la eficacia de las intervenciones adicionales para el manejo de la fatiga y el estrés. Ana se muestra optimista respecto a los cambios propuestos y agradece el apoyo continuo en su tratamiento.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="05/06/2028" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 20/08/2026.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Zacarias regresa a consulta para seguimiento de su tratamiento psiquiátrico y respiratorio, un mes después de su última visita. Durante esta consulta, el paciente reporta una leve mejoría en la calidad de su sueño desde que se inició el tratamiento con Zolpidem 5 mg. Sin embargo, aún presenta episodios ocasionales de insomnio y manifiesta que la ansiedad persiste, aunque en menor grado en comparación con la visita anterior.
+
+En la evaluación física, los signos vitales son: Tª 36.7 °C; T.A: 128/78 mmHg; Fc: 70 lpm. La saturación de oxígeno se mantiene estable en un 94% en aire ambiente. La auscultación pulmonar revela ruidos respiratorios simétricos, sin sibilancias, y el paciente niega episodios de disnea en reposo, aunque menciona que la disnea leve persiste al realizar esfuerzos físicos intensos, lo que sugiere la necesidad de una reevaluación del tratamiento del asma.
+
+Los análisis de laboratorio realizados en esta visita muestran un conteo de leucocitos de 6,800/mm³ y una proteína C-reactiva (PCR) de 0.02 mg/L, lo que indica un estado inflamatorio controlado. La espirometría revela un volumen espiratorio forzado en el primer segundo (FEV1) al 85% del valor predicho, lo que sugiere una ligera mejora en la función pulmonar.
+
+Dada la persistencia de la ansiedad, se decide aumentar la dosis de Escitalopram a 20 mg diarios, con el objetivo de mejorar el control de los síntomas ansiosos. Se instruye a Zacarias para que continúe con el Zolpidem 5 mg antes de dormir y se le aconseja mantener un diario del sueño para evaluar mejor la eficacia del tratamiento.
+
+Se le recuerda la importancia de seguir con los controles regulares de su condición respiratoria, y se le recomienda realizar ejercicios de respiración y técnicas de relajación para ayudar a manejar la ansiedad. Además, se le aconseja evitar situaciones estresantes en la medida de lo posible y se le sugiere que considere la posibilidad de terapia cognitivo-conductual como complemento a su tratamiento farmacológico.
+
+Se programará una nueva consulta en cuatro semanas para reevaluar su condición clínica, con especial atención a la respuesta al aumento de la dosis de Escitalopram y el control de la ansiedad, así como la función pulmonar. Se enfatiza la necesidad de informar sobre cualquier exacerbación de los síntomas respiratorios o efectos secundarios significativos relacionados con el uso de Zolpidem o Escitalopram.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="20/08/2026" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

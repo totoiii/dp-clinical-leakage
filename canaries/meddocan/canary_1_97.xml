@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 30/05/2031.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta un mes después de su última evaluación. Durante esta visita, la paciente informa que ha experimentado una mejora moderada en la frecuencia y la intensidad de sus cefaleas tensionales desde que se inició el tratamiento con Propranolol 40 mg una vez al día. Sin embargo, persisten episodios ocasionales, especialmente durante períodos de estrés elevado, que se acompañan de síntomas de náuseas y fotofobia. Ana señala que ha estado utilizando Lorazepam 1 mg en situaciones de crisis, lo que ha proporcionado un alivio satisfactorio.
+
+En la evaluación física, Ana se presenta con un estado general aceptable, aunque se observa algo de tensión muscular en la región cervical. Los signos vitales son estables: Tª 36.8 C; T.A: 120/78 mmHg; Fc: 72 lpm. La exploración neurológica no revela déficits focales, aunque la paciente reporta una ligera hipersensibilidad a la luz durante los episodios de cefalea.
+
+Se discuten los episodios de insomnio que ha estado experimentando. Ana menciona que ha comenzado a tomar melatonina 3 mg antes de acostarse, lo que ha contribuido a mejorar su calidad de sueño, aunque todavía presenta dificultades para conciliar el sueño en noches de alta carga laboral. Se le aconseja continuar con la melatonina y se le sugiere la incorporación de técnicas de relajación adicionales, como la práctica de yoga o ejercicios de respiración guiada, para ayudar a reducir el estrés y mejorar la calidad del sueño.
+
+Ana expresa su satisfacción con los cambios en su tratamiento y se muestra comprometida a seguir las recomendaciones. Se programa una nueva cita en 4 semanas para reevaluar la eficacia de la terapia y realizar ajustes si es necesario. Se le proporcionan recursos sobre técnicas de manejo del estrés y se le invita a continuar participando en actividades que promuevan su bienestar emocional.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="30/05/2031" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

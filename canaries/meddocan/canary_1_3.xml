@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 20/11/2022.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Paciente de 37 años con diagnóstico de migraña episódica, quien regresa a consulta tras 4 semanas de ajuste de tratamiento. La paciente ha estado tomando Topiramato a 100 mg/día, además de Sumatriptán 50 mg como abortivo durante los episodios de cefalea. Refiere que, aunque la frecuencia de crisis se ha mantenido en 2 episodios en el último mes, la intensidad ha disminuido notablemente, con una duración promedio de 6 horas y sin episodios de vómitos.
+
+En la exploración física, la paciente presenta un estado general bueno, con signos vitales estables: Tª 36.5 C; T.A: 120/75 mmHg; Fc: 68 lpm. Neurológico sin déficits focales, y se observa adecuada hidratación. El diario de cefaleas indica que los episodios son desencadenados principalmente por cambios en la rutina de sueño y estrés, aunque la paciente ha implementado técnicas de manejo del estrés que parecen haber contribuido a la mejoría.
+
+Se decide mantener el régimen de Topiramato a 100 mg/día y continuar con el uso de Sumatriptán según necesidad. Se discuten estrategias adicionales para el manejo del estrés y se recomienda la práctica de ejercicios de relajación y una higiene del sueño adecuada. Se enfatiza la importancia de la hidratación y el seguimiento de un estilo de vida saludable.
+
+Se programa un nuevo seguimiento en 4 semanas para reevaluar la respuesta al tratamiento y la evolución de los síntomas. Se instruye a la paciente sobre la necesidad de buscar atención médica si presenta síntomas neurológicos inusuales o si la intensidad de las crisis aumenta.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="20/11/2022" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

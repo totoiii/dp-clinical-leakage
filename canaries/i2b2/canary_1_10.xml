@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2025-06-18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+East Kimberly Saint Kitts Hospital
+Department of Internal Medicine
+
+Location: Location: 7632 Megan Mountains Apt. 408, West Ronaldfort
+
+Smith, John
+Phone: 98623487 
+email: heathermorris@example.net
+Date of Birth: 1987-03-10
+
+
+CHIEF COMPLAINT
+
+Follow-up visit for reassessment of anxiety management, persistent fatigue, and headache frequency.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. John Smith presents for his follow-up appointment approximately four weeks after the last visit where an increase in Escitalopram to 15 mg daily was initiated. He reports a modest improvement in his anxiety symptoms, noting that panic episodes have decreased in frequency to about once a week. However, he continues to experience significant anxiety primarily linked to work-related stressors. His emotional regulation has improved, but he still feels overwhelmed during peak teaching periods.
+
+Despite the increase in Escitalopram, Mr. Smith describes his fatigue as persistent and debilitating, particularly during the afternoons when he teaches. He has been utilizing sleep hygiene techniques but continues to report non-restorative sleep, often waking up feeling unrefreshed. The Melatonin 3 mg at night has not shown significant improvement in his sleep quality, and he expresses frustration regarding his ongoing fatigue.
+
+Mr. Smith's tension-type headaches have persisted, now occurring approximately five to six times weekly. The intensity has remained moderate to severe, often necessitating the use of over-the-counter analgesics such as Ibuprofen for relief. He identifies stress and inadequate sleep as primary triggers for his headaches, with the frequency increasing during particularly demanding weeks.
+
+REVIEW OF SYSTEMS
+
+General: Persistent fatigue; no significant weight loss, fever, or night sweats.
+Cardiovascular: Intermittent palpitations remain stable; denies chest pain or edema.
+Respiratory: No shortness of breath; no cough or wheezing.
+Gastrointestinal: Mild nausea persists; occasional bloating; no vomiting or changes in bowel habits.
+Neurological: Increased frequency of tension headaches; no focal neurological deficits.
+
+PAST MEDICAL HISTORY
+
+- No significant past medical history.
+
+FAMILY HISTORY
+
+- Father: Coronary artery disease, underwent CABG at age 60.
+- Mother: Hypertension.
+
+SOCIAL HISTORY
+
+- Lives alone in , . Works as a teacher. No tobacco use; social alcohol consumption. No illicit drug use.
+
+MEDICATIONS
+
+- Atorvastatin 10 mg daily.
+- Magnesium supplement 400 mg daily.
+- Melatonin 3 mg nightly.
+- Escitalopram 15 mg daily.
+
+ALLERGIES
+
+- No known drug allergies.
+
+PHYSICAL EXAMINATION
+
+VITALS: T 98.7F, HR 76 bpm, BP 122/78 mmHg, RR 16 breaths/min, O2 sat 97% on room air.
+
+General: Well-nourished, alert, appears fatigued but in no acute distress.
+Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops. No peripheral edema.
+Respiratory: Clear to auscultation bilaterally; no wheezing or crackles.
+Gastrointestinal: Soft, non-tender abdomen; mild tenderness in the epigastric region.
+Neurological: Cranial nerves II-XII intact; no focal deficits. Notable tenderness on palpation of the bilateral temporalis region.
+
+LABORATORY DATA
+
+Lipid Panel (obtained at last visit): Total Cholesterol 180 mg/dL, LDL 100 mg/dL, HDL 56 mg/dL, Triglycerides 105 mg/dL
+CBC: Normal
+BMP: Normal
+TSH: Normal
+
+RADIOLOGICAL STUDIES
+
+None performed at this visit.
+
+ASSESSMENT AND PLAN
+
+1. Persistent fatigue and sleep disturbances with ongoing anxiety.
+   - Mr. Smith reports a moderate improvement in anxiety symptoms; however, fatigue and sleep issues remain significant. Transition to a dual approach: consider increasing Escitalopram to 20 mg daily to further enhance therapeutic benefits. Additionally, initiate a trial of Trazodone 50 mg nightly to assist with sleep onset and maintenance. Schedule follow-up in 4 weeks to reassess response to medication adjustments and monitor for side effects.
+
+2. Headaches.
+   - The patient's tension-type headaches are frequent and may be exacerbated by ongoing stress and fatigue. Continue over-the-counter analgesics as needed. Recommend referral for physical therapy focused on stress management techniques, along with considering prophylactic treatment options such as Amitriptyline if headache frequency continues to escalate.
+
+3. Lipid management.
+   - Continue Atorvastatin 10 mg daily due to stable lipid levels. Reassess lipid panel in 3 months to evaluate ongoing effectiveness.
+
+4. Follow-up.
+   - Schedule follow-up appointment in 4 weeks to reassess anxiety symptoms, sleep quality, headache frequency, and overall well-being. Encourage Mr. Smith to continue maintaining his symptom diary and to identify specific stressors that may be contributing to his fatigue and headaches.
+
+__________________________________
+
+Emily Johnson, MD
+Department of Internal Medicine
+East Kimberly Saint Kitts Hospital
+Phone: 98623487
+Email: heathermorris@example.net
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2025-06-18" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="64" text="East Kimberly Saint Kitts Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="66" end="71" text="John" TYPE="PATIENT" comment="" />
+<NAME id="P3" start="73" end="78" text="Smith" TYPE="PATIENT" comment="" />
+<ID id="P4" start="81" end="88" text="9876543" TYPE="MEDICALRECORD" comment="" />
+<AGE id="P5" start="90" end="100" text="38 aos" TYPE="AGE" comment="" />
+<LOCATION id="P6" start="106" end="118" text="" TYPE="CITY" comment="" />
+<LOCATION id="P7" start="120" end="130" text="" TYPE="STATE" comment="" />
+<CONTACT id="P8" start="132" end="140" text="98623487" TYPE="PHONE" comment="" />
+<CONTACT id="P9" start="142" end="159" text="heathermorris@example.net" TYPE="EMAIL" comment="" />
+<PROFESSION id="P10" start="161" end="168" text="Teacher" TYPE="PROFESSION" comment="" />
+<NAME id="P11" start="192" end="197" text="Emily Johnson" TYPE="DOCTOR" comment="" />
+</TAGS>
+</deIdi2b2>

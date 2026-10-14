@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 30/03/2031.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta tras un mes desde su última evaluación. Durante esta visita, la paciente reporta una ligera mejoría en la frecuencia de sus cefaleas tensionales, que ahora se presentan aproximadamente cada cinco días. Sin embargo, persisten episodios de intensidad moderada a severa, especialmente durante situaciones de estrés laboral, lo que continúa afectando su calidad de vida. Ana ha seguido practicando las técnicas de relajación y estiramiento recomendadas y ha comenzado a asistir a sesiones de terapia cognitivo-conductual (TCC), lo que ha contribuido a su bienestar general, aunque la ansiedad sigue siendo un desafío significativo.
+
+En la evaluación física, Ana se presenta con un estado general aceptable. Los signos vitales son estables: Tª 36.8 C; T.A: 120/78 mmHg; Fc: 72 lpm. La exploración neurológica sigue siendo normal, sin déficits focales. Se observa una tensión muscular notable en la región cervical y en los músculos del trapecio, lo que podría estar relacionado con el estrés y la ansiedad reportados.
+
+Se revisa el uso de Lorazepam, que ha sido ajustado a 0.5 mg en situaciones de mayor ansiedad, y Ana informa que ha podido manejar episodios de ansiedad severa con esta dosificación. Sin embargo, se discute la posibilidad de implementar un plan de reducción gradual de la medicación, dado que la paciente ha mostrado avances en la gestión de su ansiedad a través de la TCC y las técnicas de mindfulness. Se decide mantener la dosis actual de Lorazepam por un mes adicional, con la intención de reevaluar su necesidad en la próxima consulta.
+
+Ana también menciona que ha experimentado una mejora en la calidad de su sueño, logrando conciliar el sueño más fácilmente gracias a los ejercicios de respiración y meditación recomendados. Sin embargo, todavía tiene dificultades ocasionales en noches previas a jornadas laborales estresantes. Se le aconseja continuar evitando estimulantes por la tarde y se le sugiere establecer una rutina de relajación antes de dormir.
+
+Ana se muestra motivada y comprometida con su tratamiento, y expresa su deseo de continuar trabajando en su autogestión. Se programa una nueva cita en 4 semanas para evaluar su progreso y realizar ajustes en el tratamiento si es necesario. Se le proporcionan recursos adicionales sobre la TCC y se le anima a seguir participando en grupos de apoyo para el manejo del estrés.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="30/03/2031" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

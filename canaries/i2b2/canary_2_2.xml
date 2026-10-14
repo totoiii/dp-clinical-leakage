@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2124-12-01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+South Elizabeth Seychelles Hospital
+INTERNAL MEDICINE DEPARTMENT
+Location: 4923 Olivia Parkway Suite 217, Lake Jennabury
+
+
+PATIENT: Lysander Fairfax
+Phone: 28451903
+email:bradleymorgan@example.org
+DATE OF BIRTH: 1947-05-12
+AGE: 77 years
+
+FOLLOW-UP DATE: 12/01/24
+FOLLOWED BY: Dr. Emily Carter
+
+
+
+CHIEF COMPLAINT
+
+Follow-up for COPD exacerbation and management of recent medication changes.
+
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. Lysander Fairfax returns for a follow-up visit after his hospitalization for a COPD exacerbation managed with systemic corticosteroids and bronchodilators. He reports a gradual improvement in his symptoms since discharge, stating that his shortness of breath has decreased significantly, and he is now able to engage in light activities without excessive fatigue. He has been adherent to his medication regimen, including the use of his albuterol inhaler as needed, which he reports using less frequently, approximately 1-2 times per day.
+
+The patient describes the resolution of his cough, with minimal sputum production noted. However, he continues to experience mild wheezing, especially during cold weather. He has been utilizing his fluticasone/salmeterol inhaler regularly and has been compliant with the prescribed prednisone taper, completing the course without adverse effects.
+
+Mr. Fairfax mentions increased swelling in his lower extremities persists, though it has improved since elevating his legs as advised. He denies any new symptoms such as chest pain, palpitations, or hemoptysis. He reports sleeping better, with less nocturnal dyspnea, thanks to the elevation of his head during sleep.
+
+REVIEW OF SYSTEMS
+
+General - + improved fatigue, no fevers or chills.
+Pulmonary - - cough, - sputum production, + mild wheezing, - dyspnea on exertion, no hemoptysis.
+Cardiac - no chest pain or palpitations, + orthopnea.
+Gastrointestinal - no nausea, vomiting, or diarrhea.
+Musculoskeletal - + joint pain in knees and hands, no swelling.
+Neurological - no dizziness or headaches.
+
+PAST MEDICAL HISTORY
+
+1. Chronic obstructive pulmonary disease (COPD)
+2. Hypertension
+3. Osteoarthritis
+
+PAST SURGICAL HISTORY
+
+1. Right knee arthroscopy in 2018.
+
+FAMILY HISTORY
+
+Father - history of lung cancer.
+Mother - history of hypertension.
+
+SOCIAL HISTORY
+
+Lives alone in , . Former carpenter, now retired. Quit smoking 15 years ago. Occasional alcohol use. No illicit drug use.
+
+ALLERGIES
+
+No known drug allergies.
+
+MEDICATIONS ON FOLLOW-UP
+
+1. Albuterol inhaler as needed
+2. Lisinopril 20 mg daily
+3. Fluticasone/salmeterol 250/50 MDI, 1 puff twice daily
+4. Acetaminophen 500 mg as needed for pain
+5. Prednisone 10 mg daily (tapering down)
+
+PHYSICAL EXAMINATION
+
+Vital Signs: T 98.4F, HR 80, BP 128/76, RR 20, O2 sat 94% on room air
+
+General: Elderly male in mild respiratory distress.
+HEENT: No nasal congestion, oropharynx clear.
+Pulmonary: Diminished breath sounds bilaterally, mild wheezing noted on expiration, no crackles.
+Cardiac: Regular rate and rhythm, no murmurs.
+Extremities: 1+ pitting edema in bilateral lower extremities.
+
+LABORATORY DATA
+
+1. CBC: WBC 8.5, Hgb 13.8, Hct 40.5, Plt 215
+2. BMP: Na 139, K 4.2, Cl 101, CO2 30, BUN 16, Cr 0.8, Glucose 98
+3. BNP: 450 (decreased)
+4. CXR: Stable hyperinflation of lungs with no new interstitial markings.
+
+ASSESSMENT AND PLAN
+
+1. COPD management: Continue current inhaler regimen and taper prednisone to 5 mg daily for one week, then discontinue. Monitor symptoms closely and consider pulmonary rehabilitation to enhance functional capacity.
+2. Hypertension: Continue lisinopril. Blood pressure remains well-controlled. Schedule follow-up in 1 month.
+3. Lower extremity edema: Continue leg elevation and monitor for any worsening. Discussed the potential addition of a diuretic if no improvement is noted.
+4. Follow up with pulmonary medicine for ongoing management.
+
+Patient education reinforced regarding COPD self-management strategies, including smoking cessation support, inhaler techniques, and the importance of maintaining an active lifestyle.
+
+__________________________________
+
+Emily Carter, MD
+Internal Medicine Resident
+Phone: 28451903
+Email: bradleymorgan@example.org
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2124-12-01" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="70" text="South Elizabeth Seychelles Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="73" end="92" text="Lysander Fairfax" TYPE="PATIENT" comment="" />
+<ID id="P3" start="95" end="102" text="5072184" TYPE="MEDICALRECORD" comment="" />
+<DATE id="P4" start="116" end="124" text="12/01/24" TYPE="DATE" comment="" />
+<NAME id="P5" start="138" end="154" text="Emily Carter" TYPE="DOCTOR" comment="" />
+<AGE id="P6" start="161" end="166" text="77 years" TYPE="AGE" comment="" />
+<LOCATION id="P7" start="1801" end="1808" text="" TYPE="CITY" comment="" />
+<LOCATION id="P8" start="1810" end="1817" text="" TYPE="STATE" comment="" />
+<CONTACT id="P9" start="1877" end="1879" text="28451903" TYPE="PHONE" comment="" />
+<CONTACT id="P10" start="1881" end="1898" text="bradleymorgan@example.org" TYPE="EMAIL" comment="" />
+<PROFESSION id="P11" start="1913" end="1921" text="Carpenter" TYPE="PROFESION" comment="" />
+<DATE id="P12" start="1997" end="2001" text="4/2024" TYPE="DATE" comment="" />
+<DATE id="P13" start="2133" end="2138" text="15 years" TYPE="DATE" comment="" />
+<NAME id="P14" start="2283" end="2290" text="Carter" TYPE="DOCTOR" comment="" />
+<NAME id="P15" start="2314" end="2320" text="Fairfax" TYPE="PATIENT" comment="" />
+<NAME id="P16" start="2371" end="2377" text="Lysander" TYPE="PATIENT" comment="" />
+</TAGS>
+</deIdi2b2>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 20/05/2023.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Paciente de 37 años con diagnóstico de migraña episódica que regresa a consulta para evaluación de seguimiento tras un mes de tratamiento. En la consulta anterior, se había ajustado la dosis de Topiramato a 150 mg/día, con una notable mejoría reportada en la frecuencia y severidad de sus episodios de migraña. Sin embargo, la paciente informa que en las últimas dos semanas ha experimentado un aumento en la frecuencia de las crisis, alcanzando hasta 1.2 episodios por semana, con una intensidad moderada que califica como 5 en una escala de 1 a 10.
+
+Durante la exploración física, la paciente se presenta en un estado general aceptable, con signos vitales estables: Tª 36.8 C; T.A: 120/78 mmHg; Fc: 72 lpm. El examen neurológico continúa sin hallazgos anormales, con reflejos normales y sin déficits focales. La paciente menciona que ha continuado con sus técnicas de manejo del estrés, pero ha tenido dificultades para mantener su rutina de ejercicios debido a un aumento en la carga laboral, lo que ha impactado negativamente en su bienestar general.
+
+En la consulta, se revisa el uso de Sumatriptán 100 mg como abortivo. La paciente ha utilizado el medicamento en cuatro ocasiones desde la última visita y reporta alivio completo en tres de ellas, pero menciona un episodio en el que el alivio fue parcial, lo que le llevó a considerar la necesidad de un cambio en su plan de tratamiento. Se discute la posibilidad de aumentar la dosis de Topiramato a 200 mg/día para mejorar el control de las migrañas, dado el aumento reciente en la frecuencia de los episodios.
+
+Se le aconseja a la paciente que mantenga un diario de migrañas más detallado, incluyendo información sobre los desencadenantes potenciales, la duración de los episodios y la respuesta al tratamiento abortivo. Además, se le instruye sobre la importancia de registrar cualquier efecto secundario asociado con el Topiramato, como alteraciones en el estado de ánimo o problemas cognitivos.
+
+Se establece un plan de seguimiento en 4 semanas para reevaluar la eficacia del tratamiento ajustado y la evolución de sus síntomas. Se le recuerda a la paciente que debe acudir a urgencias si presenta síntomas neurológicos inusuales, como debilidad, alteraciones visuales o confusión, y se le proporciona información sobre las señales de alarma a tener en cuenta.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="20/05/2023" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

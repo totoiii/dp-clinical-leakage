@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2025-03-26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+East Kimberly Saint Kitts Hospital
+Department of Internal Medicine
+
+Location: Location: 7632 Megan Mountains Apt. 408, West Ronaldfort
+
+Smith, John
+Phone: 98623487 
+email: heathermorris@example.net
+Date of Birth: 1987-03-10
+
+
+CHIEF COMPLAINT
+
+Follow-up visit for persistent fatigue, ongoing anxiety management, and assessment of medication adjustments.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. John Smith returns for a follow-up appointment after four weeks of adjusting his anxiety management regimen. He reports that after the last visit, the dosage of Sertraline was increased to 100 mg daily due to the persistence of his anxiety symptoms and gastrointestinal side effects. He notes that while his anxiety levels have shown some improvement, with fewer panic-like episodes, he continues to struggle with debilitating fatigue and sleep disturbances.
+
+The patient describes his fatigue as overwhelming, particularly during the weekdays after teaching, and he mentions that his sleep quality remains poor despite adherence to sleep hygiene practices. Mr. Smith has been utilizing mindfulness techniques but still finds it challenging to fall asleep and often wakes up multiple times throughout the night. He expresses concern that the increased dosage of Sertraline may still be contributing to his gastrointestinal discomfort, including intermittent nausea and a sensation of fullness.
+
+Additionally, Mr. Smith reports ongoing headaches that have become more frequent, describing them as tension-type headaches that seem to correlate with periods of heightened stress. He denies any visual changes or aura associated with his headaches.
+
+REVIEW OF SYSTEMS
+
+General: Persistent fatigue; no significant weight loss, fever, or night sweats.
+Cardiovascular: Intermittent palpitations have improved; denies chest pain or edema.
+Respiratory: No shortness of breath; no cough or wheezing.
+Gastrointestinal: Mild nausea; occasional bloating; no vomiting or changes in bowel habits.
+Neurological: Increased frequency of tension headaches; no focal neurological deficits.
+
+PAST MEDICAL HISTORY
+
+- No significant past medical history.
+
+FAMILY HISTORY
+
+- Father: Coronary artery disease, underwent CABG at age 60.
+- Mother: Hypertension.
+
+SOCIAL HISTORY
+
+- Lives alone in , . Works as a teacher. No tobacco use; social alcohol consumption. No illicit drug use.
+
+MEDICATIONS
+
+- Atorvastatin 10 mg daily.
+- Magnesium supplement 400 mg daily.
+- Melatonin 3 mg nightly.
+- Sertraline 100 mg daily (increased dosage).
+
+ALLERGIES
+
+- No known drug allergies.
+
+PHYSICAL EXAMINATION
+
+VITALS: T 98.6F, HR 78 bpm, BP 120/76 mmHg, RR 16 breaths/min, O2 sat 98% on room air.
+
+General: Well-nourished, alert, appears slightly anxious but in no acute distress.
+Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops. No peripheral edema.
+Respiratory: Clear to auscultation bilaterally; no wheezing or crackles.
+Gastrointestinal: Soft, non-tender abdomen; mild tenderness in the epigastric region.
+Neurological: Cranial nerves II-XII intact; no focal deficits. Notable tenderness on palpation of the bilateral temporalis region.
+
+LABORATORY DATA
+
+Lipid Panel (obtained at last visit): Total Cholesterol 190 mg/dL, LDL 110 mg/dL, HDL 52 mg/dL, Triglycerides 120 mg/dL
+CBC: Normal
+BMP: Normal
+TSH: Normal
+
+RADIOLOGICAL STUDIES
+
+None performed at this visit.
+
+ASSESSMENT AND PLAN
+
+1. Persistent fatigue and sleep disturbances with ongoing anxiety.
+   - The patient's anxiety symptoms have shown some improvement with the increased dosage of Sertraline; however, persistent fatigue and gastrointestinal discomfort remain concerning. Discuss the potential for switching to an alternative SSRI or considering an adjunctive therapy such as buspirone if symptoms do not improve. Schedule follow-up in 4 weeks to monitor side effects and effectiveness.
+   - Reinforce the importance of continued mindfulness and cognitive-behavioral strategies for anxiety management.
+
+2. Headaches.
+   - The patients tension-type headaches may be exacerbated by stress and fatigue. Recommend a trial of over-the-counter analgesics as needed and consider referral for physical therapy focusing on stress management techniques if headaches persist.
+
+3. Lipid management.
+   - Continue Atorvastatin 10 mg daily due to stable lipid levels. Reassess lipid panel in 3 months to evaluate ongoing effectiveness.
+
+4. Follow-up.
+   - Schedule follow-up appointment in 4 weeks to reassess anxiety symptoms, sleep quality, headache frequency, and overall well-being. Encourage Mr. Smith to keep a detailed diary of his symptoms and any triggers he identifies.
+
+__________________________________
+
+Emily Johnson, MD
+Department of Internal Medicine
+East Kimberly Saint Kitts Hospital
+Phone: 98623487
+Email: heathermorris@example.net
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2025-03-26" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="64" text="East Kimberly Saint Kitts Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="66" end="71" text="John" TYPE="PATIENT" comment="" />
+<NAME id="P3" start="73" end="78" text="Smith" TYPE="PATIENT" comment="" />
+<ID id="P4" start="81" end="88" text="9876543" TYPE="MEDICALRECORD" comment="" />
+<AGE id="P5" start="90" end="100" text="37 aos" TYPE="AGE" comment="" />
+<LOCATION id="P6" start="106" end="118" text="" TYPE="CITY" comment="" />
+<LOCATION id="P7" start="120" end="130" text="" TYPE="STATE" comment="" />
+<CONTACT id="P8" start="132" end="140" text="98623487" TYPE="PHONE" comment="" />
+<CONTACT id="P9" start="142" end="159" text="heathermorris@example.net" TYPE="EMAIL" comment="" />
+<PROFESSION id="P10" start="161" end="168" text="Teacher" TYPE="PROFESSION" comment="" />
+<NAME id="P11" start="192" end="197" text="Emily Johnson" TYPE="DOCTOR" comment="" />
+</TAGS>
+</deIdi2b2>

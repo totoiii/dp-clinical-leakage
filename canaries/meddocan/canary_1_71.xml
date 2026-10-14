@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 02/02/2029.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para una evaluación de seguimiento a seis semanas de su última visita. Durante este período, ha continuado con el tratamiento de Topiramato a 50 mg/día y Sertralina a 100 mg/día. Ana informa que la frecuencia de sus episodios de cefalea tensional se ha mantenido en 2 episodios por mes, pero ha notado un incremento en la intensidad de las mismas, describiéndolas ahora como moderadas, lo que ha afectado su capacidad para realizar algunas actividades diarias.
+
+En la evaluación física, Ana presenta un estado general aceptable, aunque muestra signos de malestar por la intensidad de sus cefaleas. Los signos vitales son los siguientes: Tª 36.8 C; T.A: 120/78 mmHg; Fc: 70 lpm. La evaluación neurológica revela que no hay déficits focales, pero se observan signos de ansiedad y tensión muscular en la región cervical. Ana ha utilizado Ibuprofeno en tres ocasiones en el último mes, lo que indica un manejo sintomático de su dolor, pero también sugiere que el tratamiento actual no está siendo completamente efectivo.
+
+Se discuten los resultados del tratamiento y se evalúa la necesidad de un ajuste en la medicación. Dado el aumento en la intensidad de las cefaleas, se decide aumentar la dosis de Topiramato a 75 mg/día, con el objetivo de proporcionar un mejor control del dolor. Ana es informada sobre los posibles efectos secundarios del aumento de dosis, incluyendo somnolencia y mareos, y se le instruye para que esté atenta a cualquier síntoma inusual.
+
+Además, se recomienda que continúe con las sesiones de terapia cognitivo-conductual, ya que se ha demostrado que estas intervenciones son efectivas para el manejo del estrés y la ansiedad, que pueden exacerbar sus síntomas. Se le sugiere llevar un registro más detallado de sus episodios de cefalea, anotando no solo la frecuencia e intensidad, sino también los posibles desencadenantes, para facilitar una mejor evaluación en futuras consultas.
+
+Ana muestra una actitud positiva y agradece el apoyo recibido, reafirmando su compromiso con el tratamiento y su salud. Se programa una nueva cita en 8 semanas para reevaluar la eficacia del ajuste en la medicación y realizar un seguimiento de su progreso.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="02/02/2029" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

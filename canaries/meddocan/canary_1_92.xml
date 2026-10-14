@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 02/01/2031.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para seguimiento a un mes de su última visita. En este periodo, ha continuado con su régimen de medicación, que incluye Amitriptilina a 50 mg/día y Sertralina a 100 mg/día. Durante esta consulta, Ana reporta que la frecuencia de sus cefaleas tensionales ha permanecido estable, con un promedio de 1 a 2 episodios por semana, aunque la intensidad se ha incrementado ocasionalmente a moderada. La paciente manifiesta que la ansiedad sigue siendo un desafío, especialmente en situaciones laborales estresantes, lo que ha llevado a un uso más frecuente de Lorazepam.
+
+En la evaluación física, Ana se presenta con un estado general adecuado. Los signos vitales son estables: Tª 36.7 C; T.A: 122/80 mmHg; Fc: 75 lpm. La exploración neurológica continúa siendo normal, sin déficits focales, aunque se observa una tensión muscular moderada en la región cervical. Se discute la importancia de adherirse a las técnicas de relajación y estiramiento, así como la práctica de yoga, que ha demostrado ser beneficiosa para su bienestar general.
+
+Ana ha estado utilizando Lorazepam a 0.5 mg hasta cuatro veces por semana en episodios de ansiedad severa, lo que ha llevado a una preocupación por el posible desarrollo de dependencia. Por lo tanto, se decide ajustar su tratamiento. Se propone reducir la dosis de Lorazepam a 0.25 mg y se enfatiza la necesidad de explorar alternativas no farmacológicas para el manejo de la ansiedad, como la terapia cognitivo-conductual (TCC) y un programa de mindfulness.
+
+Además, se revisan sus hábitos de sueño, ya que Ana menciona que ha tenido dificultades para conciliar el sueño, lo que podría estar exacerbando su ansiedad. Se le aconseja implementar una rutina de sueño regular, evitando estimulantes por la tarde y se le sugiere la incorporación de técnicas de higiene del sueño.
+
+Ana muestra un compromiso positivo hacia su tratamiento y se siente motivada para continuar trabajando en su autogestión. Se programa una nueva cita en 4 semanas para reevaluar su progreso y realizar ajustes en el tratamiento si es necesario. También se le proporcionan recursos para la TCC y se le anima a participar en grupos de apoyo para el manejo del estrés.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="02/01/2031" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

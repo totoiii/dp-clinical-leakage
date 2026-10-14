@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 02/03/2025.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Zacarias acude nuevamente a consulta tras una semana de seguimiento del tratamiento modificado para su asma y alergias. Durante este tiempo, el paciente ha continuado con la misma pauta terapéutica, incluyendo Prednisona 20 mg diarios, Dexametasona 6 mg diarios, inhalador de Budesonida/Formoterol a 200/6 mcg tres veces al día, y Loratadina 10 mg cuatro veces al día. El paciente informa que, aunque la tos seca nocturna ha mejorado ligeramente, la disnea persiste, especialmente al realizar actividades que requieren esfuerzo físico y en ambientes fríos. Además, menciona episodios ocasionales de opresión torácica, lo que le causa preocupación.
+
+En la evaluación física, los signos vitales son: Tª 36.9 °C; T.A: 130/78 mmHg; Fc: 76 lpm. La saturación de oxígeno se mantiene en 92% en aire ambiente. La auscultación pulmonar revela ruidos respiratorios simétricos, con sibilancias bilaterales moderadas y sin estertores. La persistencia de la disnea y la opresión torácica sugieren una respuesta insuficiente al tratamiento actual.
+
+Los análisis de laboratorio realizados durante esta consulta muestran un conteo de leucocitos de 7,200/mm³ y una proteína C-reactiva (PCR) de 0.05 mg/L, lo que indica que no hay signos de infección aguda, pero sugiere una inflamación persistente. La radiografía de tórax revela un patrón de hiperinsuflación pulmonar similar al anterior, sin cambios significativos.
+
+Dado que la disnea y la opresión torácica son síntomas preocupantes y el control del asma sigue siendo subóptimo, se decide realizar un ajuste en el tratamiento. Se incrementa la dosis de Prednisona a 30 mg diarios durante 5 días, con una reevaluación programada al final de este periodo. Se agrega un nuevo medicamento, Montelukast 10 mg diarios, para ayudar a controlar la inflamación y mejorar el manejo de los síntomas asmáticos. Se enfatiza nuevamente la importancia del uso de Salbutamol como broncodilatador de rescate y se le recuerda al paciente que debe usarlo antes de cualquier actividad física.
+
+Se discuten estrategias adicionales de manejo, incluyendo la recomendación de continuar evitando alérgenos y mantener un ambiente limpio, así como la utilización del purificador de aire. Se le aconseja al paciente que esté atento a cualquier aumento en la tos, disnea o signos de infección respiratoria, y que se presente a consulta de inmediato si estos síntomas empeoran.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="02/03/2025" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

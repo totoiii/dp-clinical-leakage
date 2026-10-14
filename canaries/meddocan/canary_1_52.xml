@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 29/11/2026.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta un mes después de su última visita, donde se realizó un ajuste en su régimen de medicación. Desde el último encuentro, ha estado tomando Topiramato a 200 mg/día y ha añadido Sumatriptán como medicamento de rescate durante los episodios agudos de migraña. La paciente reporta una notable mejoría en la frecuencia y severidad de sus migrañas, indicando que ha experimentado solo dos episodios en el último mes, ambos manejados con Sumatriptán, lo que ha permitido un control efectivo del dolor. Califica la intensidad de sus migrañas actuales como 2 en la escala del dolor.
+
+Ana también menciona que, aunque su ansiedad ha permanecido controlada, ha tenido episodios ocasionales de tensión, especialmente en situaciones laborales. Sin embargo, ha estado aplicando técnicas de manejo del estrés con mayor éxito, lo que ha contribuido a su bienestar general. Durante la exploración física, se observa que su estado general es bueno y los parámetros vitales son estables: Tª 36.6 C; T.A: 122/78 mmHg; Fc: 72 lpm. La evaluación neurológica sigue siendo normal, y no se aprecian signos de tensión muscular significativa en la región cervical.
+
+Se discute la posibilidad de mantener el régimen actual de medicación, ya que los beneficios superan los efectos adversos. Se refuerza la importancia de la continuidad en el uso del diario de síntomas para seguir identificando patrones y desencadenantes de sus episodios de migraña y ansiedad. Ana se siente satisfecha con su progreso y está de acuerdo en continuar con el plan de tratamiento actual.
+
+Se establece una nueva cita en 4 semanas para una reevaluación de su estado, con el objetivo de asegurar la eficacia del tratamiento y realizar ajustes si es necesario. Se le recuerda que debe acudir a la consulta si experimenta un aumento inesperado en la frecuencia o severidad de sus síntomas.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="29/11/2026" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+  </TAGS>
+</MEDDOCAN>

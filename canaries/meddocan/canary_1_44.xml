@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 29/03/2026.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para evaluación de seguimiento un mes después de su última visita. Durante este periodo, ha continuado con el tratamiento de Topiramato a 100 mg/día y Duloxetina a 60 mg/día. En esta ocasión, la paciente reporta que ha mantenido una buena respuesta al tratamiento, mencionando que la frecuencia de los episodios de migraña se ha estabilizado en 2 episodios mensuales, con una intensidad promedio de 3 en la escala del dolor. Sin embargo, Ana expresa que los síntomas de ansiedad han aumentado, refiriendo episodios de ansiedad más intensos y persistentes, lo que ha impactado en su calidad de vida.
+
+Durante la exploración física, Ana presenta un estado general aceptable, con parámetros vitales dentro de los límites normales: Tª 36.5 C; T.A: 118/72 mmHg; Fc: 76 lpm. La exploración neurológica se mantiene sin alteraciones significativas. Se observa una ligera tensión en la región cervical, que la paciente describe como ocasional y de baja intensidad. Los efectos secundarios de la Duloxetina, como náuseas, han sido tolerables, aunque Ana menciona que ha experimentado episodios de insomnio, lo que ha contribuido a su ansiedad.
+
+Dada la persistencia de los síntomas de ansiedad, se decide realizar un ajuste en la medicación. Se propone reducir la dosis de Duloxetina a 30 mg/día para evaluar si esto mejora su tolerancia y a su vez se inicia un tratamiento adyuvante con Escitalopram a 10 mg/día, con el objetivo de abordar los síntomas de ansiedad de manera más efectiva. Se discuten los posibles efectos secundarios y la importancia de reportar cualquier cambio significativo en su estado.
+
+Ana continúa utilizando Zolpidem 5 mg por la noche, y se refuerza la necesidad de mantener una buena higiene del sueño y técnicas de relajación, recomendando la práctica de mindfulness y ejercicios de respiración. Se le recuerda la importancia de seguir documentando en su diario de migrañas, haciendo hincapié en registrar no solo los episodios de dolor, sino también los momentos de ansiedad y sus desencadenantes.
+
+Se recomienda que Ana continúe asistiendo a sesiones de terapia cognitivo-conductual, ya que estas han mostrado ser beneficiosas en la gestión de su ansiedad. Se sugiere una reevaluación en 4 semanas para monitorizar la eficacia de los ajustes realizados en su tratamiento y realizar las modificaciones necesarias basadas en su progreso.
+
+Ana es instruida para que se comunique con la consulta si experimenta efectos adversos significativos o si sus síntomas empeoran, enfatizando la importancia de la comunicación continua con el equipo médico.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="29/03/2026" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

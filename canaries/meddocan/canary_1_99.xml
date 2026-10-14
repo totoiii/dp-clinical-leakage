@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 28/07/2031.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta tras 4 semanas de seguimiento del nuevo régimen terapéutico. Durante esta visita, la paciente informa que ha notado una mejora significativa en la frecuencia e intensidad de los episodios de cefalea tensional. Actualmente, los episodios se presentan aproximadamente 1-2 veces por semana y son de menor severidad, lo que atribuye al aumento de la dosis de Propranolol a 80 mg una vez al día. Sin embargo, continúa experimentando síntomas de fotofobia, aunque en menor grado, y episodios ocasionales de náuseas que persisten en situaciones de estrés elevado.
+
+En la evaluación física, Ana se presenta con un estado general bueno, aunque se observa una ligera tensión en la musculatura cervical. Los signos vitales son estables: Tª 36.6 C; T.A: 116/74 mmHg; Fc: 68 lpm. La exploración neurológica revela una hipersensibilidad a la luz, pero sin déficits neurológicos focales. Se discute la efectividad de la melatonina en su calidad de sueño; Ana indica que ha mejorado su capacidad para iniciar el sueño, aunque sigue teniendo algunos episodios de insomnio, especialmente en noches de alta carga laboral.
+
+Dado el progreso observado en el control de las cefaleas, se decide mantener la dosis de Propranolol en 80 mg una vez al día. No obstante, se sugiere un ajuste en el manejo del insomnio; se propone la adición de un antidepresivo de tipo ISRS, Sertralina 50 mg al día, para abordar tanto la ansiedad como los problemas de sueño, dado que se ha observado que el estrés puede exacerbar sus síntomas. Ana acepta esta propuesta y se le explica la importancia de la adherencia al tratamiento y el seguimiento de posibles efectos secundarios.
+
+Además, se le recuerda la importancia de continuar con el suplemento de magnesio y se le aconseja que implemente técnicas de relajación adicionales, como la meditación y ejercicios de respiración, para ayudar a manejar el estrés y la tensión muscular. Se programará una nueva cita en 6 semanas para reevaluar su respuesta al nuevo tratamiento y realizar ajustes si es necesario. 
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="28/07/2031" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

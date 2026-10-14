@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2125-07-10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+South Elizabeth Seychelles Hospital
+INTERNAL MEDICINE DEPARTMENT
+Location: 4923 Olivia Parkway Suite 217, Lake Jennabury
+
+
+PATIENT: Lysander Fairfax
+Phone: 28451903
+email:bradleymorgan@example.org
+DATE OF BIRTH: 1947-05-12
+AGE: 77 years
+
+FOLLOW-UP DATE: 07/10/25
+FOLLOWED BY: Dr. Emily Carter
+
+
+
+CHIEF COMPLAINT
+
+Follow-up visit for COPD management, evaluation of lower extremity edema, and recent onset of fatigue.
+
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. Lysander Fairfax returns for follow-up concerning his chronic obstructive pulmonary disease (COPD) management, persistent bilateral lower extremity edema, and a new complaint of increased fatigue over the past month. He reports that while his respiratory symptoms remain stable, he has noted an increase in morning wheezing episodes, particularly with the recent hot and humid weather. He continues to use his albuterol inhaler as needed, now averaging approximately once daily. Mr. Fairfax states he has been compliant with his fluticasone/salmeterol regimen, yet he feels that the control of his symptoms has diminished slightly.
+
+In terms of his lower extremity edema, Mr. Fairfax reports that the swelling has not improved despite the increased furosemide dosage to 40 mg daily, which he has been taking for the past month. The edema remains at 1+ pitting, and he admits to occasional noncompliance with sodium restrictions, especially during social gatherings. He denies any associated symptoms such as pain, warmth, or erythema in the legs, but he mentions that the swelling seems to worsen as the day progresses.
+
+Additionally, he expresses concern regarding his recent fatigue, which he describes as a feeling of general tiredness that does not improve with rest. He denies any recent weight loss, changes in appetite, or sleep disturbances.
+
+REVIEW OF SYSTEMS
+
+General - + fatigue, no fevers or chills.
+Pulmonary - - cough, - sputum production, + mild wheezing, - dyspnea on exertion, no hemoptysis.
+Cardiac - no chest pain or palpitations, + orthopnea.
+Gastrointestinal - no nausea, vomiting, or diarrhea.
+Musculoskeletal - + joint pain in knees and hands, no swelling.
+Neurological - no dizziness or headaches.
+
+PAST MEDICAL HISTORY
+
+1. Chronic obstructive pulmonary disease (COPD)
+2. Hypertension
+3. Osteoarthritis
+4. Recent onset of fatigue
+
+PAST SURGICAL HISTORY
+
+1. Right knee arthroscopy in 2018.
+
+FAMILY HISTORY
+
+Father - history of lung cancer.
+Mother - history of hypertension.
+
+SOCIAL HISTORY
+
+Lives alone in , . Former carpenter, now retired. Quit smoking 15 years ago. Occasional alcohol use. No illicit drug use.
+
+ALLERGIES
+
+No known drug allergies.
+
+MEDICATIONS ON FOLLOW-UP
+
+1. Albuterol inhaler as needed
+2. Lisinopril 20 mg daily
+3. Fluticasone/salmeterol 250/50 MDI, 1 puff twice daily
+4. Acetaminophen 500 mg as needed for pain
+5. Furosemide 40 mg daily
+
+PHYSICAL EXAMINATION
+
+Vital Signs: T 98.7F, HR 76, BP 128/76, RR 18, O2 sat 94% on room air
+
+General: Elderly male in no acute distress but appears fatigued.
+HEENT: No nasal congestion, oropharynx clear.
+Pulmonary: Diminished breath sounds bilaterally, mild wheezing noted on expiration, no crackles.
+Cardiac: Regular rate and rhythm, no murmurs.
+Extremities: 1+ pitting edema in bilateral lower extremities, no erythema or warmth.
+
+LABORATORY DATA
+
+1. CBC: WBC 8.2, Hgb 13.2, Hct 39.0, Plt 210
+2. BMP: Na 137, K 4.2, Cl 99, CO2 27, BUN 15, Cr 1.0, Glucose 90
+3. BNP: 420 (slight increase from previous visit)
+4. CXR: Stable hyperinflation of lungs, no acute changes.
+
+ASSESSMENT AND PLAN
+
+1. COPD management: Continue current inhaler regimen with emphasis on proper technique and adherence. Consider increasing fluticasone/salmeterol dose if symptoms do not improve, and schedule follow-up in 1 month.
+2. Hypertension: Continue lisinopril. Blood pressure remains well-controlled. Follow-up in 1 month.
+3. Lower extremity edema: Given the lack of improvement, consider referral to a cardiologist to evaluate for potential heart failure or other underlying causes. Continue furosemide at 40 mg daily and reinforce dietary sodium restrictions.
+4. Fatigue: Order thyroid function tests and a basic metabolic panel to evaluate for possible causes of fatigue. Follow up on results at the next visit.
+
+Patient education reinforced regarding recognizing early signs of exacerbation, the importance of medication adherence, and lifestyle modifications to manage both COPD and edema.
+
+__________________________________
+
+Emily Carter, MD
+Internal Medicine Resident
+Phone: 28451903
+Email: bradleymorgan@example.org
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2125-07-10" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="70" text="South Elizabeth Seychelles Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="73" end="92" text="Lysander Fairfax" TYPE="PATIENT" comment="" />
+<ID id="P3" start="95" end="102" text="5072184" TYPE="MEDICALRECORD" comment="" />
+<DATE id="P4" start="116" end="124" text="07/10/25" TYPE="DATE" comment="" />
+<NAME id="P5" start="138" end="154" text="Emily Carter" TYPE="DOCTOR" comment="" />
+<AGE id="P6" start="161" end="166" text="77 years" TYPE="AGE" comment="" />
+<LOCATION id="P7" start="1801" end="1808" text="" TYPE="CITY" comment="" />
+<LOCATION id="P8" start="1810" end="1817" text="" TYPE="STATE" comment="" />
+<CONTACT id="P9" start="1877" end="1879" text="28451903" TYPE="PHONE" comment="" />
+<CONTACT id="P10" start="1881" end="1898" text="bradleymorgan@example.org" TYPE="EMAIL" comment="" />
+<PROFESSION id="P11" start="1913" end="1921" text="Carpenter" TYPE="PROFESION" comment="" />
+<DATE id="P12" start="1997" end="2001" text="1 month" TYPE="DATE" comment="" />
+<DATE id="P13" start="2133" end="2138" text="15 years" TYPE="DATE" comment="" />
+<NAME id="P14" start="2283" end="2290" text="Carter" TYPE="DOCTOR" comment="" />
+<NAME id="P15" start="2314" end="2320" text="Fairfax" TYPE="PATIENT" comment="" />
+<NAME id="P16" start="2371" end="2377" text="Lysander" TYPE="PATIENT" comment="" />
+</TAGS>
+</deIdi2b2>

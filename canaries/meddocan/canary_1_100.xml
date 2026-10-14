@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 10/09/2031.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana acude nuevamente a consulta para seguimiento tras la implementación del nuevo tratamiento con Sertralina. En esta visita, la paciente reporta una notable mejoría en la calidad de su sueño, indicando que ahora puede conciliar el sueño con mayor facilidad y ha experimentado una reducción significativa en los episodios de insomnio. Sin embargo, menciona que todavía experimenta episodios de ansiedad en situaciones de estrés elevado, aunque estos son menos frecuentes y menos intensos que antes del inicio del tratamiento.
+
+Durante la evaluación física, Ana se presenta en buen estado general, aunque se nota cierta tensión en la región cervical. Los signos vitales son estables: Tª 36.7 C; T.A: 118/76 mmHg; Fc: 70 lpm. La exploración neurológica muestra hipersensibilidad a la luz, pero sin déficits neurológicos evidentes. Se discute la posibilidad de que la ansiedad persistente esté contribuyendo a sus síntomas de cefalea tensional, por lo que se considera un ajuste en la terapia.
+
+Se decide aumentar la dosis de Sertralina a 100 mg al día, con el fin de mejorar aún más el control de la ansiedad y, por ende, impactar positivamente en la frecuencia de las cefaleas. Ana es informada sobre la importancia de la adherencia al tratamiento y se le aconseja estar atenta a cualquier efecto secundario, especialmente en las primeras semanas tras el ajuste de la dosis.
+
+Además, se revisa la continuidad del uso de Propranolol, que ha sido eficaz en el control de las cefaleas. Se sugiere mantener la dosis actual de 80 mg una vez al día, dado que los episodios de cefalea se han estabilizado en 1-2 por semana y con menor severidad. Ana acepta estas recomendaciones y se le recuerda la importancia de las técnicas de relajación, así como la continuación del suplemento de magnesio.
+
+Se programa una nueva cita en 4 semanas para reevaluar su estado y realizar los ajustes necesarios en función de su respuesta al nuevo régimen de tratamiento. 
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="10/09/2031" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

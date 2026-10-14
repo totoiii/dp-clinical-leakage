@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 29/09/2026.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para su evaluación mensual, un mes después de su última visita. En este intervalo, ha estado tomando Escitalopram a 10 mg/día, Topiramato a 150 mg/día y Propranolol a 40 mg/día. La paciente informa que, desde el ajuste de su medicación, ha experimentado una notable disminución en la frecuencia de sus episodios de ansiedad, que ahora ocurren con una frecuencia de aproximadamente una vez cada 3 semanas, y la intensidad de sus migrañas se ha mantenido estable, con episodios que califica como 1-2 en la escala del dolor.
+
+Durante la exploración física, Ana se presenta en un estado general satisfactorio. Los parámetros vitales son estables: Tª 36.7 C; T.A: 118/74 mmHg; Fc: 68 lpm. La evaluación neurológica sigue siendo normal, sin signos de déficits neurológicos. Ana menciona que ha estado aplicando con mayor éxito las técnicas de manejo del estrés aprendidas en terapia cognitivo-conductual, lo que ha contribuido a su mejora emocional.
+
+Se discute la posibilidad de continuar con la dosis actual de Escitalopram, ya que la paciente ha reportado una mejoría significativa en su estado de ánimo y en la gestión de la ansiedad. Sin embargo, se le advierte que debe continuar monitoreando cualquier cambio en sus síntomas y que la adherencia al tratamiento es crucial para mantener su estabilidad emocional.
+
+Además, se le recuerda la importancia de seguir llevando un diario de síntomas, lo que facilitará la identificación de patrones y desencadenantes de las migrañas y la ansiedad. Ana acepta esta recomendación y se muestra motivada para continuar con su tratamiento.
+
+Se establece una nueva cita en 4 semanas para reevaluar su progreso, revisar la efectividad del tratamiento y considerar cualquier ajuste adicional según su evolución clínica.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="29/09/2026" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+  </TAGS>
+</MEDDOCAN>

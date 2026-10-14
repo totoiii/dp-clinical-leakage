@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 20/07/2027.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Zacarias regresa a consulta tras cuatro semanas del ajuste de su tratamiento psiquiátrico y respiratorio. Durante esta visita, el paciente reporta una mejora significativa en su estado de ansiedad, con una disminución notable en la frecuencia de los episodios de inquietud. Sin embargo, menciona que ha experimentado un episodio aislado de ansiedad intensa que requirió el uso de Lorazepam 1 mg, aunque este fue menos frecuente que en la consulta anterior.
+
+En la evaluación física, los signos vitales son los siguientes: Tª 36.8 °C; T.A: 128/78 mmHg; Fc: 68 lpm. La saturación de oxígeno se encuentra en un 92% en aire ambiente. La auscultación pulmonar revela ruidos respiratorios simétricos, sin sibilancias ni crepitantes, y el paciente reporta disnea leve, que continúa siendo un limitante durante esfuerzos físicos intensos. Esto sugiere que su asma sigue requiriendo atención, aunque se ha observado una estabilización en su función pulmonar.
+
+Los análisis de laboratorio más recientes muestran un conteo de leucocitos de 6,800/mm³ y una proteína C-reactiva (PCR) de 0.02 mg/L, lo que indica una mejora en su estado inflamatorio general. La espirometría revela un volumen espiratorio forzado en el primer segundo (FEV1) al 72% del valor predicho, lo que sugiere una ligera mejoría en la función pulmonar.
+
+Dado el progreso observado en el manejo de la ansiedad, se decide mantener la dosis de Sertralina en 150 mg diarios y la Venlafaxina en 75 mg diarios. Se continúa con el uso de Lorazepam 1 mg en episodios agudos, y se reafirma la importancia del uso de Salbutamol 100 mcg antes de actividades físicas para el control de su asma. El Zolpidem 5 mg antes de dormir se continúa, ya que no se han reportado efectos adversos significativos.
+
+Se reitera la recomendación de la terapia cognitivo-conductual, y se sugiere que Zacarias considere iniciar sesiones con un psicólogo especializado en ansiedad social para abordar sus preocupaciones en situaciones sociales. Se alienta al paciente a practicar técnicas de relajación, como la meditación y el yoga, que pueden ser beneficiosas para su bienestar general.
+
+Se programa una nueva consulta en cuatro semanas para reevaluar la eficacia del tratamiento actual y el control de la función pulmonar, así como para monitorear la frecuencia de los episodios de ansiedad y disnea. Se recuerda a Zacarias que debe informar cualquier exacerbación de sus síntomas respiratorios o efectos secundarios relacionados con los medicamentos.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="20/07/2027" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

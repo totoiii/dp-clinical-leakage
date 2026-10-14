@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 25/10/2029.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para seguimiento un mes después de su última evaluación. Durante este periodo, ha continuado con la medicación ajustada en la última visita: Amitriptilina a 37.5 mg/día, Topiramato a 75 mg/día y Sertralina a 100 mg/día. Ana reporta que ha notado una leve mejoría en la frecuencia de sus episodios de cefalea tensional, que ahora ocurren aproximadamente 2 a 3 veces por semana, y la intensidad se ha mantenido en un rango leve, lo que ha permitido una mayor participación en sus actividades cotidianas.
+
+En la evaluación física, Ana presenta un estado general satisfactorio, aunque continúa reportando síntomas de ansiedad moderada y tensión muscular en la región cervical, que se ha mantenido estable. Los signos vitales son los siguientes: Tª 36.8 C; T.A: 120/78 mmHg; Fc: 76 lpm. La evaluación neurológica no muestra déficits focales, aunque persiste la hipertonía en la musculatura cervical, lo que sugiere que el componente psicosomático puede seguir influyendo en sus cefaleas, a pesar de la mejora.
+
+Se revisan los resultados del tratamiento y se discute la efectividad de la Amitriptilina, que parece haber contribuido a la reducción en la frecuencia de las cefaleas. Ana ha mencionado que la ansiedad se ha mantenido controlada, sin episodios agudos, lo que sugiere que la dosis de Sertralina sigue siendo adecuada. Sin embargo, se decide mantener la dosis de Amitriptilina en 37.5 mg/día por el momento, dado que la respuesta ha sido positiva, y se considera que un incremento adicional podría no ser necesario en esta fase.
+
+Ana es instruida para continuar con el diario de cefaleas, anotando no solo la frecuencia e intensidad, sino también los desencadenantes y el impacto en su vida diaria. Se le recuerda la importancia de seguir asistiendo a las sesiones de terapia cognitivo-conductual, que han sido beneficiosas para la gestión de su ansiedad y que están contribuyendo a su bienestar general.
+
+Ana expresa su satisfacción por la mejora en la frecuencia e intensidad de sus cefaleas, aunque sigue mostrando un enfoque cauteloso sobre la posibilidad de que los síntomas puedan regresar. Se programa una nueva cita en 4 semanas para reevaluar la eficacia del tratamiento y para realizar un seguimiento exhaustivo de su progreso.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="25/10/2029" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

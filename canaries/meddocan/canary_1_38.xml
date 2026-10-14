@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 29/09/2025.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para una evaluación de seguimiento a un mes de su última visita. Durante este tiempo, ha continuado experimentando episodios de migraña, con una frecuencia de 4 a 5 episodios mensuales. La intensidad de los episodios ha aumentado ligeramente, alcanzando un puntaje promedio de 6 en la escala del dolor, lo que ha generado preocupación en la paciente. Ana informa que, aunque la Melatonina ha sido útil para mejorar la calidad de su sueño, ha notado que sus episodios de migraña se agravan durante períodos de estrés laboral.
+
+Durante la exploración física, se observa que Ana se encuentra en un estado general aceptable, aunque visiblemente fatigada. Los parámetros vitales son estables: Tª 36.8 C; T.A: 122/80 mmHg; Fc: 72 lpm. El examen neurológico se mantiene sin hallazgos anormales, lo cual es positivo, pero la paciente presenta signos de tensión muscular en la región cervical, lo que podría estar contribuyendo a la exacerbación de sus síntomas.
+
+Se decide realizar un ajuste en el tratamiento. La dosis de Amitriptilina se incrementará a 40 mg/día, dado que se considera que una mayor dosis puede ayudar a mejorar el control de sus episodios de migraña. La paciente será monitorizada de cerca para evaluar la tolerancia y la eficacia de este ajuste. Se mantiene la dosis de Propranolol en 180 mg/día, ya que ha sido eficaz en el control de sus síntomas, pero se sugiere que Ana considere la inclusión de técnicas de relajación adicionales, como la meditación o el yoga, para ayudar a manejar el estrés que parece ser un desencadenante importante de sus migrañas.
+
+Ana continúa con el uso de Zolpidem en 5 mg por la noche, con la recomendación de utilizarlo solo en caso de insomnio persistente, y se le recuerda la importancia de mantener un registro de la frecuencia e intensidad de sus episodios, así como de la calidad de su sueño. Se discuten los posibles desencadenantes de sus migrañas, enfatizando la necesidad de evitar situaciones estresantes y ciertos alimentos identificados previamente.
+
+Se establece un nuevo plan de seguimiento en 4 semanas para reevaluar la eficacia del tratamiento y el control de sus migrañas. Ana es alentada a seguir con su rutina de ejercicios y a implementar técnicas de relajación para ayudar a reducir el estrés.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="29/09/2025" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

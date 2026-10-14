@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2025-04-23
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+East Kimberly Saint Kitts Hospital
+Department of Internal Medicine
+
+Location: Location: 7632 Megan Mountains Apt. 408, West Ronaldfort
+
+Smith, John
+Phone: 98623487 
+email: heathermorris@example.net
+Date of Birth: 1987-03-10
+
+
+CHIEF COMPLAINT
+
+Follow-up visit for persistent fatigue, ongoing anxiety management, and assessment of headache frequency.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. John Smith returns for a follow-up appointment approximately four weeks after his last visit. He reports minimal improvement in his anxiety symptoms despite the recent medication adjustments. The patient has been switched to Escitalopram 10 mg daily, as he experienced continued gastrointestinal discomfort with Sertraline, including persistent nausea and bloating. Mr. Smith states that while his anxiety remains present, he has noticed a slight reduction in the intensity of panic episodes; however, he continues to battle significant fatigue and disrupted sleep patterns.
+
+Mr. Smith describes his fatigue as debilitating, particularly after workdays filled with teaching responsibilities. He reports that despite taking Melatonin nightly, he still struggles to initiate sleep and often experiences frequent awakenings throughout the night. The patient has been incorporating relaxation techniques into his nightly routine but finds them insufficient for achieving restful sleep. He expresses frustration over his ongoing symptoms and their impact on his daily functioning.
+
+Additionally, Mr. Smith's tension-type headaches have persisted, occurring approximately three times per week. He describes these headaches as moderate in intensity, often triggered by stress and poor sleep quality. He denies any visual disturbances or aura associated with the headaches but notes that they can last several hours and are somewhat relieved by over-the-counter analgesics.
+
+REVIEW OF SYSTEMS
+
+General: Persistent fatigue; no significant weight loss, fever, or night sweats.
+Cardiovascular: Intermittent palpitations have improved; denies chest pain or edema.
+Respiratory: No shortness of breath; no cough or wheezing.
+Gastrointestinal: Ongoing mild nausea; occasional bloating; no vomiting or changes in bowel habits.
+Neurological: Increased frequency of tension headaches; no focal neurological deficits.
+
+PAST MEDICAL HISTORY
+
+- No significant past medical history.
+
+FAMILY HISTORY
+
+- Father: Coronary artery disease, underwent CABG at age 60.
+- Mother: Hypertension.
+
+SOCIAL HISTORY
+
+- Lives alone in , . Works as a teacher. No tobacco use; social alcohol consumption. No illicit drug use.
+
+MEDICATIONS
+
+- Atorvastatin 10 mg daily.
+- Magnesium supplement 400 mg daily.
+- Melatonin 3 mg nightly.
+- Escitalopram 10 mg daily (switched from Sertraline).
+
+ALLERGIES
+
+- No known drug allergies.
+
+PHYSICAL EXAMINATION
+
+VITALS: T 98.4F, HR 76 bpm, BP 118/74 mmHg, RR 16 breaths/min, O2 sat 98% on room air.
+
+General: Well-nourished, alert, appears slightly anxious but in no acute distress.
+Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops. No peripheral edema.
+Respiratory: Clear to auscultation bilaterally; no wheezing or crackles.
+Gastrointestinal: Soft, non-tender abdomen; mild tenderness in the epigastric region.
+Neurological: Cranial nerves II-XII intact; no focal deficits. Notable tenderness on palpation of the bilateral temporalis region.
+
+LABORATORY DATA
+
+Lipid Panel (obtained at last visit): Total Cholesterol 185 mg/dL, LDL 105 mg/dL, HDL 54 mg/dL, Triglycerides 115 mg/dL
+CBC: Normal
+BMP: Normal
+TSH: Normal
+
+RADIOLOGICAL STUDIES
+
+None performed at this visit.
+
+ASSESSMENT AND PLAN
+
+1. Persistent fatigue and sleep disturbances with ongoing anxiety.
+   - The patient has transitioned to Escitalopram 10 mg daily due to gastrointestinal side effects from Sertraline. While there is slight improvement in anxiety, persistent fatigue and sleep issues remain problematic. Continue to monitor symptoms closely and evaluate the need for adjunctive therapies such as cognitive behavioral therapy or sleep studies if symptoms do not improve. Schedule follow-up in 4 weeks to assess response to the new medication.
+
+2. Headaches.
+   - The patient's tension-type headaches are likely exacerbated by ongoing stress and fatigue. Continue the use of over-the-counter analgesics as needed. Consider referral for physical therapy focused on stress management techniques and evaluate the potential for a prophylactic treatment if headache frequency increases.
+
+3. Lipid management.
+   - Continue Atorvastatin 10 mg daily due to stable lipid levels. Reassess lipid panel in 3 months to evaluate ongoing effectiveness.
+
+4. Follow-up.
+   - Schedule follow-up appointment in 4 weeks to reassess anxiety symptoms, sleep quality, headache frequency, and overall well-being. Encourage Mr. Smith to keep a detailed diary of his symptoms and any triggers he identifies.
+
+__________________________________
+
+Emily Johnson, MD
+Department of Internal Medicine
+East Kimberly Saint Kitts Hospital
+Phone: 98623487
+Email: heathermorris@example.net
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2025-04-23" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="64" text="East Kimberly Saint Kitts Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="66" end="71" text="John" TYPE="PATIENT" comment="" />
+<NAME id="P3" start="73" end="78" text="Smith" TYPE="PATIENT" comment="" />
+<ID id="P4" start="81" end="88" text="9876543" TYPE="MEDICALRECORD" comment="" />
+<AGE id="P5" start="90" end="100" text="38 aos" TYPE="AGE" comment="" />
+<LOCATION id="P6" start="106" end="118" text="" TYPE="CITY" comment="" />
+<LOCATION id="P7" start="120" end="130" text="" TYPE="STATE" comment="" />
+<CONTACT id="P8" start="132" end="140" text="98623487" TYPE="PHONE" comment="" />
+<CONTACT id="P9" start="142" end="159" text="heathermorris@example.net" TYPE="EMAIL" comment="" />
+<PROFESSION id="P10" start="161" end="168" text="Teacher" TYPE="PROFESSION" comment="" />
+<NAME id="P11" start="192" end="197" text="Emily Johnson" TYPE="DOCTOR" comment="" />
+</TAGS>
+</deIdi2b2>

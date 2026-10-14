@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 22/05/2027.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Zacarias acude a consulta un mes después de su última evaluación, con el objetivo de realizar un seguimiento de su tratamiento psiquiátrico y respiratorio. En esta ocasión, el paciente reporta una mejora notable en la frecuencia y la intensidad de sus episodios de ansiedad, mencionando que ha experimentado solo un par de crisis leves en las últimas semanas, las cuales han sido manejadas eficazmente con Lorazepam 1 mg en situaciones de estrés.
+
+Durante la evaluación física, los signos vitales son los siguientes: Tª 36.5 °C; T.A: 128/78 mmHg; Fc: 68 lpm. La saturación de oxígeno se mantiene en un 92% en aire ambiente. La auscultación pulmonar revela ruidos respiratorios simétricos, sin evidencia de sibilancias o crepitantes. Sin embargo, Zacarias continúa quejándose de disnea leve, especialmente durante esfuerzos físicos moderados, lo que sugiere que su asma persiste como un factor limitante en su actividad diaria.
+
+Los análisis de laboratorio más recientes muestran un conteo de leucocitos de 6,500/mm³ y una proteína C-reactiva (PCR) de 0.02 mg/L, lo que indica un estado inflamatorio controlado, sin signos de infección activa. La espirometría realizada revela un volumen espiratorio forzado en el primer segundo (FEV1) al 72% del valor predicho, lo que señala una ligera mejora en la función pulmonar desde la última evaluación.
+
+Dada la continua mejoría en la frecuencia de los episodios de ansiedad y el ligero progreso en la función pulmonar, se decide mantener el régimen actual de tratamiento, sin cambios en las dosis de Sertralina a 100 mg diarios y Venlafaxina a 75 mg diarios. Se recomienda seguir utilizando Lorazepam 1 mg solo en episodios agudos y continuar con el uso de Salbutamol 100 mcg antes de actividades físicas. El Zolpidem 5 mg antes de dormir se mantiene como parte de su tratamiento para la insomnio asociado a la ansiedad.
+
+Se resalta la importancia de continuar con la terapia cognitivo-conductual, que ha demostrado ser beneficiosa en el manejo de su ansiedad y en la mejora de su calidad de vida. Se anima a Zacarias a seguir practicando técnicas de relajación y a mantener un estilo de vida activo dentro de sus posibilidades.
+
+Se programa una nueva consulta en cuatro semanas para una reevaluación exhaustiva de su condición clínica, enfocándose en la respuesta al tratamiento y el control de la función pulmonar, así como en la frecuencia de los episodios de disnea. Se recuerda a Zacarias que debe reportar cualquier exacerbación de sus síntomas respiratorios o efectos secundarios significativos relacionados con el uso de los medicamentos.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="22/05/2027" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

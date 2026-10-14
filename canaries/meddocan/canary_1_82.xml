@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 25/03/2030.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para una evaluación de seguimiento a cuatro semanas de su última visita. Durante este tiempo, ha continuado con su régimen de medicación que incluye Amitriptilina a 50 mg/día, Sertralina a 100 mg/día y ha utilizado Lorazepam a 0.5 mg de manera ocasional, especialmente durante episodios de ansiedad aguda. Ana reporta que ha experimentado una ligera mejoría en la frecuencia de sus cefaleas tensionales, ahora presentando 2 a 3 episodios por semana, con una intensidad que permanece leve.
+
+En la evaluación física, Ana se observa en un estado general aceptable, aunque se nota una persistente tensión muscular en la región cervical y signos de ansiedad moderada. Los signos vitales son estables: Tª 36.7 C; T.A: 118/76 mmHg; Fc: 74 lpm. La exploración neurológica continúa sin déficits focales, pero la rigidez en la musculatura cervical persiste, sugiriendo que la tensión podría estar contribuyendo a sus cefaleas.
+
+En esta consulta, se revisan los efectos del Lorazepam, y Ana informa que lo ha utilizado en 3 ocasiones en el último mes, encontrando alivio en la ansiedad, pero expresa preocupación por la posibilidad de dependencia. Se discute la opción de ajustar su tratamiento, y se decide mantener la dosis de Amitriptilina y Sertralina, pero se recomienda reducir el uso de Lorazepam a 0.5 mg solo en situaciones de crisis, enfatizando la importancia de las técnicas de manejo del estrés y la terapia cognitivo-conductual.
+
+Ana ha sido muy proactiva en el seguimiento de su diario de cefaleas, lo que ha permitido identificar ciertos desencadenantes relacionados con el estrés laboral y la falta de descanso adecuado. Se le anima a incorporar técnicas de relajación y ejercicios de estiramiento más frecuentes en su rutina diaria, así como a establecer un horario de sueño más regular para ayudar a mitigar la tensión muscular.
+
+Ana expresa una actitud positiva sobre su progreso y está comprometida con las recomendaciones brindadas. Se programa una nueva cita en 4 semanas para continuar con su evaluación y ajustar el tratamiento según la evolución de su estado.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="25/03/2030" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

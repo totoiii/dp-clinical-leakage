@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2026-03-01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+East Kimberly Saint Kitts Hospital
+Department of Internal Medicine
+
+Location: Location: 7632 Megan Mountains Apt. 408, West Ronaldfort
+
+Smith, John
+Phone: 98623487 
+email: heathermorris@example.net
+Date of Birth: 1987-03-10
+
+
+CHIEF COMPLAINT
+
+Follow-up visit for evaluation of anxiety management, persistent fatigue, sleep quality, and headache frequency.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. John Smith returns for a follow-up appointment one month after his last visit. He reports that the recent adjustment in his medication regimen has yielded modest improvements in his overall condition. He has been taking Escitalopram 30 mg daily as prescribed, and he has discontinued Trazodone as advised. Mr. Smith states that while his anxiety symptoms remain present, they are somewhat more manageable. However, he continues to experience significant fatigue and sleep disturbances, with persistent issues related to sleep onset and maintenance.
+
+Mr. Smith describes his sleep as being fragmented, with an average of four to five hours of sleep per night. He continues to utilize his CPAP therapy for obstructive sleep apnea but feels that it has not fully alleviated his symptoms of daytime drowsiness. He reports that he has been more diligent in adhering to sleep hygiene practices, including reducing screen time before bed and maintaining a consistent sleep schedule, yet he finds himself waking multiple times throughout the night.
+
+In regard to his headaches, Mr. Smith notes that the frequency remains stable at four to five episodes per week, but he has experienced a slight decrease in intensity since the last visit. He is still using Ibuprofen as needed, reporting that he takes it approximately twice a week for headache relief. He describes the headaches as bilateral, primarily located in the frontal region, and occasionally accompanied by mild photophobia.
+
+REVIEW OF SYSTEMS
+
+General: Persistent fatigue; no significant weight loss, fever, or night sweats.
+Cardiovascular: Intermittent palpitations stable; denies chest pain or edema.
+Respiratory: No shortness of breath; CPAP compliance reported, no cough or wheezing.
+Gastrointestinal: Mild nausea persists; occasional bloating; no vomiting or changes in bowel habits.
+Neurological: Stable headache frequency; no focal neurological deficits.
+
+PAST MEDICAL HISTORY
+
+- Mild obstructive sleep apnea diagnosed on sleep study.
+- Tension-type headaches.
+
+FAMILY HISTORY
+
+- Father: Coronary artery disease, underwent CABG at age 60.
+- Mother: Hypertension.
+
+SOCIAL HISTORY
+
+- Lives alone in , . Works as a teacher. No tobacco use; social alcohol consumption. No illicit drug use.
+
+MEDICATIONS
+
+- Atorvastatin 10 mg daily.
+- Magnesium supplement 400 mg daily.
+- Melatonin 3 mg nightly.
+- Escitalopram 30 mg daily.
+- Amitriptyline 10 mg nightly.
+- CPAP machine for sleep apnea.
+
+ALLERGIES
+
+- No known drug allergies.
+
+PHYSICAL EXAMINATION
+
+VITALS: T 98.6F, HR 78 bpm, BP 120/80 mmHg, RR 16 breaths/min, O2 sat 95% on room air.
+
+General: Well-nourished, alert, appears fatigued but in no acute distress.
+Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops. No peripheral edema.
+Respiratory: Clear to auscultation bilaterally; CPAP device noted, no wheezing or crackles.
+Gastrointestinal: Soft, non-tender abdomen; no epigastric tenderness.
+Neurological: Cranial nerves II-XII intact; no focal deficits. Mild tenderness noted on palpation of the bilateral temporalis region.
+
+LABORATORY DATA
+
+Lipid Panel (obtained at last visit): Total Cholesterol 158 mg/dL, LDL 78 mg/dL, HDL 60 mg/dL, Triglycerides 82 mg/dL
+CBC: Normal
+BMP: Normal
+TSH: Normal
+
+RADIOLOGICAL STUDIES
+
+- No new studies indicated at this visit.
+
+ASSESSMENT AND PLAN
+
+1. Persistent fatigue and sleep disturbances with ongoing anxiety.
+   - Mr. Smith continues to report significant fatigue and sleep quality issues. The decision is made to introduce Melatonin 5 mg nightly to further assist with sleep onset. Continue Escitalopram at 30 mg daily. Reassess CPAP therapy efficacy and consider a follow-up sleep study if symptoms do not improve. Encourage continued adherence to sleep hygiene practices and gradual exercise. Schedule follow-up in 4 weeks to monitor progress.
+
+2. Stable frequency and decreased intensity of tension-type headaches.
+   - The patient reports stable headache frequency with a slight decrease in intensity. Continue Amitriptyline 10 mg nightly; discuss the option of increasing the dose to 15 mg nightly if headaches worsen. Follow-up in 4 weeks to reassess headache frequency and severity.
+
+3. Lipid management.
+   - Continue Atorvastatin 10 mg daily as lipid levels remain stable. Reassess lipid panel in 3 months to evaluate ongoing effectiveness.
+
+4. Follow-up.
+   - Schedule follow-up appointment in 4 weeks to reassess anxiety symptoms, sleep quality, headache frequency, and overall well-being. Discuss potential referrals for cognitive-behavioral therapy if anxiety symptoms persist or worsen.
+
+__________________________________
+
+Emily Johnson, MD
+Department of Internal Medicine
+East Kimberly Saint Kitts Hospital
+Phone: 98623487
+Email: heathermorris@example.net
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2026-03-01" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="64" text="East Kimberly Saint Kitts Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="66" end="71" text="John" TYPE="PATIENT" comment="" />
+<NAME id="P3" start="73" end="78" text="Smith" TYPE="PATIENT" comment="" />
+<ID id="P4" start="81" end="88" text="9876543" TYPE="MEDICALRECORD" comment="" />
+<AGE id="P5" start="90" end="100" text="38 aos" TYPE="AGE" comment="" />
+<LOCATION id="P6" start="106" end="118" text="" TYPE="CITY" comment="" />
+<LOCATION id="P7" start="120" end="130" text="" TYPE="STATE" comment="" />
+<CONTACT id="P8" start="132" end="140" text="98623487" TYPE="PHONE" comment="" />
+<CONTACT id="P9" start="142" end="159" text="heathermorris@example.net" TYPE="EMAIL" comment="" />
+<PROFESSION id="P10" start="161" end="168" text="Teacher" TYPE="PROFESSION" comment="" />
+<NAME id="P11" start="192" end="197" text="Emily Johnson" TYPE="DOCTOR" comment="" />
+</TAGS>
+</deIdi2b2>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 29/02/2025.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para su evaluación mensual tras el ajuste de su tratamiento con Propranolol y Amitriptilina. En el último mes, ha notado una ligera reducción en la intensidad de sus migrañas, reportando un puntaje promedio de 5 en la escala de 1 a 10, lo que indica una mejoría significativa en comparación con la severidad previa. Sin embargo, la frecuencia de los episodios se ha mantenido en 1 a 2 episodios semanales, lo que sigue siendo motivo de preocupación.
+
+Ana menciona que los episodios de mareo han disminuido en frecuencia, aunque persisten ocasionalmente, especialmente en situaciones de estrés. En la exploración física, se observa que Ana tiene un estado general bueno, con parámetros vitales estables: Tª 36.5 C; T.A: 120/78 mmHg; Fc: 70 lpm. El examen neurológico no revela anomalías, lo que es un signo positivo en su evolución clínica.
+
+Ana ha continuado con su terapia cognitivo-conductual, reportando que ha aprendido a manejar mejor su ansiedad, lo que ha contribuido a su bienestar general. También ha seguido con su programa de ejercicios, el cual ha sido bien tolerado y ha mejorado su estado físico. Sin embargo, se discute la necesidad de un enfoque más agresivo para el manejo de la intensidad de sus migrañas.
+
+Se decide mantener la dosis de Propranolol en 240 mg/día, ya que ha demostrado ser efectiva en la reducción de la severidad de los episodios. La dosis de Amitriptilina se incrementará a 20 mg/día, considerando que los beneficios superan los efectos secundarios, y se espera que esta modificación ayude a mejorar aún más su control del dolor. Ana es instruida para continuar registrando sus episodios de migraña y se le aconseja que mantenga una buena hidratación y evite desencadenantes identificados.
+
+Se establece un nuevo plan de seguimiento en 4 semanas para reevaluar la eficacia del tratamiento y su respuesta a la nueva dosis de Amitriptilina. Ana es recordada sobre la importancia de reportar cualquier nuevo síntoma o cambios en su condición, y se enfatiza que la comunicación continua es clave en su manejo.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="29/02/2025" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

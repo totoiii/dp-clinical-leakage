@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 07/04/2027.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana acude a consulta para su seguimiento programado tras iniciar el tratamiento con Lorazepam en su última visita. Durante estas semanas, ha continuado con su régimen de medicación habitual que incluye Topiramato a 150 mg/día y ha utilizado Lorazepam 1 mg en ocasiones puntuales de ansiedad. La paciente informa que ha experimentado una reducción significativa en la frecuencia de los episodios de ansiedad, reportando que solo ha requerido el ansiolítico en tres ocasiones desde la última consulta, lo que considera un avance positivo.
+
+Ana también menciona que, aunque ha tenido un par de episodios de migraña, estos han sido menos intensos y de menor duración en comparación con el pasado. La paciente describe que los episodios de migraña han sido controlados adecuadamente con el uso de Sumatriptán, el cual ha utilizado en dos ocasiones en el último mes.
+
+Durante la exploración física, se observa que su estado general sigue siendo estable, con parámetros vitales dentro de los límites normales: Tª 36.8 C; T.A: 115/70 mmHg; Fc: 72 lpm. La evaluación neurológica continúa siendo normal, sin signos de disfunción neurológica. Se observa un leve aumento en el peso, que se discute con la paciente, quien refiere que ha estado menos activa debido a un reciente aumento en las horas de trabajo.
+
+Se revisa el régimen de medicación y, dado el éxito del tratamiento con Lorazepam para la ansiedad, se decide continuar con la misma dosis. Sin embargo, se le aconseja a Ana que mantenga una vigilancia sobre posibles efectos adversos, especialmente en relación al sedante que puede influir en su rendimiento laboral. Se le anima a seguir utilizando técnicas de relajación y mindfulness, que han demostrado ser útiles en el manejo de su ansiedad.
+
+Ana se muestra satisfecha con los resultados hasta el momento y acepta continuar con el tratamiento actual. Se programa una nueva cita en 6 semanas para reevaluar su estado general, la eficacia del tratamiento y realizar ajustes según sea necesario. 
+
+Se le recuerda que debe buscar atención médica si experimenta un aumento significativo en la frecuencia o intensidad de sus episodios de migraña o ansiedad, y se le aconseja mantener una comunicación abierta sobre cualquier efecto secundario que pueda experimentar con el Lorazepam.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="07/04/2027" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+  </TAGS>
+</MEDDOCAN>

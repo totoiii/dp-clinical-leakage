@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 05/12/2023.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para una revisión a las cuatro semanas del ajuste en su tratamiento para la migraña crónica. Desde la última visita, la paciente ha estado tomando Amitriptilina 5 mg/día y Topiramato 300 mg/día. Durante este tiempo, ha reportado una notable mejora en su calidad de vida; la frecuencia de sus episodios de migraña se ha reducido a aproximadamente 8 días entre episodios, con una severidad promedio de 3 en la escala de 1 a 10.
+
+La paciente menciona que ha podido disminuir el uso de Sumatriptán a 50 mg en solo 2 ocasiones durante el último mes, lo que indica un control sintomático más eficaz. Sin embargo, Ana sigue experimentando somnolencia diurna, aunque en menor medida que antes, y la sequedad bucal ha mejorado tras la reducción de la dosis de Amitriptilina.
+
+En la exploración física, Ana se presenta en buen estado general, con signos vitales estables: Tª 36.6 C; T.A: 118/76 mmHg; Fc: 70 lpm. El examen neurológico se mantiene normal, sin hallazgos anormales. Se discute la posibilidad de continuar con el tratamiento actual, ya que la reducción de la dosis de Amitriptilina ha sido beneficiosa en términos de efectos secundarios, sin comprometer el control de la migraña.
+
+Se aconseja a Ana que mantenga el diario de migrañas, prestando atención a la frecuencia, severidad y cualquier efecto adverso que pueda surgir. Se establece un plan de seguimiento en 4 semanas para reevaluar la eficacia del tratamiento y la evolución de sus síntomas, así como la posibilidad de realizar una evaluación psicológica si la somnolencia persiste.
+
+Ana es instruida sobre la importancia de mantener una adecuada hidratación y se le sugiere continuar con las técnicas de relajación, así como considerar la práctica de ejercicios regulares para el manejo del estrés.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="05/12/2023" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

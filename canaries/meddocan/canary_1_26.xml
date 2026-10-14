@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 28/09/2024.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para el seguimiento de su tratamiento de migrañas, habiendo transcurrido cuatro semanas desde su última visita. Durante este intervalo, ha experimentado un aumento notable en la frecuencia de los episodios, que ahora se presentan con una frecuencia de 2 a 3 veces por semana. La severidad de los episodios ha aumentado también, alcanzando un puntaje de 7 en la escala de 1 a 10, lo que ha impactado significativamente en su calidad de vida y en su capacidad para realizar actividades diarias.
+
+Ana ha continuado con el Propranolol a 120 mg/día, que se había ajustado en la última consulta, y ha utilizado Sumatriptán en seis ocasiones durante el último mes, lo que indica un incremento en la necesidad de tratamiento abortivo. Durante la exploración física, se encuentra en un estado general moderado, con signos vitales estables: Tª 36.7 C; T.A: 122/80 mmHg; Fc: 72 lpm. El examen neurológico sigue siendo normal, sin signos de disfunción.
+
+Ana informa que ha estado bajo un estrés considerable en el trabajo, lo que podría estar contribuyendo a la exacerbación de sus síntomas. Se discute la posibilidad de implementar un enfoque multimodal que incluya un ajuste adicional de la medicación, así como la incorporación de técnicas de manejo del estrés. Se decide aumentar la dosis de Propranolol a 160 mg/día, con la esperanza de mejorar el control de sus migrañas. Se le explica que este ajuste se realiza debido a la falta de respuesta adecuada a la dosis previa y que se monitorizará de cerca cualquier efecto adverso.
+
+Además, se refuerza la importancia de mantener el diario de migrañas, enfatizando la necesidad de registrar cualquier desencadenante emocional o ambiental que pueda estar influyendo en la aparición de los episodios. Se sugiere que Ana considere sesiones adicionales de terapia cognitivo-conductual para abordar el manejo del estrés y la ansiedad, que podrían estar exacerbando su situación.
+
+Se establece un nuevo plan de seguimiento en 4 semanas para reevaluar la eficacia del tratamiento, la evolución de sus síntomas y el impacto del manejo del estrés en su condición. Ana es instruida para que, si experimenta un aumento significativo en la frecuencia o severidad de las migrañas, contacte a la consulta sin demora.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="28/09/2024" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

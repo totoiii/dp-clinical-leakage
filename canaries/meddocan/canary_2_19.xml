@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 26/03/2024.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Paciente masculino de 77 años que acude a consulta para seguimiento del tratamiento de neumonía adquirida en la comunidad. Zacarias reporta que ha experimentado una leve mejoría en su tos y disnea desde la última visita, aunque persiste con episodios intermitentes de fiebre, alcanzando hasta 38 °C, lo que le genera inquietud.
+
+En la evaluación física, los signos vitales son los siguientes: Tª 37,8 °C; T.A: 130/75 mmHg; Fc: 72 lpm. La saturación de oxígeno es de 93% en aire ambiente. La auscultación pulmonar revela ruidos respiratorios simétricos, pero se detectan estertores crepitantes más prominentes en el lóbulo inferior derecho, lo que indica que la inflamación pulmonar aún está presente.
+
+Los resultados del hemograma más reciente muestran leucocitos en 6,500/mm³, con un incremento en la proteína C-reactiva (PCR) a 18 mg/L, lo que sugiere una respuesta inflamatoria activa. La radiografía de tórax realizada en esta visita indica una ligera progresión de los infiltrados en el lóbulo inferior derecho, lo que plantea preocupación por una posible complicación, como un absceso pulmonar.
+
+Dada la persistencia de los síntomas y los hallazgos clínicos, se decide modificar el tratamiento. Se interrumpe el Levofloxacino y se inicia un régimen de Amoxicilina/Ácido Clavulánico a 875 mg/125 mg cada 12 horas por 10 días, debido a la sospecha de una infección bacteriana resistente. La Budesonida se continúa a 400 mcg cada 12 horas, y se recomienda seguir utilizando Salbutamol a 100 mcg cada 4 horas según necesidad, para el manejo de la disnea.
+
+Se programa una nueva evaluación en 5 días para valorar la respuesta al nuevo tratamiento. Además, se sugiere realizar una tomografía computarizada de tórax si los síntomas no mejoran, para descartar complicaciones adicionales. Se enfatiza la importancia de la adherencia al nuevo régimen terapéutico y se instruye a Zacarias sobre los signos de alarma que requieren atención médica inmediata, tales como aumento de la fiebre, dificultad respiratoria severa o cambios en el estado general.
+
+Se proporciona educación adicional sobre el manejo de los síntomas en casa, enfatizando la importancia de mantener una adecuada hidratación y el uso de técnicas de respiración para mejorar la disnea. Se planifican revisiones frecuentes hasta que se logre una resolución completa de los síntomas.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="26/03/2024" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

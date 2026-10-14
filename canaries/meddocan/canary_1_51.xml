@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 29/10/2026.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para su evaluación mensual, un mes después de su última visita. En este intervalo, ha continuado con su régimen de medicación que incluye Escitalopram a 10 mg/día, Topiramato a 150 mg/día y Propranolol a 40 mg/día. La paciente informa que su estado de ánimo se ha mantenido estable, y la frecuencia de sus episodios de ansiedad se ha reducido a una vez cada 4 semanas. Sin embargo, ha experimentado un aumento en la intensidad de sus migrañas, que ahora califica como 3-4 en la escala del dolor, lo que ha comenzado a afectar su calidad de vida.
+
+Durante la exploración física, Ana se presenta en un estado general aceptable. Los parámetros vitales son estables: Tª 36.5 C; T.A: 120/76 mmHg; Fc: 70 lpm. La evaluación neurológica sigue siendo normal, aunque se observan signos de tensión muscular en la región cervical, lo que podría estar contribuyendo a la exacerbación de sus migrañas. Ana menciona que ha tenido dificultades para aplicar las técnicas de manejo del estrés en situaciones de alta presión laboral, lo que ha incrementado su ansiedad.
+
+Se discute la posibilidad de ajustar su tratamiento. Se propone aumentar la dosis de Topiramato a 200 mg/día para abordar el aumento en la intensidad de las migrañas, con el objetivo de mejorar su control sintomático. Además, se considera la opción de añadir un medicamento de rescate para las migrañas, como el Sumatriptán, para su uso ocasional durante los episodios agudos. Ana acepta el cambio en la medicación y se compromete a seguir monitorizando su respuesta al nuevo régimen.
+
+Se refuerza la importancia de la adherencia al tratamiento y se le recuerda que debe continuar llevando un diario de síntomas, lo que le permitirá identificar mejor los desencadenantes de sus migrañas y ansiedad. Se establece una nueva cita en 4 semanas para reevaluar su progreso, revisar la efectividad del tratamiento y realizar ajustes adicionales según su evolución clínica.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="29/10/2026" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+  </TAGS>
+</MEDDOCAN>

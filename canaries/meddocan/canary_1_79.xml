@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 25/12/2029.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para seguimiento de su tratamiento un mes después de la última evaluación. Durante este tiempo, ha estado tomando Amitriptilina a 50 mg/día, Topiramato a 75 mg/día y Sertralina a 100 mg/día. Ana informa que, aunque la frecuencia de sus episodios de cefalea tensional se ha mantenido en 2 a 3 veces por semana, ha notado una ligera mejoría en la intensidad, que ahora describe como leve a moderada, lo que ha permitido un mejor desempeño en sus actividades laborales y recreativas.
+
+En la evaluación física, Ana presenta un estado general aceptable, con signos de ansiedad leve y tensión muscular en la región cervical. Los signos vitales son estables: Tª 36.8 C; T.A: 120/78 mmHg; Fc: 76 lpm. La exploración neurológica continúa sin déficits focales, pero se observa una reducción en la hipertonía de la musculatura cervical, indicando una posible respuesta positiva al ajuste de la medicación.
+
+Se revisan los resultados del tratamiento y se discute la efectividad de la Amitriptilina. Ana ha reportado una disminución en la intensidad de las cefaleas, lo que sugiere que el ajuste de la dosis ha sido beneficioso. Sin embargo, persiste cierta preocupación por episodios ocasionales de ansiedad, aunque estos son menos frecuentes. Se decide mantener la dosis de Amitriptilina en 50 mg/día y la de Sertralina en 100 mg/día, dado que ambos medicamentos han mostrado eficacia en el control de sus síntomas.
+
+Ana es instruida para continuar con el diario de cefaleas, enfatizando la importancia de registrar los desencadenantes y su impacto en su calidad de vida. Se le recuerda la necesidad de seguir asistiendo a las sesiones de terapia cognitivo-conductual, las cuales han sido útiles para el manejo de su ansiedad, y se le anima a practicar técnicas de relajación que podrían ayudar a reducir la tensión muscular.
+
+Ana manifiesta satisfacción con la mejora en la intensidad de sus cefaleas y se muestra motivada para seguir con el tratamiento actual. Se programa una nueva cita en 4 semanas para reevaluar su progreso y realizar un seguimiento continuo de su estado clínico.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="25/12/2029" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

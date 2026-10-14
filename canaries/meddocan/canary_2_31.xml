@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 18/08/2024.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Zacarias se presenta a su consulta de seguimiento programada, dos semanas después de la última evaluación. Durante este periodo, el paciente ha continuado con el régimen de Budesonida y Formoterol, reportando una leve exacerbación de su disnea, especialmente en las noches, lo que ha llevado a un uso más frecuente de Salbutamol, hasta en 3 ocasiones por día.
+
+En la evaluación física, los signos vitales son los siguientes: Tª 36.8 °C; T.A: 122/78 mmHg; Fc: 72 lpm. La saturación de oxígeno ha mostrado una ligera disminución, alcanzando un 94% en aire ambiente. La auscultación pulmonar revela ruidos respiratorios simétricos, con sibilancias espiratorias notables y presencia de estertores finos en bases pulmonares, sugiriendo un posible inicio de un proceso inflamatorio o infeccioso.
+
+Los análisis de laboratorio realizados recientemente, que incluyen un hemograma y un perfil bioquímico, muestran un leve aumento en el conteo de leucocitos, alcanzando 8,500/mm³, y una proteína C-reactiva (PCR) de 2.5 mg/L, lo que sugiere un proceso inflamatorio activo. La radiografía de tórax, realizada en esta visita, revela un patrón pulmonar con un leve aumento de la trama vascular, sin evidencias de infiltrados o derrames pleurales, pero que requiere vigilancia.
+
+Dada la exacerbación de los síntomas respiratorios y la respuesta insuficiente al tratamiento actual, se decide realizar un ajuste en la terapia. Se incrementa la dosis de Budesonida a 800 mcg cada 12 horas y se mantiene el Formoterol a 12 mcg cada 12 horas. Además, se prescribe un curso de Prednisona a 20 mg diarios durante 7 días para abordar la inflamación y mejorar el control de los síntomas. Se instruye al paciente sobre el uso de Salbutamol a 100 mcg cada 4 horas según necesidad, enfatizando su uso en episodios de disnea.
+
+Se le recuerda al paciente que debe estar alerta ante la aparición de fiebre persistente, aumento en la dificultad respiratoria, o cualquier síntoma inusual que pudiera indicar un deterioro en su condición. Se ha programado una nueva evaluación en 7 días para continuar el seguimiento de su evolución clínica, la eficacia del tratamiento y la necesidad de ajustar la terapia según la respuesta.
+
+Se proporcionaron recomendaciones adicionales sobre el manejo de su condición, insistiendo en la importancia de evitar exposiciones a irritantes pulmonares, mantener un ambiente ventilado y realizar ejercicios de respiración profunda. Además, se discutió la importancia de la adherencia a la terapia farmacológica y la necesidad de un seguimiento cercano.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="18/08/2024" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2024-10-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+East Kimberly Saint Kitts Hospital
+Department of Internal Medicine
+
+Location: Location: 7632 Megan Mountains Apt. 408, West Ronaldfort
+
+Smith, John
+Phone: 98623487 
+email: heathermorris@example.net
+Date of Birth: 1987-03-10
+
+
+CHIEF COMPLAINT
+
+Follow-up for persistent fatigue, headaches, and lipid management; new evaluation of sleep disturbances.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. John Smith returns to the East Kimberly Saint Kitts Hospital for a follow-up visit regarding his ongoing fatigue and headaches, as well as new complaints of sleep disturbances. Since his last appointment, he reports that the magnesium supplementation has provided some relief for his headaches, which now occur less frequently, approximately 2-3 times per week, and are less severe in intensity. However, he continues to experience a "heavy feeling" of fatigue, particularly after teaching long hours, and has noted difficulty in falling asleep at night, taking upwards of 30 minutes to an hour to do so.
+
+Mr. Smith describes his sleep as "restless," often waking up multiple times during the night and feeling unrefreshed in the morning. He denies any significant lifestyle changes but acknowledges increased stress related to work and family obligations. He has been using melatonin intermittently with limited success.
+
+He continues to maintain his regular physical activity and dietary modifications, though he admits to occasional indulgences, particularly during the recent holiday season. He denies any new cardiovascular symptoms, weight changes, or significant alterations in his general health status.
+
+REVIEW OF SYSTEMS
+
+General: Persistent fatigue; no significant weight loss, fever, or night sweats.
+Cardiovascular: Intermittent chest discomfort; denies palpitations or edema.
+Respiratory: No shortness of breath; no cough or wheezing.
+Gastrointestinal: No nausea, vomiting, or changes in bowel habits.
+Neurological: Headaches improved; persistent sleep disturbances; no dizziness or syncope.
+
+PAST MEDICAL HISTORY
+
+- No significant past medical history.
+
+FAMILY HISTORY
+
+- Father: Coronary artery disease, underwent CABG at age 60.
+- Mother: Hypertension.
+
+SOCIAL HISTORY
+
+- Lives alone in , . Works as a teacher. No tobacco use; social alcohol consumption. No illicit drug use.
+
+MEDICATIONS
+
+- Atorvastatin 10 mg daily.
+- Magnesium supplement 400 mg daily.
+- Melatonin 3 mg as needed.
+
+ALLERGIES
+
+- No known drug allergies.
+
+PHYSICAL EXAMINATION
+
+VITALS: T 98.6F, HR 72 bpm, BP 122/78 mmHg, RR 16 breaths/min, O2 sat 98% on room air.
+
+General: Well-nourished, alert, in no acute distress.
+Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops. No peripheral edema.
+Respiratory: Clear to auscultation bilaterally; no wheezing or crackles.
+Neurological: Cranial nerves II-XII intact; no focal deficits. Mild tenderness on palpation of the bilateral temporalis region and slight tenderness over the occipital region.
+
+LABORATORY DATA
+
+Lipid Panel (obtained today): Total Cholesterol 195 mg/dL, LDL 115 mg/dL, HDL 50 mg/dL, Triglycerides 130 mg/dL
+CBC: Normal
+BMP: Normal
+BNP: 12 pg/mL
+
+RADIOLOGICAL STUDIES
+
+None performed at this visit.
+
+ASSESSMENT AND PLAN
+
+1. Persistent fatigue and improved headaches.
+   - The persistent fatigue may be exacerbated by sleep disturbances and stress. Recommend a comprehensive sleep hygiene program, including consistent sleep-wake times, and suggest cognitive behavioral therapy for insomnia (CBT-I) if symptoms do not improve.
+   - Continue magnesium supplementation and headache diary to monitor frequency and intensity. If headaches return to baseline severity or frequency, consider referral for neurology evaluation.
+
+2. Lipid management.
+   - Continue Atorvastatin 10 mg daily due to stable lipid levels. Reassess lipid panel in 3 months to evaluate ongoing effectiveness.
+
+3. Follow-up.
+   - Schedule follow-up appointment in 3 months to reassess symptoms, sleep quality, and lipid levels.
+   - Encourage Mr. Smith to address stress through relaxation techniques and to reach out if symptoms change or worsen.
+
+__________________________________
+
+Emily Johnson, MD
+Department of Internal Medicine
+East Kimberly Saint Kitts Hospital
+Phone: 98623487
+Email: heathermorris@example.net
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2024-10-30" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="64" text="East Kimberly Saint Kitts Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="66" end="71" text="John" TYPE="PATIENT" comment="" />
+<NAME id="P3" start="73" end="78" text="Smith" TYPE="PATIENT" comment="" />
+<ID id="P4" start="81" end="88" text="9876543" TYPE="MEDICALRECORD" comment="" />
+<AGE id="P5" start="90" end="100" text="37 aos" TYPE="AGE" comment="" />
+<LOCATION id="P6" start="106" end="118" text="" TYPE="CITY" comment="" />
+<LOCATION id="P7" start="120" end="130" text="" TYPE="STATE" comment="" />
+<CONTACT id="P8" start="132" end="140" text="98623487" TYPE="PHONE" comment="" />
+<CONTACT id="P9" start="142" end="159" text="heathermorris@example.net" TYPE="EMAIL" comment="" />
+<PROFESSION id="P10" start="161" end="168" text="Teacher" TYPE="PROFESSION" comment="" />
+<NAME id="P11" start="192" end="197" text="Emily Johnson" TYPE="DOCTOR" comment="" />
+</TAGS>
+</deIdi2b2>

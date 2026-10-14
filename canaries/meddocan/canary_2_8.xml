@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 24/11/2023.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Paciente masculino de 77 años que asiste a consulta de control tras seguimiento de neumonía adquirida en la comunidad. En esta ocasión, Zacarias refiere una notable reducción en la disnea, aunque continúa experimentando episodios de tos productiva, con esputo blanco y ocasionalmente amarillento, que se ha vuelto menos frecuente. No ha presentado fiebre, lo que sugiere una evolución favorable.
+
+Durante la exploración física, se registran los siguientes signos vitales: Tª 36,5 °C; T.A: 128/74 mmHg; Fc: 76 lpm. El paciente se encuentra en un estado general aceptable, con saturación de oxígeno (SpO2 97% en aire ambiente). A la auscultación pulmonar, se evidencian ruidos respiratorios disminuidos en ambos campos pulmonares, con sibilancias leves, pero sin crepitantes, lo que indica una mejora en la inflamación pulmonar. El abdomen es blando, sin hepatomegalia ni esplenomegalia, y las extremidades están sin edemas.
+
+Se realiza un hemograma que muestra leucocitos dentro de los límites normales, lo que refuerza la idea de resolución de la respuesta inflamatoria. La radiografía de tórax, comparada con el estudio previo, muestra una mejoría continua, con una reducción significativa de las opacidades en el lóbulo inferior derecho, aunque persisten algunas áreas de consolidación residual. Los parámetros de función renal y hepática continúan dentro de límites normales.
+
+Se discute con el paciente sobre su evolución y se le recalca la importancia de la adherencia al tratamiento. Dado que ha mejorado, se decide reducir la Dexametasona a 4 mg/día por vía oral durante 5 días, manteniendo la Amoxicilina-clavulánico 875/125 mg cada 12 horas, y se suspende el Tiotropio, dado que no se han evidenciado signos de obstrucción bronquial. Se continúa con Budesonida 200 mcg/día y se le indica iniciar un tratamiento con Salbutamol en caso de necesidad.
+
+Se programa una espirometría para la próxima consulta, con el fin de evaluar la función pulmonar de forma más objetiva. Se enfatiza la importancia de continuar con la terapia inhalatoria y se recuerda la necesidad de la vacunación antigripal y antineumocócica, especialmente en su grupo etario. Se programan revisiones cada tres semanas para evaluar la evolución de los síntomas respiratorios y se le aconseja que evite la exposición a irritantes ambientales. Se le proporciona información adicional sobre técnicas de respiración y el uso de un humidificador en casa para facilitar la respiración.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="24/11/2023" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

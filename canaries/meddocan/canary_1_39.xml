@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 29/10/2025.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para una evaluación de seguimiento un mes después de su última visita. Durante este periodo, ha continuado experimentando episodios de migraña, con una frecuencia de 4 a 5 episodios mensuales, y ha notado un aumento en la intensidad de estos, con un puntaje promedio de 7 en la escala del dolor. La paciente menciona que, a pesar del aumento de la dosis de Amitriptilina a 40 mg/día, los episodios persisten y se han visto exacerbados por un reciente incremento en sus responsabilidades laborales, lo que ha generado un mayor estrés.
+
+Durante la exploración física, Ana se presenta con un estado general aceptable, aunque se observa un leve aumento en la tensión muscular en la región cervical y paravertebral, así como signos de ansiedad. Los parámetros vitales son estables: Tª 36.7 C; T.A: 120/78 mmHg; Fc: 74 lpm. El examen neurológico no revela hallazgos anormales, lo que es un aspecto positivo, pero se recomienda un enfoque multidisciplinario para abordar el manejo del estrés.
+
+Se decide realizar un cambio en la terapia farmacológica. Se incrementará la dosis de Propranolol a 240 mg/día, ya que se ha demostrado que dosis más altas pueden ser más efectivas en la profilaxis de las migrañas. Asimismo, se añade un nuevo medicamento, la Venlafaxina a 75 mg/día, para ayudar a manejar los síntomas de ansiedad y mejorar el control del dolor. Ana es informada sobre los posibles efectos secundarios de la Venlafaxina, incluyendo la posibilidad de aumentar la presión arterial, por lo que se le instruye a monitorear su tensión arterial en casa.
+
+La paciente continúa con el uso de Zolpidem en 5 mg por la noche, con la recomendación de limitar su uso a noches en las que el insomnio sea persistente. Se le recuerda la importancia de llevar un diario de migrañas, registrando la frecuencia, intensidad y posibles desencadenantes, así como los patrones de sueño.
+
+Ana es alentada a implementar técnicas de relajación, tales como la meditación y ejercicios de respiración, y se le sugiere considerar la posibilidad de asistir a sesiones de terapia cognitivo-conductual para abordar el estrés y la ansiedad que parecen estar contribuyendo a sus episodios de migraña.
+
+Se establece un nuevo plan de seguimiento en 4 semanas para reevaluar la eficacia del tratamiento y el control de sus migrañas. Ana es instruida para que se comunique con la consulta si experimenta cualquier efecto adverso significativo con la nueva medicación.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="29/10/2025" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+    <CONTACT id="T10" start="574" end="586" text="email: pajaritoxyz21@email.org" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <PHONE id="T9" start="588" end="596" text="98623487" TYPE="NUMERO_TELEFONO" comment=""/>
+  </TAGS>
+</MEDDOCAN>

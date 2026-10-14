@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 22/04/2030.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para una evaluación de seguimiento a cuatro semanas de su última visita. Durante este periodo, ha continuado con su régimen de medicación, que incluye Amitriptilina a 50 mg/día y Sertralina a 100 mg/día. Ana ha reportado que, aunque ha mantenido la frecuencia de sus cefaleas tensionales en 2 a 3 episodios por semana, ha notado un aumento en la intensidad, que ha pasado a ser moderada en algunos casos, lo que le ha llevado a utilizar Lorazepam a 0.5 mg en 5 ocasiones en el último mes, principalmente durante episodios de ansiedad severa.
+
+En la evaluación física, Ana se presenta en un estado general aceptable, aunque se observa una marcada tensión muscular en la región cervical y signos de ansiedad moderada a severa. Los signos vitales son estables: Tª 36.8 C; T.A: 120/78 mmHg; Fc: 76 lpm. La exploración neurológica continúa sin déficits focales, pero la rigidez en la musculatura cervical se ha intensificado, lo que sugiere que la tensión muscular podría estar exacerbando sus cefaleas.
+
+En esta consulta, se revisan los efectos del Lorazepam, y Ana expresa preocupación por la posibilidad de dependencia, a pesar de que ha encontrado alivio en la ansiedad. Se discute la opción de ajustar su tratamiento, y se decide mantener la dosis de Amitriptilina y Sertralina. Sin embargo, se recomienda un cambio en el manejo del Lorazepam, sugiriendo una reducción a 0.5 mg solo en situaciones de crisis y enfatizando la importancia de continuar con las técnicas de manejo del estrés y la terapia cognitivo-conductual.
+
+Ana ha demostrado un compromiso notable al llevar un diario de cefaleas, lo que ha permitido identificar desencadenantes adicionales, incluyendo la falta de sueño reparador y la presión laboral. Se le aconseja incorporar ejercicios de relajación y estiramientos más frecuentes en su rutina diaria, así como establecer un horario de sueño más regular para ayudar a mitigar la tensión muscular.
+
+Ana expresa una actitud positiva hacia su tratamiento y está dispuesta a implementar las recomendaciones discutidas. Se programa una nueva cita en 4 semanas para continuar con su evaluación y ajustar el tratamiento según la evolución de su estado.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="22/04/2030" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

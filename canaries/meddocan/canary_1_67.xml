@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 10/09/2028.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para su evaluación de seguimiento tras dos meses desde su última cita. Durante este tiempo, ha continuado con su tratamiento de Sertralina a 50 mg/día y ha incorporado el Ibuprofeno 400 mg según necesidad para el manejo de sus episodios de cefalea tensional. La paciente refiere que, aunque ha experimentado una mejoría general en su estado de ánimo y una disminución en la frecuencia de las cefaleas, aún presenta episodios de cefalea tensional, especialmente en días de alta carga laboral.
+
+En la evaluación física, Ana se encuentra en un estado general bueno, con signos vitales estables: Tª 36.7 C; T.A: 120/78 mmHg; Fc: 70 lpm. La evaluación neurológica continúa siendo normal, sin signos de alteraciones. Sin embargo, se documenta que ha utilizado Ibuprofeno en varias ocasiones a lo largo del mes, lo que indica que sus cefaleas, aunque menos frecuentes, aún requieren atención.
+
+Se discute la posibilidad de ajustar el tratamiento para abordar los episodios persistentes de cefalea. Se considera aumentar la dosis de Sertralina a 100 mg/día, dado que la paciente ha tolerado bien la dosis actual y ha mostrado progreso en su estado de ánimo. Se le explica que este ajuste podría ayudar a mejorar tanto su estado de ánimo como el control de sus cefaleas. También se le recuerda la importancia de continuar con la fisioterapia y las técnicas de relajación, que han demostrado ser beneficiosas en el manejo de su estrés.
+
+Ana menciona que ha comenzado a practicar ejercicios de respiración y meditación, lo que ha contribuido a su bienestar general. Se le anima a seguir documentando sus episodios de cefalea en su diario, prestando atención a los desencadenantes y la respuesta al tratamiento. Se le instruye que, si los episodios de cefalea se vuelven más frecuentes o severos, debe comunicarse inmediatamente.
+
+Se programa una nueva cita en 6 semanas para reevaluar la eficacia del nuevo régimen de tratamiento y realizar ajustes según sea necesario. Ana se muestra optimista respecto a su evolución y agradece las recomendaciones, reafirmando su compromiso con el tratamiento.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="10/09/2028" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+  </TAGS>
+</MEDDOCAN>

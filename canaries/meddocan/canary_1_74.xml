@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 30/07/2029.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para un control de seguimiento a dos meses de su última evaluación. Durante este periodo, ha continuado con la Amitriptilina a 10 mg/día, Topiramato a 75 mg/día y Sertralina a 100 mg/día. Ana reporta que, aunque la frecuencia de los episodios de cefalea tensional se ha mantenido constante, ha experimentado un aumento en la intensidad de los mismos, describiéndolos como moderados a severos en las últimas semanas. Este cambio ha generado un impacto negativo en su calidad de vida y en su capacidad para realizar actividades cotidianas.
+
+En la evaluación física, Ana presenta un estado general aceptable, aunque reporta síntomas de ansiedad moderada y tensión muscular en la región cervical. Los signos vitales son los siguientes: Tª 36.7 C; T.A: 125/80 mmHg; Fc: 75 lpm. La evaluación neurológica no muestra déficits focales, pero se observa una reaparición de hipertonía en la musculatura cervical, lo que sugiere un posible desencadenante psicosomático en sus cefaleas. Ana ha utilizado Ibuprofeno en varias ocasiones en el último mes, lo que indica un aumento en la necesidad de analgésicos.
+
+Se revisan los resultados del tratamiento y se discute la posibilidad de ajustar la terapia. Dado el aumento en la intensidad de las cefaleas, se decide aumentar la dosis de Amitriptilina a 25 mg/día, con el objetivo de mejorar el control del dolor y la calidad del sueño, que Ana reporta como insuficiente en las últimas semanas. La dosis de Topiramato se mantendrá en 75 mg/día, mientras que la Sertralina se revisará en la próxima consulta para evaluar su efectividad en el manejo de la ansiedad.
+
+Ana es instruida para continuar con el diario de cefaleas, anotando no solo la frecuencia e intensidad, sino también los desencadenantes y el impacto en su vida diaria, para facilitar una evaluación más precisa en futuras consultas. Se le recuerda la importancia de las sesiones de terapia cognitivo-conductual, que podrían contribuir a una mejor gestión de su ansiedad y sus cefaleas.
+
+Ana expresa su preocupación por el aumento de la intensidad de sus cefaleas, pero se muestra comprometida con el tratamiento y las recomendaciones dadas. Se programa una nueva cita en 4 semanas para reevaluar la eficacia de la nueva dosis de Amitriptilina y para realizar un seguimiento exhaustivo de su progreso.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="30/07/2029" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

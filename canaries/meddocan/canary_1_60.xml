@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 01/09/2027.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana se presenta a consulta para su revisión programada, un mes después de la modificación de su tratamiento. Durante este período, ha continuado con Topiramato a 200 mg/día y Propranolol ajustado a 10 mg/día. La paciente informa que ha experimentado una notable mejora en el control de sus migrañas, con un total de dos episodios en el último mes, ambos de baja intensidad y duración, lo que ha permitido una mejor calidad de vida.
+
+Sin embargo, Ana menciona que ha experimentado un aumento ocasional en la sensación de fatiga, que atribuye a su horario laboral y a la falta de descanso adecuado. En cuanto a su ansiedad, refiere que la frecuencia de episodios ansiosos ha permanecido estable, sin recurrir a Lorazepam, lo que considera un indicador positivo de su progreso. Durante la exploración física, se observa que su estado general es satisfactorio, con parámetros vitales dentro de los límites normales: Tª 36.8 C; T.A: 118/74 mmHg; Fc: 72 lpm. La evaluación neurológica se mantiene dentro de la normalidad, sin signos de alteraciones.
+
+Se revisa el tratamiento actual, y dado el éxito en la reducción de la frecuencia de las migrañas, se decide continuar con Topiramato a 200 mg/día. Sin embargo, se considera prudente mantener el Propranolol en 10 mg/día, dada la mejoría en los episodios de ansiedad y los efectos secundarios previamente reportados. Se discuten estrategias adicionales para manejar la fatiga, incluyendo recomendaciones sobre la higiene del sueño y la incorporación de pausas activas en su rutina diaria.
+
+Ana es instruida sobre la importancia de continuar con el seguimiento de sus síntomas, así como de mantener el diario de migrañas, anotando cualquier cambio en la frecuencia, duración y severidad de los episodios. Se le recuerda que debe estar atenta a cualquier síntoma nuevo o aumento en la severidad de su ansiedad y que consulte inmediatamente si presenta efectos adversos significativos.
+
+Se programa una nueva cita en 8 semanas para una reevaluación más exhaustiva, donde se considerará la posibilidad de incorporar técnicas de manejo del estrés si la fatiga persiste. Ana expresa su satisfacción con la evolución de su tratamiento y se muestra optimista respecto a su bienestar en el futuro.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="01/09/2027" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+  </TAGS>
+</MEDDOCAN>

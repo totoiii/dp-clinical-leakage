@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2024-04-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+East Kimberly Saint Kitts Hospital
+Department of Internal Medicine
+
+Location: Location: 7632 Megan Mountains Apt. 408, West Ronaldfort
+
+Smith, John
+Phone: 98623487 
+email: heathermorris@example.net
+Date of Birth: 1987-03-10
+
+
+CHIEF COMPLAINT
+
+Follow-up for persistent fatigue and management of lipid levels.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. John Smith returns to the East Kimberly Saint Kitts Hospital for his follow-up appointment regarding his persistent fatigue and lipid management. He reports that since his last visit, he has made some lifestyle modifications, including walking for 30 minutes most days of the week and incorporating more fruits and vegetables into his diet. However, he continues to experience episodes of fatigue, particularly towards the end of the school week, which he attributes to work-related stress.
+
+The intermittent chest discomfort has not worsened, but he occasionally experiences mild shortness of breath during exertion, especially during busy days at school. He denies any new symptoms such as palpitations, syncope, or significant changes in weight. He has been practicing stress management techniques, including mindfulness exercises, which he finds somewhat helpful.
+
+He remains a non-smoker and continues to consume alcohol socially on weekends.
+
+REVIEW OF SYSTEMS
+
+General: Persistent fatigue; no weight loss, fever, or night sweats.
+Cardiovascular: Intermittent chest discomfort; denies palpitations or edema.
+Respiratory: Mild shortness of breath on exertion; no cough or wheezing.
+Gastrointestinal: No nausea, vomiting, or changes in bowel habits.
+Neurological: No dizziness or headaches.
+
+PAST MEDICAL HISTORY
+
+- No significant past medical history.
+
+FAMILY HISTORY
+
+- Father: Coronary artery disease, underwent CABG at age 60.
+- Mother: Hypertension.
+
+SOCIAL HISTORY
+
+- Lives alone in , . Works as a teacher. No tobacco use; social alcohol consumption. No illicit drug use.
+
+MEDICATIONS
+
+- None.
+
+ALLERGIES
+
+- No known drug allergies.
+
+PHYSICAL EXAMINATION
+
+VITALS: T 98.6F, HR 76 bpm, BP 118/78 mmHg, RR 16 breaths/min, O2 sat 98% on room air.
+
+General: Well-nourished, alert, in no acute distress.
+Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops. No peripheral edema.
+Respiratory: Clear to auscultation bilaterally; no wheezing or crackles.
+Abdomen: Soft, non-tender, no organomegaly.
+Extremities: No cyanosis, clubbing, or edema.
+
+LABORATORY DATA
+
+Lipid Panel (obtained today): Total Cholesterol 210 mg/dL, LDL 135 mg/dL, HDL 42 mg/dL, Triglycerides 160 mg/dL
+CBC: Normal
+BMP: Normal
+BNP: 12 pg/mL
+
+RADIOLOGICAL STUDIES
+
+Chest X-ray: Clear lung fields, no cardiomegaly or pulmonary edema.
+
+ASSESSMENT AND PLAN
+
+1. Persistent fatigue and intermittent chest discomfort likely related to lifestyle factors and stress.
+   - Continue lifestyle modifications including increased physical activity and dietary changes.
+   - Reinforce stress management techniques; consider referral to a counselor if symptoms persist.
+
+2. Lipid management.
+   - Given the marginal improvement in lipid levels, initiate Atorvastatin 10 mg daily to further address dyslipidemia.
+   - Reassess lipid panel in 3 months to evaluate the effectiveness of the intervention.
+
+3. Follow-up.
+   - Schedule follow-up appointment in 3 months to reassess symptoms and lipid levels.
+   - Encourage Mr. Smith to maintain a symptom diary to identify triggers for fatigue and chest discomfort.
+
+__________________________________
+
+Emily Johnson, MD
+Department of Internal Medicine
+East Kimberly Saint Kitts Hospital
+Phone: 98623487
+Email: heathermorris@example.net
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2024-04-30" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="64" text="East Kimberly Saint Kitts Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="66" end="71" text="John" TYPE="PATIENT" comment="" />
+<NAME id="P3" start="73" end="78" text="Smith" TYPE="PATIENT" comment="" />
+<ID id="P4" start="81" end="88" text="9876543" TYPE="MEDICALRECORD" comment="" />
+<AGE id="P5" start="90" end="100" text="37 años" TYPE="AGE" comment="" />
+<LOCATION id="P6" start="106" end="118" text="" TYPE="CITY" comment="" />
+<LOCATION id="P7" start="120" end="130" text="" TYPE="STATE" comment="" />
+<CONTACT id="P8" start="132" end="140" text="98623487" TYPE="PHONE" comment="" />
+<CONTACT id="P9" start="142" end="159" text="heathermorris@example.net" TYPE="EMAIL" comment="" />
+<PROFESSION id="P10" start="161" end="168" text="Teacher" TYPE="PROFESSION" comment="" />
+<NAME id="P11" start="192" end="197" text="Emily Johnson" TYPE="DOCTOR" comment="" />
+</TAGS>
+</deIdi2b2>

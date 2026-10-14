@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2025-02-26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+East Kimberly Saint Kitts Hospital
+Department of Internal Medicine
+
+Location: Location: 7632 Megan Mountains Apt. 408, West Ronaldfort
+
+Smith, John
+Phone: 98623487 
+email: heathermorris@example.net
+Date of Birth: 1987-03-10
+
+
+CHIEF COMPLAINT
+
+Follow-up visit for persistent fatigue, headaches, and ongoing anxiety management; evaluation of medication efficacy and side effects.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. John Smith returns for follow-up after initiating Sertraline 50 mg daily for the management of his anxiety symptoms. He reports a modest improvement in his anxiety levels, describing a slight decrease in frequency and intensity of panic-like episodes, although he continues to experience persistent fatigue and sleep disturbances. He notes that while the palpitations have decreased, he still has difficulty falling asleep and often wakes up feeling restless and anxious.
+
+The patient expresses frustration regarding his fatigue, which he describes as debilitating, particularly following days of teaching. He reports that he has been more diligent with his sleep diary and has identified that his sleep quality fluctuates significantly, often correlating with increased stress during the workweek. Mr. Smith also mentions that he has been experiencing mild gastrointestinal discomfort, including occasional nausea, which he attributes to the Sertraline.
+
+The patient denies any significant weight changes but reports ongoing difficulty with concentration and increased irritability, particularly when under stress.
+
+REVIEW OF SYSTEMS
+
+General: Persistent fatigue; no significant weight loss, fever, or night sweats.
+Cardiovascular: Intermittent palpitations have improved; denies chest pain or edema.
+Respiratory: No shortness of breath; no cough or wheezing.
+Gastrointestinal: Mild nausea; no vomiting or changes in bowel habits.
+Neurological: Headaches persist; increased anxiety; occasional dizziness.
+
+PAST MEDICAL HISTORY
+
+- No significant past medical history.
+
+FAMILY HISTORY
+
+- Father: Coronary artery disease, underwent CABG at age 60.
+- Mother: Hypertension.
+
+SOCIAL HISTORY
+
+- Lives alone in , . Works as a teacher. No tobacco use; social alcohol consumption. No illicit drug use.
+
+MEDICATIONS
+
+- Atorvastatin 10 mg daily.
+- Magnesium supplement 400 mg daily.
+- Melatonin 3 mg nightly.
+- Sertraline 50 mg daily (initiated last visit).
+
+ALLERGIES
+
+- No known drug allergies.
+
+PHYSICAL EXAMINATION
+
+VITALS: T 98.6F, HR 76 bpm, BP 118/74 mmHg, RR 16 breaths/min, O2 sat 98% on room air.
+
+General: Well-nourished, alert, appears mildly anxious but in no acute distress.
+Cardiovascular: Regular rate and rhythm; no murmurs, rubs, or gallops. No peripheral edema.
+Respiratory: Clear to auscultation bilaterally; no wheezing or crackles.
+Gastrointestinal: Soft, non-tender abdomen; no hepatosplenomegaly.
+Neurological: Cranial nerves II-XII intact; no focal deficits. Mild tenderness on palpation of the bilateral temporalis region.
+
+LABORATORY DATA
+
+Lipid Panel (obtained at last visit): Total Cholesterol 195 mg/dL, LDL 115 mg/dL, HDL 50 mg/dL, Triglycerides 130 mg/dL
+CBC: Normal
+BMP: Normal
+BNP: 12 pg/mL
+
+RADIOLOGICAL STUDIES
+
+None performed at this visit.
+
+ASSESSMENT AND PLAN
+
+1. Persistent fatigue and sleep disturbances with ongoing anxiety.
+   - The patient's symptoms appear to be multifactorial, likely exacerbated by situational stressors and medication side effects. Continue with the current sleep hygiene recommendations and encourage Mr. Smith to explore additional stress management techniques, such as mindfulness or cognitive-behavioral therapy.
+   - Given the reported gastrointestinal discomfort, consider adjusting the Sertraline dosage or switching to a different SSRI if symptoms persist. Schedule a follow-up in 4 weeks to monitor side effects and adjust treatment as necessary.
+   - Continue magnesium supplementation and melatonin, and monitor effectiveness.
+
+2. Lipid management.
+   - Continue Atorvastatin 10 mg daily due to stable lipid levels. Reassess lipid panel in 3 months to evaluate ongoing effectiveness.
+
+3. Follow-up.
+   - Schedule follow-up appointment in 4 weeks to reassess anxiety symptoms, sleep quality, and overall well-being. Encourage Mr. Smith to utilize stress management techniques and consider therapy if symptoms persist or worsen.
+
+__________________________________
+
+Emily Johnson, MD
+Department of Internal Medicine
+East Kimberly Saint Kitts Hospital
+Phone: 98623487
+Email: heathermorris@example.net
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2025-02-26" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="64" text="East Kimberly Saint Kitts Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="66" end="71" text="John" TYPE="PATIENT" comment="" />
+<NAME id="P3" start="73" end="78" text="Smith" TYPE="PATIENT" comment="" />
+<ID id="P4" start="81" end="88" text="9876543" TYPE="MEDICALRECORD" comment="" />
+<AGE id="P5" start="90" end="100" text="37 aos" TYPE="AGE" comment="" />
+<LOCATION id="P6" start="106" end="118" text="" TYPE="CITY" comment="" />
+<LOCATION id="P7" start="120" end="130" text="" TYPE="STATE" comment="" />
+<CONTACT id="P8" start="132" end="140" text="98623487" TYPE="PHONE" comment="" />
+<CONTACT id="P9" start="142" end="159" text="heathermorris@example.net" TYPE="EMAIL" comment="" />
+<PROFESSION id="P10" start="161" end="168" text="Teacher" TYPE="PROFESSION" comment="" />
+<NAME id="P11" start="192" end="197" text="Emily Johnson" TYPE="DOCTOR" comment="" />
+</TAGS>
+</deIdi2b2>

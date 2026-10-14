@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 01/12/2024.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Zacarias regresa a consulta para evaluación de seguimiento, 7 días después de su última visita. Durante este tiempo, ha continuado con el régimen terapéutico establecido, que incluye Prednisona 15 mg diarios, Dexametasona 4 mg diarios, y un inhalador de Budesonida/Formoterol. El paciente informa que, aunque ha experimentado una mejora en la calidad de vida, la opresión torácica ha persistido, especialmente al realizar actividades físicas, lo que le causa preocupación.
+
+En el examen físico, se observan los siguientes signos vitales: Tª 36.8 °C; T.A: 128/80 mmHg; Fc: 72 lpm. La saturación de oxígeno se mantiene en un 94% en aire ambiente. La auscultación pulmonar revela ruidos respiratorios simétricos con sibilancias leves y sin estertores, lo que sugiere un control moderado del asma. Se aprecia un leve aumento en la irritación bronquial, posiblemente exacerbada por cambios estacionales y exposición a alérgenos.
+
+Los análisis de laboratorio realizados muestran un conteo de leucocitos de 6,200/mm³ y una proteína C-reactiva (PCR) de 0.2 mg/L, indicando una respuesta inflamatoria leve, pero controlada. La radiografía de tórax, realizada en esta ocasión, muestra estabilidad en el patrón de hiperinsuflación pulmonar, sin signos de infección aguda o complicaciones adicionales. Sin embargo, se recomienda un seguimiento más cercano debido a la persistencia de la opresión torácica.
+
+Dada la evolución clínica, se decide mantener la Prednisona a 15 mg diarios y Dexametasona a 4 mg diarios. Sin embargo, se aumenta la dosis del inhalador de Budesonida/Formoterol para optimizar el control del asma. Se instruye al paciente para que continúe utilizando Salbutamol como broncodilatador de rescate, especialmente antes de realizar esfuerzos físicos.
+
+Se discuten estrategias adicionales de manejo, incluyendo ejercicios de respiración y recomendaciones para evitar alérgenos y factores desencadenantes, como el polvo y el humo de tabaco. Se alienta al paciente a realizar ejercicios de respiración profunda y a mantener un entorno libre de irritantes.
+
+Se programa una nueva evaluación en 7 días o antes si presenta un aumento significativo en la disnea, sibilancias persistentes, o cualquier signo de infección respiratoria.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="01/12/2024" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

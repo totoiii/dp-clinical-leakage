@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 16/06/2027.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana regresa a consulta para su evaluación programada tras la modificación de su tratamiento en la visita anterior. Desde el último seguimiento, ha estado bajo un régimen de Topiramato a 200 mg/día y Propranolol a 40 mg/día, con el objetivo de controlar sus episodios de migraña. Ana reporta que ha experimentado una notable mejoría en la frecuencia de sus episodios de migraña, indicando que en el último mes solo ha tenido dos episodios, ambos de menor duración y severidad en comparación con los anteriores.
+
+Sin embargo, la paciente menciona que ha comenzado a experimentar efectos secundarios relacionados con el Propranolol, tales como fatiga y mareos, que han interferido con sus actividades diarias. Ana también informa que ha tenido que usar Lorazepam en una ocasión debido a un episodio de ansiedad desencadenado por el estrés laboral, aunque considera que su manejo general de la ansiedad sigue siendo positivo.
+
+Durante la exploración física, se documenta que su estado general se mantiene estable, con parámetros vitales dentro de los límites normales: Tª 36.6 C; T.A: 115/70 mmHg; Fc: 68 lpm. La evaluación neurológica continúa siendo normal, sin signos de disfunción neurológica. Se discuten los efectos secundarios del Propranolol y se considera necesario realizar un ajuste en su tratamiento.
+
+Se decide reducir la dosis de Propranolol a 20 mg/día, con el fin de mitigar los efectos secundarios mientras se mantiene el control sobre la frecuencia de las migrañas. Además, se le aconseja continuar con Topiramato a 200 mg/día, dado que ha demostrado ser efectivo en la reducción de la frecuencia de los episodios. Se le recuerda a Ana la importancia de reportar cualquier efecto adverso significativo que pueda surgir y se le sugiere la posibilidad de realizar una consulta con un especialista en neurología si los episodios de migraña vuelven a aumentar.
+
+Ana expresa satisfacción por la reducción en la frecuencia de sus migrañas, pero se muestra preocupada por los efectos secundarios del Propranolol. Se le asegura que el ajuste en la medicación debería ayudar a mejorar su bienestar general. Se le recomienda mantener un diario de síntomas para seguir monitorizando la efectividad del nuevo régimen y cualquier efecto secundario.
+
+Se programa una nueva cita en 4 semanas para reevaluar su estado y la eficacia del tratamiento ajustado. Se le recuerda que debe buscar atención médica si experimenta un aumento en la frecuencia de sus episodios de ansiedad o migraña, así como cualquier efecto adverso significativo relacionado con los medicamentos.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="16/06/2027" TYPE="FECHAS" comment=""/>
+    <NAME id="T14" start="273" end="302" text="Dr. Carlos Martín Sánchez" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T13" start="310" end="320" text="28 28 65432" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T11" start="468" end="498" text="Hospital San Gabriel" TYPE="HOSPITAL" comment=""/>
+  </TAGS>
+</MEDDOCAN>

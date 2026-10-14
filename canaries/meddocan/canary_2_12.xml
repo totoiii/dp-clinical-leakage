@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 26/01/2024.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Paciente masculino de 77 años que regresa a consulta para seguimiento tras tratamiento por neumonía adquirida en la comunidad. En esta visita, Zacarias informa que ha experimentado una mejoría continua, aunque persisten episodios ocasionales de disnea al realizar esfuerzos moderados. Refirió que ha estado cumpliendo con el tratamiento y que ha seguido las recomendaciones de ejercicios respiratorios.
+
+Durante la evaluación física, los signos vitales son los siguientes: Tª 36,7 °C; T.A: 125/73 mmHg; Fc: 70 lpm. El paciente se presenta en estado general bueno, con una saturación de oxígeno (SpO2 96% en aire ambiente). La auscultación pulmonar revela ruidos respiratorios simétricos y sin sibilancias, aunque se notan algunos estertores finos en el lóbulo inferior derecho, lo que sugiere que aún hay algo de secreción residual.
+
+Se realiza un hemograma que muestra una normalización de los leucocitos, ahora en 6,800/mm³, lo que indica una resolución de la respuesta inflamatoria. La radiografía de tórax muestra una clara mejora, con una reducción significativa de las opacidades en el lóbulo inferior derecho, aunque todavía se observan algunas áreas de consolidación leve. Los parámetros de función renal y hepática continúan dentro de límites normales.
+
+Dada la evolución positiva del paciente, se decide continuar con Dexametasona a 8 mg/día por vía oral, manteniendo el tratamiento por 5 días adicionales para asegurar la resolución completa de la inflamación. La Amoxicilina-clavulánico se ajusta a 1 g cada 12 horas, continuando por 5 días más, dado que el paciente aún presenta síntomas residuales. Se mantiene el régimen de Budesonida a 200 mcg cada 12 horas y el Salbutamol a 100 mcg cada 6 horas según necesidad, dado que el paciente reporta episodios ocasionales de dificultad respiratoria bajo esfuerzo.
+
+Se programa una nueva evaluación en 2 semanas y se recomienda realizar una espirometría para valorar la función pulmonar y determinar si es necesario ajustar el tratamiento. Se reitera la importancia de la adherencia al tratamiento y se le aconseja seguir evitando irritantes ambientales.
+
+Se proporciona información sobre un plan de ejercicios respiratorios progresivos y se recomienda el uso continuo del nebulizador con solución salina en casa. Se programan revisiones cada dos semanas para monitorizar de cerca la evolución de los síntomas y ajustar el tratamiento según sea necesario.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="26/01/2024" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

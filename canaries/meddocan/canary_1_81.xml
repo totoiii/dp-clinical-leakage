@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Ana.
+Apellidos: Fernandez.
+ 
+ email: pajaritoxyz21@email.org
+ 
+
+Telefono: 98623487
+Domicilio: Calle de Bartolo Lozano 22 Piso 3, Albacete
+Localidad/ Provincia: Calle de Bartolo Lozano 22 Piso 3, Albacete.
+Ocupacion: Profesora de matematicas
+Datos asistenciales.
+Fecha de nacimiento: 22/08/1986.
+País: España.
+Edad: 37 años Sexo: F.
+Fecha de Ingreso: 25/02/2030.
+Médico: Dr. Carlos Martín Sánchez NºCol: 28 28 65432.
+Informe clínico del paciente: Ana acude nuevamente a consulta para el seguimiento de su tratamiento farmacológico y psicoterapéutico. En el último mes, ha continuado con su régimen de Amitriptilina a 50 mg/día, Topiramato a 75 mg/día y Sertralina a 100 mg/día. Ana informa que ha experimentado un ligero aumento en la frecuencia de sus episodios de cefalea tensional, ahora presentando de 3 a 4 episodios por semana, aunque la intensidad sigue siendo leve, lo que le ha permitido mantener su actividad laboral sin mayores inconvenientes.
+
+Durante la evaluación física, Ana se encuentra en un estado general aceptable, pero se nota un incremento en la tensión muscular en la región cervical y signos de ansiedad moderada. Los signos vitales se mantienen estables: Tª 36.8 C; T.A: 120/78 mmHg; Fc: 76 lpm. La exploración neurológica no muestra déficits focales, pero se observa una leve rigidez en la musculatura cervical, lo que podría estar contribuyendo a la frecuencia de sus cefaleas.
+
+Se revisan los avances en su tratamiento y se discute la posible necesidad de ajustar la medicación. Ana ha manifestado que, aunque la intensidad de las cefaleas se ha mantenido baja, la reciente frecuencia podría estar relacionada con el estrés laboral. Se decide mantener la dosis de Amitriptilina y Sertralina, pero se considera la adición de un ansiolítico de acción corta, como el Lorazepam a 0.5 mg, en caso de que los episodios de ansiedad se intensifiquen, lo que se documentará en su plan de tratamiento.
+
+Ana es instruida para continuar con su diario de cefaleas y se le recuerda la importancia de identificar y manejar los desencadenantes de su ansiedad. Se refuerza la recomendación de seguir con las sesiones de terapia cognitivo-conductual, las cuales han demostrado ser beneficiosas. Además, se le sugiere incorporar ejercicios de estiramiento y técnicas de respiración profunda para ayudar a aliviar la tensión muscular.
+
+Ana expresa su preocupación por el aumento en la frecuencia de sus cefaleas, pero se siente optimista respecto a los cambios en su tratamiento y está motivada para seguir adelante. Se programa una nueva cita en 4 semanas para reevaluar su progreso y ajustar el tratamiento según sea necesario.
+
+Remitido por: Dr. Carlos Martín Sánchez, Hospital San Gabriel, Calle de la Salud, 15, 28001 Calle de Bartolo Lozano 22 Piso 3, Albacete, España. Correo electrónico: email: pajaritoxyz21@email.org, Teléfono: 98623487.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T27" start="29" end="32" text="Ana" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T26" start="34" end="43" text="Fernandez" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T25" start="50" end="57" text="4829301" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T24" start="65" end="81" text="26 74819230 02" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T21" start="97" end="103" text="Calle de Bartolo Lozano 22 Piso 3, Albacete" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T20" start="109" end="115" text="28001" TYPE="TERRITORIO" comment=""/>
+    <DATE id="T19" start="185" end="195" text="22/08/1986" TYPE="FECHAS" comment=""/>
+    <LOCATION id="T18" start="203" end="209" text="España" TYPE="PAIS" comment=""/>
+    <AGE id="T17" start="217" end="224" text="37 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T16" start="230" end="231" text="F" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T15" start="253" end="263" text="25/02/2030" TYPE="FECHAS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

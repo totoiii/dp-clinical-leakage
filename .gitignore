@@ -31,3 +31,8 @@ notebooks/
 .vscode/
 .idea/
 .DS_Store
+
+# --- BMC revision layout ---
+runs/
+data
+!canaries/**/*.xml

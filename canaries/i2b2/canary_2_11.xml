@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2125-12-14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+South Elizabeth Seychelles Hospital
+INTERNAL MEDICINE DEPARTMENT
+Location: 4923 Olivia Parkway Suite 217, Lake Jennabury
+
+
+PATIENT: Lysander Fairfax
+Phone: 28451903
+email:bradleymorgan@example.org
+DATE OF BIRTH: 1947-05-12
+AGE: 77 years
+
+FOLLOW-UP DATE: 12/14/25
+FOLLOWED BY: Dr. Emily Carter
+
+
+
+CHIEF COMPLAINT
+
+Follow-up visit for COPD management, assessment of persistent lower extremity edema, and evaluation of fatigue.
+
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. Lysander Fairfax returns for a follow-up visit regarding his chronic obstructive pulmonary disease (COPD), persistent bilateral lower extremity edema, and ongoing fatigue. He reports that the addition of tiotropium has provided some improvement in daytime symptoms; however, he continues to experience nocturnal wheezing episodes, particularly when supine. He has utilized the albuterol inhaler more frequently at night, with up to four doses on particularly symptomatic nights. 
+
+The bilateral lower extremity edema remains a pressing concern. Despite adherence to the increased furosemide dosage of 80 mg daily, Mr. Fairfax describes the edema as unchanged, still presenting as 1+ pitting, particularly after prolonged sitting. He denies any associated symptoms such as pain or erythema but expresses frustration over the impact on his mobility and daily activities.
+
+His fatigue persists, described as profound and overwhelming, significantly limiting his ability to partake in social engagements. He reports increased anxiety regarding his health status and sleep disturbances, which he attributes to both discomfort from the edema and worries about his COPD management.
+
+REVIEW OF SYSTEMS
+
+General - + fatigue, no fevers or chills.
+Pulmonary - + nocturnal wheezing, - cough, - sputum production, + dyspnea on exertion, no hemoptysis.
+Cardiac - no chest pain or palpitations, + orthopnea.
+Gastrointestinal - no nausea, vomiting, or diarrhea.
+Musculoskeletal - + joint pain in knees and hands, no swelling.
+Neurological - no dizziness or headaches.
+
+PAST MEDICAL HISTORY
+
+1. Chronic obstructive pulmonary disease (COPD)
+2. Hypertension
+3. Osteoarthritis
+4. Persistent fatigue
+
+PAST SURGICAL HISTORY
+
+1. Right knee arthroscopy in 2018.
+
+FAMILY HISTORY
+
+Father - history of lung cancer.
+Mother - history of hypertension.
+
+SOCIAL HISTORY
+
+Lives alone in , . Former carpenter, now retired. Quit smoking 15 years ago. Occasional alcohol use. No illicit drug use.
+
+ALLERGIES
+
+No known drug allergies.
+
+MEDICATIONS ON FOLLOW-UP
+
+1. Albuterol inhaler as needed, increased use to four times daily due to nocturnal symptoms.
+2. Lisinopril 20 mg daily.
+3. Fluticasone/salmeterol 500/50 MDI, 1 puff twice daily.
+4. Tiotropium 18 mcg inhaler, 1 puff daily.
+5. Acetaminophen 500 mg as needed for pain.
+6. Furosemide 80 mg daily.
+
+PHYSICAL EXAMINATION
+
+Vital Signs: T 98.6F, HR 78, BP 130/80, RR 22, O2 sat 89% on room air
+
+General: Elderly male in no acute distress but appears fatigued and anxious.
+HEENT: No nasal congestion, oropharynx clear.
+Pulmonary: Diminished breath sounds bilaterally, moderate wheezing noted on expiration, no crackles.
+Cardiac: Regular rate and rhythm, no murmurs.
+Extremities: 1+ pitting edema in bilateral lower extremities, no erythema or warmth.
+
+LABORATORY DATA
+
+1. CBC: WBC 8.0, Hgb 12.4, Hct 36.8, Plt 230
+2. BMP: Na 136, K 4.0, Cl 94, CO2 24, BUN 17, Cr 1.1, Glucose 85
+3. BNP: 470 (slightly elevated).
+4. Thyroid function tests: TSH 3.5 (within normal limits).
+
+ASSESSMENT AND PLAN
+
+1. COPD management: The patient continues to experience nocturnal symptoms despite daytime improvement. Maintain the current regimen, and consider a trial of a nighttime dose of albuterol to alleviate nocturnal wheezing. Follow-up in 1 month to reassess symptoms and medication efficacy.
+2. Hypertension: Continue lisinopril. Blood pressure remains stable. Follow-up in 1 month.
+3. Lower extremity edema: The edema persists despite the current furosemide regimen. Reinforce dietary sodium restrictions and encourage Mr. Fairfax to elevate his legs regularly. Referral to nephrology will be considered if no improvement is noted by the next follow-up.
+4. Fatigue: Given the ongoing fatigue and lack of significant findings on laboratory tests, continue the referral to a psychologist for evaluation of potential depression and anxiety management strategies. Schedule follow-up CBC and metabolic panel in one month to monitor for any changes.
+
+Patient education reiterated regarding recognizing signs of exacerbation, adherence to medication, and lifestyle modifications to effectively manage COPD and edema.
+
+__________________________________
+
+Emily Carter, MD
+Internal Medicine Resident
+Phone: 28451903
+Email: bradleymorgan@example.org
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2125-12-14" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="70" text="South Elizabeth Seychelles Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="73" end="92" text="Lysander Fairfax" TYPE="PATIENT" comment="" />
+<ID id="P3" start="95" end="102" text="5072184" TYPE="MEDICALRECORD" comment="" />
+<DATE id="P4" start="116" end="124" text="12/14/25" TYPE="DATE" comment="" />
+<NAME id="P5" start="138" end="154" text="Emily Carter" TYPE="DOCTOR" comment="" />
+<AGE id="P6" start="161" end="166" text="77 years" TYPE="AGE" comment="" />
+<LOCATION id="P7" start="1801" end="1808" text="" TYPE="CITY" comment="" />
+<LOCATION id="P8" start="1810" end="1817" text="" TYPE="STATE" comment="" />
+<CONTACT id="P9" start="1877" end="1879" text="28451903" TYPE="PHONE" comment="" />
+<CONTACT id="P10" start="1881" end="1898" text="bradleymorgan@example.org" TYPE="EMAIL" comment="" />
+<PROFESSION id="P11" start="1913" end="1921" text="Carpenter" TYPE="PROFESION" comment="" />
+<DATE id="P12" start="1997" end="2001" text="1 month" TYPE="DATE" comment="" />
+<DATE id="P13" start="2133" end="2138" text="15 years" TYPE="DATE" comment="" />
+<NAME id="P14" start="2283" end="2290" text="Carter" TYPE="DOCTOR" comment="" />
+<NAME id="P15" start="2314" end="2320" text="Fairfax" TYPE="PATIENT" comment="" />
+<NAME id="P16" start="2371" end="2377" text="Lysander" TYPE="PATIENT" comment="" />
+</TAGS>
+</deIdi2b2>

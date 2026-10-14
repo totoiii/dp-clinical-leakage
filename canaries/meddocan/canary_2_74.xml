@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre: Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 17/04/2026.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Zacarias regresa a consulta dos semanas después de su última visita para seguimiento de su asma. Desde la última evaluación, el paciente ha estado utilizando la dosis ajustada de Fluticasona inhalada, y aunque reporta una ligera mejoría en la frecuencia de los episodios de tos nocturna, aún presenta disnea leve al realizar esfuerzos moderados, como caminar distancias largas.
+
+En la evaluación física, los signos vitales son: Tª 36.8 °C; T.A: 130/76 mmHg; Fc: 72 lpm. La saturación de oxígeno se mantiene en un 94% en aire ambiente, lo que es aceptable, pero no óptimo. La auscultación pulmonar revela ruidos respiratorios simétricos, con sibilancias moderadas al final de la espiración, lo que indica un control subóptimo del asma. 
+
+Los análisis de laboratorio realizados en esta visita muestran un conteo de leucocitos de 6,800/mm³ y una proteína C-reactiva (PCR) de 0.3 mg/L, que sugiere un estado inflamatorio controlado, sin signos de infección activa. La espirometría revela un volumen espiratorio forzado en el primer segundo (FEV1) al 70% del valor predicho, lo que indica una leve progresión en la obstrucción del flujo aéreo, sugiriendo que el manejo del asma requiere un enfoque más intensivo.
+
+Debido a la persistencia de los síntomas, se decide iniciar un curso de terapia con un corticosteroide oral, Prednisona a 20 mg diarios durante 5 días, para abordar la inflamación subyacente y mejorar el control de los síntomas. Se instruye al paciente sobre la importancia de la administración adecuada de la medicación y se le recuerda que debe continuar con el uso de Salmeterol y el broncodilatador de acción rápida según sea necesario.
+
+Se programará una nueva consulta en dos semanas para reevaluar su condición clínica y ajustar el tratamiento según la respuesta a la terapia. Se enfatiza la urgencia de buscar atención médica si experimenta un aumento significativo en la disnea, tos persistente o cualquier signo de infección respiratoria, dado el riesgo asociado con su enfermedad respiratoria.
+
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="17/04/2026" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>

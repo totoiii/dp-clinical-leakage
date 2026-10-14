@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<deIdi2b2>
+<TEXT><![CDATA[
+
+
+Record date: 2127-03-28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+South Elizabeth Seychelles Hospital
+INTERNAL MEDICINE DEPARTMENT
+Location: 4923 Olivia Parkway Suite 217, Lake Jennabury
+
+
+PATIENT: Lysander Fairfax
+Phone: 28451903
+email:bradleymorgan@example.org
+DATE OF BIRTH: 1947-05-12
+AGE: 79 years
+
+FOLLOW-UP DATE: 03/28/27
+FOLLOWED BY: Dr. Emily Carter
+
+
+
+CHIEF COMPLAINT
+
+Follow-up for COPD exacerbation, persistent bilateral lower extremity edema, worsening fatigue, and assessment of mental health treatment efficacy.
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. Lysander Fairfax returns for a follow-up appointment two weeks after his last visit. He reports that since the last consultation, he has experienced a slight improvement in his respiratory symptoms following the initiation of therapy adjustments. He states that he has reduced his albuterol inhaler use to approximately six times daily, although he still encounters significant dyspnea during physical activities. Nighttime wheezing persists, but he reports fewer episodes of nocturnal awakenings, attributing this to the increased use of his fluticasone/salmeterol inhaler.
+
+Despite these improvements, Mr. Fairfax continues to struggle with bilateral lower extremity edema. He describes the swelling as persistent and notes that it remains at 2+ pitting, particularly in the ankles. He has adhered to dietary sodium restrictions and elevated his legs as recommended, but he expresses concern that the furosemide therapy at 100 mg daily may not be adequately addressing the issue. 
+
+Moreover, Mr. Fairfax reports ongoing fatigue that he describes as debilitating, affecting his ability to engage in daily activities. He has been compliant with his sertraline regimen but feels that his mood swings and anxiety have not significantly improved. He expresses a desire for a more tailored approach to his mental health management, citing that his current therapy sessions have not been as beneficial as hoped.
+
+REVIEW OF SYSTEMS
+
+General - + persistent fatigue, no fevers or chills.
+Pulmonary - + improved daytime dyspnea, + persistent nocturnal wheezing, - cough, - sputum production, no hemoptysis.
+Cardiac - no chest pain or palpitations, + orthopnea.
+Gastrointestinal - no nausea, vomiting, or diarrhea.
+Musculoskeletal - + joint pain in knees and hands, no swelling.
+Neurological - no dizziness or headaches.
+
+PAST MEDICAL HISTORY
+
+1. Chronic obstructive pulmonary disease (COPD)
+2. Hypertension
+3. Osteoarthritis
+4. Persistent fatigue
+5. Anxiety and depression (ongoing management)
+
+PAST SURGICAL HISTORY
+
+1. Right knee arthroscopy in 2018.
+
+FAMILY HISTORY
+
+Father - history of lung cancer.
+Mother - history of hypertension.
+
+SOCIAL HISTORY
+
+Lives alone in , . Former carpenter, now retired. Quit smoking 15 years ago. Occasional alcohol use. No illicit drug use.
+
+ALLERGIES
+
+No known drug allergies.
+
+MEDICATIONS ON FOLLOW-UP
+
+1. Albuterol inhaler as needed, currently using six times daily.
+2. Lisinopril 20 mg daily.
+3. Fluticasone/salmeterol 500/50 MDI, 1 puff twice daily.
+4. Tiotropium 18 mcg inhaler, 1 puff daily.
+5. Acetaminophen 500 mg as needed for pain.
+6. Furosemide 100 mg daily (ongoing management).
+7. Sertraline 50 mg daily (ongoing management for anxiety and depression).
+
+PHYSICAL EXAMINATION
+
+Vital Signs: T 98.4F, HR 82, BP 130/80, RR 22, O2 sat 85% on room air
+
+General: Elderly male in mild respiratory distress, appears fatigued but alert.
+HEENT: No nasal congestion, oropharynx clear.
+Pulmonary: Diminished breath sounds bilaterally, moderate wheezing noted on expiration, no crackles.
+Cardiac: Regular rate and rhythm, no murmurs.
+Extremities: 2+ pitting edema in bilateral lower extremities, no erythema or warmth.
+
+LABORATORY DATA
+
+1. CBC: WBC 8.5, Hgb 10.5, Hct 31.2, Plt 220
+2. BMP: Na 130, K 4.0, Cl 100, CO2 26, BUN 30, Cr 1.7, Glucose 92
+3. BNP: 650 (decreased).
+4. Thyroid function tests: TSH 3.5 (within normal limits).
+
+ASSESSMENT AND PLAN
+
+1. COPD management: Mr. Fairfax exhibits slight improvement in respiratory symptoms, yet nocturnal wheezing persists. A referral to a pulmonologist remains crucial for further evaluation and consideration of a long-acting beta-agonist or an adjustment in corticosteroid therapy. 
+2. Hypertension: Continue lisinopril. Blood pressure remains stable. Follow-up in 1 month.
+3. Lower extremity edema: The persistence of edema is concerning. Reinforcement of dietary sodium restrictions is advised, and Mr. Fairfax is encouraged to continue leg elevation. Given the slight increase in creatinine levels, a follow-up with nephrology is recommended to evaluate renal function further.
+4. Fatigue and psychological well-being: Continue sertraline 50 mg daily. A referral to a psychiatrist for medication review and potential adjustment is advised. Consideration for an antidepressant augmentation strategy may be warranted. Monitor CBC and metabolic panel in one month to assess for any changes.
+
+Patient education reiterated regarding recognizing signs of exacerbation, adherence to medication, and lifestyle modifications to effectively manage COPD and edema.
+
+__________________________________
+
+Emily Carter, MD
+Internal Medicine Resident
+Phone: 28451903
+Email: bradleymorgan@example.org
+
+]]></TEXT>
+<TAGS>
+<DATE id="P0" start="16" end="26" text="2127-03-28" TYPE="DATE" comment="" />
+<LOCATION id="P1" start="47" end="70" text="South Elizabeth Seychelles Hospital" TYPE="HOSPITAL" comment="" />
+<NAME id="P2" start="73" end="92" text="Lysander Fairfax" TYPE="PATIENT" comment="" />
+<ID id="P3" start="95" end="102" text="5072184" TYPE="MEDICALRECORD" comment="" />
+<DATE id="P4" start="116" end="124" text="03/28/27" TYPE="DATE" comment="" />
+<NAME id="P5" start="138" end="154" text="Emily Carter" TYPE="DOCTOR" comment="" />
+<AGE id="P6" start="161" end="166" text="79 years" TYPE="AGE" comment="" />
+<LOCATION id="P7" start="1801" end="1808" text="" TYPE="CITY" comment="" />
+<LOCATION id="P8" start="1810" end="1817" text="" TYPE="STATE" comment="" />
+<CONTACT id="P9" start="1877" end="1879" text="28451903" TYPE="PHONE" comment="" />
+<CONTACT id="P10" start="1881" end="1898" text="bradleymorgan@example.org" TYPE="EMAIL" comment="" />
+<PROFESSION id="P11" start="1913" end="1921" text="Carpenter" TYPE="PROFESION" comment="" />
+<DATE id="P12" start="1997" end="2001" text="2 weeks" TYPE="DATE" comment="" />
+<DATE id="P13" start="2133" end="2138" text="15 years" TYPE="DATE" comment="" />
+<NAME id="P14" start="2283" end="2290" text="Carter" TYPE="DOCTOR" comment="" />
+<NAME id="P15" start="2314" end="2320" text="Fairfax" TYPE="PATIENT" comment="" />
+<NAME id="P16" start="2371" end="2377" text="Lysander" TYPE="PATIENT" comment="" />
+</TAGS>
+</deIdi2b2>

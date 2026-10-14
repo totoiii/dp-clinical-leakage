@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MEDDOCAN>
+  <TEXT><![CDATA[Datos del paciente.
+Nombre:  Zacarias.
+Apellidos: Teixido. 
+email:ezequielnavarro@example.net 
+
+
+Telefono: 28451903.
+Domicilio: Paseo de Sebastiana Pizarro 109, Tarragona.
+Localidad/ Provincia: Paseo de Sebastiana Pizarro 109, Tarragona.
+Ocupacion: Carpintero
+Datos asistenciales.
+Fecha de nacimiento: 10/07/1946.
+País: Bolivia.
+Edad: 77 años Sexo: H.
+Fecha de Ingreso: 15/08/2023.
+Médico: Dr. Luis Fernando Morales NºCol: 01 123456.
+Informe clínico del paciente: Paciente masculino de 77 años, carpintero de profesión, que acude a urgencias por presentar un cuadro de disnea progresiva y tos productiva con esputo purulento desde hace 5 días. Refiere fiebre intermitente y sudoración nocturna. Como antecedentes personales, presenta hipertensión arterial controlada con enalapril y enfermedad pulmonar obstructiva crónica (EPOC) diagnosticada hace 3 años, con antecedentes de tabaquismo (30 años, cesado hace 10 años).
+En la exploración física se observa: Tª 38,5 °C; T.A: 130/80 mmHg; Fc: 100 lpm. Paciente con buen estado general, aunque algo pálido y con dificultad respiratoria. A la auscultación pulmonar se aprecian estertores crepitantes en ambos campos pulmonares, con disminución del murmullo vesicular. En el abdomen se palpa blando, sin masas ni megalias. Extremidades sin edemas, pulsos presentes y simétricos.
+Se solicitan pruebas complementarias: Hemograma muestra leucocitosis con 15.000/mm³, predominando neutrófilos; la radiografía de tórax revela infiltrados bilaterales compatibles con neumonía. La analítica bioquímica es normal, con función renal y hepática dentro de límites normales.
+El paciente es ingresado con diagnóstico de neumonía adquirida en la comunidad, y se inicia tratamiento con antibióticos intravenosos (Ceftriaxona 1 g cada 24 horas y Azitromicina 500 mg cada 24 horas) y soporte respiratorio. Se monitoriza la evolución clínica y se realizan controles radiológicos.
+A los tres días de tratamiento, el paciente presenta mejoría clínica, con disminución de la disnea y la fiebre. Se decide el cambio a tratamiento oral y se le da el alta con recomendaciones de seguimiento en consultas externas.
+Se programan revisiones periódicas para controlar su EPOC y se le aconseja la vacunación antigripal y antineumocócica.
+Remitido por: Dr. Luis Fernando Morales, Hospital de Rio Bello, Calle 12 de Octubre, Paseo de Sebastiana Pizarro 109, Tarragona, Bolivia. Teléfono: 28451903. Correo electrónico: ezequielnavarro@example.net.
+]]></TEXT>
+  <TAGS>
+    <NAME id="T25" start="29" end="37" text="Zacarias" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T24" start="39" end="46" text="Teixido" TYPE="NOMBRE_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T23" start="53" end="60" text="482731" TYPE="ID_SUJETO_ASISTENCIA" comment=""/>
+    <ID id="T22" start="68" end="83" text="26 48273102 05" TYPE="ID_ASEGURAMIENTO" comment=""/>
+    <LOCATION id="T19" start="96" end="106" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T21" start="108" end="115" text="Bolivia" TYPE="PAIS" comment=""/>
+    <PHONE id="T20" start="126" end="134" text="28451903" TYPE="NUMERO_TELEFONO" comment=""/>
+    <CONTACT id="T18" start="135" end="158" text="ezequielnavarro@example.net" TYPE="CORREO_ELECTRONICO" comment=""/>
+    <OTHER id="T17" start="165" end="178" text="Carpintero" TYPE="PROFESION" comment=""/>
+    <LOCATION id="T16" start="195" end="215" text="Hospital de Rio Bello" TYPE="HOSPITAL" comment=""/>
+    <AGE id="T15" start="247" end="255" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <OTHER id="T14" start="263" end="264" text="H" TYPE="SEXO_SUJETO_ASISTENCIA" comment=""/>
+    <DATE id="T13" start="285" end="295" text="10/07/1946" TYPE="FECHAS" comment=""/>
+    <DATE id="T12" start="307" end="319" text="15/08/2023" TYPE="FECHAS" comment=""/>
+    <NAME id="T11" start="329" end="354" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <ID id="T10" start="355" end="371" text="01 123456" TYPE="ID_TITULACION_PERSONAL_SANITARIO" comment=""/>
+    <AGE id="T9" start="378" end="386" text="77 años" TYPE="EDAD_SUJETO_ASISTENCIA" comment=""/>
+    <NAME id="T8" start="3777" end="3798" text="Dr. Luis Fernando Morales" TYPE="NOMBRE_PERSONAL_SANITARIO" comment=""/>
+    <LOCATION id="T7" start="3799" end="3820" text="Calle 12 de Octubre" TYPE="CALLE" comment=""/>
+    <LOCATION id="T6" start="3821" end="3826" text="Paseo de Sebastiana Pizarro 109, Tarragona" TYPE="TERRITORIO" comment=""/>
+    <LOCATION id="T5" start="3827" end="3833" text="Bolivia" TYPE="PAIS" comment=""/>
+  </TAGS>
+</MEDDOCAN>
