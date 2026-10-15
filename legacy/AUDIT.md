@@ -60,7 +60,9 @@ and reproduce fewer training identifiers. On i2b2 at eps = 8 (whole-word, 1,000 
 
 Training is equivalent (the published and re-run adapters agree under either generation); the
 published DP leakage counts understated leakage because of the generation mismatch, while the
-non-DP counts were barely affected. `dpleak/generate.py` uses the 4-bit base of training.
+non-DP counts were barely affected. To keep the leakage audit comparable with the first
+submission, `dpleak/generate.py` keeps the published configuration (full-precision base);
+`--quantized` generates with the 4-bit base of training.
 Numbers: `results/diagnostics/generation_precision.json`.
 
 ## 6. Smaller issues
