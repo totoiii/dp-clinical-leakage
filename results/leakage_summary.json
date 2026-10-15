@@ -5,94 +5,94 @@
   ],
   "substring": {
    "singles": {
-    "median": 994,
-    "min": 994,
-    "max": 994,
+    "median": 845,
+    "min": 845,
+    "max": 845,
     "n": 1,
     "values": [
-     994
+     845
     ]
    },
    "singles_pct": {
-    "median": 7.24,
-    "min": 7.24,
-    "max": 7.24,
+    "median": 6.15,
+    "min": 6.15,
+    "max": 6.15,
     "n": 1,
     "values": [
-     7.24
+     6.15
     ]
    },
    "pairs": {
-    "median": 1247,
-    "min": 1247,
-    "max": 1247,
+    "median": 995,
+    "min": 995,
+    "max": 995,
     "n": 1,
     "values": [
-     1247
+     995
     ]
    },
    "pairs_one_doc": {
-    "median": 501,
-    "min": 501,
-    "max": 501,
+    "median": 442,
+    "min": 442,
+    "max": 442,
     "n": 1,
     "values": [
-     501
+     442
     ]
    },
    "triples": {
-    "median": 87,
-    "min": 87,
-    "max": 87,
+    "median": 71,
+    "min": 71,
+    "max": 71,
     "n": 1,
     "values": [
-     87
+     71
     ]
    },
    "quadruples": {
-    "median": 2,
-    "min": 2,
-    "max": 2,
+    "median": 1,
+    "min": 1,
+    "max": 1,
     "n": 1,
     "values": [
-     2
+     1
     ]
    },
    "profiles_leaked": {
-    "median": 1224,
-    "min": 1224,
-    "max": 1224,
+    "median": 1216,
+    "min": 1216,
+    "max": 1216,
     "n": 1,
     "values": [
-     1224
+     1216
     ]
    },
    "largest_group": {
     "1": {
-     "median": 772,
-     "min": 772,
-     "max": 772,
+     "median": 819,
+     "min": 819,
+     "max": 819,
      "n": 1,
      "values": [
-      772
+      819
      ]
     },
     "2": {
-     "median": 429,
-     "min": 429,
-     "max": 429,
+     "median": 376,
+     "min": 376,
+     "max": 376,
      "n": 1,
      "values": [
-      429
+      376
      ]
     },
     "3": {
-     "median": 22,
-     "min": 22,
-     "max": 22,
+     "median": 20,
+     "min": 20,
+     "max": 20,
      "n": 1,
      "values": [
-      22
+      20
      ]
     },
     "4": {
@@ -104,52 +104,346 @@
       1
      ]
     }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 5.904976823615516,
+      "min": 5.904976823615516,
+      "max": 5.904976823615516,
+      "n": 1,
+      "values": [
+       5.904976823615516
+      ]
+     },
+     "AGE+NAME": {
+      "median": 4.84218335155396,
+      "min": 4.84218335155396,
+      "max": 4.84218335155396,
+      "n": 1,
+      "values": [
+       4.84218335155396
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 7.558514931396288,
+      "min": 7.558514931396288,
+      "max": 7.558514931396288,
+      "n": 1,
+      "values": [
+       7.558514931396288
+      ]
+     },
+     "DATE+NAME": {
+      "median": 2.5821803740712275,
+      "min": 2.5821803740712275,
+      "max": 2.5821803740712275,
+      "n": 1,
+      "values": [
+       2.5821803740712275
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 4.2017495140238825,
+      "min": 4.2017495140238825,
+      "max": 4.2017495140238825,
+      "n": 1,
+      "values": [
+       4.2017495140238825
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 3.645859604875999,
+      "min": 3.645859604875999,
+      "max": 3.645859604875999,
+      "n": 1,
+      "values": [
+       3.645859604875999
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 3.6505649717514124,
+      "min": 3.6505649717514124,
+      "max": 3.6505649717514124,
+      "n": 1,
+      "values": [
+       3.6505649717514124
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 3.770632911392405,
+      "min": 3.770632911392405,
+      "max": 3.770632911392405,
+      "n": 1,
+      "values": [
+       3.770632911392405
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 3.024523160762943,
+      "min": 3.024523160762943,
+      "max": 3.024523160762943,
+      "n": 1,
+      "values": [
+       3.024523160762943
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 1.2784169351127472,
+      "min": 1.2784169351127472,
+      "max": 1.2784169351127472,
+      "n": 1,
+      "values": [
+       1.2784169351127472
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 5.031496062992126,
+      "min": 5.031496062992126,
+      "max": 5.031496062992126,
+      "n": 1,
+      "values": [
+       5.031496062992126
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 0.6814895155459146,
+      "min": 0.6814895155459146,
+      "max": 0.6814895155459146,
+      "n": 1,
+      "values": [
+       0.6814895155459146
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.5349671249252839,
+      "min": 0.5349671249252839,
+      "max": 0.5349671249252839,
+      "n": 1,
+      "values": [
+       0.5349671249252839
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 0.9204545454545455,
+      "min": 0.9204545454545455,
+      "max": 0.9204545454545455,
+      "n": 1,
+      "values": [
+       0.9204545454545455
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 0.8208955223880597,
+      "min": 0.8208955223880597,
+      "max": 0.8208955223880597,
+      "n": 1,
+      "values": [
+       0.8208955223880597
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+LOCATION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 4.016019086571234,
+      "min": 4.016019086571234,
+      "max": 4.016019086571234,
+      "n": 1,
+      "values": [
+       4.016019086571234
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 3.142405063291139,
+      "min": 3.142405063291139,
+      "max": 3.142405063291139,
+      "n": 1,
+      "values": [
+       3.142405063291139
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 26.799999999999997,
+      "min": 26.799999999999997,
+      "max": 26.799999999999997,
+      "n": 1,
+      "values": [
+       26.799999999999997
+      ]
+     },
+     "AGE+NAME": {
+      "median": 19.799999999999997,
+      "min": 19.799999999999997,
+      "max": 19.799999999999997,
+      "n": 1,
+      "values": [
+       19.799999999999997
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 6.571428571428571,
+      "min": 6.571428571428571,
+      "max": 6.571428571428571,
+      "n": 1,
+      "values": [
+       6.571428571428571
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 7.249999999999999,
+      "min": 7.249999999999999,
+      "max": 7.249999999999999,
+      "n": 1,
+      "values": [
+       7.249999999999999
+      ]
+     },
+     "DATE+NAME": {
+      "median": 0.9830508474576273,
+      "min": 0.9830508474576273,
+      "max": 0.9830508474576273,
+      "n": 1,
+      "values": [
+       0.9830508474576273
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 21.333333333333332,
+      "min": 21.333333333333332,
+      "max": 21.333333333333332,
+      "n": 1,
+      "values": [
+       21.333333333333332
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 26.5,
+      "min": 26.5,
+      "max": 26.5,
+      "n": 1,
+      "values": [
+       26.5
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 5.428571428571428,
+      "min": 5.428571428571428,
+      "max": 5.428571428571428,
+      "n": 1,
+      "values": [
+       5.428571428571428
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 2.2857142857142856,
+      "min": 2.2857142857142856,
+      "max": 2.2857142857142856,
+      "n": 1,
+      "values": [
+       2.2857142857142856
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "n": 1,
+      "values": [
+       1.0
+      ]
+     }
+    }
    }
   },
   "whole_word": {
    "singles": {
-    "median": 664,
-    "min": 664,
-    "max": 664,
+    "median": 515,
+    "min": 515,
+    "max": 515,
     "n": 1,
     "values": [
-     664
+     515
     ]
    },
    "singles_pct": {
-    "median": 4.84,
-    "min": 4.84,
-    "max": 4.84,
+    "median": 3.75,
+    "min": 3.75,
+    "max": 3.75,
     "n": 1,
     "values": [
-     4.84
+     3.75
     ]
    },
    "pairs": {
-    "median": 583,
-    "min": 583,
-    "max": 583,
+    "median": 417,
+    "min": 417,
+    "max": 417,
     "n": 1,
     "values": [
-     583
+     417
     ]
    },
    "pairs_one_doc": {
-    "median": 272,
-    "min": 272,
-    "max": 272,
+    "median": 202,
+    "min": 202,
+    "max": 202,
     "n": 1,
     "values": [
-     272
+     202
     ]
    },
    "triples": {
-    "median": 11,
-    "min": 11,
-    "max": 11,
+    "median": 3,
+    "min": 3,
+    "max": 3,
     "n": 1,
     "values": [
-     11
+     3
     ]
    },
    "quadruples": {
@@ -162,40 +456,40 @@
     ]
    },
    "profiles_leaked": {
-    "median": 1176,
-    "min": 1176,
-    "max": 1176,
+    "median": 1165,
+    "min": 1165,
+    "max": 1165,
     "n": 1,
     "values": [
-     1176
+     1165
     ]
    },
    "largest_group": {
     "1": {
-     "median": 918,
-     "min": 918,
-     "max": 918,
+     "median": 967,
+     "min": 967,
+     "max": 967,
      "n": 1,
      "values": [
-      918
+      967
      ]
     },
     "2": {
-     "median": 251,
-     "min": 251,
-     "max": 251,
+     "median": 196,
+     "min": 196,
+     "max": 196,
      "n": 1,
      "values": [
-      251
+      196
      ]
     },
     "3": {
-     "median": 7,
-     "min": 7,
-     "max": 7,
+     "median": 2,
+     "min": 2,
+     "max": 2,
      "n": 1,
      "values": [
-      7
+      2
      ]
     },
     "4": {
@@ -207,6 +501,264 @@
       0
      ]
     }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 4.601596806387225,
+      "min": 4.601596806387225,
+      "max": 4.601596806387225,
+      "n": 1,
+      "values": [
+       4.601596806387225
+      ]
+     },
+     "AGE+NAME": {
+      "median": 4.263551401869159,
+      "min": 4.263551401869159,
+      "max": 4.263551401869159,
+      "n": 1,
+      "values": [
+       4.263551401869159
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 2.019230769230769,
+      "min": 2.019230769230769,
+      "max": 2.019230769230769,
+      "n": 1,
+      "values": [
+       2.019230769230769
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 5.5628078817733995,
+      "min": 5.5628078817733995,
+      "max": 5.5628078817733995,
+      "n": 1,
+      "values": [
+       5.5628078817733995
+      ]
+     },
+     "DATE+NAME": {
+      "median": 5.385922330097087,
+      "min": 5.385922330097087,
+      "max": 5.385922330097087,
+      "n": 1,
+      "values": [
+       5.385922330097087
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 8.352601156069365,
+      "min": 8.352601156069365,
+      "max": 8.352601156069365,
+      "n": 1,
+      "values": [
+       8.352601156069365
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 3.0568862275449096,
+      "min": 3.0568862275449096,
+      "max": 3.0568862275449096,
+      "n": 1,
+      "values": [
+       3.0568862275449096
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 0.685820895522388,
+      "min": 0.685820895522388,
+      "max": 0.685820895522388,
+      "n": 1,
+      "values": [
+       0.685820895522388
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 5.654411764705882,
+      "min": 5.654411764705882,
+      "max": 5.654411764705882,
+      "n": 1,
+      "values": [
+       5.654411764705882
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 2.329113924050633,
+      "min": 2.329113924050633,
+      "max": 2.329113924050633,
+      "n": 1,
+      "values": [
+       2.329113924050633
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 4.174603174603175,
+      "min": 4.174603174603175,
+      "max": 4.174603174603175,
+      "n": 1,
+      "values": [
+       4.174603174603175
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 0.8118811881188119,
+      "min": 0.8118811881188119,
+      "max": 0.8118811881188119,
+      "n": 1,
+      "values": [
+       0.8118811881188119
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.7464788732394366,
+      "min": 0.7464788732394366,
+      "max": 0.7464788732394366,
+      "n": 1,
+      "values": [
+       0.7464788732394366
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 1.1917808219178083,
+      "min": 1.1917808219178083,
+      "max": 1.1917808219178083,
+      "n": 1,
+      "values": [
+       1.1917808219178083
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 0.40310077519379844,
+      "min": 0.40310077519379844,
+      "max": 0.40310077519379844,
+      "n": 1,
+      "values": [
+       0.40310077519379844
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+LOCATION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 4.448559670781893,
+      "min": 4.448559670781893,
+      "max": 4.448559670781893,
+      "n": 1,
+      "values": [
+       4.448559670781893
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 1.7205882352941175,
+      "min": 1.7205882352941175,
+      "max": 1.7205882352941175,
+      "n": 1,
+      "values": [
+       1.7205882352941175
+      ]
+     },
+     "AGE+NAME": {
+      "median": 10.666666666666666,
+      "min": 10.666666666666666,
+      "max": 10.666666666666666,
+      "n": 1,
+      "values": [
+       10.666666666666666
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 9.1,
+      "min": 9.1,
+      "max": 9.1,
+      "n": 1,
+      "values": [
+       9.1
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 23.0,
+      "min": 23.0,
+      "max": 23.0,
+      "n": 1,
+      "values": [
+       23.0
+      ]
+     },
+     "DATE+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 5.0,
+      "min": 5.0,
+      "max": 5.0,
+      "n": 1,
+      "values": [
+       5.0
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 6.0,
+      "min": 6.0,
+      "max": 6.0,
+      "n": 1,
+      "values": [
+       6.0
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    }
    }
   }
  },
@@ -216,151 +768,48 @@
   ],
   "substring": {
    "singles": {
-    "median": 1482,
-    "min": 1482,
-    "max": 1482,
+    "median": 1039,
+    "min": 1039,
+    "max": 1039,
     "n": 1,
     "values": [
-     1482
+     1039
     ]
    },
    "singles_pct": {
-    "median": 10.79,
-    "min": 10.79,
-    "max": 10.79,
+    "median": 7.57,
+    "min": 7.57,
+    "max": 7.57,
     "n": 1,
     "values": [
-     10.79
+     7.57
     ]
    },
    "pairs": {
-    "median": 2606,
-    "min": 2606,
-    "max": 2606,
+    "median": 1419,
+    "min": 1419,
+    "max": 1419,
     "n": 1,
     "values": [
-     2606
+     1419
     ]
    },
    "pairs_one_doc": {
-    "median": 878,
-    "min": 878,
-    "max": 878,
+    "median": 583,
+    "min": 583,
+    "max": 583,
     "n": 1,
     "values": [
-     878
+     583
     ]
    },
    "triples": {
-    "median": 323,
-    "min": 323,
-    "max": 323,
+    "median": 88,
+    "min": 88,
+    "max": 88,
     "n": 1,
     "values": [
-     323
-    ]
-   },
-   "quadruples": {
-    "median": 26,
-    "min": 26,
-    "max": 26,
-    "n": 1,
-    "values": [
-     26
-    ]
-   },
-   "profiles_leaked": {
-    "median": 1249,
-    "min": 1249,
-    "max": 1249,
-    "n": 1,
-    "values": [
-     1249
-    ]
-   },
-   "largest_group": {
-    "1": {
-     "median": 538,
-     "min": 538,
-     "max": 538,
-     "n": 1,
-     "values": [
-      538
-     ]
-    },
-    "2": {
-     "median": 635,
-     "min": 635,
-     "max": 635,
-     "n": 1,
-     "values": [
-      635
-     ]
-    },
-    "3": {
-     "median": 71,
-     "min": 71,
-     "max": 71,
-     "n": 1,
-     "values": [
-      71
-     ]
-    },
-    "4": {
-     "median": 5,
-     "min": 5,
-     "max": 5,
-     "n": 1,
-     "values": [
-      5
-     ]
-    }
-   }
-  },
-  "whole_word": {
-   "singles": {
-    "median": 1100,
-    "min": 1100,
-    "max": 1100,
-    "n": 1,
-    "values": [
-     1100
-    ]
-   },
-   "singles_pct": {
-    "median": 8.01,
-    "min": 8.01,
-    "max": 8.01,
-    "n": 1,
-    "values": [
-     8.01
-    ]
-   },
-   "pairs": {
-    "median": 1282,
-    "min": 1282,
-    "max": 1282,
-    "n": 1,
-    "values": [
-     1282
-    ]
-   },
-   "pairs_one_doc": {
-    "median": 491,
-    "min": 491,
-    "max": 491,
-    "n": 1,
-    "values": [
-     491
-    ]
-   },
-   "triples": {
-    "median": 47,
-    "min": 47,
-    "max": 47,
-    "n": 1,
-    "values": [
-     47
+     88
     ]
    },
    "quadruples": {
@@ -370,217 +819,6 @@
     "n": 1,
     "values": [
      2
-    ]
-   },
-   "profiles_leaked": {
-    "median": 1221,
-    "min": 1221,
-    "max": 1221,
-    "n": 1,
-    "values": [
-     1221
-    ]
-   },
-   "largest_group": {
-    "1": {
-     "median": 765,
-     "min": 765,
-     "max": 765,
-     "n": 1,
-     "values": [
-      765
-     ]
-    },
-    "2": {
-     "median": 440,
-     "min": 440,
-     "max": 440,
-     "n": 1,
-     "values": [
-      440
-     ]
-    },
-    "3": {
-     "median": 15,
-     "min": 15,
-     "max": 15,
-     "n": 1,
-     "values": [
-      15
-     ]
-    },
-    "4": {
-     "median": 1,
-     "min": 1,
-     "max": 1,
-     "n": 1,
-     "values": [
-      1
-     ]
-    }
-   }
-  }
- },
- "i2b2|eps8_author": {
-  "seeds": [
-   42
-  ],
-  "substring": {
-   "singles": {
-    "median": 1305,
-    "min": 1305,
-    "max": 1305,
-    "n": 1,
-    "values": [
-     1305
-    ]
-   },
-   "singles_pct": {
-    "median": 9.5,
-    "min": 9.5,
-    "max": 9.5,
-    "n": 1,
-    "values": [
-     9.5
-    ]
-   },
-   "pairs": {
-    "median": 2074,
-    "min": 2074,
-    "max": 2074,
-    "n": 1,
-    "values": [
-     2074
-    ]
-   },
-   "pairs_one_doc": {
-    "median": 748,
-    "min": 748,
-    "max": 748,
-    "n": 1,
-    "values": [
-     748
-    ]
-   },
-   "triples": {
-    "median": 188,
-    "min": 188,
-    "max": 188,
-    "n": 1,
-    "values": [
-     188
-    ]
-   },
-   "quadruples": {
-    "median": 18,
-    "min": 18,
-    "max": 18,
-    "n": 1,
-    "values": [
-     18
-    ]
-   },
-   "profiles_leaked": {
-    "median": 1240,
-    "min": 1240,
-    "max": 1240,
-    "n": 1,
-    "values": [
-     1240
-    ]
-   },
-   "largest_group": {
-    "1": {
-     "median": 602,
-     "min": 602,
-     "max": 602,
-     "n": 1,
-     "values": [
-      602
-     ]
-    },
-    "2": {
-     "median": 589,
-     "min": 589,
-     "max": 589,
-     "n": 1,
-     "values": [
-      589
-     ]
-    },
-    "3": {
-     "median": 45,
-     "min": 45,
-     "max": 45,
-     "n": 1,
-     "values": [
-      45
-     ]
-    },
-    "4": {
-     "median": 4,
-     "min": 4,
-     "max": 4,
-     "n": 1,
-     "values": [
-      4
-     ]
-    }
-   }
-  },
-  "whole_word": {
-   "singles": {
-    "median": 967,
-    "min": 967,
-    "max": 967,
-    "n": 1,
-    "values": [
-     967
-    ]
-   },
-   "singles_pct": {
-    "median": 7.04,
-    "min": 7.04,
-    "max": 7.04,
-    "n": 1,
-    "values": [
-     7.04
-    ]
-   },
-   "pairs": {
-    "median": 943,
-    "min": 943,
-    "max": 943,
-    "n": 1,
-    "values": [
-     943
-    ]
-   },
-   "pairs_one_doc": {
-    "median": 400,
-    "min": 400,
-    "max": 400,
-    "n": 1,
-    "values": [
-     400
-    ]
-   },
-   "triples": {
-    "median": 36,
-    "min": 36,
-    "max": 36,
-    "n": 1,
-    "values": [
-     36
-    ]
-   },
-   "quadruples": {
-    "median": 1,
-    "min": 1,
-    "max": 1,
-    "n": 1,
-    "values": [
-     1
     ]
    },
    "profiles_leaked": {
@@ -594,30 +832,30 @@
    },
    "largest_group": {
     "1": {
-     "median": 836,
-     "min": 836,
-     "max": 836,
+     "median": 695,
+     "min": 695,
+     "max": 695,
      "n": 1,
      "values": [
-      836
+      695
      ]
     },
     "2": {
-     "median": 373,
-     "min": 373,
-     "max": 373,
+     "median": 493,
+     "min": 493,
+     "max": 493,
      "n": 1,
      "values": [
-      373
+      493
      ]
     },
     "3": {
-     "median": 7,
-     "min": 7,
-     "max": 7,
+     "median": 28,
+     "min": 28,
+     "max": 28,
      "n": 1,
      "values": [
-      7
+      28
      ]
     },
     "4": {
@@ -628,6 +866,1442 @@
      "values": [
       1
      ]
+    }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 7.540782304627144,
+      "min": 7.540782304627144,
+      "max": 7.540782304627144,
+      "n": 1,
+      "values": [
+       7.540782304627144
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 13.96416464891041,
+      "min": 13.96416464891041,
+      "max": 13.96416464891041,
+      "n": 1,
+      "values": [
+       13.96416464891041
+      ]
+     },
+     "AGE+NAME": {
+      "median": 6.1771044822739345,
+      "min": 6.1771044822739345,
+      "max": 6.1771044822739345,
+      "n": 1,
+      "values": [
+       6.1771044822739345
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 8.886003887808942,
+      "min": 8.886003887808942,
+      "max": 8.886003887808942,
+      "n": 1,
+      "values": [
+       8.886003887808942
+      ]
+     },
+     "DATE+NAME": {
+      "median": 3.6944017422495516,
+      "min": 3.6944017422495516,
+      "max": 3.6944017422495516,
+      "n": 1,
+      "values": [
+       3.6944017422495516
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 7.920765027322404,
+      "min": 7.920765027322404,
+      "max": 7.920765027322404,
+      "n": 1,
+      "values": [
+       7.920765027322404
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 4.008192090395481,
+      "min": 4.008192090395481,
+      "max": 4.008192090395481,
+      "n": 1,
+      "values": [
+       4.008192090395481
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 4.842025316455696,
+      "min": 4.842025316455696,
+      "max": 4.842025316455696,
+      "n": 1,
+      "values": [
+       4.842025316455696
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 9.187007874015748,
+      "min": 9.187007874015748,
+      "max": 9.187007874015748,
+      "n": 1,
+      "values": [
+       9.187007874015748
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 3.890099909173479,
+      "min": 3.890099909173479,
+      "max": 3.890099909173479,
+      "n": 1,
+      "values": [
+       3.890099909173479
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 1.9424758398527382,
+      "min": 1.9424758398527382,
+      "max": 1.9424758398527382,
+      "n": 1,
+      "values": [
+       1.9424758398527382
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 1.163412870571222,
+      "min": 1.163412870571222,
+      "max": 1.163412870571222,
+      "n": 1,
+      "values": [
+       1.163412870571222
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 2.8181818181818183,
+      "min": 2.8181818181818183,
+      "max": 2.8181818181818183,
+      "n": 1,
+      "values": [
+       2.8181818181818183
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.9719067543335325,
+      "min": 0.9719067543335325,
+      "max": 0.9719067543335325,
+      "n": 1,
+      "values": [
+       0.9719067543335325
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 1.2935323383084576,
+      "min": 1.2935323383084576,
+      "max": 1.2935323383084576,
+      "n": 1,
+      "values": [
+       1.2935323383084576
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+LOCATION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 4.981254260395365,
+      "min": 4.981254260395365,
+      "max": 4.981254260395365,
+      "n": 1,
+      "values": [
+       4.981254260395365
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 63.14285714285714,
+      "min": 63.14285714285714,
+      "max": 63.14285714285714,
+      "n": 1,
+      "values": [
+       63.14285714285714
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 3.768987341772152,
+      "min": 3.768987341772152,
+      "max": 3.768987341772152,
+      "n": 1,
+      "values": [
+       3.768987341772152
+      ]
+     },
+     "AGE+NAME": {
+      "median": 19.279999999999998,
+      "min": 19.279999999999998,
+      "max": 19.279999999999998,
+      "n": 1,
+      "values": [
+       19.279999999999998
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 22.95,
+      "min": 22.95,
+      "max": 22.95,
+      "n": 1,
+      "values": [
+       22.95
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 11.714285714285712,
+      "min": 11.714285714285712,
+      "max": 11.714285714285712,
+      "n": 1,
+      "values": [
+       11.714285714285712
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 85.0,
+      "min": 85.0,
+      "max": 85.0,
+      "n": 1,
+      "values": [
+       85.0
+      ]
+     },
+     "DATE+NAME": {
+      "median": 1.2796610169491525,
+      "min": 1.2796610169491525,
+      "max": 1.2796610169491525,
+      "n": 1,
+      "values": [
+       1.2796610169491525
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 35.0,
+      "min": 35.0,
+      "max": 35.0,
+      "n": 1,
+      "values": [
+       35.0
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 7.571428571428571,
+      "min": 7.571428571428571,
+      "max": 7.571428571428571,
+      "n": 1,
+      "values": [
+       7.571428571428571
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 2.714285714285714,
+      "min": 2.714285714285714,
+      "max": 2.714285714285714,
+      "n": 1,
+      "values": [
+       2.714285714285714
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "n": 1,
+      "values": [
+       1.0
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 648,
+    "min": 648,
+    "max": 648,
+    "n": 1,
+    "values": [
+     648
+    ]
+   },
+   "singles_pct": {
+    "median": 4.72,
+    "min": 4.72,
+    "max": 4.72,
+    "n": 1,
+    "values": [
+     4.72
+    ]
+   },
+   "pairs": {
+    "median": 485,
+    "min": 485,
+    "max": 485,
+    "n": 1,
+    "values": [
+     485
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 242,
+    "min": 242,
+    "max": 242,
+    "n": 1,
+    "values": [
+     242
+    ]
+   },
+   "triples": {
+    "median": 6,
+    "min": 6,
+    "max": 6,
+    "n": 1,
+    "values": [
+     6
+    ]
+   },
+   "quadruples": {
+    "median": 0,
+    "min": 0,
+    "max": 0,
+    "n": 1,
+    "values": [
+     0
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1179,
+    "min": 1179,
+    "max": 1179,
+    "n": 1,
+    "values": [
+     1179
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 943,
+     "min": 943,
+     "max": 943,
+     "n": 1,
+     "values": [
+      943
+     ]
+    },
+    "2": {
+     "median": 233,
+     "min": 233,
+     "max": 233,
+     "n": 1,
+     "values": [
+      233
+     ]
+    },
+    "3": {
+     "median": 3,
+     "min": 3,
+     "max": 3,
+     "n": 1,
+     "values": [
+      3
+     ]
+    },
+    "4": {
+     "median": 0,
+     "min": 0,
+     "max": 0,
+     "n": 1,
+     "values": [
+      0
+     ]
+    }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 5.45309381237525,
+      "min": 5.45309381237525,
+      "max": 5.45309381237525,
+      "n": 1,
+      "values": [
+       5.45309381237525
+      ]
+     },
+     "AGE+NAME": {
+      "median": 4.67601246105919,
+      "min": 4.67601246105919,
+      "max": 4.67601246105919,
+      "n": 1,
+      "values": [
+       4.67601246105919
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 2.1309041835357623,
+      "min": 2.1309041835357623,
+      "max": 2.1309041835357623,
+      "n": 1,
+      "values": [
+       2.1309041835357623
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 7.249999999999999,
+      "min": 7.249999999999999,
+      "max": 7.249999999999999,
+      "n": 1,
+      "values": [
+       7.249999999999999
+      ]
+     },
+     "DATE+NAME": {
+      "median": 6.259708737864078,
+      "min": 6.259708737864078,
+      "max": 6.259708737864078,
+      "n": 1,
+      "values": [
+       6.259708737864078
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 12.404624277456648,
+      "min": 12.404624277456648,
+      "max": 12.404624277456648,
+      "n": 1,
+      "values": [
+       12.404624277456648
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 4.041916167664671,
+      "min": 4.041916167664671,
+      "max": 4.041916167664671,
+      "n": 1,
+      "values": [
+       4.041916167664671
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 0.9970149253731343,
+      "min": 0.9970149253731343,
+      "max": 0.9970149253731343,
+      "n": 1,
+      "values": [
+       0.9970149253731343
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 6.183823529411764,
+      "min": 6.183823529411764,
+      "max": 6.183823529411764,
+      "n": 1,
+      "values": [
+       6.183823529411764
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 1.4851485148514851,
+      "min": 1.4851485148514851,
+      "max": 1.4851485148514851,
+      "n": 1,
+      "values": [
+       1.4851485148514851
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 2.5316455696202533,
+      "min": 2.5316455696202533,
+      "max": 2.5316455696202533,
+      "n": 1,
+      "values": [
+       2.5316455696202533
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 4.984126984126984,
+      "min": 4.984126984126984,
+      "max": 4.984126984126984,
+      "n": 1,
+      "values": [
+       4.984126984126984
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.7511737089201879,
+      "min": 0.7511737089201879,
+      "max": 0.7511737089201879,
+      "n": 1,
+      "values": [
+       0.7511737089201879
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 2.0273972602739727,
+      "min": 2.0273972602739727,
+      "max": 2.0273972602739727,
+      "n": 1,
+      "values": [
+       2.0273972602739727
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 0.5426356589147288,
+      "min": 0.5426356589147288,
+      "max": 0.5426356589147288,
+      "n": 1,
+      "values": [
+       0.5426356589147288
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 4.771604938271605,
+      "min": 4.771604938271605,
+      "max": 4.771604938271605,
+      "n": 1,
+      "values": [
+       4.771604938271605
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 1.8198529411764703,
+      "min": 1.8198529411764703,
+      "max": 1.8198529411764703,
+      "n": 1,
+      "values": [
+       1.8198529411764703
+      ]
+     },
+     "AGE+NAME": {
+      "median": 10.166666666666666,
+      "min": 10.166666666666666,
+      "max": 10.166666666666666,
+      "n": 1,
+      "values": [
+       10.166666666666666
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 11.1,
+      "min": 11.1,
+      "max": 11.1,
+      "n": 1,
+      "values": [
+       11.1
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 7.0,
+      "min": 7.0,
+      "max": 7.0,
+      "n": 1,
+      "values": [
+       7.0
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 19.0,
+      "min": 19.0,
+      "max": 19.0,
+      "n": 1,
+      "values": [
+       19.0
+      ]
+     },
+     "DATE+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 3.0,
+      "min": 3.0,
+      "max": 3.0,
+      "n": 1,
+      "values": [
+       3.0
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    }
+   }
+  }
+ },
+ "i2b2|eps8_author": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 917,
+    "min": 917,
+    "max": 917,
+    "n": 1,
+    "values": [
+     917
+    ]
+   },
+   "singles_pct": {
+    "median": 6.68,
+    "min": 6.68,
+    "max": 6.68,
+    "n": 1,
+    "values": [
+     6.68
+    ]
+   },
+   "pairs": {
+    "median": 1241,
+    "min": 1241,
+    "max": 1241,
+    "n": 1,
+    "values": [
+     1241
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 530,
+    "min": 530,
+    "max": 530,
+    "n": 1,
+    "values": [
+     530
+    ]
+   },
+   "triples": {
+    "median": 70,
+    "min": 70,
+    "max": 70,
+    "n": 1,
+    "values": [
+     70
+    ]
+   },
+   "quadruples": {
+    "median": 2,
+    "min": 2,
+    "max": 2,
+    "n": 1,
+    "values": [
+     2
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1214,
+    "min": 1214,
+    "max": 1214,
+    "n": 1,
+    "values": [
+     1214
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 731,
+     "min": 731,
+     "max": 731,
+     "n": 1,
+     "values": [
+      731
+     ]
+    },
+    "2": {
+     "median": 461,
+     "min": 461,
+     "max": 461,
+     "n": 1,
+     "values": [
+      461
+     ]
+    },
+    "3": {
+     "median": 21,
+     "min": 21,
+     "max": 21,
+     "n": 1,
+     "values": [
+      21
+     ]
+    },
+    "4": {
+     "median": 1,
+     "min": 1,
+     "max": 1,
+     "n": 1,
+     "values": [
+      1
+     ]
+    }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 6.800195169553549,
+      "min": 6.800195169553549,
+      "max": 6.800195169553549,
+      "n": 1,
+      "values": [
+       6.800195169553549
+      ]
+     },
+     "AGE+NAME": {
+      "median": 5.534202717476183,
+      "min": 5.534202717476183,
+      "max": 5.534202717476183,
+      "n": 1,
+      "values": [
+       5.534202717476183
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 10.015334947538337,
+      "min": 10.015334947538337,
+      "max": 10.015334947538337,
+      "n": 1,
+      "values": [
+       10.015334947538337
+      ]
+     },
+     "DATE+NAME": {
+      "median": 2.9022546758903407,
+      "min": 2.9022546758903407,
+      "max": 2.9022546758903407,
+      "n": 1,
+      "values": [
+       2.9022546758903407
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 5.721605109691753,
+      "min": 5.721605109691753,
+      "max": 5.721605109691753,
+      "n": 1,
+      "values": [
+       5.721605109691753
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 4.993274485077763,
+      "min": 4.993274485077763,
+      "max": 4.993274485077763,
+      "n": 1,
+      "values": [
+       4.993274485077763
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 4.067231638418079,
+      "min": 4.067231638418079,
+      "max": 4.067231638418079,
+      "n": 1,
+      "values": [
+       4.067231638418079
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 4.196962025316456,
+      "min": 4.196962025316456,
+      "max": 4.196962025316456,
+      "n": 1,
+      "values": [
+       4.196962025316456
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 3.4877384196185286,
+      "min": 3.4877384196185286,
+      "max": 3.4877384196185286,
+      "n": 1,
+      "values": [
+       3.4877384196185286
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 6.606299212598425,
+      "min": 6.606299212598425,
+      "max": 6.606299212598425,
+      "n": 1,
+      "values": [
+       6.606299212598425
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 1.5398067188219051,
+      "min": 1.5398067188219051,
+      "max": 1.5398067188219051,
+      "n": 1,
+      "values": [
+       1.5398067188219051
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 0.8322487346348518,
+      "min": 0.8322487346348518,
+      "max": 0.8322487346348518,
+      "n": 1,
+      "values": [
+       0.8322487346348518
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.6329946204423191,
+      "min": 0.6329946204423191,
+      "max": 0.6329946204423191,
+      "n": 1,
+      "values": [
+       0.6329946204423191
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 1.3835227272727273,
+      "min": 1.3835227272727273,
+      "max": 1.3835227272727273,
+      "n": 1,
+      "values": [
+       1.3835227272727273
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 0.9253731343283581,
+      "min": 0.9253731343283581,
+      "max": 0.9253731343283581,
+      "n": 1,
+      "values": [
+       0.9253731343283581
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+LOCATION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 4.730061349693251,
+      "min": 4.730061349693251,
+      "max": 4.730061349693251,
+      "n": 1,
+      "values": [
+       4.730061349693251
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 37.74285714285714,
+      "min": 37.74285714285714,
+      "max": 37.74285714285714,
+      "n": 1,
+      "values": [
+       37.74285714285714
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 3.753164556962025,
+      "min": 3.753164556962025,
+      "max": 3.753164556962025,
+      "n": 1,
+      "values": [
+       3.753164556962025
+      ]
+     },
+     "AGE+NAME": {
+      "median": 21.0,
+      "min": 21.0,
+      "max": 21.0,
+      "n": 1,
+      "values": [
+       21.0
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 7.285714285714286,
+      "min": 7.285714285714286,
+      "max": 7.285714285714286,
+      "n": 1,
+      "values": [
+       7.285714285714286
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 12.7,
+      "min": 12.7,
+      "max": 12.7,
+      "n": 1,
+      "values": [
+       12.7
+      ]
+     },
+     "DATE+NAME": {
+      "median": 1.0847457627118644,
+      "min": 1.0847457627118644,
+      "max": 1.0847457627118644,
+      "n": 1,
+      "values": [
+       1.0847457627118644
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 42.99999999999999,
+      "min": 42.99999999999999,
+      "max": 42.99999999999999,
+      "n": 1,
+      "values": [
+       42.99999999999999
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 21.333333333333332,
+      "min": 21.333333333333332,
+      "max": 21.333333333333332,
+      "n": 1,
+      "values": [
+       21.333333333333332
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 8.0,
+      "min": 8.0,
+      "max": 8.0,
+      "n": 1,
+      "values": [
+       8.0
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 2.428571428571429,
+      "min": 2.428571428571429,
+      "max": 2.428571428571429,
+      "n": 1,
+      "values": [
+       2.428571428571429
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 1,
+      "values": [
+       2.0
+      ]
+     }
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 540,
+    "min": 540,
+    "max": 540,
+    "n": 1,
+    "values": [
+     540
+    ]
+   },
+   "singles_pct": {
+    "median": 3.93,
+    "min": 3.93,
+    "max": 3.93,
+    "n": 1,
+    "values": [
+     3.93
+    ]
+   },
+   "pairs": {
+    "median": 462,
+    "min": 462,
+    "max": 462,
+    "n": 1,
+    "values": [
+     462
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 233,
+    "min": 233,
+    "max": 233,
+    "n": 1,
+    "values": [
+     233
+    ]
+   },
+   "triples": {
+    "median": 8,
+    "min": 8,
+    "max": 8,
+    "n": 1,
+    "values": [
+     8
+    ]
+   },
+   "quadruples": {
+    "median": 0,
+    "min": 0,
+    "max": 0,
+    "n": 1,
+    "values": [
+     0
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1169,
+    "min": 1169,
+    "max": 1169,
+    "n": 1,
+    "values": [
+     1169
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 944,
+     "min": 944,
+     "max": 944,
+     "n": 1,
+     "values": [
+      944
+     ]
+    },
+    "2": {
+     "median": 221,
+     "min": 221,
+     "max": 221,
+     "n": 1,
+     "values": [
+      221
+     ]
+    },
+    "3": {
+     "median": 4,
+     "min": 4,
+     "max": 4,
+     "n": 1,
+     "values": [
+      4
+     ]
+    },
+    "4": {
+     "median": 0,
+     "min": 0,
+     "max": 0,
+     "n": 1,
+     "values": [
+      0
+     ]
+    }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 5.471656686626747,
+      "min": 5.471656686626747,
+      "max": 5.471656686626747,
+      "n": 1,
+      "values": [
+       5.471656686626747
+      ]
+     },
+     "AGE+NAME": {
+      "median": 5.305919003115265,
+      "min": 5.305919003115265,
+      "max": 5.305919003115265,
+      "n": 1,
+      "values": [
+       5.305919003115265
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 2.466599190283401,
+      "min": 2.466599190283401,
+      "max": 2.466599190283401,
+      "n": 1,
+      "values": [
+       2.466599190283401
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 7.017241379310345,
+      "min": 7.017241379310345,
+      "max": 7.017241379310345,
+      "n": 1,
+      "values": [
+       7.017241379310345
+      ]
+     },
+     "DATE+NAME": {
+      "median": 5.441747572815534,
+      "min": 5.441747572815534,
+      "max": 5.441747572815534,
+      "n": 1,
+      "values": [
+       5.441747572815534
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 9.84971098265896,
+      "min": 9.84971098265896,
+      "max": 9.84971098265896,
+      "n": 1,
+      "values": [
+       9.84971098265896
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 3.7485029940119756,
+      "min": 3.7485029940119756,
+      "max": 3.7485029940119756,
+      "n": 1,
+      "values": [
+       3.7485029940119756
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 0.8910447761194029,
+      "min": 0.8910447761194029,
+      "max": 0.8910447761194029,
+      "n": 1,
+      "values": [
+       0.8910447761194029
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 5.38970588235294,
+      "min": 5.38970588235294,
+      "max": 5.38970588235294,
+      "n": 1,
+      "values": [
+       5.38970588235294
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 2.810126582278481,
+      "min": 2.810126582278481,
+      "max": 2.810126582278481,
+      "n": 1,
+      "values": [
+       2.810126582278481
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 1.0528052805280528,
+      "min": 1.0528052805280528,
+      "max": 1.0528052805280528,
+      "n": 1,
+      "values": [
+       1.0528052805280528
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 4.5396825396825395,
+      "min": 4.5396825396825395,
+      "max": 4.5396825396825395,
+      "n": 1,
+      "values": [
+       4.5396825396825395
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.7183098591549296,
+      "min": 0.7183098591549296,
+      "max": 0.7183098591549296,
+      "n": 1,
+      "values": [
+       0.7183098591549296
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 1.315068493150685,
+      "min": 1.315068493150685,
+      "max": 1.315068493150685,
+      "n": 1,
+      "values": [
+       1.315068493150685
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 0.5038759689922481,
+      "min": 0.5038759689922481,
+      "max": 0.5038759689922481,
+      "n": 1,
+      "values": [
+       0.5038759689922481
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 5.3353909465020575,
+      "min": 5.3353909465020575,
+      "max": 5.3353909465020575,
+      "n": 1,
+      "values": [
+       5.3353909465020575
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 2.3455882352941173,
+      "min": 2.3455882352941173,
+      "max": 2.3455882352941173,
+      "n": 1,
+      "values": [
+       2.3455882352941173
+      ]
+     },
+     "AGE+NAME": {
+      "median": 13.583333333333334,
+      "min": 13.583333333333334,
+      "max": 13.583333333333334,
+      "n": 1,
+      "values": [
+       13.583333333333334
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 10.399999999999999,
+      "min": 10.399999999999999,
+      "max": 10.399999999999999,
+      "n": 1,
+      "values": [
+       10.399999999999999
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 6.666666666666667,
+      "min": 6.666666666666667,
+      "max": 6.666666666666667,
+      "n": 1,
+      "values": [
+       6.666666666666667
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 20.0,
+      "min": 20.0,
+      "max": 20.0,
+      "n": 1,
+      "values": [
+       20.0
+      ]
+     },
+     "DATE+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 1,
+      "values": [
+       2.0
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
     }
    }
   }
@@ -638,94 +2312,94 @@
   ],
   "substring": {
    "singles": {
-    "median": 1572,
-    "min": 1572,
-    "max": 1572,
+    "median": 1052,
+    "min": 1052,
+    "max": 1052,
     "n": 1,
     "values": [
-     1572
+     1052
     ]
    },
    "singles_pct": {
-    "median": 11.45,
-    "min": 11.45,
-    "max": 11.45,
+    "median": 7.66,
+    "min": 7.66,
+    "max": 7.66,
     "n": 1,
     "values": [
-     11.45
+     7.66
     ]
    },
    "pairs": {
-    "median": 2751,
-    "min": 2751,
-    "max": 2751,
+    "median": 1341,
+    "min": 1341,
+    "max": 1341,
     "n": 1,
     "values": [
-     2751
+     1341
     ]
    },
    "pairs_one_doc": {
-    "median": 923,
-    "min": 923,
-    "max": 923,
+    "median": 564,
+    "min": 564,
+    "max": 564,
     "n": 1,
     "values": [
-     923
+     564
     ]
    },
    "triples": {
-    "median": 282,
-    "min": 282,
-    "max": 282,
+    "median": 118,
+    "min": 118,
+    "max": 118,
     "n": 1,
     "values": [
-     282
+     118
     ]
    },
    "quadruples": {
-    "median": 8,
-    "min": 8,
-    "max": 8,
+    "median": 6,
+    "min": 6,
+    "max": 6,
     "n": 1,
     "values": [
-     8
+     6
     ]
    },
    "profiles_leaked": {
-    "median": 1252,
-    "min": 1252,
-    "max": 1252,
+    "median": 1224,
+    "min": 1224,
+    "max": 1224,
     "n": 1,
     "values": [
-     1252
+     1224
     ]
    },
    "largest_group": {
     "1": {
-     "median": 538,
-     "min": 538,
-     "max": 538,
+     "median": 737,
+     "min": 737,
+     "max": 737,
      "n": 1,
      "values": [
-      538
+      737
      ]
     },
     "2": {
-     "median": 611,
-     "min": 611,
-     "max": 611,
+     "median": 450,
+     "min": 450,
+     "max": 450,
      "n": 1,
      "values": [
-      611
+      450
      ]
     },
     "3": {
-     "median": 102,
-     "min": 102,
-     "max": 102,
+     "median": 36,
+     "min": 36,
+     "max": 36,
      "n": 1,
      "values": [
-      102
+      36
      ]
     },
     "4": {
@@ -737,52 +2411,364 @@
       1
      ]
     }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 7.403350410669269,
+      "min": 7.403350410669269,
+      "max": 7.403350410669269,
+      "n": 1,
+      "values": [
+       7.403350410669269
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 17.097982243744955,
+      "min": 17.097982243744955,
+      "max": 17.097982243744955,
+      "n": 1,
+      "values": [
+       17.097982243744955
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 11.87503471257984,
+      "min": 11.87503471257984,
+      "max": 11.87503471257984,
+      "n": 1,
+      "values": [
+       11.87503471257984
+      ]
+     },
+     "AGE+NAME": {
+      "median": 6.621271279087928,
+      "min": 6.621271279087928,
+      "max": 6.621271279087928,
+      "n": 1,
+      "values": [
+       6.621271279087928
+      ]
+     },
+     "DATE+NAME": {
+      "median": 4.290289520881373,
+      "min": 4.290289520881373,
+      "max": 4.290289520881373,
+      "n": 1,
+      "values": [
+       4.290289520881373
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 10.537620849096259,
+      "min": 10.537620849096259,
+      "max": 10.537620849096259,
+      "n": 1,
+      "values": [
+       10.537620849096259
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 3.7700564971751414,
+      "min": 3.7700564971751414,
+      "max": 3.7700564971751414,
+      "n": 1,
+      "values": [
+       3.7700564971751414
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 4.982278481012658,
+      "min": 4.982278481012658,
+      "max": 4.982278481012658,
+      "n": 1,
+      "values": [
+       4.982278481012658
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 11.537401574803148,
+      "min": 11.537401574803148,
+      "max": 11.537401574803148,
+      "n": 1,
+      "values": [
+       11.537401574803148
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 4.309718437783833,
+      "min": 4.309718437783833,
+      "max": 4.309718437783833,
+      "n": 1,
+      "values": [
+       4.309718437783833
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 1.680165669581224,
+      "min": 1.680165669581224,
+      "max": 1.680165669581224,
+      "n": 1,
+      "values": [
+       1.680165669581224
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 1.0603759942154736,
+      "min": 1.0603759942154736,
+      "max": 1.0603759942154736,
+      "n": 1,
+      "values": [
+       1.0603759942154736
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 2.705965909090909,
+      "min": 2.705965909090909,
+      "max": 2.705965909090909,
+      "n": 1,
+      "values": [
+       2.705965909090909
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.8864315600717275,
+      "min": 0.8864315600717275,
+      "max": 0.8864315600717275,
+      "n": 1,
+      "values": [
+       0.8864315600717275
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 1.044776119402985,
+      "min": 1.044776119402985,
+      "max": 1.044776119402985,
+      "n": 1,
+      "values": [
+       1.044776119402985
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+LOCATION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 4.746762099522836,
+      "min": 4.746762099522836,
+      "max": 4.746762099522836,
+      "n": 1,
+      "values": [
+       4.746762099522836
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 82.65714285714284,
+      "min": 82.65714285714284,
+      "max": 82.65714285714284,
+      "n": 1,
+      "values": [
+       82.65714285714284
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 3.3607594936708862,
+      "min": 3.3607594936708862,
+      "max": 3.3607594936708862,
+      "n": 1,
+      "values": [
+       3.3607594936708862
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 30.4,
+      "min": 30.4,
+      "max": 30.4,
+      "n": 1,
+      "values": [
+       30.4
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 16.885714285714283,
+      "min": 16.885714285714283,
+      "max": 16.885714285714283,
+      "n": 1,
+      "values": [
+       16.885714285714283
+      ]
+     },
+     "AGE+NAME": {
+      "median": 18.28,
+      "min": 18.28,
+      "max": 18.28,
+      "n": 1,
+      "values": [
+       18.28
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 133.5,
+      "min": 133.5,
+      "max": 133.5,
+      "n": 1,
+      "values": [
+       133.5
+      ]
+     },
+     "DATE+NAME": {
+      "median": 1.3898305084745763,
+      "min": 1.3898305084745763,
+      "max": 1.3898305084745763,
+      "n": 1,
+      "values": [
+       1.3898305084745763
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 40.666666666666664,
+      "min": 40.666666666666664,
+      "max": 40.666666666666664,
+      "n": 1,
+      "values": [
+       40.666666666666664
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 7.285714285714285,
+      "min": 7.285714285714285,
+      "max": 7.285714285714285,
+      "n": 1,
+      "values": [
+       7.285714285714285
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 3.142857142857143,
+      "min": 3.142857142857143,
+      "max": 3.142857142857143,
+      "n": 1,
+      "values": [
+       3.142857142857143
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 3.0,
+      "min": 3.0,
+      "max": 3.0,
+      "n": 1,
+      "values": [
+       3.0
+      ]
+     }
+    }
    }
   },
   "whole_word": {
    "singles": {
-    "median": 1167,
-    "min": 1167,
-    "max": 1167,
+    "median": 677,
+    "min": 677,
+    "max": 677,
     "n": 1,
     "values": [
-     1167
+     677
     ]
    },
    "singles_pct": {
-    "median": 8.5,
-    "min": 8.5,
-    "max": 8.5,
+    "median": 4.93,
+    "min": 4.93,
+    "max": 4.93,
     "n": 1,
     "values": [
-     8.5
+     4.93
     ]
    },
    "pairs": {
-    "median": 1308,
-    "min": 1308,
-    "max": 1308,
+    "median": 502,
+    "min": 502,
+    "max": 502,
     "n": 1,
     "values": [
-     1308
+     502
     ]
    },
    "pairs_one_doc": {
-    "median": 519,
-    "min": 519,
-    "max": 519,
+    "median": 245,
+    "min": 245,
+    "max": 245,
     "n": 1,
     "values": [
-     519
+     245
     ]
    },
    "triples": {
-    "median": 27,
-    "min": 27,
-    "max": 27,
+    "median": 10,
+    "min": 10,
+    "max": 10,
     "n": 1,
     "values": [
-     27
+     10
     ]
    },
    "quadruples": {
@@ -795,40 +2781,40 @@
     ]
    },
    "profiles_leaked": {
-    "median": 1230,
-    "min": 1230,
-    "max": 1230,
+    "median": 1188,
+    "min": 1188,
+    "max": 1188,
     "n": 1,
     "values": [
-     1230
+     1188
     ]
    },
    "largest_group": {
     "1": {
-     "median": 735,
-     "min": 735,
-     "max": 735,
+     "median": 953,
+     "min": 953,
+     "max": 953,
      "n": 1,
      "values": [
-      735
+      953
      ]
     },
     "2": {
-     "median": 483,
-     "min": 483,
-     "max": 483,
+     "median": 230,
+     "min": 230,
+     "max": 230,
      "n": 1,
      "values": [
-      483
+      230
      ]
     },
     "3": {
-     "median": 12,
-     "min": 12,
-     "max": 12,
+     "median": 5,
+     "min": 5,
+     "max": 5,
      "n": 1,
      "values": [
-      12
+      5
      ]
     },
     "4": {
@@ -839,6 +2825,273 @@
      "values": [
       0
      ]
+    }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 5.758483033932136,
+      "min": 5.758483033932136,
+      "max": 5.758483033932136,
+      "n": 1,
+      "values": [
+       5.758483033932136
+      ]
+     },
+     "AGE+NAME": {
+      "median": 4.184423676012461,
+      "min": 4.184423676012461,
+      "max": 4.184423676012461,
+      "n": 1,
+      "values": [
+       4.184423676012461
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 7.363300492610837,
+      "min": 7.363300492610837,
+      "max": 7.363300492610837,
+      "n": 1,
+      "values": [
+       7.363300492610837
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 1.7675438596491229,
+      "min": 1.7675438596491229,
+      "max": 1.7675438596491229,
+      "n": 1,
+      "values": [
+       1.7675438596491229
+      ]
+     },
+     "DATE+NAME": {
+      "median": 6.444174757281553,
+      "min": 6.444174757281553,
+      "max": 6.444174757281553,
+      "n": 1,
+      "values": [
+       6.444174757281553
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 14.098265895953759,
+      "min": 14.098265895953759,
+      "max": 14.098265895953759,
+      "n": 1,
+      "values": [
+       14.098265895953759
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 4.275449101796407,
+      "min": 4.275449101796407,
+      "max": 4.275449101796407,
+      "n": 1,
+      "values": [
+       4.275449101796407
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 0.612686567164179,
+      "min": 0.612686567164179,
+      "max": 0.612686567164179,
+      "n": 1,
+      "values": [
+       0.612686567164179
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 5.492647058823529,
+      "min": 5.492647058823529,
+      "max": 5.492647058823529,
+      "n": 1,
+      "values": [
+       5.492647058823529
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 2.4177215189873418,
+      "min": 2.4177215189873418,
+      "max": 2.4177215189873418,
+      "n": 1,
+      "values": [
+       2.4177215189873418
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 1.118811881188119,
+      "min": 1.118811881188119,
+      "max": 1.118811881188119,
+      "n": 1,
+      "values": [
+       1.118811881188119
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 5.222222222222222,
+      "min": 5.222222222222222,
+      "max": 5.222222222222222,
+      "n": 1,
+      "values": [
+       5.222222222222222
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.5539906103286385,
+      "min": 0.5539906103286385,
+      "max": 0.5539906103286385,
+      "n": 1,
+      "values": [
+       0.5539906103286385
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 1.1506849315068495,
+      "min": 1.1506849315068495,
+      "max": 1.1506849315068495,
+      "n": 1,
+      "values": [
+       1.1506849315068495
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 0.3798449612403101,
+      "min": 0.3798449612403101,
+      "max": 0.3798449612403101,
+      "n": 1,
+      "values": [
+       0.3798449612403101
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+LOCATION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 4.730452674897119,
+      "min": 4.730452674897119,
+      "max": 4.730452674897119,
+      "n": 1,
+      "values": [
+       4.730452674897119
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 1.3897058823529411,
+      "min": 1.3897058823529411,
+      "max": 1.3897058823529411,
+      "n": 1,
+      "values": [
+       1.3897058823529411
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 11.899999999999999,
+      "min": 11.899999999999999,
+      "max": 11.899999999999999,
+      "n": 1,
+      "values": [
+       11.899999999999999
+      ]
+     },
+     "AGE+NAME": {
+      "median": 7.916666666666667,
+      "min": 7.916666666666667,
+      "max": 7.916666666666667,
+      "n": 1,
+      "values": [
+       7.916666666666667
+      ]
+     },
+     "DATE+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 14.0,
+      "min": 14.0,
+      "max": 14.0,
+      "n": 1,
+      "values": [
+       14.0
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 3.3333333333333335,
+      "min": 3.3333333333333335,
+      "max": 3.3333333333333335,
+      "n": 1,
+      "values": [
+       3.3333333333333335
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 4.0,
+      "min": 4.0,
+      "max": 4.0,
+      "n": 1,
+      "values": [
+       4.0
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
     }
    }
   }
@@ -849,151 +3102,472 @@
   ],
   "substring": {
    "singles": {
-    "median": 1665,
-    "min": 1665,
-    "max": 1665,
+    "median": 1281,
+    "min": 1281,
+    "max": 1281,
     "n": 1,
     "values": [
-     1665
+     1281
     ]
    },
    "singles_pct": {
-    "median": 12.13,
-    "min": 12.13,
-    "max": 12.13,
+    "median": 9.33,
+    "min": 9.33,
+    "max": 9.33,
     "n": 1,
     "values": [
-     12.13
+     9.33
     ]
    },
    "pairs": {
-    "median": 3302,
-    "min": 3302,
-    "max": 3302,
+    "median": 1995,
+    "min": 1995,
+    "max": 1995,
     "n": 1,
     "values": [
-     3302
+     1995
     ]
    },
    "pairs_one_doc": {
-    "median": 1085,
-    "min": 1085,
-    "max": 1085,
+    "median": 772,
+    "min": 772,
+    "max": 772,
     "n": 1,
     "values": [
-     1085
+     772
     ]
    },
    "triples": {
-    "median": 433,
-    "min": 433,
-    "max": 433,
+    "median": 177,
+    "min": 177,
+    "max": 177,
     "n": 1,
     "values": [
-     433
+     177
     ]
    },
    "quadruples": {
-    "median": 15,
-    "min": 15,
-    "max": 15,
+    "median": 2,
+    "min": 2,
+    "max": 2,
     "n": 1,
     "values": [
-     15
+     2
     ]
    },
    "profiles_leaked": {
-    "median": 1260,
-    "min": 1260,
-    "max": 1260,
+    "median": 1243,
+    "min": 1243,
+    "max": 1243,
     "n": 1,
     "values": [
-     1260
+     1243
     ]
    },
    "largest_group": {
     "1": {
-     "median": 464,
-     "min": 464,
-     "max": 464,
+     "median": 602,
+     "min": 602,
+     "max": 602,
      "n": 1,
      "values": [
-      464
+      602
      ]
     },
     "2": {
-     "median": 656,
-     "min": 656,
-     "max": 656,
+     "median": 577,
+     "min": 577,
+     "max": 577,
      "n": 1,
      "values": [
-      656
+      577
      ]
     },
     "3": {
-     "median": 137,
-     "min": 137,
-     "max": 137,
+     "median": 63,
+     "min": 63,
+     "max": 63,
      "n": 1,
      "values": [
-      137
+      63
      ]
     },
     "4": {
-     "median": 3,
-     "min": 3,
-     "max": 3,
+     "median": 1,
+     "min": 1,
+     "max": 1,
      "n": 1,
      "values": [
-      3
+      1
      ]
+    }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 8.715499715377733,
+      "min": 8.715499715377733,
+      "max": 8.715499715377733,
+      "n": 1,
+      "values": [
+       8.715499715377733
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 23.30815173527038,
+      "min": 23.30815173527038,
+      "max": 23.30815173527038,
+      "n": 1,
+      "values": [
+       23.30815173527038
+      ]
+     },
+     "AGE+NAME": {
+      "median": 10.10260815242855,
+      "min": 10.10260815242855,
+      "max": 10.10260815242855,
+      "n": 1,
+      "values": [
+       10.10260815242855
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 13.445848375451265,
+      "min": 13.445848375451265,
+      "max": 13.445848375451265,
+      "n": 1,
+      "values": [
+       13.445848375451265
+      ]
+     },
+     "DATE+NAME": {
+      "median": 5.546310530361261,
+      "min": 5.546310530361261,
+      "max": 5.546310530361261,
+      "n": 1,
+      "values": [
+       5.546310530361261
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 14.098991172761664,
+      "min": 14.098991172761664,
+      "max": 14.098991172761664,
+      "n": 1,
+      "values": [
+       14.098991172761664
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 4.797740112994351,
+      "min": 4.797740112994351,
+      "max": 4.797740112994351,
+      "n": 1,
+      "values": [
+       4.797740112994351
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 5.702784810126582,
+      "min": 5.702784810126582,
+      "max": 5.702784810126582,
+      "n": 1,
+      "values": [
+       5.702784810126582
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 3.6861481822365394,
+      "min": 3.6861481822365394,
+      "max": 3.6861481822365394,
+      "n": 1,
+      "values": [
+       3.6861481822365394
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 15.098425196850393,
+      "min": 15.098425196850393,
+      "max": 15.098425196850393,
+      "n": 1,
+      "values": [
+       15.098425196850393
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 6.263396911898274,
+      "min": 6.263396911898274,
+      "max": 6.263396911898274,
+      "n": 1,
+      "values": [
+       6.263396911898274
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 1.8904555314533622,
+      "min": 1.8904555314533622,
+      "max": 1.8904555314533622,
+      "n": 1,
+      "values": [
+       1.8904555314533622
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 5.390625,
+      "min": 5.390625,
+      "max": 5.390625,
+      "n": 1,
+      "values": [
+       5.390625
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 2.0842797369994024,
+      "min": 2.0842797369994024,
+      "max": 2.0842797369994024,
+      "n": 1,
+      "values": [
+       2.0842797369994024
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 2.0845771144278604,
+      "min": 2.0845771144278604,
+      "max": 2.0845771144278604,
+      "n": 1,
+      "values": [
+       2.0845771144278604
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+LOCATION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 6.099182004089979,
+      "min": 6.099182004089979,
+      "max": 6.099182004089979,
+      "n": 1,
+      "values": [
+       6.099182004089979
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 114.5142857142857,
+      "min": 114.5142857142857,
+      "max": 114.5142857142857,
+      "n": 1,
+      "values": [
+       114.5142857142857
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 3.9936708860759493,
+      "min": 3.9936708860759493,
+      "max": 3.9936708860759493,
+      "n": 1,
+      "values": [
+       3.9936708860759493
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 46.2,
+      "min": 46.2,
+      "max": 46.2,
+      "n": 1,
+      "values": [
+       46.2
+      ]
+     },
+     "AGE+NAME": {
+      "median": 34.32,
+      "min": 34.32,
+      "max": 34.32,
+      "n": 1,
+      "values": [
+       34.32
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 23.54285714285714,
+      "min": 23.54285714285714,
+      "max": 23.54285714285714,
+      "n": 1,
+      "values": [
+       23.54285714285714
+      ]
+     },
+     "DATE+NAME": {
+      "median": 2.457627118644068,
+      "min": 2.457627118644068,
+      "max": 2.457627118644068,
+      "n": 1,
+      "values": [
+       2.457627118644068
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 127.5,
+      "min": 127.5,
+      "max": 127.5,
+      "n": 1,
+      "values": [
+       127.5
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 24.28571428571429,
+      "min": 24.28571428571429,
+      "max": 24.28571428571429,
+      "n": 1,
+      "values": [
+       24.28571428571429
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 39.0,
+      "min": 39.0,
+      "max": 39.0,
+      "n": 1,
+      "values": [
+       39.0
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 6.0,
+      "min": 6.0,
+      "max": 6.0,
+      "n": 1,
+      "values": [
+       6.0
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 2.0,
+      "min": 2.0,
+      "max": 2.0,
+      "n": 1,
+      "values": [
+       2.0
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
     }
    }
   },
   "whole_word": {
    "singles": {
-    "median": 1255,
-    "min": 1255,
-    "max": 1255,
+    "median": 896,
+    "min": 896,
+    "max": 896,
     "n": 1,
     "values": [
-     1255
+     896
     ]
    },
    "singles_pct": {
-    "median": 9.14,
-    "min": 9.14,
-    "max": 9.14,
+    "median": 6.53,
+    "min": 6.53,
+    "max": 6.53,
     "n": 1,
     "values": [
-     9.14
+     6.53
     ]
    },
    "pairs": {
-    "median": 1681,
-    "min": 1681,
-    "max": 1681,
+    "median": 873,
+    "min": 873,
+    "max": 873,
     "n": 1,
     "values": [
-     1681
+     873
     ]
    },
    "pairs_one_doc": {
-    "median": 636,
-    "min": 636,
-    "max": 636,
+    "median": 431,
+    "min": 431,
+    "max": 431,
     "n": 1,
     "values": [
-     636
+     431
     ]
    },
    "triples": {
-    "median": 51,
-    "min": 51,
-    "max": 51,
+    "median": 25,
+    "min": 25,
+    "max": 25,
     "n": 1,
     "values": [
-     51
+     25
     ]
    },
    "quadruples": {
@@ -1006,40 +3580,40 @@
     ]
    },
    "profiles_leaked": {
-    "median": 1246,
-    "min": 1246,
-    "max": 1246,
+    "median": 1219,
+    "min": 1219,
+    "max": 1219,
     "n": 1,
     "values": [
-     1246
+     1219
     ]
    },
    "largest_group": {
     "1": {
-     "median": 658,
-     "min": 658,
-     "max": 658,
+     "median": 820,
+     "min": 820,
+     "max": 820,
      "n": 1,
      "values": [
-      658
+      820
      ]
     },
     "2": {
-     "median": 564,
-     "min": 564,
-     "max": 564,
+     "median": 383,
+     "min": 383,
+     "max": 383,
      "n": 1,
      "values": [
-      564
+      383
      ]
     },
     "3": {
-     "median": 24,
-     "min": 24,
-     "max": 24,
+     "median": 16,
+     "min": 16,
+     "max": 16,
      "n": 1,
      "values": [
-      24
+      16
      ]
     },
     "4": {
@@ -1049,6 +3623,1158 @@
      "n": 1,
      "values": [
       0
+     ]
+    }
+   },
+   "enrichment": {
+    "any_per_doc": {
+     "AGE+DATE": {
+      "median": 7.087225548902196,
+      "min": 7.087225548902196,
+      "max": 7.087225548902196,
+      "n": 1,
+      "values": [
+       7.087225548902196
+      ]
+     },
+     "AGE+NAME": {
+      "median": 8.621183800623053,
+      "min": 8.621183800623053,
+      "max": 8.621183800623053,
+      "n": 1,
+      "values": [
+       8.621183800623053
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 13.979064039408867,
+      "min": 13.979064039408867,
+      "max": 13.979064039408867,
+      "n": 1,
+      "values": [
+       13.979064039408867
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 2.391025641025641,
+      "min": 2.391025641025641,
+      "max": 2.391025641025641,
+      "n": 1,
+      "values": [
+       2.391025641025641
+      ]
+     },
+     "DATE+NAME": {
+      "median": 11.060679611650487,
+      "min": 11.060679611650487,
+      "max": 11.060679611650487,
+      "n": 1,
+      "values": [
+       11.060679611650487
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 20.884393063583815,
+      "min": 20.884393063583815,
+      "max": 20.884393063583815,
+      "n": 1,
+      "values": [
+       20.884393063583815
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": 5.733532934131737,
+      "min": 5.733532934131737,
+      "max": 5.733532934131737,
+      "n": 1,
+      "values": [
+       5.733532934131737
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": 11.75,
+      "min": 11.75,
+      "max": 11.75,
+      "n": 1,
+      "values": [
+       11.75
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 0.7388059701492536,
+      "min": 0.7388059701492536,
+      "max": 0.7388059701492536,
+      "n": 1,
+      "values": [
+       0.7388059701492536
+      ]
+     },
+     "CONTACT+NAME": {
+      "median": 4.765822784810126,
+      "min": 4.765822784810126,
+      "max": 4.765822784810126,
+      "n": 1,
+      "values": [
+       4.765822784810126
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 10.126984126984127,
+      "min": 10.126984126984127,
+      "max": 10.126984126984127,
+      "n": 1,
+      "values": [
+       10.126984126984127
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": 0.8514851485148516,
+      "min": 0.8514851485148516,
+      "max": 0.8514851485148516,
+      "n": 1,
+      "values": [
+       0.8514851485148516
+      ]
+     },
+     "NAME+PROFESSION": {
+      "median": 0.6338028169014085,
+      "min": 0.6338028169014085,
+      "max": 0.6338028169014085,
+      "n": 1,
+      "values": [
+       0.6338028169014085
+      ]
+     },
+     "LOCATION+PROFESSION": {
+      "median": 1.4383561643835616,
+      "min": 1.4383561643835616,
+      "max": 1.4383561643835616,
+      "n": 1,
+      "values": [
+       1.4383561643835616
+      ]
+     },
+     "CONTACT+PROFESSION": {
+      "median": 0.4418604651162791,
+      "min": 0.4418604651162791,
+      "max": 0.4418604651162791,
+      "n": 1,
+      "values": [
+       0.4418604651162791
+      ]
+     },
+     "AGE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "DATE+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+LOCATION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "ID+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+ID": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    },
+    "same_source_per_doc": {
+     "AGE+DATE": {
+      "median": 5.631687242798354,
+      "min": 5.631687242798354,
+      "max": 5.631687242798354,
+      "n": 1,
+      "values": [
+       5.631687242798354
+      ]
+     },
+     "AGE+CONTACT": {
+      "median": 1.3970588235294117,
+      "min": 1.3970588235294117,
+      "max": 1.3970588235294117,
+      "n": 1,
+      "values": [
+       1.3970588235294117
+      ]
+     },
+     "AGE+LOCATION": {
+      "median": 28.999999999999996,
+      "min": 28.999999999999996,
+      "max": 28.999999999999996,
+      "n": 1,
+      "values": [
+       28.999999999999996
+      ]
+     },
+     "AGE+NAME": {
+      "median": 12.916666666666666,
+      "min": 12.916666666666666,
+      "max": 12.916666666666666,
+      "n": 1,
+      "values": [
+       12.916666666666666
+      ]
+     },
+     "DATE+LOCATION": {
+      "median": 45.0,
+      "min": 45.0,
+      "max": 45.0,
+      "n": 1,
+      "values": [
+       45.0
+      ]
+     },
+     "DATE+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "AGE+PROFESSION": {
+      "median": 6.666666666666667,
+      "min": 6.666666666666667,
+      "max": 6.666666666666667,
+      "n": 1,
+      "values": [
+       6.666666666666667
+      ]
+     },
+     "CONTACT+DATE": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "LOCATION+NAME": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     },
+     "CONTACT+LOCATION": {
+      "median": 6.0,
+      "min": 6.0,
+      "max": 6.0,
+      "n": 1,
+      "values": [
+       6.0
+      ]
+     },
+     "DATE+PROFESSION": {
+      "median": Infinity,
+      "min": Infinity,
+      "max": Infinity,
+      "n": 1,
+      "values": [
+       Infinity
+      ]
+     }
+    }
+   }
+  }
+ },
+ "i2b2|base": {
+  "seeds": [
+   1,
+   2
+  ],
+  "substring": {
+   "singles": {
+    "median": 333.5,
+    "min": 332,
+    "max": 335,
+    "n": 2,
+    "values": [
+     335,
+     332
+    ]
+   },
+   "singles_pct": {
+    "median": 2.4299999999999997,
+    "min": 2.42,
+    "max": 2.44,
+    "n": 2,
+    "values": [
+     2.44,
+     2.42
+    ]
+   },
+   "pairs": {
+    "median": 218.5,
+    "min": 218,
+    "max": 219,
+    "n": 2,
+    "values": [
+     218,
+     219
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 111.5,
+    "min": 100,
+    "max": 123,
+    "n": 2,
+    "values": [
+     100,
+     123
+    ]
+   },
+   "triples": {
+    "median": 13.0,
+    "min": 10,
+    "max": 16,
+    "n": 2,
+    "values": [
+     10,
+     16
+    ]
+   },
+   "quadruples": {
+    "median": 0.0,
+    "min": 0,
+    "max": 0,
+    "n": 2,
+    "values": [
+     0,
+     0
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1047.0,
+    "min": 1023,
+    "max": 1071,
+    "n": 2,
+    "values": [
+     1071,
+     1023
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 948.5,
+     "min": 918,
+     "max": 979,
+     "n": 2,
+     "values": [
+      979,
+      918
+     ]
+    },
+    "2": {
+     "median": 92.0,
+     "min": 88,
+     "max": 96,
+     "n": 2,
+     "values": [
+      88,
+      96
+     ]
+    },
+    "3": {
+     "median": 6.5,
+     "min": 4,
+     "max": 9,
+     "n": 2,
+     "values": [
+      4,
+      9
+     ]
+    },
+    "4": {
+     "median": 0.0,
+     "min": 0,
+     "max": 0,
+     "n": 2,
+     "values": [
+      0,
+      0
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 196.5,
+    "min": 190,
+    "max": 203,
+    "n": 2,
+    "values": [
+     203,
+     190
+    ]
+   },
+   "singles_pct": {
+    "median": 1.43,
+    "min": 1.38,
+    "max": 1.48,
+    "n": 2,
+    "values": [
+     1.48,
+     1.38
+    ]
+   },
+   "pairs": {
+    "median": 77.5,
+    "min": 77,
+    "max": 78,
+    "n": 2,
+    "values": [
+     78,
+     77
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 39.0,
+    "min": 39,
+    "max": 39,
+    "n": 2,
+    "values": [
+     39,
+     39
+    ]
+   },
+   "triples": {
+    "median": 1.0,
+    "min": 0,
+    "max": 2,
+    "n": 2,
+    "values": [
+     2,
+     0
+    ]
+   },
+   "quadruples": {
+    "median": 0.0,
+    "min": 0,
+    "max": 0,
+    "n": 2,
+    "values": [
+     0,
+     0
+    ]
+   },
+   "profiles_leaked": {
+    "median": 910.0,
+    "min": 857,
+    "max": 963,
+    "n": 2,
+    "values": [
+     963,
+     857
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 872.0,
+     "min": 818,
+     "max": 926,
+     "n": 2,
+     "values": [
+      926,
+      818
+     ]
+    },
+    "2": {
+     "median": 37.5,
+     "min": 36,
+     "max": 39,
+     "n": 2,
+     "values": [
+      36,
+      39
+     ]
+    },
+    "3": {
+     "median": 0.5,
+     "min": 0,
+     "max": 1,
+     "n": 2,
+     "values": [
+      1,
+      0
+     ]
+    },
+    "4": {
+     "median": 0.0,
+     "min": 0,
+     "max": 0,
+     "n": 2,
+     "values": [
+      0,
+      0
+     ]
+    }
+   }
+  }
+ },
+ "meddocan|eps4_record": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 981,
+    "min": 981,
+    "max": 981,
+    "n": 1,
+    "values": [
+     981
+    ]
+   },
+   "singles_pct": {
+    "median": 8.59,
+    "min": 8.59,
+    "max": 8.59,
+    "n": 1,
+    "values": [
+     8.59
+    ]
+   },
+   "pairs": {
+    "median": 1701,
+    "min": 1701,
+    "max": 1701,
+    "n": 1,
+    "values": [
+     1701
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 1877,
+    "min": 1877,
+    "max": 1877,
+    "n": 1,
+    "values": [
+     1877
+    ]
+   },
+   "triples": {
+    "median": 532,
+    "min": 532,
+    "max": 532,
+    "n": 1,
+    "values": [
+     532
+    ]
+   },
+   "quadruples": {
+    "median": 43,
+    "min": 43,
+    "max": 43,
+    "n": 1,
+    "values": [
+     43
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1000,
+    "min": 1000,
+    "max": 1000,
+    "n": 1,
+    "values": [
+     1000
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 25,
+     "min": 25,
+     "max": 25,
+     "n": 1,
+     "values": [
+      25
+     ]
+    },
+    "2": {
+     "median": 572,
+     "min": 572,
+     "max": 572,
+     "n": 1,
+     "values": [
+      572
+     ]
+    },
+    "3": {
+     "median": 371,
+     "min": 371,
+     "max": 371,
+     "n": 1,
+     "values": [
+      371
+     ]
+    },
+    "4": {
+     "median": 32,
+     "min": 32,
+     "max": 32,
+     "n": 1,
+     "values": [
+      32
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 902,
+    "min": 902,
+    "max": 902,
+    "n": 1,
+    "values": [
+     902
+    ]
+   },
+   "singles_pct": {
+    "median": 7.9,
+    "min": 7.9,
+    "max": 7.9,
+    "n": 1,
+    "values": [
+     7.9
+    ]
+   },
+   "pairs": {
+    "median": 1456,
+    "min": 1456,
+    "max": 1456,
+    "n": 1,
+    "values": [
+     1456
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 1758,
+    "min": 1758,
+    "max": 1758,
+    "n": 1,
+    "values": [
+     1758
+    ]
+   },
+   "triples": {
+    "median": 399,
+    "min": 399,
+    "max": 399,
+    "n": 1,
+    "values": [
+     399
+    ]
+   },
+   "quadruples": {
+    "median": 25,
+    "min": 25,
+    "max": 25,
+    "n": 1,
+    "values": [
+     25
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1000,
+    "min": 1000,
+    "max": 1000,
+    "n": 1,
+    "values": [
+     1000
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 35,
+     "min": 35,
+     "max": 35,
+     "n": 1,
+     "values": [
+      35
+     ]
+    },
+    "2": {
+     "median": 603,
+     "min": 603,
+     "max": 603,
+     "n": 1,
+     "values": [
+      603
+     ]
+    },
+    "3": {
+     "median": 339,
+     "min": 339,
+     "max": 339,
+     "n": 1,
+     "values": [
+      339
+     ]
+    },
+    "4": {
+     "median": 23,
+     "min": 23,
+     "max": 23,
+     "n": 1,
+     "values": [
+      23
+     ]
+    }
+   }
+  }
+ },
+ "meddocan|eps8_record": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 1016,
+    "min": 1016,
+    "max": 1016,
+    "n": 1,
+    "values": [
+     1016
+    ]
+   },
+   "singles_pct": {
+    "median": 8.9,
+    "min": 8.9,
+    "max": 8.9,
+    "n": 1,
+    "values": [
+     8.9
+    ]
+   },
+   "pairs": {
+    "median": 1751,
+    "min": 1751,
+    "max": 1751,
+    "n": 1,
+    "values": [
+     1751
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 1922,
+    "min": 1922,
+    "max": 1922,
+    "n": 1,
+    "values": [
+     1922
+    ]
+   },
+   "triples": {
+    "median": 582,
+    "min": 582,
+    "max": 582,
+    "n": 1,
+    "values": [
+     582
+    ]
+   },
+   "quadruples": {
+    "median": 43,
+    "min": 43,
+    "max": 43,
+    "n": 1,
+    "values": [
+     43
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1000,
+    "min": 1000,
+    "max": 1000,
+    "n": 1,
+    "values": [
+     1000
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 25,
+     "min": 25,
+     "max": 25,
+     "n": 1,
+     "values": [
+      25
+     ]
+    },
+    "2": {
+     "median": 545,
+     "min": 545,
+     "max": 545,
+     "n": 1,
+     "values": [
+      545
+     ]
+    },
+    "3": {
+     "median": 401,
+     "min": 401,
+     "max": 401,
+     "n": 1,
+     "values": [
+      401
+     ]
+    },
+    "4": {
+     "median": 29,
+     "min": 29,
+     "max": 29,
+     "n": 1,
+     "values": [
+      29
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 939,
+    "min": 939,
+    "max": 939,
+    "n": 1,
+    "values": [
+     939
+    ]
+   },
+   "singles_pct": {
+    "median": 8.23,
+    "min": 8.23,
+    "max": 8.23,
+    "n": 1,
+    "values": [
+     8.23
+    ]
+   },
+   "pairs": {
+    "median": 1518,
+    "min": 1518,
+    "max": 1518,
+    "n": 1,
+    "values": [
+     1518
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 1790,
+    "min": 1790,
+    "max": 1790,
+    "n": 1,
+    "values": [
+     1790
+    ]
+   },
+   "triples": {
+    "median": 443,
+    "min": 443,
+    "max": 443,
+    "n": 1,
+    "values": [
+     443
+    ]
+   },
+   "quadruples": {
+    "median": 30,
+    "min": 30,
+    "max": 30,
+    "n": 1,
+    "values": [
+     30
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1000,
+    "min": 1000,
+    "max": 1000,
+    "n": 1,
+    "values": [
+     1000
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 28,
+     "min": 28,
+     "max": 28,
+     "n": 1,
+     "values": [
+      28
+     ]
+    },
+    "2": {
+     "median": 593,
+     "min": 593,
+     "max": 593,
+     "n": 1,
+     "values": [
+      593
+     ]
+    },
+    "3": {
+     "median": 359,
+     "min": 359,
+     "max": 359,
+     "n": 1,
+     "values": [
+      359
+     ]
+    },
+    "4": {
+     "median": 20,
+     "min": 20,
+     "max": 20,
+     "n": 1,
+     "values": [
+      20
+     ]
+    }
+   }
+  }
+ },
+ "meddocan|nodp": {
+  "seeds": [
+   42
+  ],
+  "substring": {
+   "singles": {
+    "median": 1176,
+    "min": 1176,
+    "max": 1176,
+    "n": 1,
+    "values": [
+     1176
+    ]
+   },
+   "singles_pct": {
+    "median": 10.3,
+    "min": 10.3,
+    "max": 10.3,
+    "n": 1,
+    "values": [
+     10.3
+    ]
+   },
+   "pairs": {
+    "median": 2609,
+    "min": 2609,
+    "max": 2609,
+    "n": 1,
+    "values": [
+     2609
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 2611,
+    "min": 2611,
+    "max": 2611,
+    "n": 1,
+    "values": [
+     2611
+    ]
+   },
+   "triples": {
+    "median": 1477,
+    "min": 1477,
+    "max": 1477,
+    "n": 1,
+    "values": [
+     1477
+    ]
+   },
+   "quadruples": {
+    "median": 190,
+    "min": 190,
+    "max": 190,
+    "n": 1,
+    "values": [
+     190
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1000,
+    "min": 1000,
+    "max": 1000,
+    "n": 1,
+    "values": [
+     1000
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 11,
+     "min": 11,
+     "max": 11,
+     "n": 1,
+     "values": [
+      11
+     ]
+    },
+    "2": {
+     "median": 328,
+     "min": 328,
+     "max": 328,
+     "n": 1,
+     "values": [
+      328
+     ]
+    },
+    "3": {
+     "median": 561,
+     "min": 561,
+     "max": 561,
+     "n": 1,
+     "values": [
+      561
+     ]
+    },
+    "4": {
+     "median": 100,
+     "min": 100,
+     "max": 100,
+     "n": 1,
+     "values": [
+      100
+     ]
+    }
+   }
+  },
+  "whole_word": {
+   "singles": {
+    "median": 1112,
+    "min": 1112,
+    "max": 1112,
+    "n": 1,
+    "values": [
+     1112
+    ]
+   },
+   "singles_pct": {
+    "median": 9.74,
+    "min": 9.74,
+    "max": 9.74,
+    "n": 1,
+    "values": [
+     9.74
+    ]
+   },
+   "pairs": {
+    "median": 2304,
+    "min": 2304,
+    "max": 2304,
+    "n": 1,
+    "values": [
+     2304
+    ]
+   },
+   "pairs_one_doc": {
+    "median": 2462,
+    "min": 2462,
+    "max": 2462,
+    "n": 1,
+    "values": [
+     2462
+    ]
+   },
+   "triples": {
+    "median": 1234,
+    "min": 1234,
+    "max": 1234,
+    "n": 1,
+    "values": [
+     1234
+    ]
+   },
+   "quadruples": {
+    "median": 141,
+    "min": 141,
+    "max": 141,
+    "n": 1,
+    "values": [
+     141
+    ]
+   },
+   "profiles_leaked": {
+    "median": 1000,
+    "min": 1000,
+    "max": 1000,
+    "n": 1,
+    "values": [
+     1000
+    ]
+   },
+   "largest_group": {
+    "1": {
+     "median": 13,
+     "min": 13,
+     "max": 13,
+     "n": 1,
+     "values": [
+      13
+     ]
+    },
+    "2": {
+     "median": 365,
+     "min": 365,
+     "max": 365,
+     "n": 1,
+     "values": [
+      365
+     ]
+    },
+    "3": {
+     "median": 545,
+     "min": 545,
+     "max": 545,
+     "n": 1,
+     "values": [
+      545
+     ]
+    },
+    "4": {
+     "median": 77,
+     "min": 77,
+     "max": 77,
+     "n": 1,
+     "values": [
+      77
      ]
     }
    }

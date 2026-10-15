@@ -108,8 +108,9 @@ def jobs(runs_dir: Path):
             out.append(dict(name=f"base_{ds}_g{g}", stages=[(
                 "base", d / "generation.json",
                 [PY, "-m", "dpleak.generate", "--base", ds, "--gen-seed", str(g), "--runs-dir", str(runs_dir)])]))
-    for s in (43, 44):
-        out += [run_job(r) for r in by_seed[s]]
+    # seeds 43 and 44: non-DP runs first (seed variability of the non-DP results), then DP
+    rest = [r for s in (43, 44) for r in by_seed[s]]
+    out += [run_job(r) for r in sorted(rest, key=lambda r: r.budget != "nodp")]
     return out
 
 
