@@ -36,3 +36,4 @@ notebooks/
 runs/
 data
 !canaries/**/*.xml
+runs_diag/

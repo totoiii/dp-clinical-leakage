@@ -1,0 +1,26 @@
+{
+ "question": "Does the fused linear cross-entropy (Liger) change non-DP training? i2b2_docs0_nodp_s42 trained twice, identical except DPLEAK_FUSED_CE",
+ "note": "leakage = whole-word unique counts in 1,000 generated documents; legacy published: singles 1145, pairs 1427, pairs_one_doc 583, triples 36",
+ "fused_ce (queue)": {
+  "utility_ppl_train200": 5.855192884159649,
+  "final_loss": 1.7878,
+  "leakage_whole_word": {
+   "singles": 896,
+   "pairs": 873,
+   "pairs_one_doc": 431,
+   "triples": 25,
+   "quadruples": 0
+  }
+ },
+ "no_fused_ce": {
+  "utility_ppl_train200": 5.855146998542824,
+  "final_loss": 1.7878,
+  "leakage_whole_word": {
+   "singles": 888,
+   "pairs": 882,
+   "pairs_one_doc": 449,
+   "triples": 18,
+   "quadruples": 0
+  }
+ }
+}
