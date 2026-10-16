@@ -25,6 +25,32 @@
   "canary_records_in_train": 0,
   "git": "d735bbf"
  },
+ "i2b2_docs0_eps4_author_s43": {
+  "condition": "i2b2|docs0|-|eps4_author",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "author",
+   "n_units": 296,
+   "largest_unit_records": 5,
+   "delta": 0.0033783783783783786,
+   "sampling_probability": 0.10810810810810811,
+   "accounted_steps": 480,
+   "noise_multiplier": 1.9267578125,
+   "target_epsilon": 4.0,
+   "epsilon_prv": 4.049889310529887,
+   "epsilon_rdp": 4.562354384851603,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 13.65957354917648,
+  "nll_heldout": 3.2360824762997598,
+  "final_train_loss": 2.44478,
+  "wall_s": 5738.214125394821,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
  "i2b2_docs0_eps4_record_s42": {
   "condition": "i2b2|docs0|-|eps4_record",
   "seed": 42,
@@ -50,6 +76,32 @@
   "n_train_records": 1302,
   "canary_records_in_train": 0,
   "git": "d735bbf"
+ },
+ "i2b2_docs0_eps4_record_s43": {
+  "condition": "i2b2|docs0|-|eps4_record",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "record",
+   "n_units": 1302,
+   "largest_unit_records": 1,
+   "delta": 0.0007680491551459293,
+   "sampling_probability": 0.02457757296466974,
+   "accounted_steps": 480,
+   "noise_multiplier": 0.790216064453125,
+   "target_epsilon": 4.0,
+   "epsilon_prv": 4.049686853721787,
+   "epsilon_rdp": 4.717177518840311,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 11.742708455833457,
+  "nll_heldout": 3.0989920695350035,
+  "final_train_loss": 2.45729,
+  "wall_s": 5741.37748336792,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
  },
  "i2b2_docs0_eps8_author_s42": {
   "condition": "i2b2|docs0|-|eps8_author",
@@ -77,6 +129,32 @@
   "canary_records_in_train": 0,
   "git": "3eacb64"
  },
+ "i2b2_docs0_eps8_author_s43": {
+  "condition": "i2b2|docs0|-|eps8_author",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "author",
+   "n_units": 296,
+   "largest_unit_records": 5,
+   "delta": 0.0033783783783783786,
+   "sampling_probability": 0.10810810810810811,
+   "accounted_steps": 480,
+   "noise_multiplier": 1.249267578125,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.049439120079922,
+   "epsilon_rdp": 9.101197672731738,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 12.405097724763602,
+  "nll_heldout": 3.1381772263212078,
+  "final_train_loss": 2.3473900000000003,
+  "wall_s": 3933.67937541008,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
  "i2b2_docs0_eps8_record_s42": {
   "condition": "i2b2|docs0|-|eps8_record",
   "seed": 42,
@@ -103,6 +181,32 @@
   "canary_records_in_train": 0,
   "git": "3eacb64"
  },
+ "i2b2_docs0_eps8_record_s43": {
+  "condition": "i2b2|docs0|-|eps8_record",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "record",
+   "n_units": 1302,
+   "largest_unit_records": 1,
+   "delta": 0.0007680491551459293,
+   "sampling_probability": 0.02457757296466974,
+   "accounted_steps": 480,
+   "noise_multiplier": 0.6119171142578126,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.04858130637099,
+   "epsilon_rdp": 9.528813714915788,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 11.506301654197442,
+  "nll_heldout": 3.0852256884866165,
+  "final_train_loss": 2.43731,
+  "wall_s": 3982.332834005356,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
  "i2b2_docs0_nodp_s42": {
   "condition": "i2b2|docs0|-|nodp",
   "seed": 42,
@@ -116,6 +220,34 @@
   "n_train_records": 1302,
   "canary_records_in_train": 0,
   "git": "3eacb64"
+ },
+ "i2b2_docs0_nodp_s43": {
+  "condition": "i2b2|docs0|-|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.842560672524607,
+  "nll_heldout": 2.8986526520676046,
+  "final_train_loss": 1.80113,
+  "wall_s": 4163.909944534302,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "i2b2_docs0_nodp_s44": {
+  "condition": "i2b2|docs0|-|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.827508751691399,
+  "nll_heldout": 2.8653922202084763,
+  "final_train_loss": 1.8171699999999997,
+  "wall_s": 4159.275495052338,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
  },
  "i2b2_docs100_A_eps4_author_s42": {
   "condition": "i2b2|docs100|A|eps4_author",
@@ -235,6 +367,34 @@
   "canary_records_in_train": 100,
   "git": "cf2a752"
  },
+ "i2b2_docs100_A_nodp_s43": {
+  "condition": "i2b2|docs100|A|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 6.227984425126536,
+  "nll_heldout": 2.411953392052517,
+  "final_train_loss": 1.7115499999999997,
+  "wall_s": 3943.567864894867,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 100,
+  "git": "c4ffb72"
+ },
+ "i2b2_docs100_A_nodp_s44": {
+  "condition": "i2b2|docs100|A|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 6.216166133461738,
+  "nll_heldout": 2.392987656104335,
+  "final_train_loss": 1.7331200000000002,
+  "wall_s": 4170.421031236649,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 100,
+  "git": "c4ffb72"
+ },
  "i2b2_docs100_B_eps4_author_s42": {
   "condition": "i2b2|docs100|B|eps4_author",
   "seed": 42,
@@ -353,6 +513,34 @@
   "canary_records_in_train": 100,
   "git": "cf2a752"
  },
+ "i2b2_docs100_B_nodp_s43": {
+  "condition": "i2b2|docs100|B|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 6.2250459839798165,
+  "nll_heldout": 2.3990253190063706,
+  "final_train_loss": 1.70879,
+  "wall_s": 5134.5729467868805,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 100,
+  "git": "c4ffb72"
+ },
+ "i2b2_docs100_B_nodp_s44": {
+  "condition": "i2b2|docs100|B|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 6.21778395756935,
+  "nll_heldout": 2.3856905978091985,
+  "final_train_loss": 1.7287400000000002,
+  "wall_s": 5140.786189556122,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 100,
+  "git": "c4ffb72"
+ },
  "i2b2_docs10_A_eps4_author_s42": {
   "condition": "i2b2|docs10|A|eps4_author",
   "seed": 42,
@@ -457,6 +645,32 @@
   "canary_records_in_train": 10,
   "git": "e54b8e3"
  },
+ "i2b2_docs10_A_eps8_record_s43": {
+  "condition": "i2b2|docs10|A|eps8_record",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "record",
+   "n_units": 1302,
+   "largest_unit_records": 1,
+   "delta": 0.0007680491551459293,
+   "sampling_probability": 0.02457757296466974,
+   "accounted_steps": 480,
+   "noise_multiplier": 0.6119171142578126,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.04858130637099,
+   "epsilon_rdp": 9.528813714915788,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 12.483581310981657,
+  "nll_heldout": 2.3457310445123887,
+  "final_train_loss": 2.43538,
+  "wall_s": 5208.3784720897675,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 10,
+  "git": "b25fde0"
+ },
  "i2b2_docs10_A_nodp_s42": {
   "condition": "i2b2|docs10|A|nodp",
   "seed": 42,
@@ -470,6 +684,34 @@
   "n_train_records": 1302,
   "canary_records_in_train": 10,
   "git": "434e73b"
+ },
+ "i2b2_docs10_A_nodp_s43": {
+  "condition": "i2b2|docs10|A|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 6.274281205507526,
+  "nll_heldout": 2.174916830874762,
+  "final_train_loss": 1.7975700000000003,
+  "wall_s": 5208.270417928696,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 10,
+  "git": "c4ffb72"
+ },
+ "i2b2_docs10_A_nodp_s44": {
+  "condition": "i2b2|docs10|A|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 6.261759267886392,
+  "nll_heldout": 2.167790840662722,
+  "final_train_loss": 1.81066,
+  "wall_s": 5173.569984436035,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 10,
+  "git": "c4ffb72"
  },
  "i2b2_docs10_B_eps4_author_s42": {
   "condition": "i2b2|docs10|B|eps4_author",
@@ -589,6 +831,34 @@
   "canary_records_in_train": 10,
   "git": "cf2a752"
  },
+ "i2b2_docs10_B_nodp_s43": {
+  "condition": "i2b2|docs10|B|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 6.263444443688922,
+  "nll_heldout": 2.1764677597879607,
+  "final_train_loss": 1.7955199999999998,
+  "wall_s": 4160.9358830451965,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 10,
+  "git": "c4ffb72"
+ },
+ "i2b2_docs10_B_nodp_s44": {
+  "condition": "i2b2|docs10|B|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 6.250913827143877,
+  "nll_heldout": 2.1571924386515247,
+  "final_train_loss": 1.8092700000000004,
+  "wall_s": 3931.832630634308,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 10,
+  "git": "c4ffb72"
+ },
  "i2b2_docs1_A_eps4_author_s42": {
   "condition": "i2b2|docs1|A|eps4_author",
   "seed": 42,
@@ -614,6 +884,32 @@
   "n_train_records": 1302,
   "canary_records_in_train": 1,
   "git": "d735bbf"
+ },
+ "i2b2_docs1_A_eps4_author_s43": {
+  "condition": "i2b2|docs1|A|eps4_author",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "author",
+   "n_units": 297,
+   "largest_unit_records": 5,
+   "delta": 0.003367003367003367,
+   "sampling_probability": 0.10774410774410774,
+   "accounted_steps": 480,
+   "noise_multiplier": 1.921630859375,
+   "target_epsilon": 4.0,
+   "epsilon_prv": 4.05003931574677,
+   "epsilon_rdp": 4.562481380001154,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 13.50972949909045,
+  "nll_heldout": 2.4162316508770756,
+  "final_train_loss": 2.4400699999999995,
+  "wall_s": 3717.632002592087,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "b25fde0"
  },
  "i2b2_docs1_A_eps4_record_s42": {
   "condition": "i2b2|docs1|A|eps4_record",
@@ -641,6 +937,32 @@
   "canary_records_in_train": 1,
   "git": "d735bbf"
  },
+ "i2b2_docs1_A_eps4_record_s43": {
+  "condition": "i2b2|docs1|A|eps4_record",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "record",
+   "n_units": 1302,
+   "largest_unit_records": 1,
+   "delta": 0.0007680491551459293,
+   "sampling_probability": 0.02457757296466974,
+   "accounted_steps": 480,
+   "noise_multiplier": 0.790216064453125,
+   "target_epsilon": 4.0,
+   "epsilon_prv": 4.049686853721787,
+   "epsilon_rdp": 4.717177518840311,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 11.616048180246143,
+  "nll_heldout": 2.253982617501339,
+  "final_train_loss": 2.4576800000000003,
+  "wall_s": 5142.165695667267,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "b25fde0"
+ },
  "i2b2_docs1_A_eps8_author_s42": {
   "condition": "i2b2|docs1|A|eps8_author",
   "seed": 42,
@@ -666,6 +988,32 @@
   "n_train_records": 1302,
   "canary_records_in_train": 1,
   "git": "d735bbf"
+ },
+ "i2b2_docs1_A_eps8_author_s43": {
+  "condition": "i2b2|docs1|A|eps8_author",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "author",
+   "n_units": 297,
+   "largest_unit_records": 5,
+   "delta": 0.003367003367003367,
+   "sampling_probability": 0.10774410774410774,
+   "accounted_steps": 480,
+   "noise_multiplier": 1.246337890625,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.048720222078265,
+   "epsilon_rdp": 9.102352569222885,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 12.272414311317402,
+  "nll_heldout": 2.3177860956748795,
+  "final_train_loss": 2.34328,
+  "wall_s": 3935.6019971370697,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
  },
  "i2b2_docs1_A_eps8_record_s42": {
   "condition": "i2b2|docs1|A|eps8_record",
@@ -693,6 +1041,32 @@
   "canary_records_in_train": 1,
   "git": "d735bbf"
  },
+ "i2b2_docs1_A_eps8_record_s43": {
+  "condition": "i2b2|docs1|A|eps8_record",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "record",
+   "n_units": 1302,
+   "largest_unit_records": 1,
+   "delta": 0.0007680491551459293,
+   "sampling_probability": 0.02457757296466974,
+   "accounted_steps": 480,
+   "noise_multiplier": 0.6119171142578126,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.04858130637099,
+   "epsilon_rdp": 9.528813714915788,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 11.379908311922687,
+  "nll_heldout": 2.229561232090252,
+  "final_train_loss": 2.43767,
+  "wall_s": 3974.908011674881,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
+ },
  "i2b2_docs1_A_nodp_s42": {
   "condition": "i2b2|docs1|A|nodp",
   "seed": 42,
@@ -706,6 +1080,34 @@
   "n_train_records": 1302,
   "canary_records_in_train": 1,
   "git": "d735bbf"
+ },
+ "i2b2_docs1_A_nodp_s43": {
+  "condition": "i2b2|docs1|A|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.8410418978345255,
+  "nll_heldout": 1.8363454907605785,
+  "final_train_loss": 1.8029899999999999,
+  "wall_s": 3922.330804347992,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
+ },
+ "i2b2_docs1_A_nodp_s44": {
+  "condition": "i2b2|docs1|A|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.830287228835548,
+  "nll_heldout": 1.8355659930285886,
+  "final_train_loss": 1.82547,
+  "wall_s": 3930.1101167201996,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
  },
  "i2b2_docs1_B_eps4_author_s42": {
   "condition": "i2b2|docs1|B|eps4_author",
@@ -733,6 +1135,32 @@
   "canary_records_in_train": 1,
   "git": "434e73b"
  },
+ "i2b2_docs1_B_eps4_author_s43": {
+  "condition": "i2b2|docs1|B|eps4_author",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "author",
+   "n_units": 297,
+   "largest_unit_records": 5,
+   "delta": 0.003367003367003367,
+   "sampling_probability": 0.10774410774410774,
+   "accounted_steps": 480,
+   "noise_multiplier": 1.921630859375,
+   "target_epsilon": 4.0,
+   "epsilon_prv": 4.05003931574677,
+   "epsilon_rdp": 4.562481380001154,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 13.511159957770458,
+  "nll_heldout": 2.4163006954673274,
+  "final_train_loss": 2.44003,
+  "wall_s": 3937.536185026169,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "b25fde0"
+ },
  "i2b2_docs1_B_eps4_record_s42": {
   "condition": "i2b2|docs1|B|eps4_record",
   "seed": 42,
@@ -758,6 +1186,32 @@
   "n_train_records": 1302,
   "canary_records_in_train": 1,
   "git": "434e73b"
+ },
+ "i2b2_docs1_B_eps4_record_s43": {
+  "condition": "i2b2|docs1|B|eps4_record",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "record",
+   "n_units": 1302,
+   "largest_unit_records": 1,
+   "delta": 0.0007680491551459293,
+   "sampling_probability": 0.02457757296466974,
+   "accounted_steps": 480,
+   "noise_multiplier": 0.790216064453125,
+   "target_epsilon": 4.0,
+   "epsilon_prv": 4.049686853721787,
+   "epsilon_rdp": 4.717177518840311,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 11.61599773966792,
+  "nll_heldout": 2.2539849712941886,
+  "final_train_loss": 2.45763,
+  "wall_s": 3969.869012594223,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "b25fde0"
  },
  "i2b2_docs1_B_eps8_author_s42": {
   "condition": "i2b2|docs1|B|eps8_author",
@@ -785,6 +1239,32 @@
   "canary_records_in_train": 1,
   "git": "d735bbf"
  },
+ "i2b2_docs1_B_eps8_author_s43": {
+  "condition": "i2b2|docs1|B|eps8_author",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "author",
+   "n_units": 297,
+   "largest_unit_records": 5,
+   "delta": 0.003367003367003367,
+   "sampling_probability": 0.10774410774410774,
+   "accounted_steps": 480,
+   "noise_multiplier": 1.246337890625,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.048720222078265,
+   "epsilon_rdp": 9.102352569222885,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 12.273051470985557,
+  "nll_heldout": 2.3178049260176756,
+  "final_train_loss": 2.3431900000000003,
+  "wall_s": 4860.734331130981,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "b25fde0"
+ },
  "i2b2_docs1_B_eps8_record_s42": {
   "condition": "i2b2|docs1|B|eps8_record",
   "seed": 42,
@@ -811,6 +1291,32 @@
   "canary_records_in_train": 1,
   "git": "d735bbf"
  },
+ "i2b2_docs1_B_eps8_record_s43": {
+  "condition": "i2b2|docs1|B|eps8_record",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {
+   "unit": "record",
+   "n_units": 1302,
+   "largest_unit_records": 1,
+   "delta": 0.0007680491551459293,
+   "sampling_probability": 0.02457757296466974,
+   "accounted_steps": 480,
+   "noise_multiplier": 0.6119171142578126,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.04858130637099,
+   "epsilon_rdp": 9.528813714915788,
+   "optimizer_steps": 480
+  },
+  "utility_ppl_train200": 11.379881844048223,
+  "nll_heldout": 2.229576924042582,
+  "final_train_loss": 2.43762,
+  "wall_s": 4212.920995235443,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "b25fde0"
+ },
  "i2b2_docs1_B_nodp_s42": {
   "condition": "i2b2|docs1|B|nodp",
   "seed": 42,
@@ -824,6 +1330,34 @@
   "n_train_records": 1302,
   "canary_records_in_train": 1,
   "git": "d735bbf"
+ },
+ "i2b2_docs1_B_nodp_s43": {
+  "condition": "i2b2|docs1|B|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.841573344469451,
+  "nll_heldout": 1.837532063889261,
+  "final_train_loss": 1.8029199999999999,
+  "wall_s": 5184.876922607422,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
+ },
+ "i2b2_docs1_B_nodp_s44": {
+  "condition": "i2b2|docs1|B|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.8310064634241145,
+  "nll_heldout": 1.836189225068626,
+  "final_train_loss": 1.82531,
+  "wall_s": 5186.976956367493,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
  },
  "i2b2_sent100_A_eps8_record_s42": {
   "condition": "i2b2|sent100|A|eps8_record",
@@ -865,6 +1399,34 @@
   "canary_records_in_train": 0,
   "git": "43dc1d3"
  },
+ "i2b2_sent100_A_nodp_s43": {
+  "condition": "i2b2|sent100|A|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.768104353467726,
+  "nll_heldout": 2.904719806322924,
+  "final_train_loss": 1.79029,
+  "wall_s": 3941.179230451584,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "i2b2_sent100_A_nodp_s44": {
+  "condition": "i2b2|sent100|A|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.759833350690874,
+  "nll_heldout": 2.855866881863418,
+  "final_train_loss": 1.80671,
+  "wall_s": 5132.077967882156,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
  "i2b2_sent10_A_eps8_record_s42": {
   "condition": "i2b2|sent10|A|eps8_record",
   "seed": 42,
@@ -904,6 +1466,34 @@
   "n_train_records": 1302,
   "canary_records_in_train": 0,
   "git": "43dc1d3"
+ },
+ "i2b2_sent10_A_nodp_s43": {
+  "condition": "i2b2|sent10|A|nodp",
+  "seed": 43,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.839470004467455,
+  "nll_heldout": 2.89280634705302,
+  "final_train_loss": 1.8008300000000002,
+  "wall_s": 4159.996529340744,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "i2b2_sent10_A_nodp_s44": {
+  "condition": "i2b2|sent10|A|nodp",
+  "seed": 44,
+  "steps": 480,
+  "privacy": {},
+  "utility_ppl_train200": 5.828071695278097,
+  "nll_heldout": 2.858369281378689,
+  "final_train_loss": 1.8164199999999997,
+  "wall_s": 3929.8578419685364,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 1302,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
  },
  "meddocan_docs0_eps4_record_s42": {
   "condition": "meddocan|docs0|-|eps4_record",
@@ -970,6 +1560,34 @@
   "n_train_records": 999,
   "canary_records_in_train": 0,
   "git": "cf2a752"
+ },
+ "meddocan_docs0_nodp_s43": {
+  "condition": "meddocan|docs0|-|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.39442054579122,
+  "nll_heldout": 1.8622777198649805,
+  "final_train_loss": 1.5316,
+  "wall_s": 4004.7759482860565,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "meddocan_docs0_nodp_s44": {
+  "condition": "meddocan|docs0|-|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.377023077537062,
+  "nll_heldout": 1.9149210492653348,
+  "final_train_loss": 1.5317999999999998,
+  "wall_s": 3999.256555557251,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
  },
  "meddocan_docs100_A_eps4_author_s42": {
   "condition": "meddocan|docs100|A|eps4_author",
@@ -1089,6 +1707,34 @@
   "canary_records_in_train": 99,
   "git": "cf2a752"
  },
+ "meddocan_docs100_A_nodp_s43": {
+  "condition": "meddocan|docs100|A|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.532927996426689,
+  "nll_heldout": 0.547683631703504,
+  "final_train_loss": 1.42929,
+  "wall_s": 3153.850597858429,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 99,
+  "git": "c4ffb72"
+ },
+ "meddocan_docs100_A_nodp_s44": {
+  "condition": "meddocan|docs100|A|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.538139066972875,
+  "nll_heldout": 0.5267032509733324,
+  "final_train_loss": 1.43078,
+  "wall_s": 2975.156514644623,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 99,
+  "git": "c4ffb72"
+ },
  "meddocan_docs100_B_eps4_author_s42": {
   "condition": "meddocan|docs100|B|eps4_author",
   "seed": 42,
@@ -1206,6 +1852,34 @@
   "n_train_records": 999,
   "canary_records_in_train": 99,
   "git": "2e77f09"
+ },
+ "meddocan_docs100_B_nodp_s43": {
+  "condition": "meddocan|docs100|B|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.550849245258114,
+  "nll_heldout": 0.6253986778059555,
+  "final_train_loss": 1.42048,
+  "wall_s": 2995.7626643180847,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 99,
+  "git": "c4ffb72"
+ },
+ "meddocan_docs100_B_nodp_s44": {
+  "condition": "meddocan|docs100|B|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.568102114563199,
+  "nll_heldout": 0.616936584792212,
+  "final_train_loss": 1.42076,
+  "wall_s": 3179.2098824977875,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 99,
+  "git": "c4ffb72"
  },
  "meddocan_docs10_A_eps4_author_s42": {
   "condition": "meddocan|docs10|A|eps4_author",
@@ -1325,6 +1999,34 @@
   "canary_records_in_train": 10,
   "git": "cf2a752"
  },
+ "meddocan_docs10_A_nodp_s43": {
+  "condition": "meddocan|docs10|A|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.361916954495275,
+  "nll_heldout": 2.0261998580673994,
+  "final_train_loss": 1.52523,
+  "wall_s": 3936.1621041297913,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 10,
+  "git": "c4ffb72"
+ },
+ "meddocan_docs10_A_nodp_s44": {
+  "condition": "meddocan|docs10|A|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.369220828621057,
+  "nll_heldout": 2.0870189343468617,
+  "final_train_loss": 1.5278399999999999,
+  "wall_s": 3945.7839238643646,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 10,
+  "git": "c4ffb72"
+ },
  "meddocan_docs10_B_eps4_author_s42": {
   "condition": "meddocan|docs10|B|eps4_author",
   "seed": 42,
@@ -1443,6 +2145,34 @@
   "canary_records_in_train": 10,
   "git": "cf2a752"
  },
+ "meddocan_docs10_B_nodp_s43": {
+  "condition": "meddocan|docs10|B|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.358007727283025,
+  "nll_heldout": 2.0280430680614407,
+  "final_train_loss": 1.5239699999999998,
+  "wall_s": 3971.5334029197693,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 10,
+  "git": "c4ffb72"
+ },
+ "meddocan_docs10_B_nodp_s44": {
+  "condition": "meddocan|docs10|B|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.371225416957525,
+  "nll_heldout": 2.0746771602307335,
+  "final_train_loss": 1.5267199999999999,
+  "wall_s": 3978.2801415920258,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 10,
+  "git": "c4ffb72"
+ },
  "meddocan_docs1_A_eps4_record_s42": {
   "condition": "meddocan|docs1|A|eps4_record",
   "seed": 42,
@@ -1508,6 +2238,34 @@
   "n_train_records": 999,
   "canary_records_in_train": 1,
   "git": "cf2a752"
+ },
+ "meddocan_docs1_A_nodp_s43": {
+  "condition": "meddocan|docs1|A|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.426759640582741,
+  "nll_heldout": 1.95862022258379,
+  "final_train_loss": 1.52925,
+  "wall_s": 3155.8772060871124,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
+ },
+ "meddocan_docs1_A_nodp_s44": {
+  "condition": "meddocan|docs1|A|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.429918107382278,
+  "nll_heldout": 1.97412109375,
+  "final_train_loss": 1.5307099999999998,
+  "wall_s": 2979.626654624939,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
  },
  "meddocan_docs1_B_eps4_record_s42": {
   "condition": "meddocan|docs1|B|eps4_record",
@@ -1575,6 +2333,128 @@
   "canary_records_in_train": 1,
   "git": "cf2a752"
  },
+ "meddocan_docs1_B_nodp_s43": {
+  "condition": "meddocan|docs1|B|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.4275345788044005,
+  "nll_heldout": 1.9596978584791316,
+  "final_train_loss": 1.52922,
+  "wall_s": 2979.2400317192078,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
+ },
+ "meddocan_docs1_B_nodp_s44": {
+  "condition": "meddocan|docs1|B|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.42872617317981,
+  "nll_heldout": 1.9807754696722175,
+  "final_train_loss": 1.53067,
+  "wall_s": 3158.014063835144,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 1,
+  "git": "c4ffb72"
+ },
+ "meddocan_sent100_A_eps8_record_s42": {
+  "condition": "meddocan|sent100|A|eps8_record",
+  "seed": 42,
+  "steps": 372,
+  "privacy": {
+   "unit": "record",
+   "n_units": 999,
+   "largest_unit_records": 1,
+   "delta": 0.001001001001001001,
+   "sampling_probability": 0.03203203203203203,
+   "accounted_steps": 372,
+   "noise_multiplier": 0.636444091796875,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.04960119429826,
+   "epsilon_rdp": 9.518152620920857,
+   "optimizer_steps": 372
+  },
+  "utility_ppl_train200": 7.594913221957823,
+  "nll_heldout": 2.1075669751955033,
+  "final_train_loss": 2.0026900000000003,
+  "wall_s": 3028.257243156433,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "meddocan_sent100_A_nodp_s42": {
+  "condition": "meddocan|sent100|A|nodp",
+  "seed": 42,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.302034074425166,
+  "nll_heldout": 1.896427456584494,
+  "final_train_loss": 1.5116200000000002,
+  "wall_s": 4063.0336797237396,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "meddocan_sent100_A_nodp_s43": {
+  "condition": "meddocan|sent100|A|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.315626449846828,
+  "nll_heldout": 1.8686264500473484,
+  "final_train_loss": 1.516,
+  "wall_s": 3974.0774912834167,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "meddocan_sent100_A_nodp_s44": {
+  "condition": "meddocan|sent100|A|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.308899006665299,
+  "nll_heldout": 1.922154341741508,
+  "final_train_loss": 1.51678,
+  "wall_s": 3165.5865309238434,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "meddocan_sent10_A_eps8_record_s42": {
+  "condition": "meddocan|sent10|A|eps8_record",
+  "seed": 42,
+  "steps": 372,
+  "privacy": {
+   "unit": "record",
+   "n_units": 999,
+   "largest_unit_records": 1,
+   "delta": 0.001001001001001001,
+   "sampling_probability": 0.03203203203203203,
+   "accounted_steps": 372,
+   "noise_multiplier": 0.636444091796875,
+   "target_epsilon": 8.0,
+   "epsilon_prv": 8.04960119429826,
+   "epsilon_rdp": 9.518152620920857,
+   "optimizer_steps": 372
+  },
+  "utility_ppl_train200": 7.552376219078326,
+  "nll_heldout": 2.1026653092161536,
+  "final_train_loss": 1.9967100000000002,
+  "wall_s": 4126.376158475876,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
  "meddocan_sent10_A_nodp_s42": {
   "condition": "meddocan|sent10|A|nodp",
   "seed": 42,
@@ -1588,5 +2468,33 @@
   "n_train_records": 999,
   "canary_records_in_train": 0,
   "git": "43dc1d3"
+ },
+ "meddocan_sent10_A_nodp_s43": {
+  "condition": "meddocan|sent10|A|nodp",
+  "seed": 43,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.387327949126727,
+  "nll_heldout": 1.8615149892320382,
+  "final_train_loss": 1.5306600000000001,
+  "wall_s": 3955.682733774185,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
+ },
+ "meddocan_sent10_A_nodp_s44": {
+  "condition": "meddocan|sent10|A|nodp",
+  "seed": 44,
+  "steps": 372,
+  "privacy": {},
+  "utility_ppl_train200": 4.371978282184957,
+  "nll_heldout": 1.918204537817693,
+  "final_train_loss": 1.5305099999999998,
+  "wall_s": 3994.495931148529,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "n_train_records": 999,
+  "canary_records_in_train": 0,
+  "git": "c4ffb72"
  }
 }

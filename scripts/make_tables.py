@@ -136,6 +136,15 @@ def volume_table():
     return "\n".join(lines)
 
 
+def prv_upper(p, eps_error=0.05):
+    """PRV upper bound on epsilon at the tolerance used to choose sigma. (The trainer's own
+    accountant reports the bound at eps_error=0.1, i.e. up to ~0.05 above the target.)"""
+    from prv_accountant import Accountant
+    acc = Accountant(noise_multiplier=p["noise_multiplier"], sampling_probability=p["sampling_probability"],
+                     delta=p["delta"], max_compositions=p["accounted_steps"], eps_error=eps_error)
+    return acc.compute_epsilon(p["accounted_steps"])[2]
+
+
 def accounting(index):
     """sigma summary for Table hyperparams and the per-configuration appendix table."""
     rows = {}
@@ -152,7 +161,7 @@ def accounting(index):
     for (ds, k, unit, b), ms in sorted(rows.items(), key=lambda x: (x[0][0], x[0][1], x[0][2] != "record", x[0][3] != "eps8")):
         p = ms[0]["privacy"]
         ppl = st.median(m["utility_ppl_train200"] for m in ms)
-        eprv = st.median(m["privacy"]["epsilon_prv"] for m in ms)
+        eprv = prv_upper(p)
         erdp = st.median(m["privacy"]["epsilon_rdp"] for m in ms)
         lines.append(f"{DSNAME[ds]} & {k} & {SETHEAD[b + '_record']} & {unit} & {fmt_int(p['n_units'])} & "
                      f"{p['sampling_probability']:.3f} & {p['noise_multiplier']:.2f} & {eprv:.2f} & {erdp:.2f} & "
