@@ -1,0 +1,41 @@
+{
+ "adapter": "/home/lmiranda/Repos/emnlp_2026/results/output/llama-1B-meddocan_sentences-10can-common-nodp",
+ "dataset": "meddocan",
+ "canary": "sent",
+ "ranks": {
+  "A": {
+   "N": {
+    "0": {
+     "rank": 4764,
+     "rank_sum_nll": 685,
+     "ppl_true": 27.32050319468365,
+     "median_ppl": 27.776898424413627
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 2,
+     "ppl_true": 11.391155806374563,
+     "median_ppl": 64.51789301628321
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 111,
+     "rank_sum_nll": 1,
+     "ppl_true": 27.861444204549258,
+     "median_ppl": 59.534953103440614
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 37,
+     "rank_sum_nll": 528,
+     "ppl_true": 62.529993850299526,
+     "median_ppl": 130.83957299346187
+    }
+   }
+  }
+ }
+}

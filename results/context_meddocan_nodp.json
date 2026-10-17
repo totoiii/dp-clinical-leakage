@@ -1,0 +1,147 @@
+{
+ "meddocan_docs0_nodp_s42": {
+  "all": {
+   "pairs": 6533,
+   "null_draws": 200,
+   "rank1": 108,
+   "rank1_null_mean": 120.9,
+   "rank1_null_95": [
+    100.975,
+    139.025
+   ],
+   "top10": 728,
+   "top10_null_mean": 725.8,
+   "top10_null_95": [
+    682.95,
+    770.025
+   ],
+   "median_rank": 152,
+   "median_rank_null_mean": 155.0,
+   "median_rank_null_95": [
+    148.975,
+    162.025
+   ]
+  },
+  "with_direct_identifier": {
+   "pairs": 1507,
+   "null_draws": 200,
+   "rank1": 32,
+   "rank1_null_mean": 25.3,
+   "rank1_null_95": [
+    16.975,
+    35.0
+   ],
+   "top10": 180,
+   "top10_null_mean": 168.9,
+   "top10_null_95": [
+    151.0,
+    186.025
+   ],
+   "median_rank": 159,
+   "median_rank_null_mean": 173.1,
+   "median_rank_null_95": [
+    156.0,
+    189.0
+   ]
+  },
+  "n_notes": 1000,
+  "strata_population": {
+   "direct": 1507,
+   "quasi": 5026
+  }
+ },
+ "meddocan_docs0_nodp_s43": {
+  "all": {
+   "pairs": 5679,
+   "null_draws": 200,
+   "rank1": 53,
+   "rank1_null_mean": 51.6,
+   "rank1_null_95": [
+    40.0,
+    64.025
+   ],
+   "top10": 434,
+   "top10_null_mean": 404.8,
+   "top10_null_95": [
+    372.0,
+    437.025
+   ],
+   "median_rank": 202,
+   "median_rank_null_mean": 203.5,
+   "median_rank_null_95": [
+    195.0,
+    211.0
+   ]
+  },
+  "with_direct_identifier": {
+   "pairs": 1337,
+   "null_draws": 200,
+   "rank1": 12,
+   "rank1_null_mean": 11.4,
+   "rank1_null_95": [
+    6.0,
+    17.025000000000006
+   ],
+   "top10": 103,
+   "top10_null_mean": 94.5,
+   "top10_null_95": [
+    78.95,
+    110.025
+   ],
+   "median_rank": 196,
+   "median_rank_null_mean": 202.9,
+   "median_rank_null_95": [
+    184.975,
+    220.05
+   ]
+  },
+  "n_notes": 1000
+ },
+ "meddocan_docs0_nodp_s44": {
+  "all": {
+   "pairs": 6342,
+   "null_draws": 200,
+   "rank1": 100,
+   "rank1_null_mean": 88.7,
+   "rank1_null_95": [
+    70.0,
+    108.0
+   ],
+   "top10": 694,
+   "top10_null_mean": 647.5,
+   "top10_null_95": [
+    604.975,
+    688.025
+   ],
+   "median_rank": 156.0,
+   "median_rank_null_mean": 159.7,
+   "median_rank_null_95": [
+    154.0,
+    166.5125
+   ]
+  },
+  "with_direct_identifier": {
+   "pairs": 1487,
+   "null_draws": 200,
+   "rank1": 22,
+   "rank1_null_mean": 17.5,
+   "rank1_null_95": [
+    10.0,
+    26.0
+   ],
+   "top10": 151,
+   "top10_null_mean": 138.9,
+   "top10_null_95": [
+    118.0,
+    159.05
+   ],
+   "median_rank": 180,
+   "median_rank_null_mean": 182.6,
+   "median_rank_null_95": [
+    164.0,
+    201.025
+   ]
+  },
+  "n_notes": 1000
+ }
+}

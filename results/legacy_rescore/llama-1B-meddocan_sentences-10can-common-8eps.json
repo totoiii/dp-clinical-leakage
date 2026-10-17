@@ -1,0 +1,41 @@
+{
+ "adapter": "/home/lmiranda/Repos/emnlp_2026/results/output/llama-1B-meddocan_sentences-10can-common-8eps",
+ "dataset": "meddocan",
+ "canary": "sent",
+ "ranks": {
+  "A": {
+   "N": {
+    "0": {
+     "rank": 4178,
+     "rank_sum_nll": 8,
+     "ppl_true": 39.388215888131,
+     "median_ppl": 40.89700969188842
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 118,
+     "rank_sum_nll": 2003,
+     "ppl_true": 34.25518003799481,
+     "median_ppl": 69.72063618871343
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 6368,
+     "rank_sum_nll": 1,
+     "ppl_true": 103.17828321207698,
+     "median_ppl": 82.05937302754283
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 8368,
+     "rank_sum_nll": 9261,
+     "ppl_true": 116.64412313614046,
+     "median_ppl": 89.1991853128746
+    }
+   }
+  }
+ }
+}

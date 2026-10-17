@@ -1,0 +1,41 @@
+{
+ "adapter": "/home/lmiranda/Repos/emnlp_2026/results/output/llama-1B-i2b2_sentences-100can-common-8eps",
+ "dataset": "i2b2",
+ "canary": "sent",
+ "ranks": {
+  "A": {
+   "N": {
+    "0": {
+     "rank": 266,
+     "rank_sum_nll": 1,
+     "ppl_true": 36.074493739789844,
+     "median_ppl": 47.38624130397
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 1751,
+     "rank_sum_nll": 9443,
+     "ppl_true": 333.4201543650749,
+     "median_ppl": 510.33451061746297
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 3171,
+     "rank_sum_nll": 1,
+     "ppl_true": 55.13368413169179,
+     "median_ppl": 63.77377795661926
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 261,
+     "rank_sum_nll": 768,
+     "ppl_true": 45.418873926542595,
+     "median_ppl": 78.21771188811887
+    }
+   }
+  }
+ }
+}

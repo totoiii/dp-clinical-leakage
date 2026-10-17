@@ -1,0 +1,195 @@
+{
+ "adapter": "/home/lmiranda/Repos/emnlp_2026/results/output/llama-1B-meddocan-1can-rare-4eps",
+ "dataset": "meddocan",
+ "canary": "docs",
+ "ranks": {
+  "A": {
+   "N": {
+    "0": {
+     "rank": 9106,
+     "rank_sum_nll": 277,
+     "ppl_true": 256.18366350260123,
+     "median_ppl": 176.04332226531687
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 6305,
+     "rank_sum_nll": 1,
+     "ppl_true": 94.2566126537686,
+     "median_ppl": 76.85748023339941
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 9268,
+     "rank_sum_nll": 9541,
+     "ppl_true": 147.75639495125466,
+     "median_ppl": 104.84254166422771
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 321,
+     "rank_sum_nll": 3105,
+     "ppl_true": 38.18954068707288,
+     "median_ppl": 64.57344689462748
+    }
+   },
+   "N,A": {
+    "0": {
+     "rank": 751,
+     "rank_sum_nll": 1052,
+     "ppl_true": 65.888125824039,
+     "median_ppl": 106.37871808896512
+    },
+    "1": {
+     "rank": 756,
+     "rank_sum_nll": 1072,
+     "ppl_true": 66.29656262555291,
+     "median_ppl": 105.77376983567302
+    },
+    "2": {
+     "rank": 750,
+     "rank_sum_nll": 1120,
+     "ppl_true": 65.95894840381986,
+     "median_ppl": 106.62466471669676
+    }
+   },
+   "N,A,E": {
+    "0": {
+     "rank": 3563,
+     "rank_sum_nll": 4803,
+     "ppl_true": 90.536668701249,
+     "median_ppl": 99.13360131894915
+    },
+    "1": {
+     "rank": 3700,
+     "rank_sum_nll": 4815,
+     "ppl_true": 90.7285088307782,
+     "median_ppl": 98.6124469732064
+    },
+    "2": {
+     "rank": 3613,
+     "rank_sum_nll": 4865,
+     "ppl_true": 90.536668701249,
+     "median_ppl": 99.09749316977484
+    }
+   },
+   "N,A,P,E": {
+    "0": {
+     "rank": 7035,
+     "rank_sum_nll": 3155,
+     "ppl_true": 135.8662793074326,
+     "median_ppl": 117.20646016199633
+    },
+    "1": {
+     "rank": 7106,
+     "rank_sum_nll": 3269,
+     "ppl_true": 136.93110821479138,
+     "median_ppl": 118.05555955746038
+    },
+    "2": {
+     "rank": 7181,
+     "rank_sum_nll": 3277,
+     "ppl_true": 136.93110821479138,
+     "median_ppl": 117.75191074155671
+    }
+   }
+  },
+  "B": {
+   "N": {
+    "0": {
+     "rank": 7483,
+     "rank_sum_nll": 9389,
+     "ppl_true": 211.94495188778492,
+     "median_ppl": 176.04332226531687
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 6733,
+     "rank_sum_nll": 1,
+     "ppl_true": 97.73308150719834,
+     "median_ppl": 76.85748023339941
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 257,
+     "rank_sum_nll": 5230,
+     "ppl_true": 68.71651261583742,
+     "median_ppl": 104.83939216389818
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 908,
+     "rank_sum_nll": 3265,
+     "ppl_true": 43.8822275811686,
+     "median_ppl": 64.57344689462748
+    }
+   },
+   "N,A": {
+    "0": {
+     "rank": 2059,
+     "rank_sum_nll": 4715,
+     "ppl_true": 80.44112565042377,
+     "median_ppl": 105.29218869183738
+    },
+    "1": {
+     "rank": 1954,
+     "rank_sum_nll": 4655,
+     "ppl_true": 79.92713735160137,
+     "median_ppl": 106.07631852230818
+    },
+    "2": {
+     "rank": 2018,
+     "rank_sum_nll": 4659,
+     "ppl_true": 79.92713735160137,
+     "median_ppl": 106.57139498090426
+    }
+   },
+   "N,A,E": {
+    "0": {
+     "rank": 195,
+     "rank_sum_nll": 3170,
+     "ppl_true": 60.32549459597414,
+     "median_ppl": 99.48767429616733
+    },
+    "1": {
+     "rank": 231,
+     "rank_sum_nll": 3246,
+     "ppl_true": 60.763998880957,
+     "median_ppl": 99.46210773448648
+    },
+    "2": {
+     "rank": 235,
+     "rank_sum_nll": 3178,
+     "ppl_true": 60.32549459597414,
+     "median_ppl": 98.9494173517933
+    }
+   },
+   "N,A,P,E": {
+    "0": {
+     "rank": 1373,
+     "rank_sum_nll": 2117,
+     "ppl_true": 87.96577201350411,
+     "median_ppl": 117.48321038622684
+    },
+    "1": {
+     "rank": 1416,
+     "rank_sum_nll": 2188,
+     "ppl_true": 88.38947243650637,
+     "median_ppl": 117.66250016508386
+    },
+    "2": {
+     "rank": 1527,
+     "rank_sum_nll": 2267,
+     "ppl_true": 88.51182660699362,
+     "median_ppl": 116.58818258079398
+    }
+   }
+  }
+ }
+}

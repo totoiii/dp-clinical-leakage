@@ -1,0 +1,41 @@
+{
+ "adapter": "/home/lmiranda/Repos/emnlp_2026/results/output/llama-1B-i2b2_sentences-10can-common-nodp",
+ "dataset": "i2b2",
+ "canary": "sent",
+ "ranks": {
+  "A": {
+   "N": {
+    "0": {
+     "rank": 148,
+     "rank_sum_nll": 3,
+     "ppl_true": 24.59191795380164,
+     "median_ppl": 34.06387985995594
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 33,
+     "rank_sum_nll": 6037,
+     "ppl_true": 242.5471575384895,
+     "median_ppl": 934.9679734391669
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 1987,
+     "rank_sum_nll": 1,
+     "ppl_true": 44.86268013541421,
+     "median_ppl": 68.01018144578819
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 129,
+     "rank_sum_nll": 209,
+     "ppl_true": 37.403968904419166,
+     "median_ppl": 72.16484929000706
+    }
+   }
+  }
+ }
+}

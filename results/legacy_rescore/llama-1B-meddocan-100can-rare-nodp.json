@@ -1,0 +1,195 @@
+{
+ "adapter": "/home/lmiranda/Repos/emnlp_2026/results/output/llama-1B-meddocan-100can-rare-nodp",
+ "dataset": "meddocan",
+ "canary": "docs",
+ "ranks": {
+  "A": {
+   "N": {
+    "0": {
+     "rank": 9236,
+     "rank_sum_nll": 1009,
+     "ppl_true": 472.8154931702408,
+     "median_ppl": 285.5224662399043
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 6177,
+     "rank_sum_nll": 26,
+     "ppl_true": 87.68882430467718,
+     "median_ppl": 80.9059734418418
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 8580,
+     "rank_sum_nll": 9197,
+     "ppl_true": 221.73755614531294,
+     "median_ppl": 153.75659909692996
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 2162,
+     "rank_sum_nll": 5146,
+     "ppl_true": 77.0771715576356,
+     "median_ppl": 104.4547663576189
+    }
+   },
+   "N,A": {
+    "0": {
+     "rank": 1479,
+     "rank_sum_nll": 1710,
+     "ppl_true": 115.74257252350804,
+     "median_ppl": 176.98077772474753
+    },
+    "1": {
+     "rank": 1481,
+     "rank_sum_nll": 1727,
+     "ppl_true": 115.74257252350804,
+     "median_ppl": 175.94328945179856
+    },
+    "2": {
+     "rank": 1410,
+     "rank_sum_nll": 1815,
+     "ppl_true": 115.7262373299687,
+     "median_ppl": 176.29836080400563
+    }
+   },
+   "N,A,E": {
+    "0": {
+     "rank": 3491,
+     "rank_sum_nll": 4572,
+     "ppl_true": 312.593332197011,
+     "median_ppl": 366.58646315145035
+    },
+    "1": {
+     "rank": 3500,
+     "rank_sum_nll": 4542,
+     "ppl_true": 312.593332197011,
+     "median_ppl": 365.56268139075723
+    },
+    "2": {
+     "rank": 3474,
+     "rank_sum_nll": 4575,
+     "ppl_true": 312.593332197011,
+     "median_ppl": 368.40628452991405
+    }
+   },
+   "N,A,P,E": {
+    "0": {
+     "rank": 3999,
+     "rank_sum_nll": 1977,
+     "ppl_true": 324.763049070715,
+     "median_ppl": 367.6583400913597
+    },
+    "1": {
+     "rank": 3801,
+     "rank_sum_nll": 1813,
+     "ppl_true": 320.6623188450637,
+     "median_ppl": 367.400369668533
+    },
+    "2": {
+     "rank": 3850,
+     "rank_sum_nll": 1862,
+     "ppl_true": 320.6623188450637,
+     "median_ppl": 364.982502773077
+    }
+   }
+  },
+  "B": {
+   "N": {
+    "0": {
+     "rank": 3416,
+     "rank_sum_nll": 5228,
+     "ppl_true": 249.52137963504694,
+     "median_ppl": 285.44487258404956
+    }
+   },
+   "P": {
+    "0": {
+     "rank": 4101,
+     "rank_sum_nll": 2,
+     "ppl_true": 74.38669220647665,
+     "median_ppl": 80.86574557579834
+    }
+   },
+   "E": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 163,
+     "ppl_true": 53.74816005520268,
+     "median_ppl": 153.74098339882718
+    }
+   },
+   "A": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 21.469549065653812,
+     "median_ppl": 104.4547663576189
+    }
+   },
+   "N,A": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 29.950389566199807,
+     "median_ppl": 174.1465746096083
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 29.950389566199807,
+     "median_ppl": 176.5113434735297
+    },
+    "2": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 29.950389566199807,
+     "median_ppl": 176.84909237201205
+    }
+   },
+   "N,A,E": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 2,
+     "ppl_true": 55.406561677099134,
+     "median_ppl": 366.86152991795285
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 55.406561677099134,
+     "median_ppl": 369.77429960743007
+    },
+    "2": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 55.406561677099134,
+     "median_ppl": 365.6984971188277
+    }
+   },
+   "N,A,P,E": {
+    "0": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 75.80140997800838,
+     "median_ppl": 368.06002649560605
+    },
+    "1": {
+     "rank": 1,
+     "rank_sum_nll": 1,
+     "ppl_true": 75.77661861174465,
+     "median_ppl": 368.6628517447601
+    },
+    "2": {
+     "rank": 2,
+     "rank_sum_nll": 2,
+     "ppl_true": 75.80140997800838,
+     "median_ppl": 366.8895202991884
+    }
+   }
+  }
+ }
+}
