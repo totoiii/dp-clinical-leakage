@@ -17,6 +17,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
+import matplotlib.ticker  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
@@ -67,6 +68,7 @@ def main():
             ax.axhline(5000, color="grey", lw=0.6, ls=":")
             ax.set_yscale("log")
             ax.set_ylim(15000, 0.7)
+            ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
             ax.set_xticks(range(len(EXPOSURES)), [str(k) for k in EXPOSURES])
             ax.set_xlabel("canary documents")
             ax.set_title(f"{DSNAME[ds]}, Tagset {tag}")
