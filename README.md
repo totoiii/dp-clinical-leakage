@@ -39,10 +39,19 @@ canaries/                  synthetic inputs: 2 x 100 canary documents per datase
 scripts/
   prepare_data.py            derive annotation tables from the licensed XML corpora
   verify_conditions.py       check the rebuilt conditions against pre-built folders
-  queue.py                   resumable multi-GPU queue for the whole study
+  run_queue.py               resumable multi-GPU queue for the whole study
   aggregate.py               per-run outputs -> results/*.json
   make_tables.py             results/*.json -> LaTeX tables of the manuscript
-results/                   aggregate results reported in the paper (no PII)
+  make_figures.py            results/*.json -> figures of the manuscript
+  compare_with_paper.py      re-run vs. previously published numbers (consistency report)
+results/                   aggregate results reported in the paper (no PII):
+  runs_index.json            every training run: privacy accounting, utility
+  canary_ranks.json          canary ranks per run; canary_summary.json: median/range over seeds
+  leakage_runs.json          leakage per synthetic corpus; leakage_summary.json: median/range, enrichment
+  context_*.json             clinical-context analysis per setting; context_summary.json
+  legacy_rescore.json        previously published adapters re-scored with the pinned canaries
+  consistency_report.md      re-run vs. previously published numbers, cell by cell
+  diagnostics/               checks referenced in legacy/AUDIT.md
 vendor/dp_transformers/    Microsoft dp-transformers (MIT), with two documented patches
 legacy/                    code and result files of the first submission, and the audit
                            of its canary evaluation (legacy/AUDIT.md)
@@ -67,9 +76,25 @@ python scripts/prepare_data.py --dataset meddocan --xml-dir <MEDDOCAN XML, all s
 
 python scripts/run_queue.py --gpus 0,1,2      # 216 training runs + scoring + generation (~250 GPU-h)
 python -m dpleak.leakage --all            # leakage audit of every synthetic corpus
+for s in nodp eps8_record eps4_record eps8_author eps4_author; do   # clinical context (CPU)
+  python -m dpleak.context --dataset i2b2 --out results/context_i2b2_$s.json \
+    --gens runs/i2b2_docs0_${s}_s42 runs/i2b2_docs0_${s}_s43 runs/i2b2_docs0_${s}_s44
+done                                      # (and nodp, eps8_record, eps4_record for meddocan)
 python scripts/aggregate.py               # -> results/*.json
 python scripts/make_tables.py             # -> tables for the manuscript
+python scripts/make_figures.py            # -> figures for the manuscript
+python scripts/compare_with_paper.py      # -> results/consistency_report.md
 ```
+
+The queue runs, in order: the re-scoring of the previously published adapters (if present),
+the seed-42 grid, the base-model corpora, and seeds 43 and 44. It skips every stage whose
+output exists, so it can be stopped and restarted at any time (`runs/PAUSE` pauses it;
+`runs/MAX_PER_GPU`, e.g. `0:1,1:2`, sets concurrent jobs per GPU). On one 48 GB GPU a run
+takes about an hour.
+
+Synthetic text is generated, as in the first submission, from the full-precision base model
+with the LoRA adapter (`--quantized` generates with the 4-bit base used in training; see
+legacy/AUDIT.md, section 5).
 
 Single steps, e.g. one run:
 
@@ -84,7 +109,9 @@ See [`legacy/AUDIT.md`](legacy/AUDIT.md). In short: the canary values are pinned
 (the legacy evaluation read them by list position and scored a profile that was never
 inserted in 24 of 252 published cells); every condition is trained with three seeds and,
 for DP, with both privacy units; generations are written once (the legacy evaluation
-appended to its output); leakage is reported with substring and whole-word matching.
+appended to its output); leakage is reported with substring and whole-word matching; the
+accountant composes exactly the steps run. `results/consistency_report.md` compares every
+re-run cell with the previously published value.
 
 ## License
 
