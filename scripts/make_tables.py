@@ -51,6 +51,19 @@ def rank_key(ds, exposure, tagset, setting, role, canary="docs"):
     return f"{ds}|{canary}{exposure}|{tagset}|{setting}|{role}"
 
 
+def rank_of(cs, key, tup):
+    """Rank summary over training seeds; for tuples, each seed's rank is the median over the
+    three candidate draws (singles have a single, deterministic candidate set)."""
+    e = cs.get(key, {}).get(tup, {})
+    return e.get("rank_median_over_candidate_draws") or e.get("rank")
+
+
+def redundant_author(ds, exposure, setting):
+    """MEDDOCAN author-level runs with at most one canary document are not trained: every
+    privacy unit then holds one note, so they coincide with the record-level runs."""
+    return ds == "meddocan" and setting.endswith("_author") and exposure <= 1
+
+
 def canary_table(cs, exposure, rng=False, role=None):
     """Rows: dataset x tuple. Columns: Tagset A, B x (non-DP, record e8/e4, author e8/e4)."""
     role = role or ("no_canary_model" if exposure == 0 else "inserted")
@@ -71,7 +84,7 @@ def canary_table(cs, exposure, rng=False, role=None):
             for tag in spec.TAGSETS:
                 for s in SETTINGS:
                     k = rank_key(ds, exposure, tag, s, role)
-                    cells.append(cell(cs.get(k, {}).get(tup, {}).get("rank"), rng))
+                    cells.append("$=$" if redundant_author(ds, exposure, s) else cell(rank_of(cs, k, tup), rng))
             lines.append(f"{first} & {TUPLE_TEX[tup]} & " + " & ".join(cells) + " \\\\")
         if di == 0:
             lines.append("\\midrule")
@@ -93,8 +106,7 @@ def doc_vs_sentence(cs, exposure):
         for canary in ("sent", "docs"):
             for s in sets:
                 k = f"{ds}|{canary}{exposure}|A|{s}|inserted"
-                cols[(canary, s)] = {t: (cs.get(k, {}).get(t, {}).get("rank") or {}).get("median")
-                                     for t in names}
+                cols[(canary, s)] = {t: (rank_of(cs, k, t) or {}).get("median") for t in names}
         for t, nm in names.items():
             lines.append(nm + " & " + " & ".join(fmt_int(cols[(c, s)][t]) for c in ("sent", "docs")
                                                  for s in sets) + " \\\\")
@@ -189,6 +201,170 @@ def utility(index):
     return {k: dict(median=st.median(v), min=min(v), max=max(v), n=len(v)) for k, v in out.items()}
 
 
+def stacked(summ):
+    """median over (min--max) in one cell, to keep the appendix tables within the page width."""
+    if not summ:
+        return "--"
+    return (f"\\begin{{tabular}}[t]{{@{{}}r@{{}}}}{fmt_int(summ['median'])}\\\\[-2pt]"
+            f"{{\\tiny({fmt_int(summ['min'])}--{fmt_int(summ['max'])})}}\\end{{tabular}}")
+
+
+def canary_range_table(cs, exposure, tag):
+    """Appendix: median (min--max) over training seeds, one tagset, five settings."""
+    role = "no_canary_model" if exposure == 0 else "inserted"
+    lines = ["\\begin{tabular}{ll rrrrr}", "\\toprule",
+             "& & & \\multicolumn{2}{c}{record} & \\multicolumn{2}{c}{author} \\\\",
+             "\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}",
+             "\\textbf{Data} & \\textbf{Tuple} & " + " & ".join(SETHEAD[s] for s in SETTINGS) + " \\\\", "\\midrule"]
+    for di, ds in enumerate(spec.DATASETS):
+        for ti, tup in enumerate(TUPLES):
+            first = (f"\\multirow{{7}}{{*}}{{\\rotatebox{{90}}{{\\textbf{{{DSNAME[ds]}}}}}}}" if ti == 0 else "")
+            cells = ["$=$" if redundant_author(ds, exposure, s) else
+                     stacked(rank_of(cs, rank_key(ds, exposure, tag, s, role), tup)) for s in SETTINGS]
+            lines.append(f"{first} & {TUPLE_TEX[tup]} & " + " & ".join(cells) + " \\\\")
+        if di == 0:
+            lines.append("\\midrule")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    return "\n".join(lines)
+
+
+LEAK_ROWS = {"i2b2": ["nodp", "eps8_record", "eps4_record", "eps8_author", "eps4_author", "base"],
+             "meddocan": ["nodp", "eps8_record", "eps4_record", "base"]}
+LEAK_LABEL = {"nodp": "Non-DP", "eps8_record": "$\\epsilon{=}8$, record", "eps4_record": "$\\epsilon{=}4$, record",
+              "eps8_author": "$\\epsilon{=}8$, author", "eps4_author": "$\\epsilon{=}4$, author",
+              "base": "Base model (no FT)"}
+LEAK_METRICS = ["singles", "pairs", "pairs_one_doc", "triples", "quadruples"]
+
+
+def leakage_table(ls, rng=False):
+    """Unique leaked items per synthetic corpus of 1,000 documents (median over training seeds,
+    or min--max with rng=True); substring and whole-word blocks."""
+    lines = ["\\begin{tabular}{llrrrrr}", "\\toprule",
+             "\\textbf{Dataset} & \\textbf{Setting} & \\textbf{Single} & \\textbf{2-Tuple} & \\textbf{2-Tuple} & "
+             "\\textbf{3-Tuple} & \\textbf{4-Tuple} \\\\",
+             "& & & \\textit{(any doc.)} & \\textit{(one doc.)} & & \\\\", "\\midrule"]
+    for bi, mode in enumerate(("substring", "whole_word")):
+        lines.append(f"\\multicolumn{{7}}{{l}}{{\\textit{{{'Substring' if mode == 'substring' else 'Whole-word'} matching}}}} \\\\")
+        for ds in spec.DATASETS:
+            rows = [r for r in LEAK_ROWS[ds] if f"{ds}|{r}" in ls]
+            for ri, r in enumerate(rows):
+                m = ls[f"{ds}|{r}"][mode]
+                first = f"\\multirow{{{len(rows)}}}{{*}}{{{DSNAME[ds]}}}" if ri == 0 else ""
+                cells = []
+                for k in LEAK_METRICS:
+                    v = m[k]
+                    if rng:
+                        cells.append(f"{fmt_int(v['min'])}--{fmt_int(v['max'])}")
+                    elif k == "singles":
+                        cells.append(f"{fmt_int(v['median'])} ({m['singles_pct']['median']:.2f}\\%)")
+                    else:
+                        cells.append(fmt_int(v["median"]))
+                lines.append(f"{first} & {LEAK_LABEL[r]} & " + " & ".join(cells) + " \\\\")
+            lines.append("\\midrule")
+    lines[-1] = "\\bottomrule"
+    lines.append("\\end{tabular}")
+    return "\n".join(lines)
+
+
+def largest_tuple_table(ls, mode="substring"):
+    lines = ["\\begin{tabular}{llrrrrr}", "\\toprule",
+             "\\textbf{Dataset} & \\textbf{Setting} & \\textbf{Profiles} & \\textbf{=1} & \\textbf{=2} & "
+             "\\textbf{=3} & \\textbf{=4} \\\\", "\\midrule"]
+    for ds in spec.DATASETS:
+        rows = [r for r in LEAK_ROWS[ds] if r != "base" and f"{ds}|{r}" in ls]
+        for ri, r in enumerate(rows):
+            m = ls[f"{ds}|{r}"][mode]
+            first = f"\\multirow{{{len(rows)}}}{{*}}{{{DSNAME[ds]}}}" if ri == 0 else ""
+            cells = [fmt_int(m["profiles_leaked"]["median"])] + [fmt_int(m["largest_group"][g]["median"]) for g in "1234"]
+            lines.append(f"{first} & {LEAK_LABEL[r]} & " + " & ".join(cells) + " \\\\")
+        lines.append("\\midrule")
+    lines[-1] = "\\bottomrule"
+    lines.append("\\end{tabular}")
+    return "\n".join(lines)
+
+
+ENRICH_PAIRS = {
+    "i2b2": [("AGE+DATE", "AGE, DATE"), ("DATE+LOCATION", "DATE, LOCATION"), ("AGE+LOCATION", "AGE, LOCATION"),
+             ("LOCATION+NAME", "\\textbf{LOCATION, NAME}"), ("ID", "ID, {\\footnotesize(any)}")],
+    "meddocan": [("EDAD_SUJETO_ASISTENCIA+FECHAS", "AGE, DATE"),
+                 ("EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA", "AGE, NAME"),
+                 ("FECHAS+TERRITORIO", "DATE, TERRITORY"),
+                 ("NOMBRE_SUJETO_ASISTENCIA+TERRITORIO", "\\textbf{NAME, TERRITORY}"),
+                 ("ID_TITULACION_PERSONAL_SANITARIO", "LICENCE NO., {\\footnotesize(any)}")]}
+ENRICH_SETTINGS = ["nodp", "eps8_record", "eps4_record", "eps8_author", "eps4_author"]
+
+
+def _enrich_cell(ls, ds, setting, key, mode, rng):
+    if redundant_author(ds, 0, setting):
+        return "$=$"
+    e = (ls.get(f"{ds}|{setting}", {}).get(mode, {}).get("enrichment", {}).get("any_per_doc", {}))
+    if "+" not in key:   # all pairs with this identifier type
+        vals = [x for tp, v in e.items() if key in tp.split("+") for x in v["values"]]
+        if not vals:
+            return "--"
+        return "$\\infty$" if all(v == float("inf") for v in vals) else f"{min(vals):.1f}--{max(vals):.1f}"
+    v = e.get(key)
+    if not v:
+        return "--"
+    f = lambda x: "$\\infty$" if x == float("inf") else f"{x:.1f}"  # noqa: E731
+    return f"{f(v['min'])}--{f(v['max'])}" if rng else f(v["median"])
+
+
+def enrichment_table(ls, mode="substring", rng=False):
+    lines = ["\\begin{tabular}{llrrrrr}", "\\toprule",
+             "& & & \\multicolumn{2}{c}{record} & \\multicolumn{2}{c}{author} \\\\",
+             "\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}",
+             "\\textbf{Dataset} & \\textbf{Type pair} & " + " & ".join(SETHEAD[s] for s in ENRICH_SETTINGS) + " \\\\",
+             "\\midrule"]
+    for ds in spec.DATASETS:
+        pairs = ENRICH_PAIRS[ds]
+        for pi, (key, label) in enumerate(pairs):
+            first = f"\\multirow{{{len(pairs)}}}{{*}}{{{'i2b2' if ds == 'i2b2' else 'MEDDOCAN'}}}" if pi == 0 else ""
+            cells = [_enrich_cell(ls, ds, s, key, mode, rng) for s in ENRICH_SETTINGS]
+            lines.append(f"{first} & {label} & " + " & ".join(cells) + " \\\\")
+        lines.append("\\midrule")
+    lines[-1] = "\\bottomrule"
+    lines.append("\\end{tabular}")
+    return "\n".join(lines)
+
+
+def context_table():
+    """Similarity rank of the source note (results/context_{ds}_{setting}.json): median over
+    the corpora of the three training seeds; null = median of the null means, interval = the
+    widest 2.5--97.5 percentile interval over the three corpora."""
+    lines = ["\\begin{tabular}{llrrrrr}", "\\toprule",
+             "& & & \\multicolumn{2}{c}{\\textbf{Rank 1}} & \\multicolumn{2}{c}{\\textbf{Median rank}} \\\\",
+             "\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}",
+             "\\textbf{Dataset} & \\textbf{Setting} & \\textbf{Pairs} & \\textbf{Source} & \\textbf{Null} & "
+             "\\textbf{Source} & \\textbf{Null} \\\\", "\\midrule"]
+    out = {}
+    for ds in spec.DATASETS:
+        rows = [r for r in LEAK_ROWS[ds] if r != "base" and (RES / f"context_{ds}_{r}.json").exists()]
+        for ri, r in enumerate(rows):
+            d = json.loads((RES / f"context_{ds}_{r}.json").read_text())
+            alls = [v["all"] for v in d.values()]
+            n_notes = next(iter(d.values()))["n_notes"]
+            med = lambda k: st.median(a[k] for a in alls)  # noqa: E731
+            lo = lambda k: min(a[k][0] for a in alls)  # noqa: E731
+            hi = lambda k: max(a[k][1] for a in alls)  # noqa: E731
+            row = dict(pairs=med("pairs"), rank1=med("rank1"), rank1_null=med("rank1_null_mean"),
+                       rank1_null_95=[lo("rank1_null_95"), hi("rank1_null_95")], median_rank=med("median_rank"),
+                       median_rank_null=med("median_rank_null_mean"),
+                       median_rank_null_95=[lo("median_rank_null_95"), hi("median_rank_null_95")],
+                       per_seed={k: v["all"] for k, v in d.items()})
+            out[f"{ds}|{r}"] = row
+            first = f"\\multirow{{{len(rows)}}}{{*}}{{{DSNAME[ds]} ({fmt_int(n_notes)} notes)}}" if ri == 0 else ""
+            lines.append(f"{first} & {LEAK_LABEL[r]} & {fmt_int(row['pairs'])} & {fmt_int(row['rank1'])} & "
+                         f"{row['rank1_null']:.1f} ({row['rank1_null_95'][0]:.0f}--{row['rank1_null_95'][1]:.0f}) & "
+                         f"{fmt_int(row['median_rank'])} & {fmt_int(row['median_rank_null'])} "
+                         f"({row['median_rank_null_95'][0]:.0f}--{row['median_rank_null_95'][1]:.0f}) \\\\")
+        lines.append("\\midrule")
+    lines[-1] = "\\bottomrule"
+    lines.append("\\end{tabular}")
+    (RES / "context_summary.json").write_text(json.dumps(out, indent=1))
+    return "\n".join(lines)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=str(REPO.parent / "paper" / "tables"))
@@ -212,6 +388,18 @@ def main():
             w(f"canary_ranks_{k}docs_range", canary_table(cs, k, rng=True))
         for k in (10, 100):
             w(f"doc_vs_sentence_{k}", doc_vs_sentence(cs, k))
+        for k in (0, 1, 10, 100):
+            for tag in spec.TAGSETS:
+                w(f"canary_ranks_{k}docs_{tag}_range", canary_range_table(cs, k, tag))
+    ls = load("leakage_summary.json")
+    if ls:
+        w("leakage", leakage_table(ls))
+        w("leakage_range", leakage_table(ls, rng=True))
+        w("largest_tuple", largest_tuple_table(ls))
+        w("enrichment", enrichment_table(ls))
+        w("enrichment_range", enrichment_table(ls, rng=True))
+    if list(RES.glob("context_*_*.json")):
+        w("context_rank", context_table())
     print("tables written to", out)
 
 

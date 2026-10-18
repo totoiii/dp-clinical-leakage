@@ -8,6 +8,9 @@ canary_exposure.pdf: rank of the inserted profile against exposure (0 = no-canar
 one panel per dataset x tagset, one line per privacy setting, for the tuples given by
 --tuples (median over training seeds, bars = min-max). Log scale, rank 1 at the top,
 dotted line = chance (5,000).
+single_top_leakage.pdf / combined_top_leakage.pdf: unique leaked training values per PII
+type, and leaked type-distinct pairs per type pair, in the 1,000 documents of each model
+(substring matching, median over training seeds), from results/leakage_runs.json.
 """
 import argparse
 import json
@@ -47,6 +50,62 @@ def series(cs, ds, tag, setting, tup):
     return xs, med, lo, hi
 
 
+TYPE_EN = {"EDAD_SUJETO_ASISTENCIA": "AGE", "FECHAS": "DATE", "TERRITORIO": "TERRITORY", "PAIS": "COUNTRY",
+           "NOMBRE_SUJETO_ASISTENCIA": "NAME", "NOMBRE_PERSONAL_SANITARIO": "CLINICIAN NAME", "CALLE": "STREET",
+           "HOSPITAL": "HOSPITAL", "INSTITUCION": "INSTITUTION", "ID_SUJETO_ASISTENCIA": "PATIENT ID",
+           "ID_TITULACION_PERSONAL_SANITARIO": "LICENCE NO.", "ID_CONTACTO_ASISTENCIAL": "CONTACT ID",
+           "PROFESION": "PROFESSION", "FAMILIARES_SUJETO_ASISTENCIA": "RELATIVES", "OTROS_SUJETO_ASISTENCIA": "OTHER",
+           "SEXO_SUJETO_ASISTENCIA": "SEX", "CORREO_ELECTRONICO": "EMAIL", "NUMERO_TELEFONO": "PHONE",
+           "NUMERO_FAX": "FAX", "ID_ASEGURAMIENTO": "INSURANCE ID", "ID_EMPLEO_PERSONAL_SANITARIO": "EMPLOYEE ID",
+           "CENTRO_SALUD": "HEALTH CENTRE", "URL_WEB": "URL", "IDENTIF_DISPOSITIVOS_NRSERIE": "DEVICE ID",
+           "OTRO_NUMERO_IDENTIF": "OTHER ID", "IDENTIF_VEHICULOS_NRSERIE_PLACAS": "VEHICLE ID",
+           "DIREC_PROT_INTERNET": "IP", "IDENTIF_BIOMETRICOS": "BIOMETRIC", "NUMERO_BENEF_PLAN_SALUD": "PLAN NO.",
+           "ID_TITULACION": "LICENCE NO."}
+LEAK_SETTINGS = ["nodp", "eps8_record", "eps4_record", "eps8_author", "eps4_author"]
+
+
+def leak_counts(leak, ds, field, mode="substring"):
+    """{setting: {label: median count over training seeds}} for field singles_by_type or pairs_by_typepair."""
+    import statistics as st
+    from collections import defaultdict
+    out = {}
+    for s in LEAK_SETTINGS:
+        runs = [v for k, v in leak.items() if k.startswith(f"{ds}_docs0_") and
+                (("nodp" in k) if s == "nodp" else (f"_{s}_" in k))]
+        if not runs:
+            continue
+        acc = defaultdict(list)
+        for v in runs:
+            for t, c in v[mode][field].items():
+                acc[" + ".join(TYPE_EN.get(x, x) for x in t.split("+"))].append(c)
+        out[s] = {t: st.median(c + [0] * (len(runs) - len(c))) for t, c in acc.items()}
+    return out
+
+
+def leakage_bars(leak, field, name, top, out, xlabel):
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.0))
+    for ax, ds in zip(axes, spec.DATASETS):
+        c = leak_counts(leak, ds, field)
+        labels = sorted(c["nodp"], key=lambda t: -c["nodp"][t])[:top][::-1]
+        sets = [s for s in LEAK_SETTINGS if s in c]
+        h = 0.8 / len(sets)
+        for i, s in enumerate(sets):
+            ys = [j + (i - (len(sets) - 1) / 2) * h for j in range(len(labels))]
+            ax.barh(ys, [c[s].get(t, 0) for t in labels], height=h, color=STYLE[s]["color"],
+                    hatch="//" if s.endswith("author") else None, edgecolor="white", lw=0.3, label=STYLE[s]["label"])
+        ax.set_yticks(range(len(labels)), labels, fontsize=6.5)
+        ax.set_title(DSNAME[ds])
+        ax.set_xlabel(xlabel)
+        ax.grid(axis="x", lw=0.3, alpha=0.5)
+    handles, labs = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labs, loc="lower center", ncol=5, frameon=False, bbox_to_anchor=(0.5, -0.03))
+    fig.tight_layout(rect=(0, 0.08, 1, 1))
+    fig.savefig(out / f"{name}.pdf", bbox_inches="tight")
+    fig.savefig(out / f"{name}.png", dpi=200, bbox_inches="tight")
+    plt.close(fig)
+    print("wrote", out / f"{name}.pdf")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=str(REPO.parent / "paper" / "figures"))
@@ -82,6 +141,11 @@ def main():
         fig.savefig(out / f"{name}.png", dpi=200, bbox_inches="tight")
         plt.close(fig)
         print("wrote", out / f"{name}.pdf")
+    lp = REPO / "results" / "leakage_runs.json"
+    if lp.exists():
+        leak = json.loads(lp.read_text())
+        leakage_bars(leak, "singles_by_type", "single_top_leakage", 8, out, "unique leaked values")
+        leakage_bars(leak, "pairs_by_typepair", "combined_top_leakage", 8, out, "unique leaked pairs")
 
 
 if __name__ == "__main__":
