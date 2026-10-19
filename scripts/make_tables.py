@@ -92,33 +92,89 @@ def canary_table(cs, exposure, rng=False, role=None):
     return "\n".join(lines)
 
 
-def doc_vs_sentence(cs, exposure):
-    """Per-entity rank, sentence vs document canaries (Tagset A, non-DP and eps=8 record)."""
-    sets = ["nodp", "eps8_record"]
-    lines = ["\\begin{tabular}{l rr rr}", "\\toprule",
-             "& \\multicolumn{2}{c}{\\textbf{Sentences}} & \\multicolumn{2}{c}{\\textbf{Documents}} \\\\",
-             "\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}",
-             "\\textbf{Entity} & Non-DP & $\\epsilon{=}8$ & Non-DP & $\\epsilon{=}8$ \\\\", "\\midrule"]
-    names = {"N": "Name", "A": "Address", "P": "Phone", "E": "Email"}
+DVS_SETS = ["nodp", "eps8_record", "eps8_author"]
+ENTITY = {"N": "Name", "A": "Address", "P": "Phone", "E": "Email"}
+
+
+def doc_vs_sentence(cs, exposure, nf=None):
+    """Per-entity rank, sentence vs document canaries (Tagset A; non-DP, eps=8 record and
+    author). MEDDOCAN adds the name ranked in the header-field format of the documents."""
+    nf = nf or {}
+    lines = ["\\begin{tabular}{l rrr rrr}", "\\toprule",
+             "& \\multicolumn{3}{c}{\\textbf{Sentences}} & \\multicolumn{3}{c}{\\textbf{Documents}} \\\\",
+             "\\cmidrule(lr){2-4}\\cmidrule(lr){5-7}",
+             "& & \\multicolumn{2}{c}{$\\epsilon{=}8$} & & \\multicolumn{2}{c}{$\\epsilon{=}8$} \\\\",
+             "\\cmidrule(lr){3-4}\\cmidrule(lr){6-7}",
+             "\\textbf{Entity} & Non-DP & record & author & Non-DP & record & author \\\\", "\\midrule"]
     for ds in spec.DATASETS:
-        lines.append(f"\\multicolumn{{5}}{{l}}{{\\textbf{{{DSNAME[ds]}}}}} \\\\")
+        lines.append(f"\\multicolumn{{7}}{{l}}{{\\textbf{{{DSNAME[ds]}}}}} \\\\")
         cols = {}
         for canary in ("sent", "docs"):
-            for s in sets:
+            for s in DVS_SETS:
                 k = f"{ds}|{canary}{exposure}|A|{s}|inserted"
-                cols[(canary, s)] = {t: (rank_of(cs, k, t) or {}).get("median") for t in names}
-        for t, nm in names.items():
+                cols[(canary, s)] = {t: (rank_of(cs, k, t) or {}).get("median") for t in ENTITY}
+        for t, nm in ENTITY.items():
             lines.append(nm + " & " + " & ".join(fmt_int(cols[(c, s)][t]) for c in ("sent", "docs")
-                                                 for s in sets) + " \\\\")
+                                                 for s in DVS_SETS) + " \\\\")
+            if t == "N" and ds == "meddocan" and nf:
+                v = [(nf.get(f"{ds}|docs{exposure}|A|{s}|inserted", {}).get("rank") or {}).get("median")
+                     for s in DVS_SETS]
+                lines.append("\\quad as written$^{\\dagger}$ & -- & -- & -- & " + " & ".join(map(fmt_int, v)) + " \\\\")
         sd = []
         for c in ("sent", "docs"):
-            for s in sets:
+            for s in DVS_SETS:
                 v = [x for x in cols[(c, s)].values() if x is not None]
                 sd.append(f"\\textit{{{fmt_int(st.pstdev(v))}}}" if len(v) > 1 else "--")
         lines.append("\\textit{SD across entities} & " + " & ".join(sd) + " \\\\")
         lines.append("\\midrule")
     lines[-1] = "\\bottomrule"
     lines.append("\\end{tabular}")
+    return "\n".join(lines)
+
+
+def sentence_control_table(sc):
+    """Sentence-canary templates scored on the no-canary models: median (min--max)."""
+    lines = ["\\begin{tabular}{ll rrr}", "\\toprule",
+             "& & & \\multicolumn{2}{c}{$\\epsilon{=}8$} \\\\", "\\cmidrule(lr){4-5}",
+             "\\textbf{Data} & \\textbf{Entity} & Non-DP & record & author \\\\", "\\midrule"]
+    for di, ds in enumerate(spec.DATASETS):
+        for i, (t, nm) in enumerate(ENTITY.items()):
+            first = f"\\multirow{{4}}{{*}}{{{DSNAME[ds]}}}" if i == 0 else ""
+            cells = ["$=$" if redundant_author(ds, 0, s) else
+                     stacked(sc.get(f"{ds}|sent_control|A|{s}|no_canary_model", {}).get(t))
+                     for s in DVS_SETS]
+            lines.append(f"{first} & {nm} & " + " & ".join(cells) + " \\\\")
+        if di == 0:
+            lines.append("\\midrule")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    return "\n".join(lines)
+
+
+def name_field_table(nf, cs):
+    """MEDDOCAN document canaries: name rank in header-field format, median (min--max) over
+    seeds, with the contiguous-name rank of Tables 5, 7--9 below it."""
+    lines = ["\\begin{tabular}{ll rrrrr}", "\\toprule",
+             "& & & \\multicolumn{2}{c}{record} & \\multicolumn{2}{c}{author} \\\\",
+             "\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}",
+             "\\textbf{Exposure} & \\textbf{Tagset} & " + " & ".join(SETHEAD[s] for s in SETTINGS) + " \\\\",
+             "\\midrule"]
+    for k in (0, 1, 10, 100):
+        role = "no_canary_model" if k == 0 else "inserted"
+        for tag in spec.TAGSETS:
+            key = lambda s: f"meddocan|docs{k}|{tag}|{s}|{role}"  # noqa: E731
+            cells = []
+            for s in SETTINGS:
+                if redundant_author("meddocan", k, s):
+                    cells.append("$=$")
+                    continue
+                c = (rank_of(cs, key(s), "N") or {}).get("median")
+                cells.append(stacked(nf.get(key(s), {}).get("rank")).replace(
+                    "\\end{tabular}", f"\\\\[-2pt]{{\\tiny\\textit{{{fmt_int(c)}}}}}\\end{{tabular}}"))
+            lab = "0 (control)" if k == 0 else str(k)
+            lines.append(f"{lab} & {tag} & " + " & ".join(cells) + " \\\\")
+        if k != 100:
+            lines.append("\\midrule")
+    lines += ["\\bottomrule", "\\end{tabular}"]
     return "\n".join(lines)
 
 
@@ -158,30 +214,42 @@ def prv_upper(p, eps_error=0.05):
 
 
 def accounting(index):
-    """sigma summary for Table hyperparams and the per-configuration appendix table."""
+    """sigma summary for Table hyperparams, the per-configuration appendix table and
+    results/accounting.json (epsilon_prv_trainer is the value stored in run.json, which the
+    trainer's accountant computes at eps_error=0.1; epsilon_prv is the bound at 0.05)."""
     rows = {}
     for rid, m in index.items():
         r = spec.parse_run_id(rid)
-        if r.budget == "nodp" or r.canary != "docs":
+        if r.budget == "nodp":
             continue
-        k = (r.dataset, r.exposure, r.unit, r.budget)
-        rows.setdefault(k, []).append(m)
+        k = (r.dataset, r.canary, r.exposure, r.unit, r.budget)
+        rows.setdefault(k, []).append(dict(m, run_id=rid))
     lines = ["\\begin{tabular}{llrlrrrrrr}", "\\toprule",
              "\\textbf{Data} & \\textbf{Exp.} & & \\textbf{Unit} & \\textbf{$N_u$} & \\textbf{$q$} & "
              "\\textbf{$\\sigma$} & \\textbf{$\\epsilon_{\\mathrm{PRV}}$} & \\textbf{$\\epsilon_{\\mathrm{RDP}}$} & "
              "\\textbf{PPL} \\\\", "\\midrule"]
-    for (ds, k, unit, b), ms in sorted(rows.items(), key=lambda x: (x[0][0], x[0][1], x[0][2] != "record", x[0][3] != "eps8")):
+    js = []
+    order = lambda x: (x[0][0], x[0][1] != "docs", x[0][2], x[0][3] != "record", x[0][4] != "eps8")  # noqa: E731
+    for (ds, canary, k, unit, b), ms in sorted(rows.items(), key=order):
         p = ms[0]["privacy"]
         ppl = st.median(m["utility_ppl_train200"] for m in ms)
         eprv = prv_upper(p)
         erdp = st.median(m["privacy"]["epsilon_rdp"] for m in ms)
-        lines.append(f"{DSNAME[ds]} & {k} & {SETHEAD[b + '_record']} & {unit} & {fmt_int(p['n_units'])} & "
+        exp = str(k) if canary == "docs" else f"{k} (sent.)"
+        lines.append(f"{DSNAME[ds]} & {exp} & {SETHEAD[b + '_record']} & {unit} & {fmt_int(p['n_units'])} & "
                      f"{p['sampling_probability']:.3f} & {p['noise_multiplier']:.2f} & {eprv:.2f} & {erdp:.2f} & "
                      f"{ppl:.2f} \\\\")
+        js.append(dict(dataset=ds, canary=canary, exposure=k, unit=unit, target_epsilon=spec.BUDGETS[b],
+                       runs=sorted(m["run_id"] for m in ms),
+                       n_units=p["n_units"], delta=p["delta"], sampling_probability=p["sampling_probability"],
+                       steps=p["accounted_steps"], noise_multiplier=p["noise_multiplier"],
+                       epsilon_prv=round(eprv, 4), epsilon_prv_trainer=round(p["epsilon_prv"], 4),
+                       epsilon_rdp=round(erdp, 4), utility_ppl_train200_median=round(ppl, 3)))
     lines += ["\\bottomrule", "\\end{tabular}"]
+    (RES / "accounting.json").write_text(json.dumps(js, indent=1))
 
     def sig(ds, unit, b):
-        ms = rows.get((ds, 0, unit, b))
+        ms = rows.get((ds, "docs", 0, unit, b))
         return f"{ms[0]['privacy']['noise_multiplier']:.2f}" if ms else "--"
     summary = ("i2b2: " + f"{sig('i2b2', 'record', 'eps8')} / {sig('i2b2', 'record', 'eps4')} (record), "
                f"{sig('i2b2', 'author', 'eps8')} / {sig('i2b2', 'author', 'eps4')} (author); "
@@ -386,8 +454,14 @@ def main():
         for k in (0, 1, 10, 100):
             w(f"canary_ranks_{k}docs", canary_table(cs, k))
             w(f"canary_ranks_{k}docs_range", canary_table(cs, k, rng=True))
+        nf = load("name_field_ranks.json")
         for k in (10, 100):
-            w(f"doc_vs_sentence_{k}", doc_vs_sentence(cs, k))
+            w(f"doc_vs_sentence_{k}", doc_vs_sentence(cs, k, nf))
+        if nf:
+            w("name_field", name_field_table(nf, cs))
+        sc = load("sent_control_ranks.json")
+        if sc:
+            w("sentence_control", sentence_control_table(sc))
         for k in (0, 1, 10, 100):
             for tag in spec.TAGSETS:
                 w(f"canary_ranks_{k}docs_{tag}_range", canary_range_table(cs, k, tag))

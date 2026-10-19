@@ -12,6 +12,13 @@ distinct random combinations of pool values, drawn with three seeds (0, 1, 2).
 Perplexity is that of the sentence alone (BOS + sentence), as in the published runs.
 rank = 1 + number of alternatives with strictly lower perplexity.
 Sentence-canary runs are scored with the inserted sentences as templates.
+
+--name-fields (MEDDOCAN document canaries): the canary documents write the profile's
+name as two header fields ("Nombre: Ana." / "Apellidos: Fernandez."), never as one
+string, so the name is also ranked in that field format (NAME_FIELD_TEMPLATE, first
+token = given name, rest = surnames) against the same 10,000 pool names.
+--sent-control: a no-canary model scored with the sentence-canary templates, the control
+for the sentence-canary ranks.
 """
 import argparse
 import json
@@ -56,6 +63,26 @@ def candidates(dataset, tagset, tup, template, seed, pool):
         seen.add(fill)
         out.append(template.format(**dict(zip(fields, fill))))
     return out
+
+
+NAME_FIELD_TEMPLATE = "Nombre: {first}.\nApellidos: {last}."
+
+
+def name_field(name):
+    first, last = name.split(" ", 1)
+    return NAME_FIELD_TEMPLATE.format(first=first, last=last)
+
+
+def score_name_fields(model, tok, dataset, tagsets=spec.TAGSETS):
+    pool = pools()[spec.LANG[dataset]]["NAME"]
+    res = {}
+    for tagset in tagsets:
+        truth = spec.PROFILES[(dataset, tagset)]["name"]
+        c = [name_field(truth)] + [name_field(v) for v in pool if v != truth][:N_CAND]
+        mean, tot = nll(model, tok, c)
+        res[tagset] = dict(rank=rank_of(mean), rank_sum_nll=rank_of(tot),
+                           ppl_true=float(np.exp(mean[0])), median_ppl=float(np.exp(np.median(mean))))
+    return res
 
 
 def load(adapter):
@@ -122,8 +149,25 @@ def main():
     ap.add_argument("--dataset")
     ap.add_argument("--canary", default="docs")
     ap.add_argument("--out")
+    ap.add_argument("--name-fields", action="store_true",
+                    help="rank the name in the header-field format of the MEDDOCAN canary documents")
+    ap.add_argument("--sent-control", action="store_true",
+                    help="score a no-canary model with the sentence-canary templates (control)")
     a = ap.parse_args()
-    if a.run:
+    if a.run and a.sent_control:
+        r = spec.parse_run_id(a.run)
+        d = Path(a.runs_dir) / r.id
+        model, tok = load(d)
+        out = dict(run=r.asdict(), inserted_tagset=None, ranks=score(model, tok, r.dataset, "sent", ("A",)))
+        (d / "ranks_sent_control.json").write_text(json.dumps(out, indent=1))
+    elif a.run and a.name_fields:
+        r = spec.parse_run_id(a.run)
+        d = Path(a.runs_dir) / r.id
+        model, tok = load(d)
+        out = dict(run=r.asdict(), inserted_tagset=r.tagset if r.exposure else None,
+                   template=NAME_FIELD_TEMPLATE, ranks=score_name_fields(model, tok, r.dataset))
+        (d / "ranks_name_fields.json").write_text(json.dumps(out, indent=1))
+    elif a.run:
         r = spec.parse_run_id(a.run)
         d = Path(a.runs_dir) / r.id
         model, tok = load(d)

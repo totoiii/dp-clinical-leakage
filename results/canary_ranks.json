@@ -21314,6 +21314,153 @@
    }
   }
  },
+ "i2b2_sent100_A_eps8_author_s42": {
+  "run": {
+   "dataset": "i2b2",
+   "canary": "sent",
+   "exposure": 100,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 42,
+   "id": "i2b2_sent100_A_eps8_author_s42"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 516,
+      "rank_sum_nll": 1,
+      "ppl_true": 58.182843530516365,
+      "median_ppl": 75.57180438641993
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 4582,
+      "rank_sum_nll": 9906,
+      "ppl_true": 628.207257618392,
+      "median_ppl": 657.2853005847862
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 4403,
+      "rank_sum_nll": 1,
+      "ppl_true": 66.36405838666423,
+      "median_ppl": 69.21673707810285
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 902,
+      "rank_sum_nll": 2143,
+      "ppl_true": 78.27972425662134,
+      "median_ppl": 117.75264067414348
+     }
+    }
+   }
+  }
+ },
+ "i2b2_sent100_A_eps8_author_s43": {
+  "run": {
+   "dataset": "i2b2",
+   "canary": "sent",
+   "exposure": 100,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 43,
+   "id": "i2b2_sent100_A_eps8_author_s43"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 505,
+      "rank_sum_nll": 1,
+      "ppl_true": 60.4380435514009,
+      "median_ppl": 79.00646812544616
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 4796,
+      "rank_sum_nll": 9944,
+      "ppl_true": 773.9212965117259,
+      "median_ppl": 793.0102017238285
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 4946,
+      "rank_sum_nll": 75,
+      "ppl_true": 66.7888200324393,
+      "median_ppl": 67.10712647078118
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 1864,
+      "rank_sum_nll": 3846,
+      "ppl_true": 88.34425985996991,
+      "median_ppl": 115.61890185582276
+     }
+    }
+   }
+  }
+ },
+ "i2b2_sent100_A_eps8_author_s44": {
+  "run": {
+   "dataset": "i2b2",
+   "canary": "sent",
+   "exposure": 100,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 44,
+   "id": "i2b2_sent100_A_eps8_author_s44"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 377,
+      "rank_sum_nll": 3,
+      "ppl_true": 67.05441255091988,
+      "median_ppl": 90.61073767303036
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 4222,
+      "rank_sum_nll": 9917,
+      "ppl_true": 676.4509965403645,
+      "median_ppl": 734.7460834431765
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 3551,
+      "rank_sum_nll": 1,
+      "ppl_true": 55.70508896034129,
+      "median_ppl": 62.32510244129762
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 2004,
+      "rank_sum_nll": 4157,
+      "ppl_true": 81.99507022762664,
+      "median_ppl": 104.31897870459706
+     }
+    }
+   }
+  }
+ },
  "i2b2_sent100_A_eps8_record_s42": {
   "run": {
    "dataset": "i2b2",
@@ -21603,6 +21750,153 @@
       "rank_sum_nll": 523,
       "ppl_true": 35.134535047386606,
       "median_ppl": 61.77232968322184
+     }
+    }
+   }
+  }
+ },
+ "i2b2_sent10_A_eps8_author_s42": {
+  "run": {
+   "dataset": "i2b2",
+   "canary": "sent",
+   "exposure": 10,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 42,
+   "id": "i2b2_sent10_A_eps8_author_s42"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 546,
+      "rank_sum_nll": 1,
+      "ppl_true": 58.4859538976073,
+      "median_ppl": 75.4967798209536
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 4498,
+      "rank_sum_nll": 9900,
+      "ppl_true": 624.8013252706421,
+      "median_ppl": 659.0563002958035
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 4260,
+      "rank_sum_nll": 1,
+      "ppl_true": 66.03838022784858,
+      "median_ppl": 69.5610417836874
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 843,
+      "rank_sum_nll": 2004,
+      "ppl_true": 77.07110750838385,
+      "median_ppl": 117.05694237705696
+     }
+    }
+   }
+  }
+ },
+ "i2b2_sent10_A_eps8_author_s43": {
+  "run": {
+   "dataset": "i2b2",
+   "canary": "sent",
+   "exposure": 10,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 43,
+   "id": "i2b2_sent10_A_eps8_author_s43"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 447,
+      "rank_sum_nll": 1,
+      "ppl_true": 59.97840638621796,
+      "median_ppl": 79.22429302267129
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 4793,
+      "rank_sum_nll": 9943,
+      "ppl_true": 780.939114620285,
+      "median_ppl": 799.3407663420861
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 4786,
+      "rank_sum_nll": 50,
+      "ppl_true": 65.70530778216498,
+      "median_ppl": 66.95792045694101
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 1906,
+      "rank_sum_nll": 3934,
+      "ppl_true": 87.36541099796463,
+      "median_ppl": 113.41431640808617
+     }
+    }
+   }
+  }
+ },
+ "i2b2_sent10_A_eps8_author_s44": {
+  "run": {
+   "dataset": "i2b2",
+   "canary": "sent",
+   "exposure": 10,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 44,
+   "id": "i2b2_sent10_A_eps8_author_s44"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 367,
+      "rank_sum_nll": 3,
+      "ppl_true": 66.75672557591407,
+      "median_ppl": 90.35402294672272
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 4189,
+      "rank_sum_nll": 9916,
+      "ppl_true": 671.2143377116107,
+      "median_ppl": 731.8226032786872
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 3360,
+      "rank_sum_nll": 1,
+      "ppl_true": 54.81270365588329,
+      "median_ppl": 62.20948432169359
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 2060,
+      "rank_sum_nll": 4222,
+      "ppl_true": 81.7043436489302,
+      "median_ppl": 103.52952268225883
      }
     }
    }
@@ -39563,6 +39857,153 @@
    }
   }
  },
+ "meddocan_sent100_A_eps8_author_s42": {
+  "run": {
+   "dataset": "meddocan",
+   "canary": "sent",
+   "exposure": 100,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 42,
+   "id": "meddocan_sent100_A_eps8_author_s42"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 5177,
+      "rank_sum_nll": 15,
+      "ppl_true": 43.17404381925367,
+      "median_ppl": 42.813331055912606
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 194,
+      "rank_sum_nll": 2475,
+      "ppl_true": 36.24604827735857,
+      "median_ppl": 69.23013845084293
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 6234,
+      "rank_sum_nll": 1,
+      "ppl_true": 90.88898223631475,
+      "median_ppl": 73.94424386763644
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 8898,
+      "rank_sum_nll": 9438,
+      "ppl_true": 118.55769087183874,
+      "median_ppl": 85.53739327162805
+     }
+    }
+   }
+  }
+ },
+ "meddocan_sent100_A_eps8_author_s43": {
+  "run": {
+   "dataset": "meddocan",
+   "canary": "sent",
+   "exposure": 100,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 43,
+   "id": "meddocan_sent100_A_eps8_author_s43"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 5709,
+      "rank_sum_nll": 21,
+      "ppl_true": 48.91765565621874,
+      "median_ppl": 47.31605515755507
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 256,
+      "rank_sum_nll": 2791,
+      "ppl_true": 34.14615200424031,
+      "median_ppl": 63.50515854488112
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 5913,
+      "rank_sum_nll": 1,
+      "ppl_true": 57.8516141327371,
+      "median_ppl": 49.197792325968976
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 8941,
+      "rank_sum_nll": 9342,
+      "ppl_true": 95.92431855433912,
+      "median_ppl": 69.52837770505175
+     }
+    }
+   }
+  }
+ },
+ "meddocan_sent100_A_eps8_author_s44": {
+  "run": {
+   "dataset": "meddocan",
+   "canary": "sent",
+   "exposure": 100,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 44,
+   "id": "meddocan_sent100_A_eps8_author_s44"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 4699,
+      "rank_sum_nll": 8,
+      "ppl_true": 40.97805893722383,
+      "median_ppl": 41.60325881629257
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 140,
+      "rank_sum_nll": 2201,
+      "ppl_true": 34.423934025562254,
+      "median_ppl": 68.61622181889099
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 6522,
+      "rank_sum_nll": 1,
+      "ppl_true": 64.54201691579271,
+      "median_ppl": 53.546530474884314
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 9183,
+      "rank_sum_nll": 9515,
+      "ppl_true": 109.63664689226,
+      "median_ppl": 76.41979214462137
+     }
+    }
+   }
+  }
+ },
  "meddocan_sent100_A_eps8_record_s42": {
   "run": {
    "dataset": "meddocan",
@@ -39852,6 +40293,153 @@
       "rank_sum_nll": 1815,
       "ppl_true": 47.69655171335314,
       "median_ppl": 82.70478673591454
+     }
+    }
+   }
+  }
+ },
+ "meddocan_sent10_A_eps8_author_s42": {
+  "run": {
+   "dataset": "meddocan",
+   "canary": "sent",
+   "exposure": 10,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 42,
+   "id": "meddocan_sent10_A_eps8_author_s42"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 5361,
+      "rank_sum_nll": 15,
+      "ppl_true": 43.603614446731996,
+      "median_ppl": 42.880027679023904
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 195,
+      "rank_sum_nll": 2517,
+      "ppl_true": 36.20509234376031,
+      "median_ppl": 69.03264876128794
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 6215,
+      "rank_sum_nll": 1,
+      "ppl_true": 94.6546301036378,
+      "median_ppl": 77.1477701283052
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 8935,
+      "rank_sum_nll": 9451,
+      "ppl_true": 119.87190126685418,
+      "median_ppl": 86.05881158078434
+     }
+    }
+   }
+  }
+ },
+ "meddocan_sent10_A_eps8_author_s43": {
+  "run": {
+   "dataset": "meddocan",
+   "canary": "sent",
+   "exposure": 10,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 43,
+   "id": "meddocan_sent10_A_eps8_author_s43"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 5703,
+      "rank_sum_nll": 21,
+      "ppl_true": 49.19093094884628,
+      "median_ppl": 47.616096326658294
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 252,
+      "rank_sum_nll": 2789,
+      "ppl_true": 33.12669683018581,
+      "median_ppl": 61.537165171176206
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 5896,
+      "rank_sum_nll": 1,
+      "ppl_true": 58.54278991435826,
+      "median_ppl": 49.62032793064539
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 8938,
+      "rank_sum_nll": 9339,
+      "ppl_true": 95.81131519746387,
+      "median_ppl": 69.34723012501699
+     }
+    }
+   }
+  }
+ },
+ "meddocan_sent10_A_eps8_author_s44": {
+  "run": {
+   "dataset": "meddocan",
+   "canary": "sent",
+   "exposure": 10,
+   "tagset": "A",
+   "budget": "eps8",
+   "unit": "author",
+   "seed": 44,
+   "id": "meddocan_sent10_A_eps8_author_s44"
+  },
+  "inserted_tagset": "A",
+  "ranks": {
+   "A": {
+    "N": {
+     "0": {
+      "rank": 4831,
+      "rank_sum_nll": 11,
+      "ppl_true": 40.97376039323747,
+      "median_ppl": 41.31329056689898
+     }
+    },
+    "A": {
+     "0": {
+      "rank": 138,
+      "rank_sum_nll": 2171,
+      "ppl_true": 33.91880737154431,
+      "median_ppl": 67.73486008500308
+     }
+    },
+    "P": {
+     "0": {
+      "rank": 6504,
+      "rank_sum_nll": 1,
+      "ppl_true": 64.23431534105823,
+      "median_ppl": 53.289051429784145
+     }
+    },
+    "E": {
+     "0": {
+      "rank": 9204,
+      "rank_sum_nll": 9526,
+      "ppl_true": 109.80961699604153,
+      "median_ppl": 76.12621546224544
      }
     }
    }

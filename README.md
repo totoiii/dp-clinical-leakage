@@ -6,7 +6,8 @@ Private Clinical Text Generation"** (BMC Medical Informatics and Decision Making
 We fine-tune Llama-3.2-1B (4-bit nf4 + LoRA) on English (i2b2 2014) and Spanish
 (MEDDOCAN) clinical notes, without DP and with DP-SGD at ε ∈ {8, 4} under two privacy
 units: the **record** (each note) and the **author** (all notes of one patient, or of the
-canary profile). We then run two audits:
+canary profile; for canary sentences, the profile together with the patients whose notes
+carry the paragraph). We then run two audits:
 
 1. **Canary experiment** (publisher-side, needs model access). Fictitious patient profiles
    are inserted as 1, 10 or 100 distinct LLM-written clinical-style notes (*canary
@@ -46,7 +47,10 @@ scripts/
   compare_with_paper.py      re-run vs. previously published numbers (consistency report)
 results/                   aggregate results reported in the paper (no PII):
   runs_index.json            every training run: privacy accounting, utility
+  accounting.json            per DP configuration: N_u, q, sigma, epsilon (see note below)
   canary_ranks.json          canary ranks per run; canary_summary.json: median/range over seeds
+  name_field_ranks.json      MEDDOCAN document canaries: name ranked in header-field format
+  sent_control_ranks.json    sentence-canary templates scored on the no-canary models (control)
   leakage_runs.json          leakage per synthetic corpus; leakage_summary.json: median/range, enrichment
   context_*.json             clinical-context analysis per setting; context_summary.json
   legacy_rescore.json        previously published adapters re-scored with the pinned canaries
@@ -56,6 +60,14 @@ vendor/dp_transformers/    Microsoft dp-transformers (MIT), with two documented 
 legacy/                    code and result files of the first submission, and the audit
                            of its canary evaluation (legacy/AUDIT.md)
 ```
+
+**Privacy accounting.** For every DP configuration the noise multiplier σ is the smallest
+value whose PRV upper bound on ε, at error tolerance 0.05, does not exceed the target
+(`results/accounting.json`, field `epsilon_prv`). The `epsilon_prv` stored in each
+`run.json` (and copied to `runs_index.json`) is the trainer's own accountant, which uses
+tolerance 0.1 and therefore reports up to ~0.05 above the target for the same σ
+(`accounting.json`, field `epsilon_prv_trainer`). δ = 1/N_u, with N_u the number of privacy
+units.
 
 ## Run identifiers
 
@@ -74,7 +86,7 @@ huggingface-cli login                                   # Llama-3.2-1B is gated
 python scripts/prepare_data.py --dataset i2b2 --xml-dir <i2b2 2014 XML, train+test>
 python scripts/prepare_data.py --dataset meddocan --xml-dir <MEDDOCAN XML, all splits>
 
-python scripts/run_queue.py --gpus 0,1,2      # 216 training runs + scoring + generation (~250 GPU-h)
+python scripts/run_queue.py --gpus 0,1,2      # 228 training runs + scoring + generation (~260 GPU-h)
 python -m dpleak.leakage --all            # leakage audit of every synthetic corpus
 for s in nodp eps8_record eps4_record eps8_author eps4_author; do   # clinical context (CPU)
   python -m dpleak.context --dataset i2b2 --out results/context_i2b2_$s.json \

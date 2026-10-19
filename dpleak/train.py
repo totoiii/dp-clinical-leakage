@@ -118,7 +118,7 @@ def main():
     tokenized = tokenized.remove_columns(["author", "file"])
     n_units = len(author_mapping) if author_mapping is not None else n_train
     largest_unit = max(map(len, author_mapping)) if author_mapping is not None else 1
-    canary_records = sum(f.startswith("canary_") for f in train_files)
+    canary_records = sum(a == data.CANARY_AUTHOR for a in train_authors)
     logger.info(f"{run.id}: {n_train} records, {n_units} privacy units "
                 f"(largest {largest_unit}), canary records in train {canary_records}, steps {steps}")
 

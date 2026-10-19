@@ -172,8 +172,9 @@ def grid(seeds=SEEDS):
                         if not is_redundant_author_run(r):
                             runs.append(r)
         for ds, k in product(DATASETS, (10, 100)):
-            for budget in ("nodp", "eps8"):
-                runs.append(Run(ds, "sent", k, "A", budget, "record", seed))
+            runs.append(Run(ds, "sent", k, "A", "nodp", "record", seed))
+            for unit in ("record", "author"):
+                runs.append(Run(ds, "sent", k, "A", "eps8", unit, seed))
     return runs
 
 

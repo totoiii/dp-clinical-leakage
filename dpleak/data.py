@@ -101,9 +101,15 @@ def training_split(dataset, canary="docs", exposure=0, tagset=None, split_seed=s
     import datasets
     docs = corpus(dataset, canary, exposure, tagset)
     p = prompt(dataset)
+    authors = [author_of(dataset, f) for f, _ in docs]
+    if canary == "sent" and exposure:
+        # The canary paragraph shares its notes with real individuals, so the author-level
+        # unit is the canary profile merged with every individual whose note carries it.
+        carriers = set(authors[:exposure])
+        authors = [CANARY_AUTHOR if a in carriers else a for a in authors]
     raw = datasets.Dataset.from_dict({
         "text": [p + t for _, t in docs],
-        "author": [author_of(dataset, f) for f, _ in docs],
+        "author": authors,
         "file": [f for f, _ in docs],
     })
     return raw.train_test_split(test_size=0.001, shuffle=True, seed=split_seed)

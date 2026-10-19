@@ -1,0 +1,1046 @@
+{
+ "meddocan|docs0|A|eps4_record|no_canary_model": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9140,
+   "min": 9082,
+   "max": 9468,
+   "n": 3,
+   "values": [
+    9140,
+    9082,
+    9468
+   ]
+  }
+ },
+ "meddocan|docs0|A|eps8_record|no_canary_model": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9260,
+   "min": 8897,
+   "max": 9595,
+   "n": 3,
+   "values": [
+    9260,
+    8897,
+    9595
+   ]
+  }
+ },
+ "meddocan|docs0|A|nodp|no_canary_model": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8863,
+   "min": 6078,
+   "max": 9234,
+   "n": 3,
+   "values": [
+    8863,
+    6078,
+    9234
+   ]
+  }
+ },
+ "meddocan|docs0|B|eps4_record|no_canary_model": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8352,
+   "min": 7713,
+   "max": 8547,
+   "n": 3,
+   "values": [
+    8547,
+    7713,
+    8352
+   ]
+  }
+ },
+ "meddocan|docs0|B|eps8_record|no_canary_model": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8315,
+   "min": 7489,
+   "max": 8487,
+   "n": 3,
+   "values": [
+    8487,
+    7489,
+    8315
+   ]
+  }
+ },
+ "meddocan|docs0|B|nodp|no_canary_model": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 6549,
+   "min": 4868,
+   "max": 7554,
+   "n": 3,
+   "values": [
+    4868,
+    6549,
+    7554
+   ]
+  }
+ },
+ "meddocan|docs100|A|eps4_author|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9135,
+   "min": 9033,
+   "max": 9411,
+   "n": 3,
+   "values": [
+    9135,
+    9033,
+    9411
+   ]
+  }
+ },
+ "meddocan|docs100|A|eps4_author|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9271,
+   "min": 8979,
+   "max": 9490,
+   "n": 3,
+   "values": [
+    9271,
+    8979,
+    9490
+   ]
+  }
+ },
+ "meddocan|docs100|A|eps4_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8940,
+   "min": 8763,
+   "max": 9440,
+   "n": 3,
+   "values": [
+    8763,
+    8940,
+    9440
+   ]
+  }
+ },
+ "meddocan|docs100|A|eps4_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9209,
+   "min": 8862,
+   "max": 9469,
+   "n": 3,
+   "values": [
+    8862,
+    9209,
+    9469
+   ]
+  }
+ },
+ "meddocan|docs100|A|eps8_author|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9255,
+   "min": 8875,
+   "max": 9565,
+   "n": 3,
+   "values": [
+    9255,
+    8875,
+    9565
+   ]
+  }
+ },
+ "meddocan|docs100|A|eps8_author|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9188,
+   "min": 8929,
+   "max": 9554,
+   "n": 3,
+   "values": [
+    9188,
+    8929,
+    9554
+   ]
+  }
+ },
+ "meddocan|docs100|A|eps8_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8804,
+   "min": 8627,
+   "max": 9455,
+   "n": 3,
+   "values": [
+    8627,
+    8804,
+    9455
+   ]
+  }
+ },
+ "meddocan|docs100|A|eps8_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9066,
+   "min": 9061,
+   "max": 9139,
+   "n": 3,
+   "values": [
+    9066,
+    9061,
+    9139
+   ]
+  }
+ },
+ "meddocan|docs100|A|nodp|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 6833,
+   "min": 5654,
+   "max": 8881,
+   "n": 3,
+   "values": [
+    6833,
+    5654,
+    8881
+   ]
+  }
+ },
+ "meddocan|docs100|A|nodp|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 7108,
+   "min": 6487,
+   "max": 7182,
+   "n": 3,
+   "values": [
+    7108,
+    6487,
+    7182
+   ]
+  }
+ },
+ "meddocan|docs100|B|eps4_author|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8391,
+   "min": 7517,
+   "max": 8623,
+   "n": 3,
+   "values": [
+    8623,
+    7517,
+    8391
+   ]
+  }
+ },
+ "meddocan|docs100|B|eps4_author|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8321,
+   "min": 7538,
+   "max": 8459,
+   "n": 3,
+   "values": [
+    8459,
+    7538,
+    8321
+   ]
+  }
+ },
+ "meddocan|docs100|B|eps4_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 7252,
+   "min": 6429,
+   "max": 7458,
+   "n": 3,
+   "values": [
+    7252,
+    6429,
+    7458
+   ]
+  }
+ },
+ "meddocan|docs100|B|eps4_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 7741,
+   "min": 7682,
+   "max": 7745,
+   "n": 3,
+   "values": [
+    7682,
+    7745,
+    7741
+   ]
+  }
+ },
+ "meddocan|docs100|B|eps8_author|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8258,
+   "min": 7406,
+   "max": 8704,
+   "n": 3,
+   "values": [
+    8704,
+    7406,
+    8258
+   ]
+  }
+ },
+ "meddocan|docs100|B|eps8_author|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8229,
+   "min": 7506,
+   "max": 8693,
+   "n": 3,
+   "values": [
+    8693,
+    7506,
+    8229
+   ]
+  }
+ },
+ "meddocan|docs100|B|eps8_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 7042,
+   "min": 5911,
+   "max": 7169,
+   "n": 3,
+   "values": [
+    7042,
+    5911,
+    7169
+   ]
+  }
+ },
+ "meddocan|docs100|B|eps8_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 7458,
+   "min": 7292,
+   "max": 8249,
+   "n": 3,
+   "values": [
+    8249,
+    7458,
+    7292
+   ]
+  }
+ },
+ "meddocan|docs100|B|nodp|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 966,
+   "min": 678,
+   "max": 6257,
+   "n": 3,
+   "values": [
+    966,
+    6257,
+    678
+   ]
+  }
+ },
+ "meddocan|docs100|B|nodp|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 6363,
+   "min": 6181,
+   "max": 6905,
+   "n": 3,
+   "values": [
+    6181,
+    6905,
+    6363
+   ]
+  }
+ },
+ "meddocan|docs10|A|eps4_author|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9114,
+   "min": 9080,
+   "max": 9499,
+   "n": 3,
+   "values": [
+    9114,
+    9080,
+    9499
+   ]
+  }
+ },
+ "meddocan|docs10|A|eps4_author|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9131,
+   "min": 9025,
+   "max": 9541,
+   "n": 3,
+   "values": [
+    9131,
+    9025,
+    9541
+   ]
+  }
+ },
+ "meddocan|docs10|A|eps4_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9291,
+   "min": 9066,
+   "max": 9388,
+   "n": 3,
+   "values": [
+    9291,
+    9066,
+    9388
+   ]
+  }
+ },
+ "meddocan|docs10|A|eps4_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9134,
+   "min": 9089,
+   "max": 9440,
+   "n": 3,
+   "values": [
+    9134,
+    9089,
+    9440
+   ]
+  }
+ },
+ "meddocan|docs10|A|eps8_author|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9292,
+   "min": 8923,
+   "max": 9552,
+   "n": 3,
+   "values": [
+    9292,
+    8923,
+    9552
+   ]
+  }
+ },
+ "meddocan|docs10|A|eps8_author|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9316,
+   "min": 8863,
+   "max": 9518,
+   "n": 3,
+   "values": [
+    9316,
+    8863,
+    9518
+   ]
+  }
+ },
+ "meddocan|docs10|A|eps8_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9234,
+   "min": 8878,
+   "max": 9509,
+   "n": 3,
+   "values": [
+    9234,
+    8878,
+    9509
+   ]
+  }
+ },
+ "meddocan|docs10|A|eps8_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9348,
+   "min": 8904,
+   "max": 9566,
+   "n": 3,
+   "values": [
+    9348,
+    8904,
+    9566
+   ]
+  }
+ },
+ "meddocan|docs10|A|nodp|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8720,
+   "min": 5529,
+   "max": 9203,
+   "n": 3,
+   "values": [
+    8720,
+    5529,
+    9203
+   ]
+  }
+ },
+ "meddocan|docs10|A|nodp|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 7558,
+   "min": 4709,
+   "max": 8969,
+   "n": 3,
+   "values": [
+    7558,
+    4709,
+    8969
+   ]
+  }
+ },
+ "meddocan|docs10|B|eps4_author|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8442,
+   "min": 7694,
+   "max": 8616,
+   "n": 3,
+   "values": [
+    8616,
+    7694,
+    8442
+   ]
+  }
+ },
+ "meddocan|docs10|B|eps4_author|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8453,
+   "min": 7748,
+   "max": 8733,
+   "n": 3,
+   "values": [
+    8733,
+    7748,
+    8453
+   ]
+  }
+ },
+ "meddocan|docs10|B|eps4_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8198,
+   "min": 7697,
+   "max": 8460,
+   "n": 3,
+   "values": [
+    8460,
+    7697,
+    8198
+   ]
+  }
+ },
+ "meddocan|docs10|B|eps4_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8324,
+   "min": 7834,
+   "max": 8563,
+   "n": 3,
+   "values": [
+    8563,
+    7834,
+    8324
+   ]
+  }
+ },
+ "meddocan|docs10|B|eps8_author|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8356,
+   "min": 7456,
+   "max": 8651,
+   "n": 3,
+   "values": [
+    8651,
+    7456,
+    8356
+   ]
+  }
+ },
+ "meddocan|docs10|B|eps8_author|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8262,
+   "min": 7640,
+   "max": 8576,
+   "n": 3,
+   "values": [
+    8576,
+    7640,
+    8262
+   ]
+  }
+ },
+ "meddocan|docs10|B|eps8_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8157,
+   "min": 7403,
+   "max": 8510,
+   "n": 3,
+   "values": [
+    8510,
+    7403,
+    8157
+   ]
+  }
+ },
+ "meddocan|docs10|B|eps8_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 7952,
+   "min": 7390,
+   "max": 8591,
+   "n": 3,
+   "values": [
+    8591,
+    7390,
+    7952
+   ]
+  }
+ },
+ "meddocan|docs10|B|nodp|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 4299,
+   "min": 1244,
+   "max": 5358,
+   "n": 3,
+   "values": [
+    1244,
+    5358,
+    4299
+   ]
+  }
+ },
+ "meddocan|docs10|B|nodp|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 6158,
+   "min": 4199,
+   "max": 7231,
+   "n": 3,
+   "values": [
+    4199,
+    7231,
+    6158
+   ]
+  }
+ },
+ "meddocan|docs1|A|eps4_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9093,
+   "min": 9017,
+   "max": 9455,
+   "n": 3,
+   "values": [
+    9093,
+    9017,
+    9455
+   ]
+  }
+ },
+ "meddocan|docs1|A|eps4_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9204,
+   "min": 9049,
+   "max": 9462,
+   "n": 3,
+   "values": [
+    9204,
+    9049,
+    9462
+   ]
+  }
+ },
+ "meddocan|docs1|A|eps8_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9375,
+   "min": 8820,
+   "max": 9524,
+   "n": 3,
+   "values": [
+    9375,
+    8820,
+    9524
+   ]
+  }
+ },
+ "meddocan|docs1|A|eps8_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 9212,
+   "min": 8868,
+   "max": 9539,
+   "n": 3,
+   "values": [
+    9212,
+    8868,
+    9539
+   ]
+  }
+ },
+ "meddocan|docs1|A|nodp|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8354,
+   "min": 3431,
+   "max": 9066,
+   "n": 3,
+   "values": [
+    8354,
+    3431,
+    9066
+   ]
+  }
+ },
+ "meddocan|docs1|A|nodp|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8547,
+   "min": 3746,
+   "max": 9230,
+   "n": 3,
+   "values": [
+    8547,
+    3746,
+    9230
+   ]
+  }
+ },
+ "meddocan|docs1|B|eps4_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8266,
+   "min": 7407,
+   "max": 8487,
+   "n": 3,
+   "values": [
+    8487,
+    7407,
+    8266
+   ]
+  }
+ },
+ "meddocan|docs1|B|eps4_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8286,
+   "min": 7564,
+   "max": 8569,
+   "n": 3,
+   "values": [
+    8569,
+    7564,
+    8286
+   ]
+  }
+ },
+ "meddocan|docs1|B|eps8_record|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8132,
+   "min": 7522,
+   "max": 8595,
+   "n": 3,
+   "values": [
+    8595,
+    7522,
+    8132
+   ]
+  }
+ },
+ "meddocan|docs1|B|eps8_record|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 8341,
+   "min": 7343,
+   "max": 8542,
+   "n": 3,
+   "values": [
+    8542,
+    7343,
+    8341
+   ]
+  }
+ },
+ "meddocan|docs1|B|nodp|inserted": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 6563,
+   "min": 3757,
+   "max": 7113,
+   "n": 3,
+   "values": [
+    3757,
+    7113,
+    6563
+   ]
+  }
+ },
+ "meddocan|docs1|B|nodp|other_profile": {
+  "seeds": [
+   42,
+   43,
+   44
+  ],
+  "rank": {
+   "median": 6498,
+   "min": 5234,
+   "max": 7687,
+   "n": 3,
+   "values": [
+    5234,
+    7687,
+    6498
+   ]
+  }
+ }
+}

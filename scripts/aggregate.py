@@ -8,6 +8,8 @@ paper tables are built from (results/*.json; no text, no PII values of real pati
 results/runs_index.json        one row per finished training run: privacy accounting, utility
 results/canary_ranks.json      ranks per run, inserted and non-inserted profile
 results/canary_summary.json    per condition x tuple: median and range over training seeds
+results/name_field_ranks.json  MEDDOCAN document canaries: name ranked in header-field format
+results/sent_control_ranks.json  sentence-canary templates scored on the no-canary models
 results/leakage_runs.json      leakage metrics per generated corpus (fine-tuned and base)
 results/leakage_summary.json   per dataset x setting: median and range over training seeds,
                                and enrichment against the base model (paired by seed index)
@@ -91,6 +93,26 @@ def main():
                 rank_median_over_candidate_draws=summ([v[2] for v in vals]),
                 ppl_true=summ([v[3] for v in vals]))
     (RES / "canary_summary.json").write_text(json.dumps(summary, indent=1))
+
+    # MEDDOCAN document canaries: name ranked in the header-field format of the documents
+    nf = defaultdict(list)
+    for f in sorted(RUNS.glob("*/ranks_name_fields.json")):
+        rr = json.loads(f.read_text())
+        r = spec.parse_run_id(f.parent.name)
+        for tagset, e in rr["ranks"].items():
+            role = ("inserted" if r.exposure and tagset == r.tagset else
+                    "no_canary_model" if r.exposure == 0 else "other_profile")
+            nf[f"{r.dataset}|{r.canary}{r.exposure}|{tagset}|{setting(r)}|{role}"].append((r.seed, e["rank"]))
+    sc = defaultdict(lambda: defaultdict(list))
+    for f in sorted(RUNS.glob("*/ranks_sent_control.json")):
+        r = spec.parse_run_id(f.parent.name)
+        for tup, e in json.loads(f.read_text())["ranks"]["A"].items():
+            sc[f"{r.dataset}|sent_control|A|{setting(r)}|no_canary_model"][tup].append((r.seed, e["0"]["rank"]))
+    (RES / "sent_control_ranks.json").write_text(json.dumps(
+        {k: {t: summ([x for _, x in sorted(v)]) for t, v in d.items()} for k, d in sorted(sc.items())}, indent=1))
+    (RES / "name_field_ranks.json").write_text(json.dumps(
+        {k: dict(seeds=[s for s, _ in sorted(v)], rank=summ([x for _, x in sorted(v)]))
+         for k, v in sorted(nf.items())}, indent=1))
 
     # leakage
     leak = {}

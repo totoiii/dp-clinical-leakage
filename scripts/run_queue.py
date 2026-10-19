@@ -7,6 +7,8 @@ GPU job queue for the whole study (resumable; safe to kill and restart).
 Each job is a sequence of stages; a stage is skipped when its output exists:
     train     -> runs/{id}/run.json
     score     -> runs/{id}/ranks.json
+    namefield -> runs/{id}/ranks_name_fields.json     (MEDDOCAN document canaries)
+    sentctl   -> runs/{id}/ranks_sent_control.json    (no-canary models, sentence templates)
     generate  -> runs/{id}/generation.json            (no-canary models only)
     base      -> runs/base/{ds}_g{seed}/generation.json
     legacy    -> results/legacy_rescore/{name}.json   (re-score of the published adapters)
@@ -81,6 +83,14 @@ def jobs(runs_dir: Path):
                     "--per-device-batch", "4"]),
                   ("score", runs_dir / r.id / "ranks.json",
                    [PY, "-m", "dpleak.score", "--run", r.id, "--runs-dir", str(runs_dir)])]
+        if r.dataset == "meddocan" and r.canary == "docs":
+            stages.append(("namefield", runs_dir / r.id / "ranks_name_fields.json",
+                           [PY, "-m", "dpleak.score", "--run", r.id, "--runs-dir", str(runs_dir),
+                            "--name-fields"]))
+        if r.canary == "docs" and r.exposure == 0 and r.budget in ("nodp", "eps8"):
+            stages.append(("sentctl", runs_dir / r.id / "ranks_sent_control.json",
+                           [PY, "-m", "dpleak.score", "--run", r.id, "--runs-dir", str(runs_dir),
+                            "--sent-control"]))
         if spec.needs_generation(r):
             stages.append(("generate", runs_dir / r.id / "generation.json",
                            [PY, "-m", "dpleak.generate", "--run", r.id, "--runs-dir", str(runs_dir)]))
