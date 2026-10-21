@@ -1,0 +1,22 @@
+{
+ "i2b2": {
+  "documents": 1304,
+  "word_tokens": 868507,
+  "vocabulary": 26224,
+  "word_tokens_per_doc": 666.0329754601227,
+  "pii_types": 23,
+  "pii_instances": 28867,
+  "pii_instances_per_doc": 22.137269938650306,
+  "pii_token_ratio": 0.0666143162922118
+ },
+ "meddocan": {
+  "documents": 1000,
+  "word_tokens": 439494,
+  "vocabulary": 30325,
+  "word_tokens_per_doc": 439.494,
+  "pii_types": 22,
+  "pii_instances": 22795,
+  "pii_instances_per_doc": 22.795,
+  "pii_token_ratio": 0.11662275252904476
+ }
+}

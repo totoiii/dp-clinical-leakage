@@ -39,13 +39,15 @@ canaries/                  synthetic inputs: 2 x 100 canary documents per datase
                            replacement map, candidate pools (no real data)
 scripts/
   prepare_data.py            derive annotation tables from the licensed XML corpora
+  corpus_stats.py            corpus statistics (word tokens, vocabulary, PII instances)
   verify_conditions.py       check the rebuilt conditions against pre-built folders
   run_queue.py               resumable multi-GPU queue for the whole study
   aggregate.py               per-run outputs -> results/*.json
   make_tables.py             results/*.json -> LaTeX tables of the manuscript
-  make_figures.py            results/*.json -> figures of the manuscript
+  make_figures.py            results/*.json -> figures of the manuscript (same summaries as the tables)
   compare_with_paper.py      re-run vs. previously published numbers (consistency report)
 results/                   aggregate results reported in the paper (no PII):
+  corpus_stats.json          counts of the two corpora (Table 1)
   runs_index.json            every training run: privacy accounting, utility
   accounting.json            per DP configuration: N_u, q, sigma, epsilon (see note below)
   canary_ranks.json          canary ranks per run; canary_summary.json: median/range over seeds
@@ -85,6 +87,7 @@ huggingface-cli login                                   # Llama-3.2-1B is gated
 
 python scripts/prepare_data.py --dataset i2b2 --xml-dir <i2b2 2014 XML, train+test>
 python scripts/prepare_data.py --dataset meddocan --xml-dir <MEDDOCAN XML, all splits>
+python scripts/corpus_stats.py                          # -> results/corpus_stats.json
 
 python scripts/run_queue.py --gpus 0,1,2      # 228 training runs + scoring + generation (~260 GPU-h)
 python -m dpleak.leakage --all            # leakage audit of every synthetic corpus

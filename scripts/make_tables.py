@@ -178,6 +178,23 @@ def name_field_table(nf, cs):
     return "\n".join(lines)
 
 
+def corpus_table(cs):
+    """Table 1 from results/corpus_stats.json (scripts/corpus_stats.py)."""
+    i, m = cs["i2b2"], cs["meddocan"]
+    row = lambda name, k, f: f"    {name} & {f(i[k])} & {f(m[k])} \\\\"  # noqa: E731
+    pct = lambda x: f"{100 * x:.1f}\\%"  # noqa: E731
+    one = lambda x: f"{x:.1f}"  # noqa: E731
+    return "\n".join([
+        "\\begin{tabular}{lrr}", "    \\toprule",
+        "    \\textbf{Statistic} & \\textbf{i2b2 2014} & \\textbf{MEDDOCAN} \\\\", "    \\midrule",
+        "    Language & English & Spanish \\\\", row("Documents", "documents", fmt_int), "    \\midrule",
+        row("Word tokens", "word_tokens", fmt_int), row("Vocabulary (lower-cased)", "vocabulary", fmt_int),
+        row("Word tokens/doc", "word_tokens_per_doc", fmt_int), "    \\midrule",
+        row("PII types", "pii_types", fmt_int), row("PII instances", "pii_instances", fmt_int),
+        row("PII instances/doc", "pii_instances_per_doc", one), row("PII token ratio", "pii_token_ratio", pct),
+        "    \\bottomrule", "\\end{tabular}"])
+
+
 def volume_table():
     from dpleak import data
     lines = ["\\begin{tabular}{lrrrrrr}", "\\toprule",
@@ -358,7 +375,7 @@ ENRICH_PAIRS = {
                  ("EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA", "AGE, NAME"),
                  ("FECHAS+TERRITORIO", "DATE, TERRITORY"),
                  ("NOMBRE_SUJETO_ASISTENCIA+TERRITORIO", "\\textbf{NAME, TERRITORY}"),
-                 ("ID_TITULACION_PERSONAL_SANITARIO", "LICENCE NO., {\\footnotesize(any)}")]}
+                 ("ID_TITULACION_PERSONAL_SANITARIO", "LICENSE NO., {\\footnotesize(any)}")]}
 ENRICH_SETTINGS = ["nodp", "eps8_record", "eps4_record", "eps8_author", "eps4_author"]
 
 
@@ -375,7 +392,7 @@ def _enrich_cell(ls, ds, setting, key, mode, rng):
     if not v:
         return "--"
     f = lambda x: "$\\infty$" if x == float("inf") else f"{x:.1f}"  # noqa: E731
-    return f"{f(v['min'])}--{f(v['max'])}" if rng else f(v["median"])
+    return f"{f(v['median'])} {{\\scriptsize({f(v['min'])}--{f(v['max'])})}}" if rng else f(v["median"])
 
 
 def enrichment_table(ls, mode="substring", rng=False):
@@ -445,6 +462,9 @@ def main():
     w = lambda name, txt: (out / f"{name}.tex").write_text(txt + "\n")  # noqa: E731
     if not a.no_data:
         w("canary_volume", volume_table())
+    corpus = load("corpus_stats.json")
+    if corpus:
+        w("corpus_stats", corpus_table(corpus))
     if index:
         acc, sig = accounting(index)
         w("accounting", acc)
