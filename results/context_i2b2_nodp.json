@@ -15,11 +15,11 @@
     18.975,
     38.0
    ],
-   "median_rank": 455,
-   "median_rank_null_mean": 479.6,
+   "median_rank": 458.0,
+   "median_rank_null_mean": 480.3,
    "median_rank_null_95": [
     444.95,
-    512.075
+    515.0
    ]
   },
   "with_direct_identifier": {
@@ -37,18 +37,14 @@
     1.0,
     6.0
    ],
-   "median_rank": 566,
-   "median_rank_null_mean": 529.4,
+   "median_rank": 566.0,
+   "median_rank_null_mean": 530.0,
    "median_rank_null_95": [
     426.475,
-    620.075
+    624.025
    ]
   },
-  "n_notes": 1304,
-  "strata_population": {
-   "direct": 147,
-   "quasi": 926
-  }
+  "n_notes": 1304
  },
  "i2b2_docs0_nodp_s43": {
   "all": {
@@ -66,7 +62,7 @@
     22.0,
     39.025000000000006
    ],
-   "median_rank": 433,
+   "median_rank": 433.0,
    "median_rank_null_mean": 483.1,
    "median_rank_null_95": [
     452.0,
@@ -88,7 +84,7 @@
     0.0,
     6.0
    ],
-   "median_rank": 551,
+   "median_rank": 551.0,
    "median_rank_null_mean": 515.2,
    "median_rank_null_95": [
     417.95,
@@ -113,7 +109,7 @@
     17.0,
     38.0
    ],
-   "median_rank": 494,
+   "median_rank": 494.0,
    "median_rank_null_mean": 496.7,
    "median_rank_null_95": [
     464.95,

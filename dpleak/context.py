@@ -6,7 +6,8 @@ Clinical context of matched pairs (reviewer A.3.2), on whole-word matches.
 1. For every pair of type-distinct values from one source note that co-occur (as whole
    words) in one synthetic document, all training notes are ranked by TF-IDF cosine
    similarity to the witnessing document (annotated PII removed from both sides) and the
-   rank of the source note is recorded (best witness when several). Null: the same
+   rank of the source note is recorded (best witness when several; tied notes share the
+   mean of their positions, so rank 1 means strictly most similar). Null: the same
    procedure with a uniformly drawn other note, 200 draws (mean and 95% interval).
 2. Optionally, a stratified sample (25 pairs with a direct identifier, 25 with only
    quasi-identifiers; seed 42) is written for manual review. The sample file contains
@@ -126,7 +127,12 @@ def rank_of_source(notes, tags, pairs, docs):
     rng = np.random.default_rng(SEED)
 
     def best_rank(col, ids):
-        return min(int((sims[row[i]] > sims[row[i], col]).sum()) + 1 for i in ids)
+        # Mid-rank for ties: a witness with no content term left (all similarities 0) puts
+        # every note at the middle rank instead of tying them all at rank 1.
+        def rank(i):
+            s = sims[row[i]]
+            return int((s > s[col]).sum()) + 1 + (int((s == s[col]).sum()) - 1) / 2
+        return min(rank(i) for i in ids)
 
     # Orden fijo: el dict viene de sets de strings (orden depende de PYTHONHASHSEED),
     # y sin esto el RNG asigna notas distintas en cada corrida.

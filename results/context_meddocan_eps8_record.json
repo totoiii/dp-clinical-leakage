@@ -15,7 +15,7 @@
     235.0,
     295.025
    ],
-   "median_rank": 228,
+   "median_rank": 228.0,
    "median_rank_null_mean": 242.3,
    "median_rank_null_95": [
     231.975,
@@ -37,7 +37,7 @@
     30.0,
     54.0
    ],
-   "median_rank": 225,
+   "median_rank": 225.0,
    "median_rank_null_mean": 246.9,
    "median_rank_null_95": [
     223.0,
@@ -109,7 +109,7 @@
     254.9,
     321.025
    ],
-   "median_rank": 212,
+   "median_rank": 212.0,
    "median_rank_null_mean": 221.2,
    "median_rank_null_95": [
     211.0,
@@ -131,7 +131,7 @@
     44.0,
     68.025
    ],
-   "median_rank": 224,
+   "median_rank": 224.0,
    "median_rank_null_mean": 228.1,
    "median_rank_null_95": [
     207.0,

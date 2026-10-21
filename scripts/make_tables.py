@@ -398,8 +398,8 @@ def enrichment_table(ls, mode="substring", rng=False):
 
 def context_table():
     """Similarity rank of the source note (results/context_{ds}_{setting}.json): median over
-    the corpora of the three training seeds; null = median of the null means, interval = the
-    widest 2.5--97.5 percentile interval over the three corpora."""
+    the corpora of the three training seeds; null = median of the null means, interval = from
+    the lowest to the highest bound of the three per-corpus 2.5--97.5 percentile intervals."""
     lines = ["\\begin{tabular}{llrrrrr}", "\\toprule",
              "& & & \\multicolumn{2}{c}{\\textbf{Rank 1}} & \\multicolumn{2}{c}{\\textbf{Median rank}} \\\\",
              "\\cmidrule(lr){4-5}\\cmidrule(lr){6-7}",
