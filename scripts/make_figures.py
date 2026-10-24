@@ -184,6 +184,7 @@ def leakage_bars(leak, field, name, top, out, xlabel):
         ax.set_title(DSNAME[ds], fontweight="bold", pad=4)
         ax.grid(axis="x", color=GRID, lw=0.5)
         ax.set_axisbelow(True)
+        ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
         ax.tick_params(axis="y", length=0)
         ax.spines["left"].set_visible(False)
     fig.supxlabel(xlabel, fontsize=7.5)
@@ -236,7 +237,8 @@ def enrichment(ls, out):
                 ax.plot(med, y, marker=sty["marker"], ms=4.2, color=sty["color"], mfc=sty["mfc"], mew=0.9,
                         ls="none", zorder=3)
                 if med != INF_X:
-                    ax.text(hi * 1.12, y, f"{v[0]:.1f}", va="center", ha="left", fontsize=5.6, color=sty["color"])
+                    ax.annotate(f"{v[0]:.1f}", (hi, y), xytext=(5, 0), textcoords="offset points", va="center", ha="left",
+                                fontsize=5.6, color=sty["color"])
         ax.set_xscale("log")
         ax.set_xlim(0.8, INF_X * 1.6)
         ax.axvline(1, color="#888888", lw=0.7, ls=":")

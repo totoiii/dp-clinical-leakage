@@ -62,5 +62,110 @@
   "new_nodp_s42": 5.86,
   "new_eps8_record_s42": 11.42,
   "new_eps8_author_s42": 12.18
+ },
+ "s42_by_setting": {
+  "description": "Seed-42 i2b2 no-canary adapters, generation seed 1, 1,000 documents each. legacy = full-precision base + adapter, 512 tokens incl. prompt (the configuration of every reported leakage count; runs/<id>/leakage.json); consistent = 4-bit NF4 base as in training, 512 new tokens (runs/<id>/nf4_generation/leakage.json).",
+  "nodp": {
+   "legacy": {
+    "whole_word": {
+     "singles": 896,
+     "pairs": 873,
+     "pairs_one_doc": 431,
+     "triples": 25,
+     "quadruples": 0
+    },
+    "substring": {
+     "singles": 1281,
+     "pairs": 1995,
+     "pairs_one_doc": 772,
+     "triples": 177,
+     "quadruples": 2
+    }
+   },
+   "consistent": {
+    "whole_word": {
+     "singles": 1255,
+     "pairs": 1681,
+     "pairs_one_doc": 636,
+     "triples": 51,
+     "quadruples": 0
+    },
+    "substring": {
+     "singles": 1665,
+     "pairs": 3302,
+     "pairs_one_doc": 1085,
+     "triples": 433,
+     "quadruples": 15
+    }
+   }
+  },
+  "eps8_record": {
+   "legacy": {
+    "whole_word": {
+     "singles": 677,
+     "pairs": 502,
+     "pairs_one_doc": 245,
+     "triples": 10,
+     "quadruples": 0
+    },
+    "substring": {
+     "singles": 1052,
+     "pairs": 1341,
+     "pairs_one_doc": 564,
+     "triples": 118,
+     "quadruples": 6
+    }
+   },
+   "consistent": {
+    "whole_word": {
+     "singles": 1167,
+     "pairs": 1308,
+     "pairs_one_doc": 519,
+     "triples": 27,
+     "quadruples": 0
+    },
+    "substring": {
+     "singles": 1572,
+     "pairs": 2751,
+     "pairs_one_doc": 923,
+     "triples": 282,
+     "quadruples": 8
+    }
+   }
+  },
+  "eps8_author": {
+   "legacy": {
+    "whole_word": {
+     "singles": 540,
+     "pairs": 462,
+     "pairs_one_doc": 233,
+     "triples": 8,
+     "quadruples": 0
+    },
+    "substring": {
+     "singles": 917,
+     "pairs": 1241,
+     "pairs_one_doc": 530,
+     "triples": 70,
+     "quadruples": 2
+    }
+   },
+   "consistent": {
+    "whole_word": {
+     "singles": 967,
+     "pairs": 943,
+     "pairs_one_doc": 400,
+     "triples": 36,
+     "quadruples": 1
+    },
+    "substring": {
+     "singles": 1305,
+     "pairs": 2074,
+     "pairs_one_doc": 748,
+     "triples": 188,
+     "quadruples": 18
+    }
+   }
+  }
  }
 }

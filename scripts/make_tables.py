@@ -370,11 +370,11 @@ def largest_tuple_table(ls, mode="substring"):
 
 ENRICH_PAIRS = {
     "i2b2": [("AGE+DATE", "AGE, DATE"), ("DATE+LOCATION", "DATE, LOCATION"), ("AGE+LOCATION", "AGE, LOCATION"),
-             ("LOCATION+NAME", "\\textbf{LOCATION, NAME}"), ("ID", "ID, {\\footnotesize(any)}")],
+             ("LOCATION+NAME", "LOCATION, NAME"), ("ID", "ID, {\\footnotesize(any)}")],
     "meddocan": [("EDAD_SUJETO_ASISTENCIA+FECHAS", "AGE, DATE"),
                  ("EDAD_SUJETO_ASISTENCIA+NOMBRE_SUJETO_ASISTENCIA", "AGE, NAME"),
                  ("FECHAS+TERRITORIO", "DATE, TERRITORY"),
-                 ("NOMBRE_SUJETO_ASISTENCIA+TERRITORIO", "\\textbf{NAME, TERRITORY}"),
+                 ("NOMBRE_SUJETO_ASISTENCIA+TERRITORIO", "NAME, TERRITORY"),
                  ("ID_TITULACION_PERSONAL_SANITARIO", "LICENSE NO., {\\footnotesize(any)}")]}
 ENRICH_SETTINGS = ["nodp", "eps8_record", "eps4_record", "eps8_author", "eps4_author"]
 

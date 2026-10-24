@@ -58,9 +58,11 @@ and reproduce fewer training identifiers. On i2b2 at eps = 8 (whole-word, 1,000 
 | re-run, seed 42 | full-precision base | 677 | 502 | 245 | 10 |
 | re-run, seed 42 | 4-bit base, as in training | 1,167 | 1,308 | 519 | 27 |
 
-Training is equivalent (the published and re-run adapters agree under either generation); the
-published DP leakage counts understated leakage because of the generation mismatch, while the
-non-DP counts were barely affected. To keep the leakage audit comparable with the first
+Training is equivalent (the published and re-run adapters agree under either generation). For the
+seed-42 re-run adapters, generating with the 4-bit base raises whole-word singles from 896 to 1,255
+without DP, from 677 to 1,167 at eps=8 record level and from 540 to 967 at eps=8 author level: the
+ordering of the settings is unchanged, but the mismatch understates DP leakage more than non-DP
+leakage, so the gap between them is smaller under training-consistent generation. To keep the leakage audit comparable with the first
 submission, `dpleak/generate.py` keeps the published configuration (full-precision base);
 `--quantized` generates with the 4-bit base of training.
 Numbers: `results/diagnostics/generation_precision.json`.
